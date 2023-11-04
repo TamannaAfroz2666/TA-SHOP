@@ -1,10 +1,14 @@
 
 import './App.css';
+import Header from './layout/Header/Header';
+import Main from './layout/Main/Main';
 
 function App() {
   return (
     <div >
-      <h1>uu</h1>
+      <Main></Main>
+      
+     
     
     </div>
   );
