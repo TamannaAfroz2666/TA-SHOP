@@ -6,4 +6,34 @@
 .headerContainer{
     height: 100%;
     width: 100%;
+    background-color: whitesmoke;
+}
+.containerHead{
+    width: 96%;
+    margin: auto;
+    
+}
+.containerBody{
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+.headerLogo{
+    margin-top: 1rem;
+
+}
+.headerLogo .logoTitle{
+    font-size: 30px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: 2px;
+}
+.headerLogo .logoSub{
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111a1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
 }
