@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import { AiOutlineSearch } from "react-icons/ai";
+import { BsBasket } from "react-icons/bs";
 
 const Header = () => {
     return (
@@ -31,18 +32,47 @@ const Header = () => {
                             </li>
                             <li>
                                 <Link className='linksTitle'>
-                                <button>
-                                    <AiOutlineSearch size={20} color='black'/>
-                                </button>
+                                    <button>
+                                        <AiOutlineSearch size={20} color='black' />
+                                    </button>
                                 </Link>
                             </li>
                         </ul>
 
                     </div>
+                    <div className="subLinks">
+                        <ul>
+                            <li>
+                                <Link>Story</Link>
+                            </li>
+                            <li>
+                                <Link>contact</Link>
+                            </li>
+                            <li>
+                                <Link>track order</Link>
+                            </li>
+                            <li>
+                                <Link>help</Link>
+                            </li>
+                        </ul>
+                        <div className="subSubLinks">
+                            <div className="logSub">
+                                <Link>Log In</Link>
+                            </div>
+                            <div className="cartSubLink">
+                                <Link>
+                                    <BsBasket color='tomato' size={30} />
+                                </Link>
+
+                            </div>
+
+
+                        </div>
+                    </div>
 
 
                 </div>
-            </div>     
+            </div>
         </div>
     );
 };
