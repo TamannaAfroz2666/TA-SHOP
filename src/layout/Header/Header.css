@@ -62,6 +62,11 @@
     /* transition: transform .2s;  */
     padding: 0 2px;   
 }
+.linksTitle button{
+    border: 0;
+    background-color: whitesmoke;
+    margin-top: .2rem;
+}
 .linksTitle:hover{
     color: tomato;
    
