@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
 }
 .headerContainer{
     height: 100%;
@@ -19,6 +22,7 @@
   
 
 }
+/* header title style  */
 .headerLogo{
     margin-top: 1rem;
 
@@ -36,4 +40,29 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     
+}
+/* header title style end */
+
+/* nav links style start  */
+.navLinks{
+    margin-top: 1rem;
+
+}
+
+.navLinks .linksHead{
+    display: inline-flex;
+    gap: 30px;
+}
+.linksHead .linksTitle{
+    font-size: 16px;
+    color: #111;
+    text-transform: uppercase;
+    font-weight: 600;
+    /* transition: all .2s linear; */
+    /* transition: transform .2s;  */
+    padding: 0 2px;   
+}
+.linksTitle:hover{
+    color: tomato;
+   
 }

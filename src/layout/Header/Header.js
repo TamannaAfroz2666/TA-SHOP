@@ -10,8 +10,10 @@ const Header = () => {
             <div className="containerHead">
                 <div className="containerBody">
                     <div className="headerLogo">
+                        <Link to='/home'>
                         <p className='logoTitle'>TA</p>
                         <span className='logoSub'>shop</span>
+                        </Link>
                     </div>
                     <div className="navLinks">
                         <ul className='linksHead'>
