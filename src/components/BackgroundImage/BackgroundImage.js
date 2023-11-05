@@ -14,21 +14,22 @@ const BackgroundImage = () => {
             <div className="carosel">
                 <Carousel>
                     <Carousel.Item interval={2000}>
-                        <image1 text="First slide" />
+                    <img src={image1} alt="" className='img' />
                         <Carousel.Caption>
                             <h3>First slide label</h3>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={1000}>
-                        <image1 text="Second slide" />
+                        <img src={image1} alt="" className='img'/>
+                        {/* <image1 text="Second slide" /> */}
                         <Carousel.Caption>
                             <h3>Second slide label</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <image1 text="Third slide" />
+                    <img src={image1} alt="" className='img' />
                         <Carousel.Caption>
                             <h3>Third slide label</h3>
                             <p>
