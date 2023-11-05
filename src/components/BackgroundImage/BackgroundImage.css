@@ -1,16 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.backgroundImage{
+
+.backgroundImage {
     height: 100%;
     width: 100%;
 }
-.backHead{
-    height: 84vh;
-    background-image: url('../../assets/Image/sandle.jpg');
+
+
+
+.infoBack {
+    color: #fff;
+}
+
+.backHead {
+    height: 82vh;
+    background-image: url('../../assets/Image/bg3.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+   
+
+
 }
+
+.imageBack {}

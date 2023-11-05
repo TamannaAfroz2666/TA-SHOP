@@ -9,7 +9,16 @@ const BackgroundImage = () => {
     return (
         <div className='backgroundImage'>
             <div className="backHead">
-                
+                <div className="backContents">
+                        <h1>hhg</h1>
+                        <h2>nbbdfvd</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro hic numquam distinctio voluptatibus dolor non eveniet, molestias pariatur ullam vitae!</p>
+                        <button>hhh</button>
+                    <div className="imageBack">
+
+                    </div>
+                </div>
+
             </div>
 
             
