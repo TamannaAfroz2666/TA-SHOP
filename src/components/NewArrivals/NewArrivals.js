@@ -10,6 +10,9 @@ const NewArrivals = () => {
     const accessHanle = () =>{
         console.log('all needs are ready');
     }
+    const shoeHandle = () =>{
+        console.log('shoes here');
+    }
     return (
         <div className='newArrivals'>
             <div className="arrivalsContent">
@@ -36,7 +39,13 @@ const NewArrivals = () => {
 
                         </div>
                         <div className="shoes">
-                            <button>Shoes</button>
+                            <motion.button
+                            className='shoesBtn'
+                            onCanPlay={shoeHandle}
+                            whileHover={{scale: 1.1}}
+                            >
+                                Shoes
+                            </motion.button>
 
                         </div>
                     </div>
