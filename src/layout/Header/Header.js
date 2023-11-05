@@ -33,7 +33,7 @@ const Header = () => {
                                 <span className='logoSub'>shop</span>
                             </Link>
                         </div>
-                        <div className="navLinks">
+                        <div className="navLinks111">
                             <ul className='linksHead'>
                                 <motion.li
                                     whileHover={{ scale: 1.09 }}
@@ -117,7 +117,6 @@ const Header = () => {
 
                             </div>
                         </div>
-
 
                     </div>
                     {/* <div>

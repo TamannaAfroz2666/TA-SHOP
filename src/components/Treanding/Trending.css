@@ -7,6 +7,10 @@
     height: 100%;
     width: 100%;
 }
+.trendingBody{
+    display: flex;
+
+}
 .trendingBody .trendTitle{
     color: gray;
     font-size: 40px;
@@ -17,3 +21,52 @@
 .trendingSort{
     color: #111;
 }
+.downArrow{
+    right: 1rem;
+    position: relative;
+
+
+}
+.trendingHr{
+    right: .5rem;
+    position: relative;
+}
+.nav_link{
+    margin: 0 0 6rem 0;
+}
+/* nav links start */
+.dropbtn {
+
+    color: #111;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    z-index: 999;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
