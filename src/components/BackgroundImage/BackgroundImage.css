@@ -32,4 +32,14 @@
     font-weight: 700;
     text-transform: capitalize;
     font-family: 'Bitter', serif;
+    margin-left: 1rem;
+}
+.backContents .hundredTitle{
+    color: #111;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: serif;
+    padding: .1rem 0 2rem 1rem;
+
 }
