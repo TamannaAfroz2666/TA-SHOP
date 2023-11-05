@@ -7,6 +7,9 @@ const NewArrivals = () => {
     const dressHandle =() =>{
         console.log('dress are here');
     }
+    const accessHanle = () =>{
+        console.log('all needs are ready');
+    }
     return (
         <div className='newArrivals'>
             <div className="arrivalsContent">
@@ -23,7 +26,13 @@ const NewArrivals = () => {
                     </div>
                     <div className="multiCon">
                         <div className="parse">
-                            <button>Accesories</button>
+                            <motion.button
+                            className='accessBtn'
+                            whileHover={{scale:1.2}}
+                            onClick={accessHanle}
+                            >
+                                Accessories
+                                </motion.button>
 
                         </div>
                         <div className="shoes">
