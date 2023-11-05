@@ -9,14 +9,15 @@ import { BsBasket } from "react-icons/bs";
 // import Button from '@mui/material/Button';
 // // import List from '@mui/material/List';
 // import Divider from '@mui/material/Divider';
+import { motion } from 'framer-motion';
 
 const Header = () => {
- 
-    const searchBtn = () =>{
+
+    const searchBtn = () => {
         console.log('hello');
         var value1 = document.getElementById('fn').innerHTML = "text";
         console.log('the value is: ', value1);
-        
+
         // value1.show();
     }
 
@@ -34,25 +35,38 @@ const Header = () => {
                         </div>
                         <div className="navLinks">
                             <ul className='linksHead'>
-                                <li >
-                                    <Link className='linksTitle'>shop all</Link>
-                                </li>
-                                <li>
+                                <motion.li
+                                    whileHover={{ scale: 1.09 }}
+                                >
+                                    <Link
+                                        className='linksTitle'>
+                                        shop all
+                                    </Link>
+                                </motion.li>
+                                <motion.li
+                                    whileHover={{ scale: 1.09 }}
+                                >
                                     <Link className='linksTitle'>Decor</Link>
-                                </li>
-                                <li>
+                                </motion.li>
+                                <motion.li
+                                    whileHover={{ scale: 1.09 }}
+                                >
                                     <Link className='linksTitle'>office</Link>
-                                </li>
-                                <li>
+                                </motion.li>
+                                <motion.li
+                                    whileHover={{ scale: 1.09 }}
+                                >
                                     <Link className='linksTitle'>living room</Link>
-                                </li>
-                                <li>
+                                </motion.li>
+                                <motion.li
+                                    whileHover={{ scale: 1.09 }}
+                                >
                                     <Link className='linksTitle'>bedroom</Link>
-                                </li>
+                                </motion.li>
                                 <li>
                                     <Link className='linksTitle'>
                                         <button
-                                        onClick={searchBtn}
+                                            onClick={searchBtn}
                                         >
 
                                             <AiOutlineSearch size={20} color='black' />
@@ -68,18 +82,26 @@ const Header = () => {
                         </div>
                         <div className="subLinks">
                             <ul className='subLinkHead'>
-                                <li>
+                                <motion.li
+                                    whileHover={{ scale: 1.09 }}
+                                >
                                     <Link className='subLinksTitle'>Story</Link>
-                                </li>
-                                <li>
+                                </motion.li>
+                                <motion.li
+                                    whileHover={{ scale: 1.09 }}
+                                >
                                     <Link className='subLinksTitle'>contact</Link>
-                                </li>
-                                <li>
+                                </motion.li>
+                                <motion.li
+                                    whileHover={{ scale: 1.09 }}
+                                >
                                     <Link className='subLinksTitle'>track order</Link>
-                                </li>
-                                <li>
+                                </motion.li>
+                                <motion.li
+                                    whileHover={{ scale: 1.09 }}
+                                >
                                     <Link className='subLinksTitle'>help</Link>
-                                </li>
+                                </motion.li>
                             </ul>
                             <div className="subSubLinks">
                                 <div className="logSub">
