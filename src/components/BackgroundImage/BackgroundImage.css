@@ -12,11 +12,12 @@
 
 .backHead {
     width: 100%;
-    height: 90vh;
+    height: 100%;
     background-image:  linear-gradient(to right, rgb(239, 241, 239) , rgba(109, 137, 138, 0.158)), url('../../assets/Image/111.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  
 }
 
 .backContents .blackFri{
@@ -45,12 +46,13 @@
 }
 .backContents button{
     padding: 12px 20px;
-    margin-left: 1rem;
+  
     color: #fff;
     background-color: #111;
     border: 0;
     text-transform: uppercase;
     font-weight: 600;
+    margin: 0 0 8rem 1rem;
 }
 .shopBtn:hover{
     background-color: #f78da8b6;
