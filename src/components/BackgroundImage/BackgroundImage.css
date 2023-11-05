@@ -43,3 +43,15 @@
     padding: .1rem 0 2rem 1rem;
 
 }
+.backContents button{
+    padding: 12px 20px;
+    margin-left: 1rem;
+    color: #fff;
+    background-color: #111;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.shopBtn:hover{
+    background-color: #f78da8b6;
+}
