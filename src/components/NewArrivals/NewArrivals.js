@@ -54,7 +54,7 @@ const NewArrivals = () => {
                 <div className="singlePro">
                     <div className="singleImg">
                         <h5 className='arrivalsTitle'>new arrivals</h5>
-                        <h3>blondes with minimalist</h3>
+                        <h3 className='blondesTitle'>blondes <br /> with minimalist</h3>
                         <div className="shopColl">
                             <Link>Shop Collection</Link>
                         </div>
