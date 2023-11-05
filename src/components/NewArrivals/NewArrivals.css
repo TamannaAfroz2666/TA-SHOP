@@ -10,12 +10,13 @@
 .arrivalsContent{
     height: 80vh;
     display: flex;
+    width: 100%;
 }
 .multiPro{
-    width: 500px;
+    width: 40%;
 }
 .dressContent{
-    width: 500px;
+    width: 100%;
     height: 50vh;
     background-image: url('../../assets/Image/NewArrivals/dress.jpg');
     background-repeat: no-repeat;
@@ -25,20 +26,20 @@
 }
 .multiPro .multiCon{
     display: inline-flex;
-    width: 500px;
+   width: 100%;
 }
-.multiCon .parse{
-    width: 250px;
-    height: 50vh;
+ .parse{
+    width: 50%;
+    height: 40vh;
     background-image: url('../../assets/Image/NewArrivals/wallet.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
 }
-.multiCon .shoes{
-    width: 250px;
-    height: 50vh;
+ .shoes{
+    width: 50%;
+    height: 40vh;
     background-image: url('../../assets/Image/NewArrivals/bg3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +47,7 @@
 
 }
 .singlePro{
-    width: 600px;
+    width: 60%;
 }
 .singleImg{
     height: 80vh;
