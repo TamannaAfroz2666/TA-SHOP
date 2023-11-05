@@ -9,7 +9,10 @@
 .headerContainer{
     height: 100%;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: rgba(135, 207, 235, 0.993);
+    top: 0;
+    position: sticky;
+    z-index: 999;
 }
 .containerHead{
     width: 96%;
@@ -19,8 +22,7 @@
 }
 .headerHight{
     height: 100px;
-    top: 0;
-    position: sticky;
+    
 }
 .containerBody{
     display: flex;
@@ -76,8 +78,8 @@
 }
 .linksTitle button{
     border: 0;
-    background-color: whitesmoke;
-    margin-top: .2rem;
+    background-color: rgba(135, 207, 235, 0.219);
+    margin-top: .1rem;
 }
 .linksTitle:hover{
     color: tomato;

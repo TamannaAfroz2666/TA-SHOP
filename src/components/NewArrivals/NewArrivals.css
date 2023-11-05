@@ -18,7 +18,7 @@
 .dressContent{
     width: 100%;
     height: 40vh;
-    background-image: linear-gradient(to right, rgba(182, 182, 190, 0.315), rgba(255, 0, 0, 0.137)), url('../../assets/Image/NewArrivals/dress.jpg');
+    background-image: linear-gradient(to right, rgba(182, 182, 190, 0.315), rgba(255, 0, 0, 0.137)), url('../../assets/Image/NewArrivals/pic20.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,7 +44,7 @@
     display: inline-block;
     position: absolute;
     border-radius: 3px;
-    background-color: rgba(206, 186, 186, 0.76);
+    background-color: whitesmoke;
   
 }
 .dressBtn:hover{
@@ -55,7 +55,7 @@
  .parse{
     width: 50%;
     height: 40vh;
-    background-image:linear-gradient(to right, rgba(182, 182, 190, 0.377), rgba(255, 0, 0, 0.137)), url('../../assets/Image/NewArrivals/wallet.jpg');
+    background-image:linear-gradient(to right, rgba(182, 182, 190, 0.377), rgba(255, 0, 0, 0.137)), url('../../assets/Image/NewArrivals/bag.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -74,7 +74,8 @@
     display: inline-block;
     position: absolute;
     border-radius: 3px;
-    background-color: rgba(206, 186, 186, 0.76);
+    background-color: whitesmoke;
+    
 
 }
 .accessBtn:hover{
@@ -85,7 +86,7 @@
  .shoes{
     width: 50%;
     height: 40vh;
-    background-image:linear-gradient(to right, rgba(182, 182, 190, 0.37), rgba(255, 0, 0, 0.137)), url('../../assets/Image/NewArrivals/bg3.jpg');
+    background-image:linear-gradient(to right, rgba(182, 182, 190, 0.37), rgba(255, 0, 0, 0.137)), url('../../assets/Image/NewArrivals/shoesss.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -93,7 +94,7 @@
 }
 .shoes button{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: capitalize;
     border: 0;
     margin: 8% 4% 10% 5%;
@@ -104,7 +105,8 @@
     display: inline-block;
     position: absolute;
     border-radius: 3px;
-    background-color: rgba(206, 186, 186, 0.76);
+    background-color: whitesmoke;
+   
 
 }
 .shoesBtn:hover{
@@ -116,7 +118,7 @@
 }
 .singleImg{
     height: 80vh;
-    background-image: url('../../assets/Image/NewArrivals/new.jpg');
+    background-image: url('../../assets/Image/NewArrivals/final.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -31,7 +31,7 @@ const NewArrivals = () => {
                         <div className="parse">
                             <motion.button
                             className='accessBtn'
-                            whileHover={{scale:1.2}}
+                            whileHover={{scale:1.1}}
                             onClick={accessHanle}
                             >
                                 Accessories
