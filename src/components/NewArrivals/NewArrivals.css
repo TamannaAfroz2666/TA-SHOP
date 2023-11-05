@@ -18,7 +18,7 @@
 }
 .dressContent{
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     background-image: linear-gradient(to right, rgba(182, 182, 190, 0.315), rgba(255, 0, 0, 0.137)), url('../../assets/Image/NewArrivals/pic20.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,12 +32,11 @@
    margin: 0 0 7rem 0;
 }
 .dressContent button{
-   
     font-size: 18px;
     font-weight: 500;
     text-transform: capitalize;
     border: 0;
-    margin: 8% 8% 10% 15%;
+    margin: 11% 8% 10% 15%;
     overflow: hidden;
     z-index: 1;
     line-height: 45px;
@@ -118,7 +117,7 @@
     width: 60%;
 }
 .singleImg{
-    height: 80vh;
+    height: 90vh;
     background-image: url('../../assets/Image/NewArrivals/final.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,6 +140,34 @@
     color: #111;
     line-height: 55px;
     font-family: Outfit;
+}
+.blondesTitle:hover{
+    color: rgba(226, 154, 20, 0.747);
+}
+.shopColl a{
+    text-decoration: none;
 
+}
+.shopColl .shopCollection{
+    font-size: 16px;
+    margin-left: 6rem;
+    color: #111111e0;
+    font-weight: 700;
+}
 
+.shopCollectionHr{
+  
+    position: relative;
+    border: none;
+    height: 2px;
+    background: white;
+    margin:0.1rem 0  0px 6rem;
+    width: 120px; 
+    
+}
+.shopCollection:hover hr{
+    display: none;
+}
+.multiCon a{
+    text-decoration: none;
 }
