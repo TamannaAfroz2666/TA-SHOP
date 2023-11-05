@@ -4,7 +4,23 @@ import { Link } from 'react-router-dom';
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsBasket } from "react-icons/bs";
 
+// import Box from '@mui/material/Box';
+// import Drawer from '@mui/material/Drawer';
+// import Button from '@mui/material/Button';
+// // import List from '@mui/material/List';
+// import Divider from '@mui/material/Divider';
+
 const Header = () => {
+ 
+    const searchBtn = () =>{
+        console.log('hello');
+        var value1 = document.getElementById('fn').innerHTML = "text";
+        console.log('the value is: ', value1);
+        
+        // value1.show();
+    }
+
+
     return (
         <div className='headerContainer'>
             <div className="containerHead">
@@ -35,12 +51,19 @@ const Header = () => {
                                 </li>
                                 <li>
                                     <Link className='linksTitle'>
-                                        <button>
+                                        <button
+                                        onClick={searchBtn}
+                                        >
+
                                             <AiOutlineSearch size={20} color='black' />
                                         </button>
                                     </Link>
                                 </li>
                             </ul>
+
+                            <div id="fn" hidden>First Name :
+                                <input type="text" />
+                            </div>
 
                         </div>
                         <div className="subLinks">
@@ -75,6 +98,20 @@ const Header = () => {
 
 
                     </div>
+                    {/* <div>
+                        {['top'].map((anchor) => (
+                            <React.Fragment key={anchor}>
+                                <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
+                                <Drawer
+                                    anchor={anchor}
+                                    open={state[anchor]}
+                                    onClose={toggleDrawer(anchor, false)}
+                                >
+                                    {list(anchor)}
+                                </Drawer>
+                            </React.Fragment>
+                        ))}
+                    </div> */}
 
                 </div>
 
