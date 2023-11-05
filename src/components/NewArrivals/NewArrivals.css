@@ -7,3 +7,51 @@
     height: 100%;
     width: 100%;
 }
+.arrivalsContent{
+    height: 80vh;
+    display: flex;
+}
+.multiPro{
+    width: 500px;
+}
+.dressContent{
+    width: 500px;
+    height: 50vh;
+    background-image: url('../../assets/Image/NewArrivals/dress.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.multiPro .multiCon{
+    display: inline-flex;
+    width: 500px;
+}
+.multiCon .parse{
+    width: 250px;
+    height: 50vh;
+    background-image: url('../../assets/Image/NewArrivals/wallet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.multiCon .shoes{
+    width: 250px;
+    height: 50vh;
+    background-image: url('../../assets/Image/NewArrivals/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.singlePro{
+    width: 600px;
+}
+.singleImg{
+    height: 80vh;
+    background-image: url('../../assets/Image/NewArrivals/new.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
