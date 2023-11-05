@@ -3,7 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-.img{
+.backgroundImage{
+    height: 100%;
     width: 100%;
-    height: 100vh;
+}
+.backHead{
+    height: 84vh;
+    background-image: url('../../assets/Image/sandle.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
