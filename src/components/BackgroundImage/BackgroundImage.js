@@ -6,14 +6,24 @@ import image1 from '../../assets/Image/sandle.jpg';
 
 
 const BackgroundImage = () => {
+
+    const shopNow =() =>{
+        console.log('shop now available');
+    }
     return (
         <div className='backgroundImage'>
             <div className="backHead">
                 <div className="backContents">
-                        <h1>hhg</h1>
-                        <h2>nbbdfvd</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro hic numquam distinctio voluptatibus dolor non eveniet, molestias pariatur ullam vitae!</p>
-                        <button>hhh</button>
+                    <h5 className='blackFri'>Black Friday on July</h5>
+                    <h2 className='uptoTitle'>Up to 50% off</h2>
+                    <h3 className='hundredTitle'>Hundreds of styles available</h3>
+                    <button
+                    className='shopBtn'
+                    onClick={shopNow}
+
+                    >
+                        Shop Now
+                    </button>
                     <div className="imageBack">
 
                     </div>
@@ -21,8 +31,8 @@ const BackgroundImage = () => {
 
             </div>
 
-            
-           
+
+
 
         </div>
     );
