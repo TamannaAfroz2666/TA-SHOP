@@ -1,14 +1,25 @@
 import React from 'react';
 import './NewArrivals.css';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 const NewArrivals = () => {
+    const dressHandle =() =>{
+        console.log('dress are here');
+    }
     return (
         <div className='newArrivals'>
             <div className="arrivalsContent">
                 <div className="multiPro">
                     <div className="dressContent">
-                        <button>Dress</button>
+                        <motion.button
+                           whileHover={{ 
+                          scale: 1.1
+                           }}
+                           
+                        className='dressBtn'
+                        onClick={dressHandle} 
+                        >Dress</motion.button>
                     </div>
                     <div className="multiCon">
                         <div className="parse">
