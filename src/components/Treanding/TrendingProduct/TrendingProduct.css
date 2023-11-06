@@ -53,7 +53,7 @@
     padding: 8px;
     background-color: #f1f1f1;
     border-radius: 100%;
-    bottom: 1rem;
+    bottom: .1rem;
     position: relative;
 }
 
@@ -75,15 +75,24 @@
 /* icon end  */
 
 /* select option field  */
-
+.selectOption a{
+    text-decoration: none;
+}
 .selectOptionTitle{
     padding: 10px 0;
-    background-color: #0dcaf0;
+    background-color: rgba(0, 0, 0, 0.384);
     right: 0;
     left: 0;
     bottom: -17px;
     position: absolute;
+    color: #f1f1f1;
 }
+.selectOptionTitle:hover{
+    background-color: #0dcaf0;
+}
+
+
+
 .wishlist{
     padding: 2px 14px;
     font-size: 12px;
@@ -114,6 +123,8 @@
     position: relative;
     border-radius: 5px;
 }
+
+
 .h1{
     top: 30rem;
     position: relative;

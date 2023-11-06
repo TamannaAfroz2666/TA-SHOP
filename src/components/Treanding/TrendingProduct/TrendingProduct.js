@@ -5,6 +5,7 @@ import { AiOutlineHeart, AiOutlineEye } from "react-icons/ai";
 import { HiArrowsUpDown } from "react-icons/hi2";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const TrendingProduct = () => {
     return (
@@ -49,7 +50,9 @@ const TrendingProduct = () => {
                         </div>
                         {/* select option area  */}
                         <div className="selectOption">
+                            <Link to ="/more-options">
                             <p className='selectOptionTitle'> <span><HiOutlineArrowSmRight size={20}/></span> Select options</p>
+                            </Link>
                         </div>
 
                         
