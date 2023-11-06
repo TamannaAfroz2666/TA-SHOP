@@ -106,7 +106,12 @@ const TrendingProduct = () => {
                         <h3 className='product_titles'>Long sleeve T-shirt</h3>
                     </div>
                     <div className="priceSection">
+                        <div className="pp">
+                        <p className='priceSubInfo'>$20.00</p>
                         <p className='priceTitle'>Tk 2,200</p>
+
+                        </div>
+                      
                     </div>
 
 
