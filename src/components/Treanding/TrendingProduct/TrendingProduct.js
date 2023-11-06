@@ -12,47 +12,42 @@ const TrendingProduct = () => {
             <div className="productContainer">
                 <div className="productContents">
                     <img src={img1} alt="" className='image' />
+                    {/* over lay area  */}
                     <div className="overlaySection">
                         <div className="iconSection">
                             <motion.div
                                 whileHover={{
                                     scale: 1.2,
-                                    opacity: 1, x: '-.1vh'
-
-                                }}
-
-                                animate={{ opacity: 1, x: 0 }}
-                                transition={{ duration: .2 }}
+                                }} 
                                 className="heart"
                             >
+                                <p className='wishlist'>wishlist</p>
                                 <AiOutlineHeart className='IconOverlay' color='black' size={35} />
+                                
                             </motion.div>
                             <motion.div
                                 whileHover={{
-                                    scale: 1.2,
-                                    opacity: 1, x: '-.1vh'
-
+                                    scale: 1.2,                                
                                 }}
-
-                                animate={{ opacity: 1, x: 0 }}
-                                transition={{ duration: .2 }}
-
+                            
                                 className="arrow">
+                                     <p className='compare'>compare</p>
                                 <HiArrowsUpDown className='IconOverlay' size={35} />
+                               
                             </motion.div>
                             <motion.div
                                 whileHover={{
                                     scale: 1.2,
-                                    opacity: 1, x: '-.1vh'
-                                }}
-
-                                animate={{ opacity: 1, x: 0 }}
-                                transition={{ duration: .2 }}
+                                   
+                                }}                            
                                 className="eye">
+                                    <p className='quickView'>quickView</p>
                                 <AiOutlineEye className='IconOverlay' size={35} />
+                                
                             </motion.div>
 
                         </div>
+                        {/* select option area  */}
                         <div className="selectOption">
                             <p className='selectOptionTitle'> <span><HiOutlineArrowSmRight size={20}/></span> Select options</p>
                         </div>
