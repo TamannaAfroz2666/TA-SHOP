@@ -38,3 +38,22 @@
 .productContents:hover .overlaySection{
     opacity: 1;
 }
+/* icon  */
+.iconSection{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: black;
+   
+   
+
+}
+.iconSection .IconOverlay{
+    padding: 8px;
+    background-color: #f1f1f1;
+    border-radius: 100%;
+}
+.IconOverlay:hover{
+    background-color: #0dcaf0;
+}
