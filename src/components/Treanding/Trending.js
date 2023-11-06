@@ -13,12 +13,12 @@ const Trending = () => {
                 </div>
 
                 <div className="nav_link">
-                    <div class="dropdown">
-                        <button class="dropbtn">trending <BsArrowDown size={25} className='trendingHr' /></button>
-                        <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                    <div className="dropdown">
+                        <span className="dropbtn">trending <BsArrowDown size={25} className='trendingHr' /> </span>
+                        <div className="dropdown-content">
+                            <Link to="/trending-sell">trending</Link>
+                            <Link to="/best-seller">best seller</Link>
+                            <Link to="/top-ranking">top ranking</Link>
                         </div>
                     </div>
 
@@ -26,7 +26,9 @@ const Trending = () => {
 
 
 
+
             </div>
+            <h1 className='hhhh'>hhh</h1>
 
         </div>
     );
