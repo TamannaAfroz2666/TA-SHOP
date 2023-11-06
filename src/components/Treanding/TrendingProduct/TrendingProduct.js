@@ -97,6 +97,10 @@ const TrendingProduct = () => {
                         <span><AiFillStar size={15} color='orange'/></span>
 
                     </div>
+                    <div className="numProduct">
+                        <p className='oneItem'>(1)</p>
+                
+                    </div>
 
 
                 </div>

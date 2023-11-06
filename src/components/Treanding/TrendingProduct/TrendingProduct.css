@@ -122,6 +122,7 @@
     position: absolute;
     color: #f1f1f1;
     border: 0;
+    font-size: 15px;
 }
 .sortP{
     padding: 20px 0;
@@ -145,12 +146,14 @@
 .productInfo{
     width: 300px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding: 0 0 2rem 0;
     /* position: absolute; */
   
 }
-/* .hh{
-    padding-top: 30rem;
-} */
+
 .iconsRating{
     display: flex;
     gap: 8px;
@@ -158,6 +161,12 @@
     justify-content: center;
     
    
+}
+.numProduct .oneItem{
+    padding-top: 26.2rem;
+    font-size: 12px;
+    color: #111111b9;
+
 }
 
 
