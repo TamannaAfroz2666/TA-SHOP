@@ -2,6 +2,7 @@ import React from 'react';
 import './Trending.css';
 import { BsArrowDown } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import TrendingProduct from './TrendingProduct/TrendingProduct';
 // import { NavLink } from 'react-router-dom';
 
 const Trending = () => {
@@ -33,7 +34,9 @@ const Trending = () => {
                 </div>
 
             </div>
-            <h1 className='hhhh'>hhh</h1>
+          <div className="product_container">
+            <TrendingProduct></TrendingProduct>
+          </div>
 
         </div>
     );
