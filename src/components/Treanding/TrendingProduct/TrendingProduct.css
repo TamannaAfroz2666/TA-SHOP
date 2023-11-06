@@ -13,27 +13,29 @@
 }
 .productContents{
     position: absolute;
+ 
 }
 .productContents .image{
     width: 300px;
     height: 400px;
     display: block;
+   
 }
 /* overlay add  */
 .overlaySection{
     position: absolute; 
   bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+
+  /* background: rgba(0, 0, 0, 0.5);  */
   color: #f1f1f1; 
   width: 100%;
   transition: .5s ease;
   opacity:0;
   color: white;
   font-size: 20px;
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
-  height:100px
+  height:120px
 }
 .productContents:hover .overlaySection{
     opacity: 1;
@@ -45,6 +47,7 @@
     justify-content: center;
     align-items: center;
     color: black;
+    margin: 10px 0 30px 0;
 }
 .iconSection .IconOverlay{
     padding: 8px;
@@ -53,4 +56,20 @@
 }
 .IconOverlay:hover{
     background-color: #0dcaf0;
+}
+/* icon end  */
+
+/* select option field  */
+
+.selectOptionTitle{
+    padding: 10px 0;
+    background-color: #0dcaf0;
+    right: 0;
+    left: 0;
+    bottom: -17px;
+    position: absolute;
+}
+.h1{
+    top: 30rem;
+    position: relative;
 }

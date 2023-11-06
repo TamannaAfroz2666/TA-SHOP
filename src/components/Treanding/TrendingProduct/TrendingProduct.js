@@ -3,6 +3,7 @@ import './TrendingProduct.css';
 import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
 import { AiOutlineHeart, AiOutlineEye } from "react-icons/ai";
 import { HiArrowsUpDown } from "react-icons/hi2";
+import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { motion } from 'framer-motion';
 
 const TrendingProduct = () => {
@@ -52,14 +53,21 @@ const TrendingProduct = () => {
                             </motion.div>
 
                         </div>
-                        <h1>gg</h1>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div className="selectOption">
+                            <p className='selectOptionTitle'> <span><HiOutlineArrowSmRight size={20}/></span> Select options</p>
+                        </div>
+
+                        
+                       
 
                     </div>
                 </div>
 
             </div>
-            .
+            <div className="h1">
+                            hhh
+                        </div>
+            
 
         </div>
     );

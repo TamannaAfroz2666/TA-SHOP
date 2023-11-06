@@ -37,6 +37,7 @@ const Trending = () => {
           <div className="product_container">
             <TrendingProduct></TrendingProduct>
           </div>
+         
 
         </div>
     );
