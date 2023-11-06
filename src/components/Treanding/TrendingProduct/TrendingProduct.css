@@ -52,14 +52,14 @@
     justify-content: center;
     align-items: center;
     color: black;
-    margin: 10px 0 30px 0;
+    margin: 10px 0 20px 0;
 }
 .iconSection .IconOverlay{
     padding: 8px;
     background-color: #f1f1f1;
     border-radius: 100%;
-    bottom: -.1rem;
-    position: relative;
+    /* bottom: 1rem;
+    position: relative; */
 }
 
 
@@ -117,7 +117,7 @@
     border: 0;
 }
 .selectOptionTitle {
-    padding: 10px 0;
+    padding: 14px 0;
     background-color: rgba(0, 0, 0, 0.384);
     right: 0;
     left: 0;
@@ -125,7 +125,7 @@
     position: absolute;
     color: #f1f1f1;
     border: 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 .sortP{
     padding: 20px 0;
@@ -148,8 +148,10 @@
 /* new stage of product info section */
 .productInfo{
     width: 300px;
-    /* position: relative; */
-    position: absolute;
+    bottom: 9rem;
+    position: relative;
+   
+    /* position: absolute; */
     
   
   
@@ -159,7 +161,7 @@
     display: flex;
     justify-content: center;
     gap: 6px;
-    padding: 0 0 2rem 0;
+    padding: 0 0 .1rem 0;
     /* position: absolute; */
     
 
@@ -168,15 +170,14 @@
 .iconsRating{
     display: flex;
     gap: 8px;
-    margin-top: 26rem;
     justify-content: center;
     
    
 }
 .numProduct .oneItem{
-    padding-top: 26.2rem;
     font-size: 12px;
     color: #111111b9;
+    margin-top: .23rem;
 
 }
 
