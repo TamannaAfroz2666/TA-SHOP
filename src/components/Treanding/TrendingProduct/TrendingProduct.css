@@ -10,12 +10,14 @@
 .productContainer{
     width: 96%;
     margin: auto;
+    position: absolute;
 }
 .productContents{
     position: absolute;
+    display: block;
  
 }
-.productContents .image{
+ .image{
     width: 300px;
     height: 400px;
     display: block;
@@ -139,9 +141,26 @@
 
 
 
-
-
-.h1{
-    top: 30rem;
+/* new stage of product info section */
+.productInfo{
+    width: 300px;
     position: relative;
+    /* position: absolute; */
+  
 }
+/* .hh{
+    padding-top: 30rem;
+} */
+.iconsRating{
+    display: flex;
+    gap: 8px;
+    margin-top: 26rem;
+    justify-content: center;
+    
+   
+}
+
+
+
+
+

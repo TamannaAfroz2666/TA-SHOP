@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './TrendingProduct.css';
 import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
-import { AiOutlineHeart, AiOutlineEye } from "react-icons/ai";
+import { AiOutlineHeart, AiOutlineEye ,AiFillStar } from "react-icons/ai";
 import { HiArrowsUpDown } from "react-icons/hi2";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { motion, spring } from 'framer-motion';
 import { Link } from 'react-router-dom';
+// import { IconName } from "react-icons/ai";
 
 const TrendingProduct = () => {
 
@@ -72,7 +73,7 @@ const TrendingProduct = () => {
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
                                 >
-                                   32
+                                    32
                                 </motion.button>
                             )}
 
@@ -83,12 +84,25 @@ const TrendingProduct = () => {
 
 
                     </div>
+
+
+                </div>
+                <div className="productInfo">
+                    <div className="iconsRating">
+                      
+                        <span className='hhh'><AiFillStar size={15} color='orange'/></span>
+                        <span><AiFillStar size={15} color='orange'/></span>
+                        <span><AiFillStar size={15} color='orange'/></span>
+                        <span><AiFillStar size={15} color='orange'/></span>
+                        <span><AiFillStar size={15} color='orange'/></span>
+
+                    </div>
+
+
                 </div>
 
             </div>
-            <div className="h1">
-                hhh
-            </div>
+
 
 
         </div>
