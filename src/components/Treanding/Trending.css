@@ -11,7 +11,11 @@
 
 .trendingBody {
   display: flex;
+  justify-content: space-between;
 
+}
+.infoContent{
+  display: flex;
 }
 
 .trendingBody .trendTitle {
@@ -86,6 +90,35 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+/* hovar dropdown end  */
+
+.showMorePro a{
+  text-decoration: none;
+ 
+
+}
+.showMorePro .showAllTitle{
+  font-size: 16px;
+  margin-left: 5.8rem;
+  color: #111111e0;
+  font-weight: 700;
+
+}
+
+.showAllHr{
+  width: 125px; 
+  height: 2px;
+  margin:0.4rem 0rem  0px 6rem; 
+  background: rgb(231, 18, 18);
+  
+
+}
+.showAllTitle:hover hr{
+  display: none;
+  position: relative;
+ 
 }
 
 .hhhh {
