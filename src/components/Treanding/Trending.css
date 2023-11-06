@@ -108,11 +108,9 @@
 
 .showAllHr{
   width: 125px; 
-  height: 2px;
+  height: 1px;
   margin:0.4rem 0rem  0px 6rem; 
-  background: rgb(231, 18, 18);
-  
-
+  background: rgb(82, 77, 77);
 }
 .showAllTitle:hover hr{
   display: none;
