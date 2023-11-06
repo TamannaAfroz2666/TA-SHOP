@@ -100,7 +100,6 @@ const TrendingProduct = () => {
                         </div>
                         <div className="numProduct">
                             <p className='oneItem'>(1)</p>
-
                         </div>
                     </div>
                     <div className="nameProduct">

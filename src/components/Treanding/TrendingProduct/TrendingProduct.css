@@ -148,39 +148,39 @@
 /* new stage of product info section */
 .productInfo{
     width: 300px;
-    bottom: 9rem;
+    bottom: 9.9rem;
     position: relative;
-   
-    /* position: absolute; */
-    
-  
-  
+     
 }
 .iconsField{
    
     display: flex;
     justify-content: center;
     gap: 6px;
-    padding: 0 0 .1rem 0;
-    /* position: absolute; */
-    
-
+    /* padding: 0 0 .1rem 0; */
+   
 }
 
 .iconsRating{
     display: flex;
     gap: 8px;
-    justify-content: center;
-    
-   
+    justify-content: center; 
 }
 .numProduct .oneItem{
     font-size: 12px;
     color: #111111b9;
     margin-top: .23rem;
+}
+.nameProduct .product_titles{
+    font-size: 20px;
+    text-align: center;
+    bottom: .8rem;
+    position: relative;
 
 }
-
+.product_titles:hover {
+    color: #0dcaf0;
+}
 
 
 
