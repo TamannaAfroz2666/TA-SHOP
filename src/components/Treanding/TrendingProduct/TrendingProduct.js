@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './TrendingProduct.css';
 import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
-import { AiOutlineHeart, AiOutlineEye ,AiFillStar } from "react-icons/ai";
+import { AiOutlineHeart, AiOutlineEye, AiFillStar } from "react-icons/ai";
 import { HiArrowsUpDown } from "react-icons/hi2";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { motion, spring } from 'framer-motion';
@@ -88,19 +88,26 @@ const TrendingProduct = () => {
 
                 </div>
                 <div className="productInfo">
-                    <div className="iconsRating">
-                      
-                        <span className='hhh'><AiFillStar size={15} color='orange'/></span>
-                        <span><AiFillStar size={15} color='orange'/></span>
-                        <span><AiFillStar size={15} color='orange'/></span>
-                        <span><AiFillStar size={15} color='orange'/></span>
-                        <span><AiFillStar size={15} color='orange'/></span>
+                    <div className="iconsField">
+                        <div className="iconsRating">
+
+                            <span className='hhh'><AiFillStar size={15} color='orange' /></span>
+                            <span><AiFillStar size={15} color='orange' /></span>
+                            <span><AiFillStar size={15} color='orange' /></span>
+                            <span><AiFillStar size={15} color='orange' /></span>
+                            <span><AiFillStar size={15} color='orange' /></span>
+
+                        </div>
+                        <div className="numProduct">
+                            <p className='oneItem'>(1)</p>
+
+                        </div>
+                    </div>
+                    <div className="nameProduct">
+                        <h3 className='product_titles'>Long sleeve T-shirt</h3>
 
                     </div>
-                    <div className="numProduct">
-                        <p className='oneItem'>(1)</p>
-                
-                    </div>
+
 
 
                 </div>
