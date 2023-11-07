@@ -11,6 +11,7 @@ import data from '../../../Utilities/API/trendingProduct.json';
 // import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
+
 const TrendingProduct = () => {
     const [productsInfo, setProductsInfo] = useState(data.product);
     console.log('data is', productsInfo);
@@ -24,7 +25,7 @@ const TrendingProduct = () => {
     }
 
     const values = [true, 'sm-down', 'md-down', 'lg-down', 'xl-down', 'xxl-down'];
-    
+
 
 
     return (
@@ -69,8 +70,14 @@ const TrendingProduct = () => {
                                                     <Modal.Header closeButton>
                                                         <Modal.Title>Modal</Modal.Title>
                                                     </Modal.Header>
-                                                    <Modal.Body>Modal body content</Modal.Body>
+                                                    <Modal.Body>
+                                                        <div className="modalBo">
+                                                            <h1 className='to'> Modal body content</h1>
+                                                        </div>
+                                                       
+                                                    </Modal.Body>
                                                 </Modal>
+
                                             </motion.div>
                                             <motion.div
                                                 whileHover={{
