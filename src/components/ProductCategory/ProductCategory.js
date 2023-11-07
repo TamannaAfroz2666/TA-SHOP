@@ -9,6 +9,7 @@ const ProductCategory = () => {
                     <div className="cateTitleContent">
                         <h5 className='shopByCate'>Shop by category</h5>
                         <h1 className='shopByCateMain'>Shop by category</h1>
+                        <hr  className='cateHr'/>
                     </div>
                 
 
