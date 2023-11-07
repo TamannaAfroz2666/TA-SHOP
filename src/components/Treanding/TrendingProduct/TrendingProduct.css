@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital@1&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -264,7 +265,22 @@
     background-color: burlywood;
 }
 .modalBo .to{
-    font-size: 50px;
+    /* font-size: 50px; */
     text-align: center;
 }
+.modalHeader{
+    width: 100%;
+}
+.modalPTitle{
+    width: 100%;
+}
+.modalTitle{
+    text-align: center;
+    text-transform: uppercase;
+    color:#0dcaf0d8;
+    font-family: 'Pacifico';
+    font-weight: 600;
+    line-height: 50px;
+}
+
 

@@ -67,10 +67,14 @@ const TrendingProduct = () => {
 
                                                 {/* modal add  */}
                                                 <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
-                                                    <Modal.Header closeButton>
-                                                        <Modal.Title>Modal</Modal.Title>
+                                                    <Modal.Header  className='modalHeader' closeButton  >
+                                                        <Modal.Title className='modalPTitle'>
+                                                            <h1 className='modalTitle' >ta shop</h1>
+                                                        </Modal.Title>
                                                     </Modal.Header>
-                                                    <Modal.Body>
+
+                                                 
+                                                    <Modal.Body  >
                                                         <div className="modalBo">
                                                             <h1 className='to'> Modal body content</h1>
                                                         </div>
