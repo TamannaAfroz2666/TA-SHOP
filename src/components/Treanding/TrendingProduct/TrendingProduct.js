@@ -7,885 +7,136 @@ import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { motion, spring } from 'framer-motion';
 import { Link } from 'react-router-dom';
 // import { IconName } from "react-icons/ai";
+import data from '../../../Utilities/API/trendingProduct.json';
 
 const TrendingProduct = () => {
+    const [productsInfo, setProductsInfo] = useState(data.product);
+    console.log('data is', productsInfo);
 
-    const [showCard, setShowCard] = useState(false)
+    const [showCard, setShowCard] = useState(false);
+
     return (
         <div className='trendingProduct'>
             <div className="productBox">
-                <div className="productContainer">
-                    <div className="productContents">
-                        <img src={img1} alt="" className='image' />
-                        {/* over lay area  */}
-                        <div className="overlaySection">
-                            <div className="iconSection">
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-                                    className="heart"
-                                >
-                                    <p className='wishlist'>wishlist</p>
-                                    <AiOutlineHeart className='IconOverlay' color='black' size={35} />
 
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
+                {
+                    productsInfo.slice(0, 8).map((product) => {
+                        return (
+                            <div className="productContainer">
+                                <div className="productContents">
+                                    <img src={product.image} alt="" className='image' />
+                                    {/* over lay area  */}
+                                    <div className="overlaySection">
+                                        <div className="iconSection">
+                                            <motion.div
+                                                whileHover={{
+                                                    scale: 1.2,
+                                                }}
+                                                className="heart"
+                                            >
+                                                <p className='wishlist'>wishlist</p>
+                                                <AiOutlineHeart className='IconOverlay' color='black' size={35} />
 
-                                    className="arrow">
-                                    <p className='compare'>compare</p>
-                                    <HiArrowsUpDown className='IconOverlay' size={35} />
+                                            </motion.div>
+                                            <motion.div
+                                                whileHover={{
+                                                    scale: 1.2,
+                                                }}
 
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
+                                                className="arrow">
+                                                <p className='compare'>compare</p>
+                                                <HiArrowsUpDown className='IconOverlay' size={35} />
 
-                                    }}
-                                    className="eye">
-                                    <p className='quickView'>quickView</p>
-                                    <AiOutlineEye className='IconOverlay' size={35} />
+                                            </motion.div>
+                                            <motion.div
+                                                whileHover={{
+                                                    scale: 1.2,
 
-                                </motion.div>
+                                                }}
+                                                className="eye">
+                                                <p className='quickView'>quickView</p>
+                                                <AiOutlineEye className='IconOverlay' size={35} />
 
-                            </div>
-                            {/* select option area  */}
-                            <motion.div className="selectOption"
-                                transition={{
-                                    duration: .5,
-                                    type: spring
-                                }}
-                                layout
-                                onClick={() => setShowCard(!showCard)}
-                            >
+                                            </motion.div>
 
-                                <button >
-                                    <p className='selectOptionTitle'>
-                                        <span><HiOutlineArrowSmRight size={20} /></span>
-                                        Select options
-                                    </p>
-                                </button>
+                                        </div>
+                                        {/* select option area  */}
+                                        <motion.div className="selectOption"
+                                            transition={{
+                                                duration: .5,
+                                                type: spring
+                                            }}
+                                            layout
+                                            onClick={() => setShowCard(!showCard)}
+                                        >
 
-                                {showCard && (
-                                    <motion.button className='sortP'
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                    >
-                                        32
-                                    </motion.button>
-                                )}
+                                            <button >
+                                                <p className='selectOptionTitle'>
+                                                    <span><HiOutlineArrowSmRight size={20} /></span>
+                                                    Select options
+                                                </p>
+                                            </button>
 
-
-                            </motion.div>
-
-
-
-
-                        </div>
+                                            {showCard && (
+                                                <motion.button className='sortP'
+                                                    initial={{ opacity: 0 }}
+                                                    animate={{ opacity: 1 }}
+                                                >
+                                                    32
+                                                </motion.button>
+                                            )}
 
 
-                    </div>
-                    <div className="productInfo">
-                        <div className="iconsField">
-                            <div className="iconsRating">
-
-                                <span className='hhh'><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-
-                            </div>
-                            <div className="numProduct">
-                                <p className='oneItem'>(1)</p>
-                            </div>
-                        </div>
-                        <div className="nameProduct">
-                            <h3 className='product_titles'>Long sleeve T-shirt</h3>
-                        </div>
-                        <div className="priceSection">
-                            <div className="pp">
-                                <p className='priceSubInfo'>$20.00</p>
-                                <p className='priceTitle'>Tk 2,200</p>
-
-                            </div>
-
-                        </div>
-                        <div className="colorSection">
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-                <div className="productContainer">
-                    <div className="productContents">
-                        <img src={img1} alt="" className='image' />
-                        {/* over lay area  */}
-                        <div className="overlaySection">
-                            <div className="iconSection">
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-                                    className="heart"
-                                >
-                                    <p className='wishlist'>wishlist</p>
-                                    <AiOutlineHeart className='IconOverlay' color='black' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-
-                                    className="arrow">
-                                    <p className='compare'>compare</p>
-                                    <HiArrowsUpDown className='IconOverlay' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-
-                                    }}
-                                    className="eye">
-                                    <p className='quickView'>quickView</p>
-                                    <AiOutlineEye className='IconOverlay' size={35} />
-
-                                </motion.div>
-
-                            </div>
-                            {/* select option area  */}
-                            <motion.div className="selectOption"
-                                transition={{
-                                    duration: .5,
-                                    type: spring
-                                }}
-                                layout
-                                onClick={() => setShowCard(!showCard)}
-                            >
-
-                                <button >
-                                    <p className='selectOptionTitle'>
-                                        <span><HiOutlineArrowSmRight size={20} /></span>
-                                        Select options
-                                    </p>
-                                </button>
-
-                                {showCard && (
-                                    <motion.button className='sortP'
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                    >
-                                        32
-                                    </motion.button>
-                                )}
-
-
-                            </motion.div>
+                                        </motion.div>
 
 
 
 
-                        </div>
+                                    </div>
 
 
-                    </div>
-                    <div className="productInfo">
-                        <div className="iconsField">
-                            <div className="iconsRating">
+                                </div>
+                                <div className="productInfo">
+                                    <div className="iconsField">
+                                        <div className="iconsRating">
 
-                                <span className='hhh'><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
+                                            <span className='hhh'><AiFillStar size={15} color='orange' /></span>
+                                            <span><AiFillStar size={15} color='orange' /></span>
+                                            <span><AiFillStar size={15} color='orange' /></span>
+                                            <span><AiFillStar size={15} color='orange' /></span>
+                                            <span><AiFillStar size={15} color='orange' /></span>
 
-                            </div>
-                            <div className="numProduct">
-                                <p className='oneItem'>(1)</p>
-                            </div>
-                        </div>
-                        <div className="nameProduct">
-                            <h3 className='product_titles'>Long sleeve T-shirt</h3>
-                        </div>
-                        <div className="priceSection">
-                            <div className="pp">
-                                <p className='priceSubInfo'>$20.00</p>
-                                <p className='priceTitle'>Tk 2,200</p>
+                                        </div>
+                                        <div className="numProduct">
+                                            <p className='oneItem'>({product.stok_product})</p>
+                                        </div>
+                                    </div>
+                                    <div className="nameProduct">
+                                        <h3 className='product_titles'>{product.p_title}</h3>
+                                    </div>
+                                    <div className="priceSection">
+                                        <div className="pp">
+                                            <p className='priceSubInfo'> ${product.doller_convert}</p>
+                                            <p className='priceTitle'>Tk {product.p_price}</p>
+
+                                        </div>
+
+                                    </div>
+                                    <div className="colorSection">
+
+                                    </div>
+
+
+
+                                </div>
 
                             </div>
 
-                        </div>
-                        <div className="colorSection">
+                        )
+                    })
+                }
 
-                        </div>
 
-
-
-                    </div>
-
-                </div>
-                <div className="productContainer">
-                    <div className="productContents">
-                        <img src={img1} alt="" className='image' />
-                        {/* over lay area  */}
-                        <div className="overlaySection">
-                            <div className="iconSection">
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-                                    className="heart"
-                                >
-                                    <p className='wishlist'>wishlist</p>
-                                    <AiOutlineHeart className='IconOverlay' color='black' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-
-                                    className="arrow">
-                                    <p className='compare'>compare</p>
-                                    <HiArrowsUpDown className='IconOverlay' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-
-                                    }}
-                                    className="eye">
-                                    <p className='quickView'>quickView</p>
-                                    <AiOutlineEye className='IconOverlay' size={35} />
-
-                                </motion.div>
-
-                            </div>
-                            {/* select option area  */}
-                            <motion.div className="selectOption"
-                                transition={{
-                                    duration: .5,
-                                    type: spring
-                                }}
-                                layout
-                                onClick={() => setShowCard(!showCard)}
-                            >
-
-                                <button >
-                                    <p className='selectOptionTitle'>
-                                        <span><HiOutlineArrowSmRight size={20} /></span>
-                                        Select options
-                                    </p>
-                                </button>
-
-                                {showCard && (
-                                    <motion.button className='sortP'
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                    >
-                                        32
-                                    </motion.button>
-                                )}
-
-
-                            </motion.div>
-
-
-
-
-                        </div>
-
-
-                    </div>
-                    <div className="productInfo">
-                        <div className="iconsField">
-                            <div className="iconsRating">
-
-                                <span className='hhh'><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-
-                            </div>
-                            <div className="numProduct">
-                                <p className='oneItem'>(1)</p>
-                            </div>
-                        </div>
-                        <div className="nameProduct">
-                            <h3 className='product_titles'>Long sleeve T-shirt</h3>
-                        </div>
-                        <div className="priceSection">
-                            <div className="pp">
-                                <p className='priceSubInfo'>$20.00</p>
-                                <p className='priceTitle'>Tk 2,200</p>
-
-                            </div>
-
-                        </div>
-                        <div className="colorSection">
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-                <div className="productContainer">
-                    <div className="productContents">
-                        <img src={img1} alt="" className='image' />
-                        {/* over lay area  */}
-                        <div className="overlaySection">
-                            <div className="iconSection">
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-                                    className="heart"
-                                >
-                                    <p className='wishlist'>wishlist</p>
-                                    <AiOutlineHeart className='IconOverlay' color='black' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-
-                                    className="arrow">
-                                    <p className='compare'>compare</p>
-                                    <HiArrowsUpDown className='IconOverlay' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-
-                                    }}
-                                    className="eye">
-                                    <p className='quickView'>quickView</p>
-                                    <AiOutlineEye className='IconOverlay' size={35} />
-
-                                </motion.div>
-
-                            </div>
-                            {/* select option area  */}
-                            <motion.div className="selectOption"
-                                transition={{
-                                    duration: .5,
-                                    type: spring
-                                }}
-                                layout
-                                onClick={() => setShowCard(!showCard)}
-                            >
-
-                                <button >
-                                    <p className='selectOptionTitle'>
-                                        <span><HiOutlineArrowSmRight size={20} /></span>
-                                        Select options
-                                    </p>
-                                </button>
-
-                                {showCard && (
-                                    <motion.button className='sortP'
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                    >
-                                        32
-                                    </motion.button>
-                                )}
-
-
-                            </motion.div>
-
-
-
-
-                        </div>
-
-
-                    </div>
-                    <div className="productInfo">
-                        <div className="iconsField">
-                            <div className="iconsRating">
-
-                                <span className='hhh'><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-
-                            </div>
-                            <div className="numProduct">
-                                <p className='oneItem'>(1)</p>
-                            </div>
-                        </div>
-                        <div className="nameProduct">
-                            <h3 className='product_titles'>Long sleeve T-shirt</h3>
-                        </div>
-                        <div className="priceSection">
-                            <div className="pp">
-                                <p className='priceSubInfo'>$20.00</p>
-                                <p className='priceTitle'>Tk 2,200</p>
-
-                            </div>
-
-                        </div>
-                        <div className="colorSection">
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-                <div className="productContainer">
-                    <div className="productContents">
-                        <img src={img1} alt="" className='image' />
-                        {/* over lay area  */}
-                        <div className="overlaySection">
-                            <div className="iconSection">
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-                                    className="heart"
-                                >
-                                    <p className='wishlist'>wishlist</p>
-                                    <AiOutlineHeart className='IconOverlay' color='black' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-
-                                    className="arrow">
-                                    <p className='compare'>compare</p>
-                                    <HiArrowsUpDown className='IconOverlay' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-
-                                    }}
-                                    className="eye">
-                                    <p className='quickView'>quickView</p>
-                                    <AiOutlineEye className='IconOverlay' size={35} />
-
-                                </motion.div>
-
-                            </div>
-                            {/* select option area  */}
-                            <motion.div className="selectOption"
-                                transition={{
-                                    duration: .5,
-                                    type: spring
-                                }}
-                                layout
-                                onClick={() => setShowCard(!showCard)}
-                            >
-
-                                <button >
-                                    <p className='selectOptionTitle'>
-                                        <span><HiOutlineArrowSmRight size={20} /></span>
-                                        Select options
-                                    </p>
-                                </button>
-
-                                {showCard && (
-                                    <motion.button className='sortP'
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                    >
-                                        32
-                                    </motion.button>
-                                )}
-
-
-                            </motion.div>
-
-
-
-
-                        </div>
-
-
-                    </div>
-                    <div className="productInfo">
-                        <div className="iconsField">
-                            <div className="iconsRating">
-
-                                <span className='hhh'><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-
-                            </div>
-                            <div className="numProduct">
-                                <p className='oneItem'>(1)</p>
-                            </div>
-                        </div>
-                        <div className="nameProduct">
-                            <h3 className='product_titles'>Long sleeve T-shirt</h3>
-                        </div>
-                        <div className="priceSection">
-                            <div className="pp">
-                                <p className='priceSubInfo'>$20.00</p>
-                                <p className='priceTitle'>Tk 2,200</p>
-
-                            </div>
-
-                        </div>
-                        <div className="colorSection">
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-                <div className="productContainer">
-                    <div className="productContents">
-                        <img src={img1} alt="" className='image' />
-                        {/* over lay area  */}
-                        <div className="overlaySection">
-                            <div className="iconSection">
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-                                    className="heart"
-                                >
-                                    <p className='wishlist'>wishlist</p>
-                                    <AiOutlineHeart className='IconOverlay' color='black' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-
-                                    className="arrow">
-                                    <p className='compare'>compare</p>
-                                    <HiArrowsUpDown className='IconOverlay' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-
-                                    }}
-                                    className="eye">
-                                    <p className='quickView'>quickView</p>
-                                    <AiOutlineEye className='IconOverlay' size={35} />
-
-                                </motion.div>
-
-                            </div>
-                            {/* select option area  */}
-                            <motion.div className="selectOption"
-                                transition={{
-                                    duration: .5,
-                                    type: spring
-                                }}
-                                layout
-                                onClick={() => setShowCard(!showCard)}
-                            >
-
-                                <button >
-                                    <p className='selectOptionTitle'>
-                                        <span><HiOutlineArrowSmRight size={20} /></span>
-                                        Select options
-                                    </p>
-                                </button>
-
-                                {showCard && (
-                                    <motion.button className='sortP'
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                    >
-                                        32
-                                    </motion.button>
-                                )}
-
-
-                            </motion.div>
-
-
-
-
-                        </div>
-
-
-                    </div>
-                    <div className="productInfo">
-                        <div className="iconsField">
-                            <div className="iconsRating">
-
-                                <span className='hhh'><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-
-                            </div>
-                            <div className="numProduct">
-                                <p className='oneItem'>(1)</p>
-                            </div>
-                        </div>
-                        <div className="nameProduct">
-                            <h3 className='product_titles'>Long sleeve T-shirt</h3>
-                        </div>
-                        <div className="priceSection">
-                            <div className="pp">
-                                <p className='priceSubInfo'>$20.00</p>
-                                <p className='priceTitle'>Tk 2,200</p>
-
-                            </div>
-
-                        </div>
-                        <div className="colorSection">
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-                <div className="productContainer">
-                    <div className="productContents">
-                        <img src={img1} alt="" className='image' />
-                        {/* over lay area  */}
-                        <div className="overlaySection">
-                            <div className="iconSection">
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-                                    className="heart"
-                                >
-                                    <p className='wishlist'>wishlist</p>
-                                    <AiOutlineHeart className='IconOverlay' color='black' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-
-                                    className="arrow">
-                                    <p className='compare'>compare</p>
-                                    <HiArrowsUpDown className='IconOverlay' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-
-                                    }}
-                                    className="eye">
-                                    <p className='quickView'>quickView</p>
-                                    <AiOutlineEye className='IconOverlay' size={35} />
-
-                                </motion.div>
-
-                            </div>
-                            {/* select option area  */}
-                            <motion.div className="selectOption"
-                                transition={{
-                                    duration: .5,
-                                    type: spring
-                                }}
-                                layout
-                                onClick={() => setShowCard(!showCard)}
-                            >
-
-                                <button >
-                                    <p className='selectOptionTitle'>
-                                        <span><HiOutlineArrowSmRight size={20} /></span>
-                                        Select options
-                                    </p>
-                                </button>
-
-                                {showCard && (
-                                    <motion.button className='sortP'
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                    >
-                                        32
-                                    </motion.button>
-                                )}
-
-
-                            </motion.div>
-
-
-
-
-                        </div>
-
-
-                    </div>
-                    <div className="productInfo">
-                        <div className="iconsField">
-                            <div className="iconsRating">
-
-                                <span className='hhh'><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-
-                            </div>
-                            <div className="numProduct">
-                                <p className='oneItem'>(1)</p>
-                            </div>
-                        </div>
-                        <div className="nameProduct">
-                            <h3 className='product_titles'>Long sleeve T-shirt</h3>
-                        </div>
-                        <div className="priceSection">
-                            <div className="pp">
-                                <p className='priceSubInfo'>$20.00</p>
-                                <p className='priceTitle'>Tk 2,200</p>
-
-                            </div>
-
-                        </div>
-                        <div className="colorSection">
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
-                <div className="productContainer">
-                    <div className="productContents">
-                        <img src={img1} alt="" className='image' />
-                        {/* over lay area  */}
-                        <div className="overlaySection">
-                            <div className="iconSection">
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-                                    className="heart"
-                                >
-                                    <p className='wishlist'>wishlist</p>
-                                    <AiOutlineHeart className='IconOverlay' color='black' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-                                    }}
-
-                                    className="arrow">
-                                    <p className='compare'>compare</p>
-                                    <HiArrowsUpDown className='IconOverlay' size={35} />
-
-                                </motion.div>
-                                <motion.div
-                                    whileHover={{
-                                        scale: 1.2,
-
-                                    }}
-                                    className="eye">
-                                    <p className='quickView'>quickView</p>
-                                    <AiOutlineEye className='IconOverlay' size={35} />
-
-                                </motion.div>
-
-                            </div>
-                            {/* select option area  */}
-                            <motion.div className="selectOption"
-                                transition={{
-                                    duration: .5,
-                                    type: spring
-                                }}
-                                layout
-                                onClick={() => setShowCard(!showCard)}
-                            >
-
-                                <button >
-                                    <p className='selectOptionTitle'>
-                                        <span><HiOutlineArrowSmRight size={20} /></span>
-                                        Select options
-                                    </p>
-                                </button>
-
-                                {showCard && (
-                                    <motion.button className='sortP'
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                    >
-                                        32
-                                    </motion.button>
-                                )}
-
-
-                            </motion.div>
-
-
-
-
-                        </div>
-
-
-                    </div>
-                    <div className="productInfo">
-                        <div className="iconsField">
-                            <div className="iconsRating">
-
-                                <span className='hhh'><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-                                <span><AiFillStar size={15} color='orange' /></span>
-
-                            </div>
-                            <div className="numProduct">
-                                <p className='oneItem'>(1)</p>
-                            </div>
-                        </div>
-                        <div className="nameProduct">
-                            <h3 className='product_titles'>Long sleeve T-shirt</h3>
-                        </div>
-                        <div className="priceSection">
-                            <div className="pp">
-                                <p className='priceSubInfo'>$20.00</p>
-                                <p className='priceTitle'>Tk 2,200</p>
-
-                            </div>
-
-                        </div>
-                        <div className="colorSection">
-
-                        </div>
-
-
-
-                    </div>
-
-                </div>
 
             </div>
 
