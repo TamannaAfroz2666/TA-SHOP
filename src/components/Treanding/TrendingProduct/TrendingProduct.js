@@ -15,12 +15,17 @@ const TrendingProduct = () => {
     const [productsInfo, setProductsInfo] = useState(data.product);
     console.log('data is', productsInfo);
     const [showCard, setShowCard] = useState(false);
-    const [showCompare, setShowCompare] = useState(false);
+    const [fullscreen, setFullscreen] = useState(true);
+    const [show, setShow] = useState(false);
     const compareHandle = () => {
         console.log('here is compare');
-        setShowCompare(true);
+        setShow(true);
 
     }
+
+    const values = [true, 'sm-down', 'md-down', 'lg-down', 'xl-down', 'xxl-down'];
+    
+
 
     return (
         <div className='trendingProduct'>
@@ -60,31 +65,12 @@ const TrendingProduct = () => {
                                                 </button>
 
                                                 {/* modal add  */}
-                                                <Modal
-                                                    show={showCompare}
-                                                    onHide={() => setShowCompare(false)}
-                                                    dialogClassName="modal-90w"
-                                                    aria-labelledby="example-custom-modal-styling-title"
-                                                >
+                                                <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
                                                     <Modal.Header closeButton>
-                                                        <Modal.Title id="example-custom-modal-styling-title">
-                                                            Custom Modal Styling
-                                                        </Modal.Title>
+                                                        <Modal.Title>Modal</Modal.Title>
                                                     </Modal.Header>
-                                                    <Modal.Body>
-                                                        <p>
-                                                            Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
-                                                            commodi aspernatur enim, consectetur. Cumque deleniti temporibus
-                                                            ipsam atque a dolores quisquam quisquam adipisci possimus
-                                                            laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod
-                                                            accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia
-                                                            reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
-                                                            deleniti rem!
-                                                        </p>
-                                                    </Modal.Body>
+                                                    <Modal.Body>Modal body content</Modal.Body>
                                                 </Modal>
-
-
                                             </motion.div>
                                             <motion.div
                                                 whileHover={{
