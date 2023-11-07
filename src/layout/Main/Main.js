@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import BackgroundImage from '../../components/BackgroundImage/BackgroundImage';
 import NewArrivals from '../../components/NewArrivals/NewArrivals';
 import Trending from '../../components/Treanding/Trending';
+import ProductCategory from '../../components/ProductCategory/ProductCategory';
 
 const Main = () => {
     return (
@@ -12,6 +13,7 @@ const Main = () => {
             <BackgroundImage></BackgroundImage>
             <NewArrivals></NewArrivals>
             <Trending></Trending>
+            <ProductCategory></ProductCategory>
             
         </div>
     );
