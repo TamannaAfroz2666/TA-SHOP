@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './TrendingProduct.css';
-import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
+// import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
 import { AiOutlineHeart, AiOutlineEye, AiFillStar } from "react-icons/ai";
 import { HiArrowsUpDown } from "react-icons/hi2";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
@@ -8,12 +8,19 @@ import { motion, spring } from 'framer-motion';
 import { Link } from 'react-router-dom';
 // import { IconName } from "react-icons/ai";
 import data from '../../../Utilities/API/trendingProduct.json';
+// import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 const TrendingProduct = () => {
     const [productsInfo, setProductsInfo] = useState(data.product);
     console.log('data is', productsInfo);
-
     const [showCard, setShowCard] = useState(false);
+    const [showCompare, setShowCompare] = useState(false);
+    const compareHandle = () => {
+        console.log('here is compare');
+        setShowCompare(true);
+
+    }
 
     return (
         <div className='trendingProduct'>
@@ -45,7 +52,38 @@ const TrendingProduct = () => {
 
                                                 className="arrow">
                                                 <p className='compare'>compare</p>
-                                                <HiArrowsUpDown className='IconOverlay' size={35} />
+                                                <button className='btnCover'
+                                                    onClick={compareHandle}
+                                                >
+                                                    <HiArrowsUpDown className='IconOverlay' size={35} />
+
+                                                </button>
+
+                                                {/* modal add  */}
+                                                <Modal
+                                                    show={showCompare}
+                                                    onHide={() => setShowCompare(false)}
+                                                    dialogClassName="modal-90w"
+                                                    aria-labelledby="example-custom-modal-styling-title"
+                                                >
+                                                    <Modal.Header closeButton>
+                                                        <Modal.Title id="example-custom-modal-styling-title">
+                                                            Custom Modal Styling
+                                                        </Modal.Title>
+                                                    </Modal.Header>
+                                                    <Modal.Body>
+                                                        <p>
+                                                            Ipsum molestiae natus adipisci modi eligendi? Debitis amet quae unde
+                                                            commodi aspernatur enim, consectetur. Cumque deleniti temporibus
+                                                            ipsam atque a dolores quisquam quisquam adipisci possimus
+                                                            laboriosam. Quibusdam facilis doloribus debitis! Sit quasi quod
+                                                            accusamus eos quod. Ab quos consequuntur eaque quo rem! Mollitia
+                                                            reiciendis porro quo magni incidunt dolore amet atque facilis ipsum
+                                                            deleniti rem!
+                                                        </p>
+                                                    </Modal.Body>
+                                                </Modal>
+
 
                                             </motion.div>
                                             <motion.div

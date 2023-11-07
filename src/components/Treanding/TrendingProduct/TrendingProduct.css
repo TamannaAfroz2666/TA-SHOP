@@ -130,6 +130,13 @@
     position: relative;
     border-radius: 5px;
 }
+.iconSection button{
+    border: 0;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 100%;
+    /* background-color: ; */
+}
 
 
 /* icon end  */
