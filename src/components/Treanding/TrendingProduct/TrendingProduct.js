@@ -113,6 +113,9 @@ const TrendingProduct = () => {
                         </div>
                       
                     </div>
+                    <div className="colorSection">
+                        
+                    </div>
 
 
 
