@@ -11,7 +11,6 @@ import data from '../../../Utilities/API/trendingProduct.json';
 // import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
-
 const TrendingProduct = () => {
     const [productsInfo, setProductsInfo] = useState(data.product);
     console.log('data is', productsInfo);
@@ -23,15 +22,10 @@ const TrendingProduct = () => {
         setShow(true);
 
     }
-
     const values = [true, 'sm-down', 'md-down', 'lg-down', 'xl-down', 'xxl-down'];
-
-
-
     return (
         <div className='trendingProduct'>
             <div className="productBox">
-
                 {
                     productsInfo.slice(0, 8).map((product) => {
                         return (
@@ -55,7 +49,6 @@ const TrendingProduct = () => {
                                                 whileHover={{
                                                     scale: 1.2,
                                                 }}
-
                                                 className="arrow">
                                                 <p className='compare'>compare</p>
                                                 <button className='btnCover'
@@ -64,21 +57,18 @@ const TrendingProduct = () => {
                                                     <HiArrowsUpDown className='IconOverlay' size={35} />
 
                                                 </button>
-
                                                 {/* modal add  */}
                                                 <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
-                                                    <Modal.Header  className='modalHeader' closeButton  >
+                                                    <Modal.Header className='modalHeader' closeButton  >
                                                         <Modal.Title className='modalPTitle'>
                                                             <h1 className='modalTitle' >ta shop</h1>
                                                         </Modal.Title>
                                                     </Modal.Header>
-
-                                                 
                                                     <Modal.Body  >
                                                         <div className="modalBody">
                                                             <h1 className='to'> Modal body content</h1>
                                                         </div>
-                                                       
+
                                                     </Modal.Body>
                                                 </Modal>
 
@@ -121,15 +111,8 @@ const TrendingProduct = () => {
                                                 </motion.button>
                                             )}
 
-
                                         </motion.div>
-
-
-
-
                                     </div>
-
-
                                 </div>
                                 <div className="productInfo">
                                     <div className="iconsField">
@@ -164,9 +147,7 @@ const TrendingProduct = () => {
 
 
                                 </div>
-
                             </div>
-
                         )
                     })
                 }
