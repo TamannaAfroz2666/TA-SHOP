@@ -75,7 +75,7 @@ const TrendingProduct = () => {
 
                                                  
                                                     <Modal.Body  >
-                                                        <div className="modalBo">
+                                                        <div className="modalBody">
                                                             <h1 className='to'> Modal body content</h1>
                                                         </div>
                                                        
