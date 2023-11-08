@@ -9,7 +9,14 @@ import { Link } from 'react-router-dom';
 // import { IconName } from "react-icons/ai";
 import data from '../../../Utilities/API/trendingProduct.json';
 // import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+// import Modal from 'react-bootstrap/Modal';
+
+import Box from '@mui/material/Box';
+// import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
+
+
 
 const TrendingProduct = () => {
     const [productsInfo, setProductsInfo] = useState(data.product);
@@ -19,7 +26,7 @@ const TrendingProduct = () => {
 
     const [fullscreen, setFullscreen] = useState(true);
     const [show, setShow] = useState(false);
-    
+
     const compareHandle = () => {
         console.log('here is compare');
         setShow(true);
@@ -27,9 +34,17 @@ const TrendingProduct = () => {
     }
     const values = [true, 'sm-down', 'md-down', 'lg-down', 'xl-down', 'xxl-down'];
 
-    const selectHandle = () =>{
+    const selectHandle = () => {
         console.log('event call');
     }
+
+    // Quickview area 
+
+    const [open, setOpen] = React.useState(false);
+    const handleOpen = () => setOpen(true);
+    const handleClose = () => setOpen(false);
+   
+
     return (
         <div className='trendingProduct'>
             <div className="productBox">
@@ -65,7 +80,7 @@ const TrendingProduct = () => {
 
                                                 </button>
                                                 {/* modal add  */}
-                                                <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
+                                                {/* <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
                                                     <Modal.Header className='modalHeader' closeButton  >
                                                         <Modal.Title className='modalPTitle'>
                                                             <h1 className='modalTitle' >ta shop</h1>
@@ -77,7 +92,7 @@ const TrendingProduct = () => {
                                                         </div>
 
                                                     </Modal.Body>
-                                                </Modal>
+                                                </Modal> */}
 
                                             </motion.div>
                                             <motion.div
@@ -87,7 +102,32 @@ const TrendingProduct = () => {
                                                 }}
                                                 className="eye">
                                                 <p className='quickView'>quickView</p>
-                                                <AiOutlineEye className='IconOverlay' size={35} />
+
+                                                <button className='btnCover'
+                                                    onClick={handleOpen}
+                                                >
+                                                    <AiOutlineEye className='IconOverlay' size={35} />
+
+                                                </button>
+                                                {/* <AiOutlineEye className='IconOverlay' size={35} /> */}
+
+                                                {/* modal add start */}
+
+                                                <Modal
+                                                    open={open}
+                                                    onClose={handleClose}
+                                                    aria-labelledby="modal-modal-title"
+                                                    aria-describedby="modal-modal-description"
+                                                >
+                                                    <Box className='styleBox'>
+                                                        <Typography id="modal-modal-title" variant="h6" component="h2">
+                                                            Text in a modal
+                                                        </Typography>
+                                                        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                                                        </Typography>
+                                                    </Box>
+                                                </Modal>
 
                                             </motion.div>
 
@@ -102,7 +142,7 @@ const TrendingProduct = () => {
                                             onClick={() => setShowCard(!showCard)}
                                         >
 
-                                            <button  onClick={selectHandle}>
+                                            <button onClick={selectHandle}>
                                                 <p className='selectOptionTitle'>
                                                     <span><HiOutlineArrowSmRight size={20} /></span>
                                                     Select options
@@ -143,7 +183,7 @@ const TrendingProduct = () => {
                                         <div className="pp">
                                             <p className='priceSubInfo'> ${product.doller_convert}</p>
                                             <p className='priceTitle'>Tk {product.p_price}</p>
-                                         
+
 
 
                                         </div>
@@ -151,14 +191,14 @@ const TrendingProduct = () => {
                                     </div>
                                     <div className="colorSection">
                                         <div className="sectionColor">
-                                        <input className='colorField' type="color" id="head" name="head" value="#e66465" />
-                                    <input className='colorField' type="color" id="head" name="head" value="#00FFFF" />
-                                    <input className='colorField' type="color" id="head" name="head" value="#111" />
+                                            <input className='colorField' type="color" id="head" name="head" value="#e66465" />
+                                            <input className='colorField' type="color" id="head" name="head" value="#00FFFF" />
+                                            <input className='colorField' type="color" id="head" name="head" value="#111" />
 
                                         </div>
-                                  
-                                       
-                                   
+
+
+
 
                                     </div>
 

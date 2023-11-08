@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital@1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +20,8 @@
     /* border: 1px solid red; */
     /* position: absolute; */
 }
-.productBox{
+
+.productBox {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: auto;
@@ -131,7 +133,8 @@
     position: relative;
     border-radius: 5px;
 }
-.iconSection button{
+
+.iconSection button {
     border: 0;
     background-color: #fff;
     overflow: hidden;
@@ -248,7 +251,8 @@
 .priceTitle:hover {
     color: #111;
 }
-.pp:hover .priceSubInfo{
+
+.pp:hover .priceSubInfo {
     visibility: visible;
 }
 
@@ -256,39 +260,56 @@
 /* modal styling start  */
 
 
-.modalPTitle{
+.modalPTitle {
     width: 100%;
 }
-.modalTitle{
+
+.modalTitle {
     text-align: center;
     text-transform: uppercase;
-    color:#0dcaf0d8;
+    color: #0dcaf0d8;
     font-family: 'Pacifico';
     font-weight: 600;
     line-height: 50px;
 }
-.modalBody .to{
+
+.modalBody .to {
     /* font-size: 50px; */
     text-align: center;
 }
 
 
 
-.sectionColor{
+.sectionColor {
     display: flex;
     justify-content: center;
     gap: 4px;
 
 }
-.colorField{
+
+.colorField {
     border-radius: 100%;
     width: 20px;
     height: 20px;
     border: 0;
-   bottom: 3.5rem;
-   position: relative;
-    
+    bottom: 3.5rem;
+    position: relative;
+
 
 }
 
+/* modal of viewQuick styled  */
 
+.styleBox {
+    position: 'absolute';
+        top: '50%';
+        left: '50%';
+        transform: 'translate(-50%, -50%)';
+       
+      
+        border: '2px solid #000';
+        color: #f1f1f1;
+     
+       
+
+}
