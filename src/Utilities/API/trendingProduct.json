@@ -45,70 +45,220 @@
             "stok_product" : 0
         },
         {
-            "image": "/Images/Products/3.avif",
+            "id": 3,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/3.avif",
             "p_title" : "Drop-shoulder ",
             "p_price": "2,459.00",
             "doller_convert" : 20.00,
             "stok_product" : 2
         },
         {
-            "image": "/Images/Products/4.avif",
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "id": 4,
+            "default_image": "/Images/Products/4.avif",
             "p_title" : "Textured ",
             "p_price": "2,220.00",
             "doller_convert" : 21.00,
             "stok_product" : 4
         },
         {
-            "image": "/Images/Products/5.avif",
+            "id": 5,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/5.avif",
             "p_title" : "Short fit ",
             "p_price": "2,520.00",
             "doller_convert" : 21.00,
             "stok_product" : 1
         },
         {
-            "image": "/Images/Products/6.avif",
+            "id": 6,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/6.avif",
             "p_title" : "Embroidered ",
             "p_price": "8,220.00",
             "doller_convert" : 50.00,
             "stok_product" : 7
         },
         {
-            "image": "/Images/Products/7.avif",
+            "id": 7,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/7.avif",
             "p_title" : "Oversized printed ",
             "p_price": "4,220.00",
             "doller_convert" : 40.00,
             "stok_product" : 9
         },
         {
-            "image": "/Images/Products/8.avif",
+            "id": 8,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/8.avif",
             "p_title" : "Oversized ",
             "p_price": "3,220.00",
             "doller_convert" : 30.00,
             "stok_product" : 4
         },
         {
-            "image": "/Images/Products/9.avif",
+            "id": 9,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/9.avif",
             "p_title" : "Long sleeve ",
             "p_price": "1,220.00",
             "doller_convert" : 12.00,
             "stok_product" : 5
         },
         {
-            "image": "/Images/Products/10.avif",
+            "id": 10,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/10.avif",
             "p_title" : "Oversized sweat",
             "p_price": "2,020.00",
             "doller_convert" : 20.00,
             "stok_product" : 1
         },
         {
-            "image": "/Images/Products/11.avif",
+            "id": 11,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/11.avif",
             "p_title" : "Short fit ",
             "p_price": "2,220.00",
             "doller_convert" : 22.00,
             "stok_product" : 2
         },
         {
-            "image": "/Images/Products/12.avif",
+            "id": 12,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/12.avif",
             "p_title" : "Long sleeve ",
             "p_price": "2,120.00",
             "doller_convert" : 21.00,
