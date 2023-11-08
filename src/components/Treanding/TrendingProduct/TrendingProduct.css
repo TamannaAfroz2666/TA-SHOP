@@ -15,7 +15,7 @@
     width: 96%;
     margin: auto;
     overflow: hidden;
-    height: 540px;
+    height: 690px;
     /* border: 1px solid red; */
     /* position: absolute; */
 }
@@ -270,6 +270,25 @@
 .modalBody .to{
     /* font-size: 50px; */
     text-align: center;
+}
+
+
+
+.sectionColor{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+
+}
+.colorField{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border: 0;
+   bottom: 3.5rem;
+   position: relative;
+    
+
 }
 
 

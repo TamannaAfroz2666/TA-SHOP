@@ -15,14 +15,21 @@ const TrendingProduct = () => {
     const [productsInfo, setProductsInfo] = useState(data.product);
     console.log('data is', productsInfo);
     const [showCard, setShowCard] = useState(false);
+
+
     const [fullscreen, setFullscreen] = useState(true);
     const [show, setShow] = useState(false);
+    
     const compareHandle = () => {
         console.log('here is compare');
         setShow(true);
 
     }
     const values = [true, 'sm-down', 'md-down', 'lg-down', 'xl-down', 'xxl-down'];
+
+    const selectHandle = () =>{
+        console.log('event call');
+    }
     return (
         <div className='trendingProduct'>
             <div className="productBox">
@@ -31,7 +38,7 @@ const TrendingProduct = () => {
                         return (
                             <div className="productContainer">
                                 <div className="productContents">
-                                    <img src={product.image} alt="" className='image' />
+                                    <img src={product.default_image} alt="" className='image' />
                                     {/* over lay area  */}
                                     <div className="overlaySection">
                                         <div className="iconSection">
@@ -95,7 +102,7 @@ const TrendingProduct = () => {
                                             onClick={() => setShowCard(!showCard)}
                                         >
 
-                                            <button >
+                                            <button  onClick={selectHandle}>
                                                 <p className='selectOptionTitle'>
                                                     <span><HiOutlineArrowSmRight size={20} /></span>
                                                     Select options
@@ -136,11 +143,22 @@ const TrendingProduct = () => {
                                         <div className="pp">
                                             <p className='priceSubInfo'> ${product.doller_convert}</p>
                                             <p className='priceTitle'>Tk {product.p_price}</p>
+                                         
+
 
                                         </div>
 
                                     </div>
                                     <div className="colorSection">
+                                        <div className="sectionColor">
+                                        <input className='colorField' type="color" id="head" name="head" value="#e66465" />
+                                    <input className='colorField' type="color" id="head" name="head" value="#00FFFF" />
+                                    <input className='colorField' type="color" id="head" name="head" value="#111" />
+
+                                        </div>
+                                  
+                                       
+                                   
 
                                     </div>
 

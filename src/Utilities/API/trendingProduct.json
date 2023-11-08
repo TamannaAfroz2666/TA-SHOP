@@ -1,14 +1,44 @@
 {
     "product": [
         {
-            "image": "/Images/Products/11.avif",
+            "id": 1,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/11.avif",
             "p_title" : "Long sleeve dress",
             "p_price": "2,220.00",
-            "doller_convert" : 20.00,
-            "stok_product" : 1
+            "dollar_convert" : 20.00,
+            "stock_product" : 1
         },
         {
-            "image": "/Images/Products/2.avif",
+            "id": 2,
+            "color": [
+                {
+                    "color_code": "000", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "fff", 
+                    "image": "/Images/Products/11.avif"
+                },
+                {
+                    "color_code": "111", 
+                    "image": "/Images/Products/11.avif"
+                }
+            ],
+            "default_image": "/Images/Products/2.avif",
             "p_title" : "Long sleeve asymmetric ",
             "p_price": "2,820.00",
             "doller_convert" : 30.00,
