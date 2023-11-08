@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './TrendingProduct.css';
-// import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
+import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
 import { AiOutlineHeart, AiOutlineEye, AiFillStar } from "react-icons/ai";
 import { HiArrowsUpDown } from "react-icons/hi2";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
@@ -43,7 +43,7 @@ const TrendingProduct = () => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-   
+
 
     return (
         <div className='trendingProduct'>
@@ -114,17 +114,29 @@ const TrendingProduct = () => {
                                                 {/* modal add start */}
 
                                                 <Modal
+                                                className='modalArea1'
                                                     open={open}
                                                     onClose={handleClose}
                                                     aria-labelledby="modal-modal-title"
                                                     aria-describedby="modal-modal-description"
                                                 >
                                                     <Box className='styleBox'>
-                                                        <Typography id="modal-modal-title" variant="h6" component="h2">
+                                                        {/* <Typography id="modal-modal-title" variant="h6" component="h2">
                                                             Text in a modal
-                                                        </Typography>
+                                                        </Typography> */}
                                                         <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                                                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+                                                            <div className="quickViewContent">
+                                                                <div className="imageView">
+                                                                    <img src={img1} alt="" />
+
+                                                                </div>
+                                                                <div className="infoView">
+
+                                                                </div>
+
+                                                            </div>
+
+
                                                         </Typography>
                                                     </Box>
                                                 </Modal>
