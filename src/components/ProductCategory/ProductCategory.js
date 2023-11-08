@@ -18,7 +18,18 @@ const ProductCategory = () => {
                     </div>
 
                     <div className="productCateContents">
-                       
+                       <div className="bedRoom">
+
+                       </div>
+                       <div className="decor">
+
+                       </div>
+                       <div className="livingRoom">
+
+                       </div>
+                       <div className="office">
+
+                       </div> 
 
 
                     </div>
