@@ -121,9 +121,7 @@ const TrendingProduct = () => {
                                                     aria-describedby="modal-modal-description"
                                                 >
                                                     <Box className='styleBox'>
-                                                        {/* <Typography id="modal-modal-title" variant="h6" component="h2">
-                                                            Text in a modal
-                                                        </Typography> */}
+                                                       
                                                         <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                                                             <div className="quickViewContent">
                                                                 <div className="imageView">
@@ -131,6 +129,7 @@ const TrendingProduct = () => {
 
                                                                 </div>
                                                                 <div className="infoView">
+                                                                    
 
                                                                 </div>
 
