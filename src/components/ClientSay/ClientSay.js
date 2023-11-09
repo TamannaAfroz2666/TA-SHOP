@@ -24,7 +24,17 @@ const ClientSay = () => {
                             <AiFillStar className='iconClient' size={20} color='orange' />
 
                         </div>
-                        <p></p>
+                        <p>"Very cute dress and fun color. I am also very impressed by the quality of the linen. Excited to ware this dress in the summer !"</p>
+                        <p>Makes me Happy</p>
+                        <hr />
+                        <div className="clientInfo">
+                            <div className="clientImg">
+
+                            </div>
+                            <div className="clientName">
+
+                            </div>
+                        </div>
 
                     </div>
                     <div className="block2">

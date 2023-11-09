@@ -35,5 +35,8 @@
     display: inline-flex;
     gap: 5px;
 }
+.clientInfo{
+    display: flex;
+}
 
   
