@@ -4,15 +4,15 @@
             "id": 1,
             "color": [
                 {
-                    "color_code": "000", 
+                    "color_code": "#00FF00", 
                     "image": "/Images/Products/11.avif"
                 },
                 {
-                    "color_code": "fff", 
+                    "color_code": "#0000FF", 
                     "image": "/Images/Products/11.avif"
                 },
                 {
-                    "color_code": "111", 
+                    "color_code": "#00FFFF", 
                     "image": "/Images/Products/11.avif"
                 }
             ],
@@ -27,15 +27,15 @@
             "id": 2,
             "color": [
                 {
-                    "color_code": "000", 
+                    "color_code": "#000", 
                     "image": "/Images/Products/11.avif"
                 },
                 {
-                    "color_code": "fff", 
+                    "color_code": "#fff", 
                     "image": "/Images/Products/11.avif"
                 },
                 {
-                    "color_code": "111", 
+                    "color_code": "#111", 
                     "image": "/Images/Products/11.avif"
                 }
             ],
@@ -50,15 +50,15 @@
             "id": 3,
             "color": [
                 {
-                    "color_code": "000", 
+                    "color_code": "#000", 
                     "image": "/Images/Products/11.avif"
                 },
                 {
-                    "color_code": "fff", 
+                    "color_code": "red", 
                     "image": "/Images/Products/11.avif"
                 },
                 {
-                    "color_code": "111", 
+                    "color_code": "blue", 
                     "image": "/Images/Products/11.avif"
                 }
             ],

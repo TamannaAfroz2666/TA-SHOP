@@ -20,6 +20,7 @@ import Modal from '@mui/material/Modal';
 
 const TrendingProduct = () => {
     const [productsInfo, setProductsInfo] = useState(data.product);
+
     console.log('data is', productsInfo);
     const [showCard, setShowCard] = useState(false);
 
@@ -207,11 +208,17 @@ const TrendingProduct = () => {
                                             {
                                                 product.color.map((product_color) => {
                                                     return (
+                                                        // <label class="Black" data-index="option1" title="Black" data-variant="Black"
+                                                        
+                                                        // >
+                                                        //     Black
+                                                        //     <span>Black</span>
+                                                        // </label>
                                                         <input className='colorField' type="color" id="head" name="head" value={product_color.color_code} />                                             
 
-                                            )
-                                            })  
-                                        }
+                                                    )
+                                                })
+                                            }
 
 
 
