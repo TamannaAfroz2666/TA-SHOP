@@ -26,3 +26,19 @@
     font-family: 'Roboto Slab';
     letter-spacing: 1px;
 }
+.chooseUsHead .shopTitle{
+    text-align: center;
+    color: #ffffffce;
+    line-height: 20px;
+    padding-top: .3rem;
+}
+.chooseUsHead .instaId{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffffea;
+    bottom: 1rem;
+    position: relative;
+    letter-spacing: 1px;
+    padding: 0 0 3rem 0;
+    
+}
