@@ -53,8 +53,9 @@ const TrendingProduct = () => {
                         return (
                             <div className="productContainer">
                                 <div className="productContents">
-                                    
-                                    <img src={product.default_image} alt="" className='image' />
+                                    <a href={"/product/" + product.slug_field}>
+                                        <img src={product.default_image} alt="" className='image' />
+                                    </a>
                                     {/* over lay area  */}
                                     <div className="overlaySection">
                                         <div className="iconSection">
@@ -115,14 +116,14 @@ const TrendingProduct = () => {
                                                 {/* modal add start */}
 
                                                 <Modal
-                                                className='modalArea1'
+                                                    className='modalArea1'
                                                     open={open}
                                                     onClose={handleClose}
                                                     aria-labelledby="modal-modal-title"
                                                     aria-describedby="modal-modal-description"
                                                 >
                                                     <Box className='styleBox'>
-                                                       
+
                                                         <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                                                             <div className="quickViewContent">
                                                                 <div className="imageView">
@@ -130,7 +131,7 @@ const TrendingProduct = () => {
 
                                                                 </div>
                                                                 <div className="infoView">
-                                                                    
+
 
                                                                 </div>
 
@@ -203,15 +204,21 @@ const TrendingProduct = () => {
                                     </div>
                                     <div className="colorSection">
                                         <div className="sectionColor">
-                                            <input className='colorField' type="color" id="head" name="head" value="#e66465" />
-                                            <input className='colorField' type="color" id="head" name="head" value="#00FFFF" />
-                                            <input className='colorField' type="color" id="head" name="head" value="#111" />
+                                            {
+                                                product.color.map((product_color) => {
+                                                    return (
+                                                        <input className='colorField' type="color" id="head" name="head" value={product_color.color_code} />                                             
+
+                                            )
+                                            })  
+                                        }
+
+
+
+
+
 
                                         </div>
-
-
-
-
                                     </div>
 
 
