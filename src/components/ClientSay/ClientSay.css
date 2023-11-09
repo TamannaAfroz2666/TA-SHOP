@@ -31,5 +31,9 @@
     display: flex;
     gap: 1rem;
 }
+.startIcon{
+    display: inline-flex;
+    gap: 5px;
+}
 
   

@@ -4,6 +4,7 @@ import img1 from '../../assets/Image/Clients/Pic1.jpg'
 import img2 from '../../assets/Image/Clients/pic2.jpg'
 import img3 from '../../assets/Image/Clients/pic3.jpg'
 import img4 from '../../assets/Image/Clients/pic4.jpg'
+import { AiFillStar } from "react-icons/ai";
 
 const ClientSay = () => {
 
@@ -15,6 +16,15 @@ const ClientSay = () => {
                 </div>
                 <div className="clientContents">
                     <div className="block1">
+                        <div className="startIcon">
+                            <AiFillStar className='iconClient' size={20} color='orange' />
+                            <AiFillStar className='iconClient' size={20} color='orange' />
+                            <AiFillStar className='iconClient' size={20} color='orange' />
+                            <AiFillStar className='iconClient' size={20} color='orange' />
+                            <AiFillStar className='iconClient' size={20} color='orange' />
+
+                        </div>
+                        <p></p>
 
                     </div>
                     <div className="block2">
