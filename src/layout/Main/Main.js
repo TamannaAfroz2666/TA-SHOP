@@ -17,7 +17,7 @@ const Main = () => {
             <Trending></Trending>
             <ProductCategory></ProductCategory>
             <SpringCollection></SpringCollection>
-            {/* <ClientSay></ClientSay> */}
+            <ClientSay></ClientSay>
             
         </div>
     );
