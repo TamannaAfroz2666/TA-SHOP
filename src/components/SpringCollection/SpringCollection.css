@@ -11,3 +11,28 @@
     width: 96%;
     margin: auto;
 }
+.imgSpring{
+    display: flex;
+}
+.imge1{
+    width: 690px;
+    height: 400px;
+}
+.fff1 {
+    width: 200px;
+    height: 400px;
+   
+}
+.fff1:hover{
+    width: 200px;
+
+}
+.fff2 {
+    width: 500px;
+    height: 400px;
+   
+}
+
+/* .imge1:hover{
+    width: 600px;
+} */

@@ -6,6 +6,7 @@ import NewArrivals from '../../components/NewArrivals/NewArrivals';
 import Trending from '../../components/Treanding/Trending';
 import ProductCategory from '../../components/ProductCategory/ProductCategory';
 import ClientSay from '../../components/ClientSay/ClientSay';
+import SpringCollection from '../../components/SpringCollection/SpringCollection';
 
 const Main = () => {
     return (
@@ -15,7 +16,8 @@ const Main = () => {
             <NewArrivals></NewArrivals>
             <Trending></Trending>
             <ProductCategory></ProductCategory>
-            <ClientSay></ClientSay>
+            <SpringCollection></SpringCollection>
+            {/* <ClientSay></ClientSay> */}
             
         </div>
     );
