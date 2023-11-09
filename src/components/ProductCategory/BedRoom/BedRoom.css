@@ -3,3 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.bed_room{
+    height: 100%;
+    width: 100%;
+}
+.sub_bedRoom img{
+    width: 300px;
+    height: 300px;
+
+}
