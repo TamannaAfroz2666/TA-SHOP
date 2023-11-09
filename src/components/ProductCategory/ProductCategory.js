@@ -4,6 +4,7 @@ import BedRoom from './BedRoom/BedRoom';
 import Decor from './Decor/Decor';
 import LivingRoom from './LivingRoom/LivingRoom';
 import Office from './Office/Office';
+import { motion } from 'framer-motion';
 
 
 
@@ -22,9 +23,11 @@ const ProductCategory = () => {
                     </div>
 
                     <div className="productCateContents">
-                       <div className="bedRoom">
+                       <motion.div
+                    //    whileHover={{scale: 1.01}}
+                        className="bedRoom">
                         <BedRoom></BedRoom>
-                       </div>
+                       </motion.div>
                        <div className="decor">
                         <Decor></Decor>
 

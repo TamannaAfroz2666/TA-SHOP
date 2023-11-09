@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './BedRoom.css';
-
+import { motion } from 'framer-motion';
 import result from '../../../Utilities/API/category.json'
 
 
@@ -10,13 +10,18 @@ const BedRoom = () => {
     return (
         <div className='bed_room'>
             <a href="product-category/bedroom/">
-                <div className="sub_bedRoom">
-                    <img src={info.image} alt="" />
+                <motion.div 
+                 whileHover={{scale:1.051}}
+                 className="sub_bedRoom">
+                    <motion.img
+                    
+
+                     src={info.image} alt="" />
                     <div className="info_bed">
                         <p className='title_bed'>{info.name}</p>
                         <p className='count_bed'>{info.total_product} products</p>
                     </div>
-                </div>
+                </motion.div>
             </a>
 
 

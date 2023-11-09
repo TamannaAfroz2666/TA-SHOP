@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Decor.css';
-// import img from '../../../assets/Image/category/decore.jpg'
+import { motion } from 'framer-motion';
 import result  from '../../../Utilities/API/category.json'
 
 const Decor = () => {
@@ -8,13 +8,15 @@ const Decor = () => {
     return (
         <div className='decorContainer'>
             <a href="product-category/decore/">
-                <div className="decorSub">
+                <motion.div
+                whileHover={{scale: 1.051}}
+                 className="decorSub">
                     <img src={info.image} alt="" />
                     <div className="decorInfo">
                     <p className='title_decor'>{info.name}</p>
                         <p className='count_decor'>{info.total_product} products</p>
                     </div>
-                </div>
+                </motion.div>
             </a>
             
         </div>

@@ -39,10 +39,11 @@
     width: 50px;
     margin-top: 1.5rem;
     margin-left: 47%;
+    color: #fff;
 }
 .productCateContents{
     display: flex;
     gap: 30px;
-    margin-top: 2rem;
+    margin-top: 3rem;
 
 }
