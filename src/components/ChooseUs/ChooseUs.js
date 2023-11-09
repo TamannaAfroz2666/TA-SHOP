@@ -18,15 +18,15 @@ const ChooseUs = () => {
                 <div className="chooseContainer">
                     <div className="productContent">
                         <a href="/gents-collection">
-                    <img src={img1} alt="" className='image' /></a>
+                    <img src={img1} alt="" className='image22' /></a>
                     <a href="/ladies-collection">
-                    <img src={img2} alt="" className='image1'/></a>
+                    <img src={img2} alt="" className='image22'/></a>
                     <a href="/kids-collection">
-                    <img src={img3} alt="" className='image1'/></a>
+                    <img src={img3} alt="" className='image22'/></a>
                     <a href="/accessories-collection">
-                    <img src={img4} alt="" className='image1'/></a>
+                    <img src={img4} alt="" className='image22'/></a>
                     <a href="/watch-collection">
-                    <img src={img5} alt="" className='image1' /></a>
+                    <img src={img5} alt="" className='image22' /></a>
                     {/* <div className="overlayImage">
                      
 

@@ -52,28 +52,15 @@
 }
 
 .chooseContainer {
-    /* margin: 3rem 0; */
-
     padding: 0 0 0rem 0;
-
-    /* display: block; */
-
 }
 
-.image {
-    width: 250px;
+.image22 {
+    width: 240px;
     height: 250px;
     border-radius: 10px;
-
-
 }
 
-.image1 {
-    width: 250px;
-    height: 250px;
-    border-radius: 10px;
-
-}
 
 .productContent {
     position: relative;
@@ -86,11 +73,8 @@
     text-decoration: none;
 }
 
-.image:hover {
+.image22:hover {
     opacity: .5;
 
 }
 
-.image1:hover {
-    opacity: .5;
-}
