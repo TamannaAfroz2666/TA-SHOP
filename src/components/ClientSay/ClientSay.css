@@ -40,6 +40,11 @@
     height: 320px;
     display: block;
     background-color: #11111163;
+    opacity: .2;
+}
+.block1:hover{
+    opacity: 1;
+    transform: scale(1.01);
 }
 .block1 .startIcon{
     margin: 1rem;
