@@ -77,7 +77,7 @@
 
 .iconSection .IconOverlay {
     padding: 8px;
-    background-color: #f1f1f1;
+    background-color: #fff;
     border-radius: 100%;
     /* bottom: 1rem;
     position: relative; */
@@ -207,7 +207,7 @@
 
 .numProduct .oneItem {
     font-size: 12px;
-    color: #111111b9;
+    color: #f1f1f1;
     margin-top: .23rem;
 }
 
@@ -216,6 +216,7 @@
     text-align: center;
     bottom: .5rem;
     position: relative;
+    color: #ffffffee;
 
 }
 
@@ -245,11 +246,11 @@
     font-weight: 600;
     bottom: 3rem;
     position: relative;
-    color: red;
+    color: #fff;
 }
 
 .priceTitle:hover {
-    color: #111;
+    color: #0dcaf0;
 }
 
 .pp:hover .priceSubInfo {

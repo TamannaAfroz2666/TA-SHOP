@@ -19,16 +19,16 @@
 }
 
 .trendingBody .trendTitle {
-  color: gray;
+  color: #fff;
   font-size: 40px;
   font-weight: 500;
   line-height: 20px;
   padding-left: 1rem;
 }
 
-.trendingSort {
-  color: #111;
-}
+/* .trendingSort {
+  color: #fff;
+} */
 
 .downArrow {
   right: 1rem;
@@ -101,7 +101,7 @@
 .showMorePro .showAllTitle{
   font-size: 16px;
   margin-left: 5.8rem;
-  color: #111111e0;
+  color: #fff;
   font-weight: 700;
 
 }

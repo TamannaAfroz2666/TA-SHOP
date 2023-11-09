@@ -6,7 +6,7 @@ import Main from './layout/Main/Main';
 
 function App() {
   return (
-    <div >
+    <div className='app'>
       <Routes>
         <Route path='/' element={ <Main /> }/>
 
