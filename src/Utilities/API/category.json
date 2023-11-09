@@ -1,0 +1,22 @@
+{
+    "decor":{
+        "id": 1,
+        "name": "decor",
+        "total-product": 6
+    },
+    "livingRoom":{
+        "id": 2,
+        "name": "living room",
+        "total-product": 7
+    },
+    "office":{
+        "id": 3,
+        "name": "office",
+        "total-product": 6
+    },
+    "bedRoom":{
+        "id": 4,
+        "name": "bedRoom",
+        "total-product": 9
+    }
+}

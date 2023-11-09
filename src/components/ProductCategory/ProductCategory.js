@@ -1,6 +1,9 @@
 import React from 'react';
 import './ProductCategory.css';
 import BedRoom from './BedRoom/BedRoom';
+import Decor from './Decor/Decor';
+import LivingRoom from './LivingRoom/LivingRoom';
+import Office from './Office/Office';
 
 
 
@@ -23,12 +26,15 @@ const ProductCategory = () => {
                         <BedRoom></BedRoom>
                        </div>
                        <div className="decor">
+                        <Decor></Decor>
 
                        </div>
                        <div className="livingRoom">
+                        <LivingRoom></LivingRoom>
 
                        </div>
                        <div className="office">
+                        <Office></Office>
 
                        </div> 
 

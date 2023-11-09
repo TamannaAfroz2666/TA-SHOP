@@ -40,3 +40,9 @@
     margin-top: 1.5rem;
     margin-left: 47%;
 }
+.productCateContents{
+    display: flex;
+    gap: 30px;
+    margin-top: 2rem;
+
+}
