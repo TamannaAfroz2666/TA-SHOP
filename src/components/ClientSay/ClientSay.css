@@ -13,7 +13,7 @@
     margin: auto;
 }
 .clientContainer{
-    padding: 0 0 4rem 0;
+    padding: 3rem 0 6rem 0;
 }
 .clientTitleContent{
     width: 100%;
@@ -30,7 +30,7 @@
 
 }
 .clientContents{
-    margin-top: 3rem ;
+    margin-top: 6rem ;
     display: flex;
     gap: 1rem;
 }
@@ -40,7 +40,7 @@
     height: 320px;
     display: block;
     background-color: #11111163;
-    opacity: .2;
+    opacity: .3;
 }
 .block1:hover{
     opacity: 1;

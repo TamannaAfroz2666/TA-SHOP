@@ -7,6 +7,7 @@ import Trending from '../../components/Treanding/Trending';
 import ProductCategory from '../../components/ProductCategory/ProductCategory';
 import ClientSay from '../../components/ClientSay/ClientSay';
 import SpringCollection from '../../components/SpringCollection/SpringCollection';
+import ChooseUs from '../../components/ChooseUs/ChooseUs';
 
 const Main = () => {
     return (
@@ -18,6 +19,7 @@ const Main = () => {
             <ProductCategory></ProductCategory>
             <SpringCollection></SpringCollection>
             <ClientSay></ClientSay>
+            <ChooseUs></ChooseUs>
             
         </div>
     );
