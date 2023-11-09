@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.springCollection{
+    width: 100%;
+    height: 100%;
+}
+.springCollSub{
+    width: 96%;
+    margin: auto;
+}
