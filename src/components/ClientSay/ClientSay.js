@@ -11,6 +11,7 @@ const ClientSay = () => {
     return (
         <div className='clientSay'>
             <div className="clientSub">
+                <div className="clientContainer">
                 <div className="clientTitleContent">
                     <h5 className='ClientTitle'>from the people</h5>
                 </div>
@@ -26,15 +27,13 @@ const ClientSay = () => {
                         </div>
                         <p className='clientDes'>"Very cute dress and fun color. I am also very impressed by the quality of the linen. Excited to ware this dress in the summer !"</p>
                         <p className='client_title'>Makes me Happy</p>
-                        <hr />
+                        <hr className='clientHrSort'/>
                         <div className="clientInfo">
                             <div className="clientImg">
                                 <img src={img1} alt="" />
-
                             </div>
                             <div className="clientName">
-                                <p>Moi Holand</p>
-
+                                <p className='clientNameTitle'>Moi Holand</p>
                             </div>
                         </div>
 
@@ -50,6 +49,9 @@ const ClientSay = () => {
                     </div>
 
                 </div>
+
+                </div>
+                
 
 
 
