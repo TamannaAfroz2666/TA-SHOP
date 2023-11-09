@@ -26,5 +26,10 @@
     letter-spacing: 1px;
 
 }
+.clientContents{
+    margin-top: 3rem ;
+    display: flex;
+    gap: 1rem;
+}
 
   
