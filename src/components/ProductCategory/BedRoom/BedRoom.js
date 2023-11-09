@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './BedRoom.css';
-import image from '../../../assets/Image/category/bedroom.jpg'
+
+import result from '../../../Utilities/API/category.json'
+
 
 const BedRoom = () => {
+    const [info, setInfo] = useState(result.bedRoom)
+    console.log('bed room data ', info);
     return (
         <div className='bed_room'>
             <a href="product-category/bedroom/">
                 <div className="sub_bedRoom">
-                    <img src={image} alt="" />
+                    <img src={info.image} alt="" />
                     <div className="info_bed">
-                        <p className='title_bed'>bedroom</p>
-                        <p className='count_bed'>6 products</p>
+                        <p className='title_bed'>{info.name}</p>
+                        <p className='count_bed'>{info.total_product} products</p>
                     </div>
                 </div>
             </a>

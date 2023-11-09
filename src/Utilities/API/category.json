@@ -2,21 +2,25 @@
     "decor":{
         "id": 1,
         "name": "decor",
-        "total-product": 6
+        "image": "/Images/Category/decore.jpg",
+        "total_product": 6
     },
     "livingRoom":{
         "id": 2,
         "name": "living room",
-        "total-product": 7
+        "image": "/Images/Category/livingRoom.jpg",
+        "total_product": 7
     },
     "office":{
         "id": 3,
         "name": "office",
-        "total-product": 6
+        "image": "/Images/Category/office.jpg",
+        "total_product": 6
     },
     "bedRoom":{
         "id": 4,
         "name": "bedRoom",
-        "total-product": 9
+        "image": "/Images/Category/bedroom.jpg",
+        "total_product": 9
     }
 }

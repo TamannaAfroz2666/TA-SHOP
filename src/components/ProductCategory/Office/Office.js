@@ -1,16 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Office.css';
-import img from '../../../assets/Image/category/office.jpg';
+import result from '../../../Utilities/API/category.json';
 
 const Office = () => {
+    const [info, setInfo] =useState (result.office);
     return (
         <div className='office_main'>
             <a href="/product-category/office/">
                 <div className="officeSub">
-                    <img src={img} alt="" />
+                    <img src={info.image} alt="" />
                     <div className="office_info">
-                    <p className='title_office'>bedroom</p>
-                        <p className='count_office'>6 products</p>
+                    <p className='title_office'>{info.name}</p>
+                        <p className='count_office'>{info.total_product} products</p>
                     </div>
                 </div>
 

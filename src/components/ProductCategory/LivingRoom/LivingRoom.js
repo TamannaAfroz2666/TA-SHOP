@@ -1,16 +1,17 @@
 import React from 'react';
 import './LivingRoom.css';
-import img from '../../../assets/Image/category/livingRoom.jpg';
+import result from '../../../Utilities/API/category.json'
 
 const LivingRoom = () => {
+
     return (
         <div className='livingRoomHead'>
             <a href="product-category/living-room/">
                 <div className="livingSub">
-                    <img src={img} alt="" />
+                    <img src={result.livingRoom.image} alt="" />
                     <div className="livingInfo">
-                        <p className='title_living'>bedroom</p>
-                        <p className='count_living'>6 products</p>
+                        <p className='title_living'>{result.livingRoom.name}</p>
+                        <p className='count_living'>{result.livingRoom.total_product} products</p>
                     </div>
                 </div>
             </a>
