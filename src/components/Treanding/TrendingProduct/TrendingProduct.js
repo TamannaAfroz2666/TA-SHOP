@@ -53,6 +53,7 @@ const TrendingProduct = () => {
                         return (
                             <div className="productContainer">
                                 <div className="productContents">
+                                    
                                     <img src={product.default_image} alt="" className='image' />
                                     {/* over lay area  */}
                                     <div className="overlaySection">

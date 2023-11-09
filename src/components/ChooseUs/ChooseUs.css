@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto+Slab&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.chooseUs{
+
+.chooseUs {
     height: 100%;
     width: 100%;
 }
-.chooseHead{
+
+.chooseHead {
     width: 96%;
     margin: auto;
+
 }
-.chooseUsHead{
+
+.chooseUsHead {
     width: 100%;
 }
-.chooseUsHead .instagramTitle{
+
+.chooseUsHead .instagramTitle {
     font-size: 25px;
     color: #ffffffea;
     font-weight: 500;
@@ -26,13 +32,15 @@
     font-family: 'Roboto Slab';
     letter-spacing: 1px;
 }
-.chooseUsHead .shopTitle{
+
+.chooseUsHead .shopTitle {
     text-align: center;
     color: #ffffffce;
     line-height: 20px;
     padding-top: .3rem;
 }
-.chooseUsHead .instaId{
+
+.chooseUsHead .instaId {
     text-align: center;
     font-size: 16px;
     color: #ffffffea;
@@ -40,5 +48,49 @@
     position: relative;
     letter-spacing: 1px;
     padding: 0 0 3rem 0;
-    
+
+}
+
+.chooseContainer {
+    /* margin: 3rem 0; */
+
+    padding: 0 0 0rem 0;
+
+    /* display: block; */
+
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+
+
+}
+
+.image1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.productContent {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding: 0 0 5rem 0;
+}
+
+.productContent a {
+    text-decoration: none;
+}
+
+.image:hover {
+    opacity: .5;
+
+}
+
+.image1:hover {
+    opacity: .5;
 }
