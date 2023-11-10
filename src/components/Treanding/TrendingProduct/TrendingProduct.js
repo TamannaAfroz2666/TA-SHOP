@@ -214,8 +214,7 @@ const TrendingProduct = () => {
                                                         //     Black
                                                         //     <span>Black</span>
                                                         // </label>
-                                                        <input className='colorField' type="color" id="head" name="head" value={product_color.color_code} />                                             
-
+                                                        <input className='colorField' type="color" id="head" name="head" value={product_color.color_code} />                                            
                                                     )
                                                 })
                                             }
