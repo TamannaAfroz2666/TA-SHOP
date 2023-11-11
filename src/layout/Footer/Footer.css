@@ -104,3 +104,19 @@
 .cateFooterTitle:hover{
     color: #ffffffbe;
 }
+
+/* subscribe phase  */
+
+.subscribeFooter{
+    margin-top: 5rem;
+}
+.footerSubsTitle{
+    color: #ffffffbe;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab';
+    padding: 0 0rem 0 1.9rem;
+
+}

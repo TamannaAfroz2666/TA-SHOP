@@ -47,6 +47,17 @@ const Footer = () => {
                             </ul>
 
                         </div>
+                        <div className="subscribeFooter">
+                        <h3 className='footerSubsTitle'>subscribe</h3>
+                        <div className="messageFooter">
+                            <form action="">
+                            <input type="email" className='footerInput' value='' placeholder='your email address' />
+                            <button className='subscribeBtn'>subscribe</button>
+                            </form>
+                        </div>
+                        
+
+                        </div>
                     </div>
                 </div>
 
