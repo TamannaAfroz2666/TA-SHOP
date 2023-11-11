@@ -1,6 +1,10 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { FaFacebookF } from "react-icons/fa";
+import { AiFillYoutube, AiOutlineTwitter } from "react-icons/ai";
+import { FaInstagram } from "react-icons/fa6";
+
 
 const Footer = () => {
     return (
@@ -52,7 +56,7 @@ const Footer = () => {
 
                             <form action="" className='formFooter'>
                                 <div className="messageFooter">
-                                    <input type="email" className='footerInput'  placeholder='your email address' />
+                                    <input type="email" className='footerInput' placeholder='your email address' />
                                 </div>
                                 <div className="btnMessageFooter">
                                     <button className='subscribeBtn'>subscribe</button>
@@ -71,7 +75,21 @@ const Footer = () => {
 
                             </div>
                             <div className="socialLinksContent">
-                                
+                                <Link to='facebook'>
+                                    <FaFacebookF size={20} color='tomato' />
+                                </Link>
+                                <Link to='instagram'>
+                                    <FaInstagram size={20} color='tomato' />
+                                </Link>
+                                <Link to='youtube'>
+                                    <AiFillYoutube size={20} color='tomato' />
+
+                                </Link>
+
+                                <Link to='twitter'>
+                                    <AiOutlineTwitter size={20} color='tomato' />
+                                </Link>
+
 
                             </div>
                         </div>

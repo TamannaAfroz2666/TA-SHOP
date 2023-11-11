@@ -192,3 +192,6 @@
     line-height: 20px;
   
 }
+.socialLinksContent a{
+    text-decoration: none;
+}
