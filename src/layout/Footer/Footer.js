@@ -29,6 +29,24 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
+                        <div className="categoryFooter">
+                            <h3 className='footerCateTitle'>categories</h3>
+                            <ul className='footerUlCate'>
+                                <li>
+                                    <Link to='ta-shop/product-category/bedroom' className='cateFooterTitle'>bedroom(6)</Link>
+                                </li>
+                                <li>
+                                    <Link to='ta-shop/product-category/decor' className='cateFooterTitle'>decor(9)</Link>
+                                </li>
+                                <li>
+                                    <Link to='ta-shop/my-accounts/product-category/living-room' className='cateFooterTitle'>living room (8)</Link>
+                                </li>
+                                <li>
+                                    <Link to='ta-shop/product-category/office' className='cateFooterTitle'>office(10)</Link>
+                                </li>
+                            </ul>
+
+                        </div>
                     </div>
                 </div>
 
