@@ -67,8 +67,9 @@ const Footer = () => {
 
                         </div>
                     </div>
+                    {/* footer section  */}
                     <div className="lineFooter">
-                        <hr />
+                        <hr className='hrFooterInner' />
                         <div className="socialLinksFooter">
                             <div className="comment">
                                 <p className='commentTitleF'>Copyright © 2023 TA Shop | Powered by TA Shop</p>
@@ -76,18 +77,18 @@ const Footer = () => {
                             </div>
                             <div className="socialLinksContent">
                                 <Link to='facebook'>
-                                    <FaFacebookF size={20} color='tomato' />
+                                    <FaFacebookF size={20} color='white' />
                                 </Link>
                                 <Link to='instagram'>
-                                    <FaInstagram size={20} color='tomato' />
+                                    <FaInstagram size={20} color='white' />
                                 </Link>
                                 <Link to='youtube'>
-                                    <AiFillYoutube size={20} color='tomato' />
+                                    <AiFillYoutube size={20} color='white' />
 
                                 </Link>
 
                                 <Link to='twitter'>
-                                    <AiOutlineTwitter size={20} color='tomato' />
+                                    <AiOutlineTwitter size={20} color='white' />
                                 </Link>
 
 
