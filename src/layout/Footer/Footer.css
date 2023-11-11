@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto+Slab&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,13 @@
 .footerHead{
     width: 96%;
     margin: auto;
+}
+.footerContents{
+    display: flex;
+    gap: 3rem;
+    padding: 0 0 3rem 0;
+
+    /* margin-top: 3rem; */
 }
 .shopContent .footerName{
     color: white;
@@ -27,4 +35,36 @@
     text-transform: uppercase;
     bottom: 1.5rem;
     position: relative;
+}
+.links_contentFooter{
+    margin-top: 5rem;
+}
+.links_contentFooter .footerLinkTitle{
+    color: #ffffffbe;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab';
+    padding: 0 0rem 0 1.9rem;
+}
+.footerUl{
+    margin-top: 1rem;
+}
+.footerUl a{
+    text-decoration: none;
+}
+.footerUl li {
+    list-style: none;
+}
+.footerUl .linkFooterTitle{
+    color: #f78da8d2;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+.linkFooterTitle:hover{
+    color: #ffffffbe;
 }
