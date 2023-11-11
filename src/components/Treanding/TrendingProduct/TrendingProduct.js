@@ -45,6 +45,12 @@ const TrendingProduct = () => {
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
 
+    const [selectedColor, setSelectedColor] = useState('');
+
+  const handleColorChange = (e) => {
+    setSelectedColor(e.target.value);
+  };
+
 
     return (
         <div className='trendingProduct'>
@@ -214,7 +220,16 @@ const TrendingProduct = () => {
                                                         //     Black
                                                         //     <span>Black</span>
                                                         // </label>
-                                                        <input className='colorField' type="color" id="head" name="head" value={product_color.color_code} />                                            
+                                                        // <input className='colorField' type="color" id="head" name="head" value={product_color.color_code} /> 
+                                                        <label className="radio">
+                                                        <input type="radio" name="color" value={product_color.color_code}
+                                                       
+                                                        
+                                                        
+                                                        />
+                                                        <span 
+                                                        style={{backgroundColor: product_color.color_code}}  className="radio-mark"></span> 
+                                                      </label>
                                                     )
                                                 })
                                             }
