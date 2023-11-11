@@ -1,21 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto+Slab&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.cartProducts{
+
+.cartProducts {
     height: 100%;
-   width: 100%;
+    width: 100%;
 }
-.cartProductsHead{
+
+.cartProductsHead {
     width: 96%;
     margin: auto;
 }
-.cartProductBody{
+
+.cartProductBody {
     width: 100%;
 }
-.cartProductBody .shoppingTitle{
+
+.cartProductBody .shoppingTitle {
     font-size: 35px;
     color: #ffffffea;
     font-weight: 500;
@@ -26,4 +31,28 @@
     font-family: 'Roboto Slab';
     letter-spacing: 1px;
 
+}
+
+.cardHrMain {
+    margin-top: 3rem;
+
+
+}
+
+.cardHr {
+    width: 30%;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffffea;
+    border: 0 none;
+    /* position: relative; */
+
+
+}
+
+.spendTitle {
+    color: #ffffffea;
+    padding: 4px 0;
+    text-align: center;
 }
