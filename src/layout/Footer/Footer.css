@@ -6,8 +6,25 @@
 .footer{
     height: 100%;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.514);
 }
 .footerHead{
     width: 96%;
     margin: auto;
+}
+.shopContent .footerName{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 5rem;
+}
+.shopContent .footerSort{
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    bottom: 1.5rem;
+    position: relative;
 }

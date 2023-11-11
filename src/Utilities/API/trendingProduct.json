@@ -5,15 +5,15 @@
             "color": [
                 {
                     "color_code": "#00FF00", 
-                    "image": "/Images/Products/11.avif"
+                    "image": "/Images/Products/3.avif"
                 },
                 {
                     "color_code": "#0000FF", 
-                    "image": "/Images/Products/11.avif"
+                    "image": "/Images/Products/2.avif"
                 },
                 {
                     "color_code": "#00FFFF", 
-                    "image": "/Images/Products/11.avif"
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "default_image": "/Images/Products/11.avif",

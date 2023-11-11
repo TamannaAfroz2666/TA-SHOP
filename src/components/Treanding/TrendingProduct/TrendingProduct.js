@@ -47,11 +47,30 @@ const TrendingProduct = () => {
 
     const [selectedColor, setSelectedColor] = useState('');
 
-  const handleColorChange = (e) => {
-    setSelectedColor(e.target.value);
-  };
+    // color work 
 
+    const findProductById = (productId) => {
 
+        return productsInfo.find(product => product.id === productId);
+      };
+
+      const findProductByIdAndColor = (productId, colorCode) => {
+        const product = findProductById(productId);
+        console.log('product is ', product);
+        if (product) {
+          const foundColor = product.color.find(color => color.color_code === colorCode);
+          console.log('find color', foundColor);
+          if (foundColor) {
+            let imageId ='product_id_'+productId;
+            document.getElementById(imageId).src=foundColor.image;
+            return { product, foundColor };
+          }
+        }
+        
+        return null; // If the product or color isn't found
+      };
+
+  
     return (
         <div className='trendingProduct'>
             <div className="productBox">
@@ -61,7 +80,8 @@ const TrendingProduct = () => {
                             <div className="productContainer">
                                 <div className="productContents">
                                     <a href={"/product/" + product.slug_field}>
-                                        <img src={product.default_image} alt="" className='image' />
+                                        <img src={product.default_image} alt="" className='image' id={`product_id_${product.id
+                                    }`} />
                                     </a>
                                     {/* over lay area  */}
                                     <div className="overlaySection">
@@ -214,22 +234,20 @@ const TrendingProduct = () => {
                                             {
                                                 product.color.map((product_color) => {
                                                     return (
-                                                        // <label class="Black" data-index="option1" title="Black" data-variant="Black"
-                                                        
-                                                        // >
-                                                        //     Black
-                                                        //     <span>Black</span>
-                                                        // </label>
-                                                        // <input className='colorField' type="color" id="head" name="head" value={product_color.color_code} /> 
-                                                        <label className="radio">
-                                                        <input type="radio" name="color" value={product_color.color_code}
-                                                       
-                                                        
-                                                        
+                                                    
+                                                        <label className="colorField">
+                                                        <input
+                                                          type="radio"
+                                                          name="color"
+                                                          value={product_color.color_code}
+                                                          onChange={() => findProductByIdAndColor(product.id, product_color.color_code)}
                                                         />
-                                                        <span 
-                                                        style={{backgroundColor: product_color.color_code}}  className="radio-mark"></span> 
+                                                        <span
+                                                          style={{ backgroundColor: product_color.color_code }}
+                                                          className="radio-mark"
+                                                        ></span>
                                                       </label>
+                                                      
                                                     )
                                                 })
                                             }
