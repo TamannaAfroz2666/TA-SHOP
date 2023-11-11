@@ -1,5 +1,6 @@
 import React from 'react';
 import './CartProducts.css';
+import img1 from '../../../assets/Image/NewArrivals/pic20.jpg'
 
 const CartProducts = () => {
     return (
@@ -20,12 +21,38 @@ const CartProducts = () => {
                         </div>
                         <div className="productTitle3">
                             <h3 className='productCart_Total'>Total</h3>
-                        </div>                      
-
+                        </div>
                     </div>
                     <div className="cartTitleHr1">
-                            <hr className='titleHr1'/>
+                        <hr className='titleHr1' />
+                    </div>
+                    <div className="productsContainer">
+                        <div className="product_details">
+                            <div className="detailsSection">
+                                <div className="image_sec">
+                                    <img src={img1} alt="" />
+
+                                </div>
+                                <div className="info_sec">
+                                    <p className='longTitle'>Long sleeve T-shirt</p>
+                                  <span>Color: Black Size: XS</span>
+                                  
+
+
+                                </div>
+                            </div>
+
                         </div>
+                        <div className="quantityDetails">
+
+                        </div>
+                        <div className="totalDetails">
+
+                        </div>
+
+                    </div>
+
+
 
                 </div>
 

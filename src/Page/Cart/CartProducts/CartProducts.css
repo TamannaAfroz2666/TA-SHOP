@@ -89,3 +89,17 @@
     color: white;
     
 }
+/* card product details  */
+
+.productsContainer{
+    display: flex;
+    gap: 2rem;
+}
+.detailsSection{
+    display: flex;
+    gap: 2px;
+}
+.image_sec img{
+    width: 150px;
+    height: 150px;
+}
