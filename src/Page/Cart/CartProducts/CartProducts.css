@@ -36,7 +36,6 @@
 .cardHrMain {
     margin-top: 3rem;
 
-
 }
 
 .cardHr {
@@ -46,13 +45,47 @@
     margin-right: auto;
     background-color: #ffffffea;
     border: 0 none;
-    /* position: relative; */
-
-
 }
 
 .spendTitle {
     color: #ffffffea;
     padding: 4px 0;
     text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.productsCartTitles{
+    display: flex;
+    justify-content: space-around;
+}
+.productsCartTitles .productCart_Ti{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffffea;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+.productsCartTitles .productCart_quantity{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffffea;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+.productsCartTitles .productCart_Total{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffffea;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+.cartTitleHr1{
+    margin-top: 2rem;
+}
+.cartTitleHr1 .titleHr1{
+    width: 74%;
+    margin-left: 10rem;
+    color: white;
+    
 }
