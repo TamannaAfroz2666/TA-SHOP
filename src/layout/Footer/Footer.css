@@ -141,7 +141,7 @@
     letter-spacing: 2px;
     text-transform: capitalize;
     font-family: 'Roboto Slab';
-    padding: 0 0rem 0 1.9rem;
+    padding: 0 0rem 0 0rem;
 
 }
 .messageFooter{
@@ -177,4 +177,18 @@
     text-transform: uppercase;
     font-family: 'Roboto';
     letter-spacing: 2px;
+}
+
+/* hr line style start  */
+.comment{
+    padding: 2rem 0 0 0rem;
+}
+.comment .commentTitleF{
+    color: #ffffff8a;
+    padding: 0 0 3rem 0;
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+  
 }

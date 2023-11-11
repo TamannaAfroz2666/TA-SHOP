@@ -63,6 +63,19 @@ const Footer = () => {
 
                         </div>
                     </div>
+                    <div className="lineFooter">
+                        <hr />
+                        <div className="socialLinksFooter">
+                            <div className="comment">
+                                <p className='commentTitleF'>Copyright © 2023 TA Shop | Powered by TA Shop</p>
+
+                            </div>
+                            <div className="socialLinksContent">
+                                
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
