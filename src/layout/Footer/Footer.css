@@ -20,9 +20,7 @@
 .footerContents {
     display: flex;
     gap: 3rem;
-    padding: 0 0 3rem 0;
-
-    /* margin-top: 3rem; */
+   
 }
 .shopContent{
     width: 60%;
@@ -73,7 +71,7 @@
 }
 
 .footerUl .linkFooterTitle {
-    color: #f78da8d2;
+    color: #cea8b1be;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 1px;
@@ -115,7 +113,7 @@
 }
 
 .footerUlCate .cateFooterTitle {
-    color: #f78da8d2;
+    color: #cea8b1be;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 1px;
