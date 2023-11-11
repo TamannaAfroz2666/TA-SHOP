@@ -48,14 +48,18 @@ const Footer = () => {
 
                         </div>
                         <div className="subscribeFooter">
-                        <h3 className='footerSubsTitle'>subscribe</h3>
-                        <div className="messageFooter">
-                            <form action="">
-                            <input type="email" className='footerInput' value='' placeholder='your email address' />
-                            <button className='subscribeBtn'>subscribe</button>
+                            <h3 className='footerSubsTitle'>subscribe</h3>
+
+                            <form action="" className='formFooter'>
+                                <div className="messageFooter">
+                                    <input type="email" className='footerInput'  placeholder='your email address' />
+                                </div>
+                                <div className="btnMessageFooter">
+                                    <button className='subscribeBtn'>subscribe</button>
+                                </div>
                             </form>
-                        </div>
-                        
+
+
 
                         </div>
                     </div>

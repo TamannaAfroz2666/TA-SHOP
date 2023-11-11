@@ -1,33 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto+Slab&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.footer{
+
+.footer {
     height: 100%;
     width: 100%;
     background-color: #11111196;
 }
-.footerHead{
+
+.footerHead {
     width: 96%;
     margin: auto;
 }
-.footerContents{
+
+.footerContents {
     display: flex;
     gap: 3rem;
     padding: 0 0 3rem 0;
 
     /* margin-top: 3rem; */
 }
-.shopContent .footerName{
+
+.shopContent .footerName {
     color: white;
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1px;
     padding-top: 5rem;
 }
-.shopContent .footerSort{
+
+.shopContent .footerSort {
     color: rgba(255, 255, 255, 0.623);
     font-size: 20px;
     font-weight: 700;
@@ -36,10 +42,12 @@
     bottom: 1.5rem;
     position: relative;
 }
-.links_contentFooter{
+
+.links_contentFooter {
     margin-top: 5rem;
 }
-.links_contentFooter .footerLinkTitle{
+
+.links_contentFooter .footerLinkTitle {
     color: #ffffffbe;
     font-size: 20px;
     font-weight: 500;
@@ -48,16 +56,20 @@
     font-family: 'Roboto Slab';
     padding: 0 0rem 0 1.9rem;
 }
-.footerUl{
+
+.footerUl {
     margin-top: 1rem;
 }
-.footerUl a{
+
+.footerUl a {
     text-decoration: none;
 }
+
 .footerUl li {
     list-style: none;
 }
-.footerUl .linkFooterTitle{
+
+.footerUl .linkFooterTitle {
     color: #f78da8d2;
     font-weight: 400;
     font-size: 16px;
@@ -66,15 +78,18 @@
     line-height: 20px;
     font-family: 'Roboto Slab';
 }
-.linkFooterTitle:hover{
+
+.linkFooterTitle:hover {
     color: #ffffffbe;
 }
+
 /* category style start  */
 
-.categoryFooter{
+.categoryFooter {
     margin-top: 5rem;
 }
-.categoryFooter .footerCateTitle{
+
+.categoryFooter .footerCateTitle {
     color: #ffffffbe;
     font-size: 22px;
     font-weight: 500;
@@ -83,16 +98,20 @@
     font-family: 'Roboto Slab';
     padding: 0 0rem 0 1.9rem;
 }
-.footerUlCate{
+
+.footerUlCate {
     margin-top: 1rem;
 }
-.footerUlCate a{
+
+.footerUlCate a {
     text-decoration: none;
 }
+
 .footerUlCate li {
     list-style: none;
 }
-.footerUlCate .cateFooterTitle{
+
+.footerUlCate .cateFooterTitle {
     color: #f78da8d2;
     font-weight: 400;
     font-size: 16px;
@@ -101,16 +120,18 @@
     line-height: 20px;
     font-family: 'Roboto Slab';
 }
-.cateFooterTitle:hover{
+
+.cateFooterTitle:hover {
     color: #ffffffbe;
 }
 
 /* subscribe phase  */
 
-.subscribeFooter{
+.subscribeFooter {
     margin-top: 5rem;
 }
-.footerSubsTitle{
+
+.footerSubsTitle {
     color: #ffffffbe;
     font-size: 22px;
     font-weight: 500;
@@ -119,4 +140,38 @@
     font-family: 'Roboto Slab';
     padding: 0 0rem 0 1.9rem;
 
+}
+.messageFooter{
+    margin-top: 2rem;
+}
+
+.messageFooter .footerInput {
+    width: 200px;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: rgba(148, 147, 147, 0.178) 0px 3px 8px;
+    font-size: 16px;
+
+}
+
+::placeholder {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.btnMessageFooter {
+    margin-top: 1rem;
+}
+
+.btnMessageFooter button {
+    font-size: 14px;
+    background-color: #111;
+    color: #ffffffef;
+    font-weight: 500;
+    padding: 12px 22px;
+    border: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
 }
