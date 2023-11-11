@@ -24,6 +24,9 @@
 
     /* margin-top: 3rem; */
 }
+.shopContent{
+    width: 60%;
+}
 
 .shopContent .footerName {
     color: white;
