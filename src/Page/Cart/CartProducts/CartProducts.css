@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto+Slab&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,4 +11,19 @@
 .cartProductsHead{
     width: 96%;
     margin: auto;
+}
+.cartProductBody{
+    width: 100%;
+}
+.cartProductBody .shoppingTitle{
+    font-size: 35px;
+    color: #ffffffea;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 6rem 0 .1rem 0;
+    font-family: 'Roboto Slab';
+    letter-spacing: 1px;
+
 }
