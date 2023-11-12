@@ -105,12 +105,18 @@
     height: 200px;
     padding: 0 0 1rem 0;
 }
+.image_sec a{
+    text-decoration: none;
+}
 
 /* product details start */
 .info_sec{
-    margin-top: 1.5rem;
+    margin-top: 1.9rem;
 
 
+}
+.info_sec a{
+    text-decoration: none;
 }
 .info_sec .longTitle{
     font-size: 16px;
@@ -118,6 +124,9 @@
     font-weight: 400;
     font-family:  sans-serif;
  
+}
+.longTitle:hover{
+    color: #0dcaf0;
 }
 .info_sec .sizeTitleViewCart{
     font-size: 14px;

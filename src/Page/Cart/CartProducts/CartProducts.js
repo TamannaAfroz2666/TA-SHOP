@@ -5,6 +5,8 @@ import { AiOutlineEdit } from "react-icons/ai";
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
+
 
 const CartProducts = () => {
     // viwecart edit modal 
@@ -46,11 +48,15 @@ const CartProducts = () => {
                         <div className="product_details">
                             <div className="detailsSection">
                                 <div className="image_sec">
+                                <Link to ='/product'>
                                     <img src={img1} alt="" />
-
+                                    </Link>
                                 </div>
                                 <div className="info_sec">
-                                    <p className='longTitle'>Long sleeve T-shirt</p>
+                                 <Link to ='/product'>
+                                 <p className='longTitle'>Long sleeve T-shirt</p>
+                                 </Link>
+                                    
                                     <span className='sizeTitleViewCart'>Color: Black | Size: XS</span>
                                     {/* price section  */}
                                     <div className="priceSection1">
