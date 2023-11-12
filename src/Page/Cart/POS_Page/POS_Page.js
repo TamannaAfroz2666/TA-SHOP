@@ -10,7 +10,7 @@ const POS_Page = () => {
                     <div className="posInstruction">
                         <div className="titlePos">
                             <div className="iconGift">
-                                <BsFillGiftFill size={25} color='white' />
+                                <BsFillGiftFill size={25} color='tomato' />
                             </div>
                             <div className="miniTitle">
                                 <p className='addGiftTitle'>add gift warp</p>
@@ -18,7 +18,7 @@ const POS_Page = () => {
                             <div className="priceSection1">
                                 <div className="pp1">
                                     <p className='priceSubInfoVCart'> $ 50</p>
-                                    <p className='priceTitleTotal'>only tk 5,000 </p>
+                                    <p className='priceTitleTotal1'>only tk 5,000 </p>
 
                                 </div>
                             </div>
