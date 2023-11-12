@@ -163,11 +163,31 @@
 .pp1:hover .priceSubInfoVCart {
     visibility: visible;
 }
+/* button work  */
 .editOption button{
     background-color: #11111100;
     border: 0;
     padding: 2px 6px;
-    bottom: 4rem;
+    bottom: 6.5rem;
     position: relative;
 
+}
+.priceSubInfoVCart1 {
+   min-width: 100px;
+    padding: 4px 0;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #111;
+    visibility: hidden;
+    bottom: 5rem;
+    position: relative;
+    border-radius: 5px;
+    max-width: 80px;
+    font-weight: 400;
+    
+    
+}
+.pp2:hover .priceSubInfoVCart1 {
+    visibility: visible;
 }

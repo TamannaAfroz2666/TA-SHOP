@@ -7,18 +7,18 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
 const CartProducts = () => {
-      // viwecart edit modal 
-      const [open, setOpen] = React.useState(false);
-      const handleClose = () => setOpen(false);
-  
+    // viwecart edit modal 
+    const [open, setOpen] = React.useState(false);
+    const handleClose = () => setOpen(false);
+
     //   const [selectedColor, setSelectedColor] = useState('');
     const viewCartEdit = () => {
         console.log('cart  going to modal');
         setOpen(true)
     }
 
-  
-   
+
+
     return (
         <div className='cartProducts'>
             <div className="cartProductsHead">
@@ -60,32 +60,38 @@ const CartProducts = () => {
                                         </div>
                                     </div>
                                     <div className="editOption">
+                                        <div className="pp2">
+                                        <p className='priceSubInfoVCart1'> Edit this item</p>
+
                                         <button className='viewCartEdit' onClick={viewCartEdit}>
-                                            <AiOutlineEdit color='white'/>
+                                            <AiOutlineEdit color='white' />
                                         </button>
-                                          {/* modal add start */}
 
-                                          <Modal
-                                                    className='modalArea1'
-                                                    open={open}
-                                                    onClose={handleClose}
-                                                    aria-labelledby="modal-modal-title"
-                                                    aria-describedby="modal-modal-description"
-                                                >
-                                                    <Box className='styleBox'>
+                                        </div>
+                                       
+                                        {/* modal add start */}
 
-                                                        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                                                            <div className="quickViewContent">
-                                                                <div className="imageView">
-                                                                    <img src={img1} alt="" />
+                                        <Modal
+                                            className='modalArea1'
+                                            open={open}
+                                            onClose={handleClose}
+                                            aria-labelledby="modal-modal-title"
+                                            aria-describedby="modal-modal-description"
+                                        >
+                                            <Box className='styleBox'>
 
-                                                                </div>
-                                                                <div className="infoView">
-                                                                </div>
-                                                            </div>
-                                                        </Typography>
-                                                    </Box>
-                                                </Modal>
+                                                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                                    <div className="quickViewContent">
+                                                        <div className="imageView">
+                                                            <img src={img1} alt="" />
+
+                                                        </div>
+                                                        <div className="infoView">
+                                                        </div>
+                                                    </div>
+                                                </Typography>
+                                            </Box>
+                                        </Modal>
 
                                     </div>
 
