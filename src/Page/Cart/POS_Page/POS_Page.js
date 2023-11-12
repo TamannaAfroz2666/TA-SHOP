@@ -88,6 +88,12 @@ const POS_Page = () => {
 
                             </div>
                         </div>
+                        <div className="checkoutViewCart">
+                            <button className='checkViewBtn'>
+                                checkout
+                            
+                            </button>                                                                              
+                        </div>
 
                     </div>
                 </div>
