@@ -5,6 +5,8 @@ import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
+
 
 const POS_Page = () => {
     const [open, setOpen] = React.useState(false);
@@ -35,7 +37,6 @@ const POS_Page = () => {
                                 </div>
                             </div>
                             {/* modal add start */}
-
                             <Modal
                                 className='modalArea1'
                                 open={open}
@@ -56,7 +57,8 @@ const POS_Page = () => {
                                         </div>
                                     </Typography>
                                 </Box>
-                            </Modal><div className="giftWarp">
+                            </Modal>
+                            <div className="giftWarp">
                                 <button className='addGiftWarpBtn' onClick={giftWarpHandle}>
                                     Add a gift warp
                                 </button>
@@ -66,14 +68,34 @@ const POS_Page = () => {
                         </div>
                     </div>
                     <div className="posTable">
+                        <p className='subtotalTitle'>subtotal:  tk3,000</p>
+                        <div className="desSortPos">
+                            <p className='taxesTitle'>Taxes and shipping calculated at checkout</p>
+                            <p className='allDesPos'>All charges are billed in USD. While the content of your cart is currently displayed in BDT, the checkout will use USD at the most current exchange rate.</p>
+                            <div className="termContainer">
+                                <div className="radioContent">
+                                    <input type="radio" id="html" name="fav_language" value="HTML"/>
+                                        <label for="html">HTML</label>
+                                        </div>
+                                        <div className="termContent">
+                                            <Link>
+                                            term and conditions
+                                        
+                                            </Link>
 
+                                        </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
+
                 </div>
 
             </div>
-
-        </div>
-    );
+            );
 };
 
-export default POS_Page;
+            export default POS_Page;
