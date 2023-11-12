@@ -7,3 +7,24 @@
     height: 100%;
     width: 100%;
 }
+.estimatesBody{
+    width: 72%;
+    margin: auto;
+}
+.estimateContent{
+    background-color: rgba(206, 174, 174, 0.411);
+    margin-top: 2rem;
+}
+.titleEstimate{
+    font-size: 20px;
+    text-align: center;
+    color: #111;
+    text-transform: capitalize;
+    padding-top: 4em;
+    font-weight: 500;
+}
+.estimatesContents{
+    display: flex;
+    gap: 2rem;
+    padding: 10px 0;
+}
