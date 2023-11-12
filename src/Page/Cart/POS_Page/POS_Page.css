@@ -62,3 +62,52 @@
     background-color: #41cde2;
     border: 0;
 }
+/* pos table  */
+
+
+/* .posTable{
+    width: 300px;
+} */
+
+.posTable .subtotalTitle{
+    color: #ffffffc9;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 20px;
+    letter-spacing: 1px;
+    display: block;
+    text-align: end;
+}
+.desSortPos{
+    width: 500px;
+}
+.desSortPos .taxesTitle{
+    color: #ffffffc9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 20px;
+    letter-spacing: 1px;
+    display: block;
+    font-family: sans-serif;
+    text-align: end;
+
+}
+.desSortPos .allDesPos{
+    color: #ffffffc9;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 22px;
+    letter-spacing: 1px;
+    display: block;
+    font-family: sans-serif;
+    text-align: end;
+
+}
+.termContainer{
+    display: flex;
+    float: right;
+    gap: 5px;
+}
