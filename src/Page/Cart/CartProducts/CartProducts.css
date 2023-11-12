@@ -55,89 +55,106 @@
     font-weight: 400;
     line-height: 25px;
 }
-.productsCartTitles{
+
+.productsCartTitles {
     display: flex;
     justify-content: space-around;
 }
-.productsCartTitles .productCart_Ti{
+
+.productsCartTitles .productCart_Ti {
     font-size: 18px;
     font-weight: 500;
     color: #ffffffea;
     text-transform: capitalize;
     line-height: 20px;
 }
-.productsCartTitles .productCart_quantity{
+
+.productsCartTitles .productCart_quantity {
     font-size: 18px;
     font-weight: 500;
     color: #ffffffea;
     text-transform: capitalize;
     line-height: 20px;
 }
-.productsCartTitles .productCart_Total{
+
+.productsCartTitles .productCart_Total {
     font-size: 18px;
     font-weight: 500;
     color: #ffffffea;
     text-transform: capitalize;
     line-height: 20px;
 }
-.cartTitleHr1{
+
+.cartTitleHr1 {
     margin-top: 2rem;
 }
-.cartTitleHr1 .titleHr1{
+
+.cartTitleHr1 .titleHr1 {
     width: 74%;
     margin-left: 10rem;
     color: white;
-    
+
 }
+
 /* card product details  */
 
-.productsContainer{
+.productsContainer {
+    width: 75%;
+    margin: auto;
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
 }
-.detailsSection{
+
+.detailsSection {
     display: flex;
     gap: 1.5rem;
     margin-top: 2rem;
 }
-.image_sec img{
+
+.image_sec img {
     width: 120px;
     height: 200px;
     padding: 0 0 1rem 0;
 }
-.image_sec a{
+
+.image_sec a {
     text-decoration: none;
 }
 
 /* product details start */
-.info_sec{
+.info_sec {
     margin-top: 1.9rem;
 
 
 }
-.info_sec a{
+
+.info_sec a {
     text-decoration: none;
 }
-.info_sec .longTitle{
+
+.info_sec .longTitle {
     font-size: 16px;
     color: #ffffffaf;
     font-weight: 400;
-    font-family:  sans-serif;
- 
+    font-family: sans-serif;
+
 }
-.longTitle:hover{
+
+.longTitle:hover {
     color: #0dcaf0;
 }
-.info_sec .sizeTitleViewCart{
+
+.info_sec .sizeTitleViewCart {
     font-size: 14px;
     color: #ffffffea;
     font-weight: 400;
-    font-family:  sans-serif;
+    font-family: sans-serif;
     bottom: 1rem;
     position: relative;
-    
+
 
 }
+
 /* price section styling  */
 
 .priceSubInfoVCart {
@@ -172,8 +189,9 @@
 .pp1:hover .priceSubInfoVCart {
     visibility: visible;
 }
+
 /* button work  */
-.editOption button{
+.editOption button {
     background-color: #11111100;
     border: 0;
     padding: 2px 6px;
@@ -181,8 +199,9 @@
     position: relative;
 
 }
+
 .priceSubInfoVCart1 {
-   min-width: 100px;
+    min-width: 100px;
     padding: 4px 0;
     padding-left: 10px;
     font-size: 14px;
@@ -194,54 +213,68 @@
     border-radius: 5px;
     max-width: 80px;
     font-weight: 400;
-    
-    
+
+
 }
+
 .pp2:hover .priceSubInfoVCart1 {
     visibility: visible;
 }
+
 /* quantity add  */
-.increaseDecrease{
+.quantityDetails{
+    margin-top: 4rem;
+}
+.increaseDecrease {
     display: flex;
     gap: 2px;
     border: 2px solid white;
 }
+
 /* decrrese  */
-.decrease button{
+.decrease button {
     border: 0;
     background-color: #11111100;
     padding: 2px 4px;
 }
-.valueShowCView .showOne{
+
+.valueShowCView .showOne {
     font-size: 18px;
     color: #ffffffaf;
     padding: 0 4px;
 }
+
 .increase button {
     border: 0;
     background-color: #11111100;
     padding: 2px 4px;
 }
+
 /* remove button style  */
 .removeContain button {
     font-size: 16px;
     font-weight: 400;
 
-text-transform: capitalize;
-border: 0;
-padding: 3px 4px;
-background-color: #11111100;
-color: #ffffffaf;
-margin-top: .5rem;
+    text-transform: capitalize;
+    border: 0;
+    padding: 3px 4px;
+    background-color: #11111100;
+    color: #ffffffaf;
+    margin-top: .5rem;
 }
-.removeHr{
+
+.removeHr {
     bottom: 1rem;
     position: relative;
 }
-.removeBtn:hover{
+
+.removeBtn:hover {
     color: #0dcaf0;
 }
-
+/* total section  */
+.totalDetails{
+    margin-top: 4rem;
+}
 .priceSection1 .priceTitleTotal {
     font-size: 18px;
     font-weight: 600;
@@ -250,4 +283,8 @@ margin-top: .5rem;
     color: #fff;
 
 }
+.hrOutLine{
+    width: 70%;
+    margin-left: 9rem;
 
+}
