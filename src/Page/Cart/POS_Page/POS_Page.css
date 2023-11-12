@@ -30,7 +30,8 @@
 }
 .titlePos{
     display: flex;
-    gap: 5px;
+    gap: 10px;
+    margin-top: 1rem;
 }
 .miniTitle .addGiftTitle{
     font-size: 16px;
@@ -44,4 +45,19 @@
     font-weight: 400;
     text-transform: capitalize;
     padding-top: .2rem;
+}
+.giftWarp button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 18px;
+    border: 1px solid  #111;
+    background-color: #11111100;
+    color: #ffffffc9;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+}
+.addGiftWarpBtn:hover{
+    background-color: #41cde2;
+    border: 0;
 }
