@@ -66,6 +66,7 @@ const POS_Page = () => {
 
                             </div>
                         </div>
+                        
                     </div>
                     <div className="posTable">
                         <p className='subtotalTitle'>subtotal:  tk3,000</p>

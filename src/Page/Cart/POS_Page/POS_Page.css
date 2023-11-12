@@ -14,7 +14,7 @@
 .posContainer{
     display: flex;
     justify-content: space-between;
-    /* gap: 2rem; */
+    gap: 2px;
 }
 .posContainer{
     width: 74%;
@@ -65,9 +65,9 @@
 /* pos table  */
 
 
-/* .posTable{
-    width: 300px;
-} */
+.posTable{
+    width: 400px;
+}
 
 .posTable .subtotalTitle{
     color: #ffffffc9;
@@ -80,10 +80,11 @@
     text-align: end;
 }
 .desSortPos{
-    width: 500px;
-    margin-left: 6rem;
+    width: 400px;
+    /* margin-left: 6rem; */
 }
 .desSortPos .taxesTitle{
+    width: 400px;
     color: #ffffffc9;
     font-size: 14px;
     font-weight: 400;
@@ -96,6 +97,7 @@
 
 }
 .desSortPos .allDesPos{
+    width: 400px;
     color: #ffffffc9;
     font-size: 14px;
     font-weight: 400;
@@ -105,6 +107,7 @@
     display: block;
     font-family: sans-serif;
     text-align: end;
+    /* margin-left: 10rem; */
 
 }
 .termContainer{
@@ -136,7 +139,8 @@
 }
 .checkoutViewCart{
     margin: 4rem 0;
-    margin-left: 27rem;
+    margin-left: 16rem;
+    position: static;
  
 }
 .checkoutViewCart button{
