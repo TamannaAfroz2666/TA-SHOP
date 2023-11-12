@@ -222,3 +222,22 @@
     background-color: #11111100;
     padding: 2px 4px;
 }
+/* remove button style  */
+.removeContain button {
+    font-size: 16px;
+    font-weight: 400;
+
+text-transform: capitalize;
+border: 0;
+padding: 3px 4px;
+background-color: #11111100;
+color: #ffffffaf;
+margin-top: .5rem;
+}
+.removeHr{
+    bottom: 1rem;
+    position: relative;
+}
+.removeBtn:hover{
+    color: #0dcaf0;
+}

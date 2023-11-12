@@ -111,7 +111,6 @@ const CartProducts = () => {
                                 <div className="decrease">
                                     <button className='decreaseBtn'>
                                         <AiOutlineMinus color='white' size={20}/> 
-
                                     </button>
                                 </div>
                                 <div className="valueShowCView">
@@ -123,6 +122,12 @@ const CartProducts = () => {
                                     </button>
                                 </div>
 
+                            </div>
+                            <div className="removeContain">
+                                <button className='removeBtn'>
+                                    Remove
+                                    <hr  className='removeHr'/>
+                                </button>
                             </div>
 
                         </div>
