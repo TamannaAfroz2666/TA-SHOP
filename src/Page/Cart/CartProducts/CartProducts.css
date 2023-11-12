@@ -98,8 +98,28 @@
 .detailsSection{
     display: flex;
     gap: 2px;
+    margin-top: 2rem;
 }
 .image_sec img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 200px;
+    padding: 0 0 1rem 0;
+}
+
+/* product details start */
+.info_sec{
+    margin-top: 1.5rem;
+
+
+}
+.info_sec .longTitle{
+    font-size: 16px;
+    color: #ffffffea;
+    font-weight: 500;
+}
+.info_sec .sizeTitleViewCart{
+    font-size: 16px;
+    color: #ffffffea;
+    font-weight: 500;
+
 }

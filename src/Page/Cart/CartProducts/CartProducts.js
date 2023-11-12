@@ -35,8 +35,17 @@ const CartProducts = () => {
                                 </div>
                                 <div className="info_sec">
                                     <p className='longTitle'>Long sleeve T-shirt</p>
-                                  <span>Color: Black Size: XS</span>
-                                  
+                                    <span className='sizeTitleViewCart'>Color: Black Size: XS</span>
+                                    <div className="priceSection">
+                                        <div className="pp">
+                                            <p className='priceSubInfo'> $ 50</p>
+                                            <p className='priceTitle'>Tk 5,000 </p>
+                                        </div>
+                                    </div>
+                                    <div className="editOption">
+                                        
+                                    </div>
+
 
 
                                 </div>
