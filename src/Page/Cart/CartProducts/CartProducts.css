@@ -129,3 +129,37 @@
     
 
 }
+/* price section styling  */
+
+.priceSubInfoVCart {
+    padding: 4px 26px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #111;
+    visibility: hidden;
+    bottom: 2rem;
+    position: relative;
+    border-radius: 5px;
+    max-width: 80px;
+    font-weight: 400;
+    margin-left: 0rem;
+    margin-right: 0;
+
+}
+
+.priceSection1 .priceTitleVcart {
+    font-size: 18px;
+    font-weight: 600;
+    bottom: 3rem;
+    position: relative;
+    color: #fff;
+
+}
+
+.priceTitleVcart:hover {
+    color: #0dcaf0;
+}
+
+.pp1:hover .priceSubInfoVCart {
+    visibility: visible;
+}

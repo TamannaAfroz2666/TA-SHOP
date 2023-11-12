@@ -35,15 +35,16 @@ const CartProducts = () => {
                                 </div>
                                 <div className="info_sec">
                                     <p className='longTitle'>Long sleeve T-shirt</p>
-                                    <span className='sizeTitleViewCart'>Color: Black Size: XS</span>
-                                    <div className="priceSection">
-                                        <div className="pp">
-                                            <p className='priceSubInfo'> $ 50</p>
-                                            <p className='priceTitle'>Tk 5,000 </p>
+                                    <span className='sizeTitleViewCart'>Color: Black | Size: XS</span>
+                                    {/* price section  */}
+                                    <div className="priceSection1">
+                                        <div className="pp1">
+                                            <p className='priceSubInfoVCart'> $ 50</p>
+                                            <p className='priceTitleVcart'>Tk 5,000 </p>
                                         </div>
                                     </div>
                                     <div className="editOption">
-                                        
+
                                     </div>
 
 
