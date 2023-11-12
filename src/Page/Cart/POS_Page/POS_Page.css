@@ -7,3 +7,24 @@
     height: 100%;
     width: 100%;
 }
+.posHead{
+    width: 96%;
+    margin: auto;
+}
+.posContainer{
+    display: flex;
+    gap: 2rem;
+}
+
+.priceSection1 .priceTitleTotal1 {
+    font-size: 18px;
+    font-weight: 600;
+    bottom: 3rem;
+    position: relative;
+    color: #fff;
+
+}
+.titlePos{
+    display: flex;
+    gap: 5px;
+}
