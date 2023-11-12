@@ -97,7 +97,7 @@
 }
 .detailsSection{
     display: flex;
-    gap: 2px;
+    gap: 1.5rem;
     margin-top: 2rem;
 }
 .image_sec img{
@@ -114,12 +114,18 @@
 }
 .info_sec .longTitle{
     font-size: 16px;
-    color: #ffffffea;
-    font-weight: 500;
+    color: #ffffffaf;
+    font-weight: 400;
+    font-family:  sans-serif;
+ 
 }
 .info_sec .sizeTitleViewCart{
-    font-size: 16px;
+    font-size: 14px;
     color: #ffffffea;
-    font-weight: 500;
+    font-weight: 400;
+    font-family:  sans-serif;
+    bottom: 1rem;
+    position: relative;
+    
 
 }
