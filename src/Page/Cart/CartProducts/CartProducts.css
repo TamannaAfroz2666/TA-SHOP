@@ -241,3 +241,13 @@ margin-top: .5rem;
 .removeBtn:hover{
     color: #0dcaf0;
 }
+
+.priceSection1 .priceTitleTotal {
+    font-size: 18px;
+    font-weight: 600;
+    bottom: 3rem;
+    position: relative;
+    color: #fff;
+
+}
+

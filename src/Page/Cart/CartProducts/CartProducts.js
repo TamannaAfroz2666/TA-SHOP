@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './CartProducts.css';
 import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
-import { AiOutlineEdit ,AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { AiOutlineEdit, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -47,15 +47,15 @@ const CartProducts = () => {
                         <div className="product_details">
                             <div className="detailsSection">
                                 <div className="image_sec">
-                                <Link to ='/product'>
-                                    <img src={img1} alt="" />
+                                    <Link to='/product'>
+                                        <img src={img1} alt="" />
                                     </Link>
                                 </div>
                                 <div className="info_sec">
-                                 <Link to ='/product'>
-                                 <p className='longTitle'>Long sleeve T-shirt</p>
-                                 </Link>
-                                    
+                                    <Link to='/product'>
+                                        <p className='longTitle'>Long sleeve T-shirt</p>
+                                    </Link>
+
                                     <span className='sizeTitleViewCart'>Color: Black | Size: XS</span>
                                     {/* price section  */}
                                     <div className="priceSection1">
@@ -66,14 +66,14 @@ const CartProducts = () => {
                                     </div>
                                     <div className="editOption">
                                         <div className="pp2">
-                                        <p className='priceSubInfoVCart1'> Edit this item</p>
+                                            <p className='priceSubInfoVCart1'> Edit this item</p>
 
-                                        <button className='viewCartEdit' onClick={viewCartEdit}>
-                                            <AiOutlineEdit color='white' />
-                                        </button>
+                                            <button className='viewCartEdit' onClick={viewCartEdit}>
+                                                <AiOutlineEdit color='white' />
+                                            </button>
 
                                         </div>
-                                       
+
                                         {/* modal add start */}
 
                                         <Modal
@@ -110,7 +110,7 @@ const CartProducts = () => {
                             <div className="increaseDecrease">
                                 <div className="decrease">
                                     <button className='decreaseBtn'>
-                                        <AiOutlineMinus color='white' size={20}/> 
+                                        <AiOutlineMinus color='white' size={20} />
                                     </button>
                                 </div>
                                 <div className="valueShowCView">
@@ -118,7 +118,7 @@ const CartProducts = () => {
                                 </div>
                                 <div className="increase">
                                     <button className='increaseBtn'>
-                                    <AiOutlinePlus color='white' size={20}/> 
+                                        <AiOutlinePlus color='white' size={20} />
                                     </button>
                                 </div>
 
@@ -126,12 +126,19 @@ const CartProducts = () => {
                             <div className="removeContain">
                                 <button className='removeBtn'>
                                     Remove
-                                    <hr  className='removeHr'/>
+                                    <hr className='removeHr' />
                                 </button>
                             </div>
 
                         </div>
                         <div className="totalDetails">
+                            <div className="priceSection1">
+                                <div className="pp1">
+                                    <p className='priceSubInfoVCart'> $ 50</p>
+                                    <p className='priceTitleTotal'>Tk 5,000 </p>
+                                </div>
+                            </div>
+
 
                         </div>
 
