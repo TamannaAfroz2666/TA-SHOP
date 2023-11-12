@@ -111,3 +111,25 @@
     float: right;
     gap: 5px;
 }
+.radioBtn{
+    width: 1.1rem;
+    height: 1.1rem;
+}
+.termContainer .radioTitle{
+    font-size: 16px;
+    color: #ffffffc9;
+    padding: 0 2px;
+    bottom: .2rem;
+    position: relative;
+}
+.termContent .termTitle{
+    font-size: 16px;
+    color: #111;
+    font-weight: 700;
+    bottom: .1rem;
+    position: relative;
+
+}
+.termTitle:hover{
+    color: #41cde2;
+}

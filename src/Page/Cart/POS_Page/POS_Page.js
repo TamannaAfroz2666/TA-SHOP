@@ -74,11 +74,11 @@ const POS_Page = () => {
                             <p className='allDesPos'>All charges are billed in USD. While the content of your cart is currently displayed in BDT, the checkout will use USD at the most current exchange rate.</p>
                             <div className="termContainer">
                                 <div className="radioContent">
-                                    <input type="radio" id="html" name="fav_language" value="HTML" />
-                                    <label for="html">HTML</label>
+                                    <input type="radio" id="html" name="fav_language" value="HTML" className='radioBtn' />
+                                    <label for="html" className='radioTitle'>I agree with the</label>
                                 </div>
                                 <div className="termContent">
-                                    <Link>
+                                    <Link to='/term&condition' className='termTitle'>
                                         term and conditions
 
                                     </Link>
