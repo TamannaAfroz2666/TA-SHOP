@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import './CartProducts.css';
 import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
-import { AiOutlineEdit } from "react-icons/ai";
+import { AiOutlineEdit ,AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
-
 
 const CartProducts = () => {
     // viwecart edit modal 
@@ -108,6 +107,23 @@ const CartProducts = () => {
 
                         </div>
                         <div className="quantityDetails">
+                            <div className="increaseDecrease">
+                                <div className="decrease">
+                                    <button className='decreaseBtn'>
+                                        <AiOutlineMinus color='white' size={20}/> 
+
+                                    </button>
+                                </div>
+                                <div className="valueShowCView">
+                                    <span className='showOne'>1</span>
+                                </div>
+                                <div className="increase">
+                                    <button className='increaseBtn'>
+                                    <AiOutlinePlus color='white' size={20}/> 
+                                    </button>
+                                </div>
+
+                            </div>
 
                         </div>
                         <div className="totalDetails">

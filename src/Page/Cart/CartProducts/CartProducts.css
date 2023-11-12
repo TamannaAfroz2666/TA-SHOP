@@ -200,3 +200,25 @@
 .pp2:hover .priceSubInfoVCart1 {
     visibility: visible;
 }
+/* quantity add  */
+.increaseDecrease{
+    display: flex;
+    gap: 2px;
+    border: 2px solid white;
+}
+/* decrrese  */
+.decrease button{
+    border: 0;
+    background-color: #11111100;
+    padding: 2px 4px;
+}
+.valueShowCView .showOne{
+    font-size: 18px;
+    color: #ffffffaf;
+    padding: 0 4px;
+}
+.increase button {
+    border: 0;
+    background-color: #11111100;
+    padding: 2px 4px;
+}
