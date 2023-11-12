@@ -1,8 +1,20 @@
 import React from 'react';
 import './POS_Page.css';
 import { BsFillGiftFill } from "react-icons/bs";
+import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
+import Modal from '@mui/material/Modal';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
 const POS_Page = () => {
+    const [open, setOpen] = React.useState(false);
+    const handleClose = () => setOpen(false);
+
+    //   const [selectedColor, setSelectedColor] = useState('');
+    const giftWarpHandle = () => {
+        console.log('cart  going to modal');
+        setOpen(true)
+    }
     return (
         <div className='pos_page'>
             <div className="posHead">
@@ -22,10 +34,34 @@ const POS_Page = () => {
 
                                 </div>
                             </div>
-                            <div className="giftWarp">
-                                <button className='addGiftWarpBtn'>
+                            {/* modal add start */}
+
+                            <Modal
+                                className='modalArea1'
+                                open={open}
+                                onClose={handleClose}
+                                aria-labelledby="modal-modal-title"
+                                aria-describedby="modal-modal-description"
+                            >
+                                <Box className='styleBox'>
+
+                                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                        <div className="quickViewContent">
+                                            <div className="imageView">
+                                                <img src={img1} alt="" />
+
+                                            </div>
+                                            <div className="infoView">
+                                            </div>
+                                        </div>
+                                    </Typography>
+                                </Box>
+                            </Modal><div className="giftWarp">
+                                <button className='addGiftWarpBtn' onClick={giftWarpHandle}>
                                     Add a gift warp
                                 </button>
+
+
                             </div>
                         </div>
                     </div>
