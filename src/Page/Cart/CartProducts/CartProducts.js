@@ -1,8 +1,12 @@
 import React from 'react';
 import './CartProducts.css';
-import img1 from '../../../assets/Image/NewArrivals/pic20.jpg'
+import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
+import { AiOutlineEdit } from "react-icons/ai";
 
 const CartProducts = () => {
+    const viewCartEdit = () => {
+        console.log('cart  going to modal');
+    }
     return (
         <div className='cartProducts'>
             <div className="cartProductsHead">
@@ -44,6 +48,9 @@ const CartProducts = () => {
                                         </div>
                                     </div>
                                     <div className="editOption">
+                                        <button className='viewCartEdit' onClick={viewCartEdit}>
+                                            <AiOutlineEdit color='white'/>
+                                        </button>
 
                                     </div>
 

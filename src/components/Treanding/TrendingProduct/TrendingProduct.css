@@ -228,7 +228,7 @@
 }
 /* price section start */
 .priceSubInfo {
-    padding: 4px 12px;
+    padding: 4px 26px;
     font-size: 12px;
     color: #fff;
     background-color: #111;
@@ -238,7 +238,7 @@
     border-radius: 5px;
     max-width: 80px;
     font-weight: 400;
-    margin-left: 6rem;
+    /* margin-left: 6rem; */
 
 }
 
