@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './CartProducts.css';
 import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
 import { AiOutlineEdit } from "react-icons/ai";
+import Modal from '@mui/material/Modal';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
 const CartProducts = () => {
+      // viwecart edit modal 
+      const [open, setOpen] = React.useState(false);
+      const handleClose = () => setOpen(false);
+  
+    //   const [selectedColor, setSelectedColor] = useState('');
     const viewCartEdit = () => {
         console.log('cart  going to modal');
+        setOpen(true)
     }
+
+  
+   
     return (
         <div className='cartProducts'>
             <div className="cartProductsHead">
@@ -51,6 +63,29 @@ const CartProducts = () => {
                                         <button className='viewCartEdit' onClick={viewCartEdit}>
                                             <AiOutlineEdit color='white'/>
                                         </button>
+                                          {/* modal add start */}
+
+                                          <Modal
+                                                    className='modalArea1'
+                                                    open={open}
+                                                    onClose={handleClose}
+                                                    aria-labelledby="modal-modal-title"
+                                                    aria-describedby="modal-modal-description"
+                                                >
+                                                    <Box className='styleBox'>
+
+                                                        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                                            <div className="quickViewContent">
+                                                                <div className="imageView">
+                                                                    <img src={img1} alt="" />
+
+                                                                </div>
+                                                                <div className="infoView">
+                                                                </div>
+                                                            </div>
+                                                        </Typography>
+                                                    </Box>
+                                                </Modal>
 
                                     </div>
 

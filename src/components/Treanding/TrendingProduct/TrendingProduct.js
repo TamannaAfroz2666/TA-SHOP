@@ -6,13 +6,8 @@ import { HiArrowsUpDown } from "react-icons/hi2";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { motion, spring } from 'framer-motion';
 import { Link } from 'react-router-dom';
-// import { IconName } from "react-icons/ai";
 import data from '../../../Utilities/API/trendingProduct.json';
-// import Button from 'react-bootstrap/Button';
-// import Modal from 'react-bootstrap/Modal';
-
 import Box from '@mui/material/Box';
-// import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
@@ -25,7 +20,7 @@ const TrendingProduct = () => {
     const [showCard, setShowCard] = useState(false);
 
 
-    const [fullscreen, setFullscreen] = useState(true);
+    // const [fullscreen, setFullscreen] = useState(true);
     const [show, setShow] = useState(false);
 
     const compareHandle = () => {
@@ -138,7 +133,7 @@ const TrendingProduct = () => {
                                                     <AiOutlineEye className='IconOverlay' size={35} />
 
                                                 </button>
-                                                {/* <AiOutlineEye className='IconOverlay' size={35} /> */}
+                                               
 
                                                 {/* modal add start */}
 
