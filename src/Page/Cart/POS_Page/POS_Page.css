@@ -175,3 +175,35 @@
     margin-top: 1rem;
     background-color: #11111100;
 }
+/* coupon start style  */
+
+.couponPos .couponTitle{
+    font-size: 16px;
+    color: #ffffffc9;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 1.5rem;
+}
+.couponPos .discountCoupon{
+    font-size: 16px;
+    color: #ffffff88;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    padding: 10px 0;
+
+}
+.couponCodePos{
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    color: #ffffffc9;
+    font-weight: 500;
+    
+    text-transform: capitalize;
+    padding: 0px 0 0 5px;
+    margin: 1rem 0;
+    background-color: #11111100;
+    border: 1px solid rgba(255, 255, 255, 0.685);
+
+}

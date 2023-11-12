@@ -70,6 +70,11 @@ const POS_Page = () => {
                             <label htmlFor="name" className='labelArea'>Special instructions for seller </label> <br />
                             <textarea  className='textarea' placeholder='How can we help you'/>
                         </div>
+                        <div className="couponPos">
+                            <h3 className='couponTitle'>Coupon</h3>
+                            <label htmlFor="coupon" className='discountCoupon'>*Discount will be calculated and applied at checkout</label>
+                            <input type="text" className='couponCodePos' placeholder='Coupon code' />
+                        </div>
 
 
                     </div>
