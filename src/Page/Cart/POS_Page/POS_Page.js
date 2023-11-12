@@ -66,7 +66,12 @@ const POS_Page = () => {
 
                             </div>
                         </div>
-                        
+                        <div className="instruction">
+                            <label htmlFor="name" className='labelArea'>Special instructions for seller </label> <br />
+                            <textarea  className='textarea' placeholder='How can we help you'/>
+                        </div>
+
+
                     </div>
                     <div className="posTable">
                         <p className='subtotalTitle'>subtotal:  tk3,000</p>
