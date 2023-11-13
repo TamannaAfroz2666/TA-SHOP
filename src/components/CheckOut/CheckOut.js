@@ -106,6 +106,17 @@ const CheckOut = () => {
                                 ))}
                             </select>                          
                         </div>
+                        <div className="nameContent">
+                            <div className="firstCon">
+                                <input type="text" name='name' className='firstCheckName' id='firstCheckName' placeholder='First name (optional)' />
+
+                            </div>
+                            <div className="lastContent">
+                            <input type="text" name='name' className='secondCheckName' id='secondCheckName' placeholder='Last name' />
+
+                            </div>
+                        </div>
+
 
 
                     </div>
