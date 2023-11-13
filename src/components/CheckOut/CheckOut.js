@@ -116,6 +116,23 @@ const CheckOut = () => {
 
                             </div>
                         </div>
+                        <div className="addressCheckBox">
+                            <input type="text" name='address' id='addressId' className='addressCls' placeholder='Address'/>
+                        </div>
+                        <div className="nameContent">
+                            <div className="firstCon">
+                                <input type="text" name='city' className='firstCheckName' id='firstCheckName' placeholder='City' />
+
+                            </div>
+                            <div className="lastContent">
+                            <input type="text" name='postal' className='secondCheckName' id='secondCheckName' placeholder='Postal Code' />
+
+                            </div>
+                        </div>
+                        <div className="saveInfo">
+                                <input type="checkbox" id="vehicle1" name="input1" value="Bike" />
+                                <label for="input1" className='checkLabel'> Save this information for next time</label>
+                            </div>
 
 
 
