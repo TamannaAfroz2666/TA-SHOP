@@ -32,6 +32,14 @@ const CheckOut = () => {
                             </div>
 
                         </div>
+                        <div className="emailNumCon">
+                            <input type="text" name='email' className='emailNum' placeholder='Email or mobile phone number' />
+                            <div className="checkboxMain">
+                                <input type="checkbox" id="vehicle1" name="input1" value="Bike" />
+                                <label for="input1" className='checkLabel'> Email me with news and offers</label>
+                            </div>
+                        </div>
+
 
                     </div>
                     <div className="productCheckOut">

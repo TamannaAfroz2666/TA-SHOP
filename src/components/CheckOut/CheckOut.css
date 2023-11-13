@@ -65,6 +65,43 @@
 .spLog{
     padding-left: 3px;
 }
+.emailNumCon{
+    margin-left: 8rem;
+}
+.emailNumCon .emailNum{
+    width: 520px;
+    height: 50px;
+    border: 0;
+    margin: 1rem 0;
+    font-size: 14px;
+    background-color: white;
+    border: 1px solid #105989;
+
+}
+#vehicle1{
+    width: 16px;
+    height: 16px;
+
+}
+.emailNumCon{
+    margin-top: 1rem;
+}
+.checkLabel{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #111;
+    text-transform: capitalize;
+    padding-left: 6px;
+    bottom: .2rem;
+    position: relative;
+       
+}
+.emailNumCon ::placeholder{
+    font-size: 14px;
+    padding-left: 10px;
+
+}
 
 
 
