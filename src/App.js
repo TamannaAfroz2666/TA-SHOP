@@ -5,6 +5,7 @@ import './App.css';
 import Main from './layout/Main/Main';
 import Footer from './layout/Footer/Footer';
 import CartMain from './Page/Cart/CartMain/CartMain';
+import CheckoutMain from './Page/CheckOut/CheckOutMain/CheckoutMain';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={ <Main /> }/>
         <Route path='/cart' element={ <CartMain /> } />
+        <Route path='/cartCheckOut' element={ <CheckoutMain />} />
 
       </Routes>
      

@@ -17,6 +17,11 @@ const POS_Page = () => {
         console.log('cart  going to modal');
         setOpen(true)
     }
+    // checkout handle 
+    const checkOutHandle = () =>{
+        console.log('checkoutrt');
+        window.location.assign('/cartCheckOut');
+    }
     return (
         <div className='pos_page'>
             <div className="posHead">
@@ -100,7 +105,7 @@ const POS_Page = () => {
                             </div>
                         </div>
                         <div className="checkoutViewCart">
-                            <button className='checkViewBtn'>
+                            <button className='checkViewBtn' onClick={checkOutHandle}>
                                 checkout
                             
                             </button>                                                                              

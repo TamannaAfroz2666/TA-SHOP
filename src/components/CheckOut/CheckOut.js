@@ -1,6 +1,6 @@
 import React from 'react';
 import './CheckOut.css';
-import { IconName } from "react-icons/ai";
+import { BsBag } from "react-icons/bs";
 
 const CheckOut = () => {
     return (
@@ -8,17 +8,18 @@ const CheckOut = () => {
             <div className="checkoutSection">
                 <div className="checkoutHead">
                     <div className="checkTitleSec">
-                    <h3 className='titleCheck'>TA SHOP products</h3>
+                        <h3 className='titleCheck'>TA SHOP products</h3>
                     </div>
                     <div className="iconCheckSec">
+                        <BsBag color='white' size={25} />
 
                     </div>
-                  
+
 
                 </div>
 
             </div>
-            
+
         </div>
     );
 };
