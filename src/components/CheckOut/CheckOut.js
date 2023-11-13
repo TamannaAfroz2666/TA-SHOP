@@ -4,6 +4,7 @@ import { BsBag } from "react-icons/bs";
 import { LiaCarSideSolid } from "react-icons/lia";
 import { RiGift2Fill } from "react-icons/ri";
 import { FiAlertCircle } from "react-icons/fi";
+import { TbLetterB } from "react-icons/tb";
 import { Link } from 'react-router-dom';
 
 
@@ -135,15 +136,32 @@ const CheckOut = () => {
                             <label for="input1" className='checkLabel'> Save this information for next time</label>
                         </div>
                         {/* shipping method phase  */}
-                        <div className="shippingMethod">
-                        <h3 className='shipping_title'>shipping content</h3>
-                            <div className="alertContent">
-                                <p> 
-                                    <FiAlertCircle color='red' size={25} className='alertCir'/>
-                                    <span className='shpingTitle'> Shipping not available </span>
-                                </p>
-                                <p className='alertDes'>Your order cannot be shipped to the selected address. Review your address to ensure it's correct and try again, or select a different address.</p>
+                        <div className="point">
+                            <div className="shippingMethod22">
+                                <h3 className='shipping_title2'>shipping content</h3>
+                                <div className="alertContent22">
+                                    <p>
+                                        <FiAlertCircle color='red' size={25} className='alertCir1' />
+                                        <span className='shpingTitle11'> Shipping not available </span>
+                                    </p>
+                                    <p className='alertDes11'>Your order cannot be shipped to the selected address. Review your address to ensure it's correct and try again, or select a different address.</p>
 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="paymentSec">
+                            <h3 className='paymentTitle'>Payment</h3>
+                            <p className='payDes'>All transactions are secure and encrypted.</p>
+                            <div className="cardSec">
+                                <div className="cardTitle">
+                                    <p className='creditTitle'>Credit card</p>
+
+                                </div>
+                                <div className="cardIcon">
+                                    <TbLetterB color='orange' size={30}/>
+
+                                </div>
                             </div>
                         </div>
 
