@@ -13,7 +13,7 @@
 }
 .checkTitleSec{
     width: 50%;
-    /* border: 1px solid  red; */
+    border: 1px solid  red;
 }
 .checkTitleSec .titleCheck{
     font-size: 25px;
@@ -32,4 +32,49 @@
 }
 .iconCheckSec .bsBagIcon{
     margin-left: 30rem;
+}
+.checkOutContent{
+    display: flex;
+}
+.infoCheckOut{
+    /* width: 50%; */
+}
+.titleInfoSec{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.conSec1 .conTitle{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #111;
+    text-transform: capitalize;
+    padding: 2rem 0 1rem  8rem;
+}
+.subLog .accountTitle{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #464040e5;
+    text-transform: capitalize;
+    padding: 2rem 0 1rem  8rem;
+
+}
+.spLog{
+    padding-left: 3px;
+}
+
+
+
+
+
+
+
+
+.productCheckOut{
+    position: static;
+    top: 0;
+    width: 50%;
 }
