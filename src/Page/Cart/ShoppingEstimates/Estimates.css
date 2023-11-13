@@ -41,3 +41,15 @@
 .optionsEle{
     background-color: #111111d8;
 }
+.StateCls, .zipCodeField{
+    background-color: #1111110e;
+    border: 1px solid #11111150;
+    width: 200px;
+    height: 40px;
+    color: #ffffffd8;
+
+}
+::placeholder{
+    color: #ffffffd8;
+    text-transform: capitalize;
+}

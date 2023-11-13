@@ -50,7 +50,7 @@ const Estimates = () => {
 
                         </div>
                         <div className="stateContent">
-                            <input type="text" name="state" id="stateId" className='StateCls' />
+                            <input type="text" name="state" id="stateId" className='StateCls' placeholder='state' />
 
                         </div>
                         <div className="zipCodeEstimate">
