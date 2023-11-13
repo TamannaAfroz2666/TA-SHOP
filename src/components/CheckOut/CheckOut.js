@@ -149,20 +149,50 @@ const CheckOut = () => {
                                 </div>
                             </div>
                         </div>
-                         {/* payment section  */}
+                        {/* payment section  */}
                         <div className="paymentSec">
                             <h3 className='paymentTitle'>Payment</h3>
                             <p className='payDes'>All transactions are secure and encrypted.</p>
-                            <div className="cardSec">
-                                <div className="cardTitle">
-                                    <p className='creditTitle'>Credit card</p>
+                            <div className="creditContainer">
+                                <div className="cardSec">
+                                    <div className="cardTitle">
+                                        <p className='creditTitle'>Credit card</p>
 
-                                </div>
-                                <div className="cardIcon">
-                                    <TbLetterB color='white' size={25} className='bLetterIcon'/>
+                                    </div>
+                                    <div className="cardIcon">
+                                        <TbLetterB color='white' size={25} className='bLetterIcon' />
 
+                                    </div>
                                 </div>
+                                {/* card number  */}
+                                <div className="cardNumContent">
+                                    <input type="number" className='cardNumCls' id='cardNumId' placeholder='Card Number' />
+                                </div>
+                                {/* date & code  */}
+                                <div className="dateCode">
+                                    <div className="firstCon">
+                                        <input type="text" name="date" className='firstCheckName' id='firstCheckName' placeholder='Expiration date (MM/ YY)' pattern="\d{4}-\d{2}-\d{2}" required />
+
+                                    </div>
+                                    <div className="lastContent">
+                                        <input type="number" name='number' className='secondCheckName' id='secondCheckName' placeholder='Security code' />
+
+                                    </div>
+                                </div>
+                                {/* card name  */}
+                                <div className="cardNumContent">
+                                    <input type="text" className='cardNumCls' id='cardNumId' placeholder=' Name on card' />
+                                </div>
+                                {/* checkbox  */}
+                                <div className="savePayment">
+                                    <input type="checkbox" id="vehicle1" name="input1" value="Bike" />
+                                    <label for="input1" className='checkLabel'> Save this information for next time</label>
+                                </div>
+
+
+
                             </div>
+
                         </div>
 
 
