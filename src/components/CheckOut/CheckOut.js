@@ -1,6 +1,8 @@
 import React from 'react';
 import './CheckOut.css';
 import { BsBag } from "react-icons/bs";
+import { Link } from 'react-router-dom';
+
 
 const CheckOut = () => {
     return (
@@ -11,8 +13,10 @@ const CheckOut = () => {
                         <h3 className='titleCheck'>TA SHOP products</h3>
                     </div>
                     <div className="iconCheckSec">
-                        <BsBag color='white' size={25} />
-
+                        <Link to= '/cart'>
+                        <BsBag color='tomato' size={25} className='bsBagIcon' />
+                        </Link>
+                       
                     </div>
 
 

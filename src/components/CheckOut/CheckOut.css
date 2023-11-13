@@ -9,4 +9,27 @@
 }
 .checkoutHead{
     display: flex;
+    justify-content: space-between;
+}
+.checkTitleSec{
+    width: 50%;
+    /* border: 1px solid  red; */
+}
+.checkTitleSec .titleCheck{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 2rem 0 2rem  8rem;
+}
+.iconCheckSec{
+    width: 50%;
+    margin-top: 2rem;
+}
+.iconCheckSec a{
+    text-decoration: none;
+}
+.iconCheckSec .bsBagIcon{
+    margin-left: 30rem;
 }
