@@ -210,7 +210,7 @@
 
 .numProduct .oneItem {
     font-size: 12px;
-    color: #f1f1f1;
+    color: #111;
     margin-top: .23rem;
 }
 
@@ -219,7 +219,7 @@
     text-align: center;
     bottom: .5rem;
     position: relative;
-    color: #ffffffee;
+    color: #111;
 
 }
 
@@ -228,7 +228,7 @@
 }
 /* price section start */
 .priceSubInfo {
-    padding: 4px 26px;
+    padding: 4px 30px;
     font-size: 12px;
     color: #fff;
     background-color: #111;
@@ -238,7 +238,7 @@
     border-radius: 5px;
     max-width: 80px;
     font-weight: 400;
-    /* margin-left: 6rem; */
+    margin-left: 6rem;
 
 }
 
@@ -249,7 +249,7 @@
     font-weight: 600;
     bottom: 3rem;
     position: relative;
-    color: #fff;
+    color: #111;
 }
 
 .priceTitle:hover {

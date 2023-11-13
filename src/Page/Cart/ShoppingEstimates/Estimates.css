@@ -6,6 +6,7 @@
 .estimates{
     height: 100%;
     width: 100%;
+    margin: 0 0 6rem 0;
 }
 .estimatesBody{
     width: 72%;
@@ -26,31 +27,29 @@
 .estimatesContents{
     display: flex;
     gap: 2rem;
-    padding: 2rem 0 10rem 0;
+    padding: 2rem 0 6rem 0;
 }
 /* country name  */
 .country .countryName{
-    background-color: #1111110e;
+    /* background-color: #1111110e; */
     border: 1px solid #11111150;
     margin-left: 2rem;
     width: 200px;
     height: 40px;
-    color: #ffffffd8;
+    color: #111;
     
 }
-.optionsEle{
-    background-color: #111111d8;
-}
+
 .StateCls, .zipCodeField{
-    background-color: #1111110e;
+    /* background-color: #1111110e; */
     border: 1px solid #11111150;
     width: 200px;
     height: 40px;
-    color: #ffffffd8;
+    color: #111;
 
 }
 ::placeholder{
-    color: #ffffffd8;
+    color: #111;
     text-transform: capitalize;
 }
 .estimateBtnHead button{

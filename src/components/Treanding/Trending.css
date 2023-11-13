@@ -19,7 +19,7 @@
 }
 
 .trendingBody .trendTitle {
-  color: #fff;
+  color: #8f8a8a;
   font-size: 40px;
   font-weight: 500;
   line-height: 20px;
@@ -101,7 +101,7 @@
 .showMorePro .showAllTitle{
   font-size: 16px;
   margin-left: 5.8rem;
-  color: #fff;
+  color: #111;
   font-weight: 700;
 
 }

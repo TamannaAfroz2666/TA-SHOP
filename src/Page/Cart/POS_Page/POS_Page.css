@@ -26,7 +26,7 @@
     font-weight: 600;
     bottom: 3rem;
     position: relative;
-    color: #fff;
+    color: #111;
 
 }
 .titlePos{
@@ -36,8 +36,8 @@
 }
 .miniTitle .addGiftTitle{
     font-size: 16px;
-    color: #ffffffc9;
-    font-weight: 400;
+    color: #111;
+    font-weight: 500;
     text-transform: capitalize;
 }
 .priceSection1 .priceTitleTotal1{
@@ -52,7 +52,7 @@
     font-weight: 500;
     padding: 10px 18px;
     border: 1px solid  #111;
-    background-color: #11111100;
+    background-color: #111111c0;
     color: #ffffffc9;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -70,7 +70,7 @@
 }
 
 .posTable .subtotalTitle{
-    color: #ffffffc9;
+    color: #111;
     font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
@@ -85,7 +85,7 @@
 }
 .desSortPos .taxesTitle{
     width: 400px;
-    color: #ffffffc9;
+    color: #111;
     font-size: 14px;
     font-weight: 400;
     text-transform: capitalize;
@@ -98,7 +98,7 @@
 }
 .desSortPos .allDesPos{
     width: 400px;
-    color: #ffffffc9;
+    color: #111;
     font-size: 14px;
     font-weight: 400;
     text-transform: capitalize;
@@ -121,7 +121,7 @@
 }
 .termContainer .radioTitle{
     font-size: 16px;
-    color: #ffffffc9;
+    color: #111;
     padding: 0 2px;
     bottom: .2rem;
     position: relative;
@@ -157,36 +157,36 @@
 /* textarea field start */
 .labelArea{
     font-size: 16px;
-    color: #ffffffc9;
+    color: #111;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: capitalize;
     padding: 10px 0;
 }
 .instruction .textarea{
-    width: 400px;
+    width: 500px;
     height: 100px;
     font-size: 16px;
-    color: #ffffffc9;
+    color: #111;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: capitalize;
     padding: 10px 0 0 5px;
     margin-top: 1rem;
-    background-color: #11111100;
+    /* background-color: #11111100; */
 }
 /* coupon start style  */
 
 .couponPos .couponTitle{
     font-size: 16px;
-    color: #ffffffc9;
+    color: #111;
     font-weight: 600;
     text-transform: capitalize;
     padding-top: 1.5rem;
 }
 .couponPos .discountCoupon{
     font-size: 16px;
-    color: #ffffff88;
+    color: #111;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -197,13 +197,16 @@
     width: 400px;
     height: 40px;
     font-size: 16px;
-    color: #ffffffc9;
+    color: #111;
     font-weight: 500;
     
     text-transform: capitalize;
     padding: 0px 0 0 5px;
     margin: 1rem 0;
-    background-color: #11111100;
-    border: 1px solid rgba(255, 255, 255, 0.685);
+    /* background-color: #11111100; */
+    border: 1px solid rgba(15, 15, 15, 0.685);
 
+}
+ ::placeholder{
+    color: #111;
 }

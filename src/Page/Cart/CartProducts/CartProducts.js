@@ -69,7 +69,7 @@ const CartProducts = () => {
                                             <p className='priceSubInfoVCart1'> Edit this item</p>
 
                                             <button className='viewCartEdit' onClick={viewCartEdit}>
-                                                <AiOutlineEdit color='white' />
+                                                <AiOutlineEdit color='black' />
                                             </button>
 
                                         </div>
@@ -110,7 +110,7 @@ const CartProducts = () => {
                             <div className="increaseDecrease">
                                 <div className="decrease">
                                     <button className='decreaseBtn'>
-                                        <AiOutlineMinus color='white' size={20} />
+                                        <AiOutlineMinus color='black' size={20} />
                                     </button>
                                 </div>
                                 <div className="valueShowCView">
@@ -118,7 +118,7 @@ const CartProducts = () => {
                                 </div>
                                 <div className="increase">
                                     <button className='increaseBtn'>
-                                        <AiOutlinePlus color='white' size={20} />
+                                        <AiOutlinePlus color='black' size={20} />
                                     </button>
                                 </div>
 
