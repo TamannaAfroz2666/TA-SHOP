@@ -53,3 +53,16 @@
     color: #ffffffd8;
     text-transform: capitalize;
 }
+.estimateBtnHead button{
+    padding: 10px 44px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #111;
+    color: #ffffffd8;
+    border: 0;
+}
+.estimateBtn:hover{
+    background-color: #0dcaf0;
+}

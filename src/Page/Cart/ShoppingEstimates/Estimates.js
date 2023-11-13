@@ -58,7 +58,7 @@ const Estimates = () => {
 
                         </div>
                         <div className="estimateBtnHead">
-                            <button>
+                            <button className='estimateBtn'>
                                 estimate
                             </button>
 
