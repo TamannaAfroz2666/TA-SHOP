@@ -224,12 +224,57 @@
     padding: 1rem 0 1.5rem  0rem;
 
 }
+
+/* payment section  */
 .paymentSec{
     margin-left: 8rem;
     margin-top: 2rem;
 }
+
+
+
+.paymentTitle{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #111;
+    text-transform: capitalize;
+    padding: 1rem 0 .5rem  0rem;
+
+}
+.paymentSec .payDes {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #111111b2;
+    text-transform: capitalize;
+    padding: 0rem 0 .5rem  0rem;
+
+}
 .cardSec{
     display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+    border: 1px solid #2b2d2e5d;
+    margin: 1rem 0;
+}
+.creditTitle{
+    font-size: 14px;
+    font-weight: 500;
+    /* line-height: 22px; */
+    color: #111;
+    text-transform: capitalize;
+    padding-left: 6px;
+    padding-top: .5rem;
+}
+.cardIcon{
+    height: 2rem;
+    background-color: orange;
+    padding: 0px 18px;
+    margin-top: .5rem;
+}
+.bLetterIcon{
+    margin-top: .1rem;
 }
 
 

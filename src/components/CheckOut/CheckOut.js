@@ -149,7 +149,7 @@ const CheckOut = () => {
                                 </div>
                             </div>
                         </div>
-
+                         {/* payment section  */}
                         <div className="paymentSec">
                             <h3 className='paymentTitle'>Payment</h3>
                             <p className='payDes'>All transactions are secure and encrypted.</p>
@@ -159,7 +159,7 @@ const CheckOut = () => {
 
                                 </div>
                                 <div className="cardIcon">
-                                    <TbLetterB color='orange' size={30}/>
+                                    <TbLetterB color='white' size={25} className='bLetterIcon'/>
 
                                 </div>
                             </div>
