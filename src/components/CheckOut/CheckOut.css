@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;1,400&family=Roboto+Slab&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -181,6 +182,34 @@
 .saveInfo{
     margin: 0 0 1.5rem 8rem;
     /* margin-top: 1rem; */
+}
+.shippingMethod{
+    margin-left: 8rem;
+}
+.alertContent{
+    background-color: rgba(233, 203, 166, 0.13);
+    padding: 1rem 0 3rem 0;
+}
+.alertCir{
+    margin-left: 1rem;
+}
+.shpingTitle{
+    font-size: 16px;
+    font-weight: 500;
+    color: #111;
+    text-transform: capitalize;
+    padding-left: 16px;
+}
+.alertDes{
+    font-size: 15px;
+    font-weight: 400;
+    color: #111111ce;
+    text-transform: capitalize;
+    padding: 0 3rem 0 4rem;
+    line-height: 25px;
+    text-align: justify;
+    font-family: 'Roboto';
+
 }
 
 

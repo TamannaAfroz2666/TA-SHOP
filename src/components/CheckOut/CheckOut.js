@@ -3,6 +3,7 @@ import './CheckOut.css';
 import { BsBag } from "react-icons/bs";
 import { LiaCarSideSolid } from "react-icons/lia";
 import { RiGift2Fill } from "react-icons/ri";
+import { FiAlertCircle } from "react-icons/fi";
 import { Link } from 'react-router-dom';
 
 
@@ -78,7 +79,7 @@ const CheckOut = () => {
 
                                 </div>
                                 <div className="shipIcon">
-                                    <LiaCarSideSolid color='black' size={20}/>
+                                    <LiaCarSideSolid color='black' size={20} />
                                 </div>
                             </div>
                             <div className="pickC">
@@ -90,7 +91,7 @@ const CheckOut = () => {
 
                                 </div>
                                 <div className="shipIcon">
-                                    <RiGift2Fill color='black' size={20}/>
+                                    <RiGift2Fill color='black' size={20} />
                                 </div>
                             </div>
                         </div>
@@ -98,13 +99,13 @@ const CheckOut = () => {
                             <select className='countryNameCheck'>
                                 <option value="" className='selectOption'>Select a country</option>
                                 {countries.map(country => (
-                                 
-                                    <option className='optionsEle1' key={country.name.common} value={country.name.common}>        
-                                        {country.name.common} 
+
+                                    <option className='optionsEle1' key={country.name.common} value={country.name.common}>
+                                        {country.name.common}
                                     </option>
-                                   
+
                                 ))}
-                            </select>                          
+                            </select>
                         </div>
                         <div className="nameContent">
                             <div className="firstCon">
@@ -112,12 +113,12 @@ const CheckOut = () => {
 
                             </div>
                             <div className="lastContent">
-                            <input type="text" name='name' className='secondCheckName' id='secondCheckName' placeholder='Last name' />
+                                <input type="text" name='name' className='secondCheckName' id='secondCheckName' placeholder='Last name' />
 
                             </div>
                         </div>
                         <div className="addressCheckBox">
-                            <input type="text" name='address' id='addressId' className='addressCls' placeholder='Address'/>
+                            <input type="text" name='address' id='addressId' className='addressCls' placeholder='Address' />
                         </div>
                         <div className="nameContent">
                             <div className="firstCon">
@@ -125,14 +126,25 @@ const CheckOut = () => {
 
                             </div>
                             <div className="lastContent">
-                            <input type="text" name='postal' className='secondCheckName' id='secondCheckName' placeholder='Postal Code' />
+                                <input type="text" name='postal' className='secondCheckName' id='secondCheckName' placeholder='Postal Code' />
 
                             </div>
                         </div>
                         <div className="saveInfo">
-                                <input type="checkbox" id="vehicle1" name="input1" value="Bike" />
-                                <label for="input1" className='checkLabel'> Save this information for next time</label>
+                            <input type="checkbox" id="vehicle1" name="input1" value="Bike" />
+                            <label for="input1" className='checkLabel'> Save this information for next time</label>
+                        </div>
+                        {/* shipping method phase  */}
+                        <div className="shippingMethod">
+                            <div className="alertContent">
+                                <p> 
+                                    <FiAlertCircle color='red' size={25} className='alertCir'/>
+                                    <span className='shpingTitle'> Shipping not available </span>
+                                </p>
+                                <p className='alertDes'>Your order cannot be shipped to the selected address. Review your address to ensure it's correct and try again, or select a different address.</p>
+
                             </div>
+                        </div>
 
 
 
