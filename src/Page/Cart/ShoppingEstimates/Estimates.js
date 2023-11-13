@@ -45,9 +45,7 @@ const Estimates = () => {
                                         {country.name.common}
                                     </option>
                                 ))}
-                            </select>
-                           
-
+                            </select>                          
                         </div>
                         <div className="stateContent">
                             <input type="text" name="state" id="stateId" className='StateCls' placeholder='state' />
