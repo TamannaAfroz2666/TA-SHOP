@@ -136,6 +136,7 @@ const CheckOut = () => {
                         </div>
                         {/* shipping method phase  */}
                         <div className="shippingMethod">
+                        <h3 className='shipping_title'>shipping content</h3>
                             <div className="alertContent">
                                 <p> 
                                     <FiAlertCircle color='red' size={25} className='alertCir'/>

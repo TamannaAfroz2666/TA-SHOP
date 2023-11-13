@@ -211,6 +211,15 @@
     font-family: 'Roboto';
 
 }
+.shipping_title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #111;
+    text-transform: capitalize;
+    padding: 1rem 0 1.5rem  0rem;
+
+}
 
 
 
