@@ -26,6 +26,17 @@ const ProductCheckList = () => {
                         <p className='balanceCheckOutTitle'>$24.00</p>
                     </div>
                 </div>
+                <div className="giftCard">
+                    <div className="giftInput">
+                        <input type="text" name='gift' className='giftCls' id='giftId' placeholder='Gift card'/>
+                    </div>
+                    <div className="giftBtnP">
+                        <button className='giftBtnChePro'>
+                            apply
+                        </button>
+
+                    </div>
+                </div>
             </div>
 
         </div>

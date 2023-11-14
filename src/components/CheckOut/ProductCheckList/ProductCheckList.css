@@ -6,10 +6,17 @@
 .productCList{
     height: 100%;
     width:  100%;
+   
+}
+.checkProBody{
+   height: 800px;
+    border-left: 1px solid rgba(128, 128, 128, 0.842);
+
 }
 .contentsProCheck{
     display: flex;
     gap: 7rem;
+    margin-left: 1rem;
 }
 .imgInfoCheck{
     display: flex;
@@ -59,5 +66,35 @@
     color: #111;
     text-transform: capitalize;
     
+
+ }
+ /* gift section  */
+ .giftCard{
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0 1rem 1rem;
+ }
+ .giftInput .giftCls{
+    width: 380px;
+    height: 50px;
+    font-size: 16px;
+    color: #111;
+    font-weight: 400;
+    border: 1px solid #11111131;
+    border-radius: 5px;
+
+ }
+ .giftBtnP button{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #1773b0;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 5px;
+ }
+ .giftBtnChePro:hover{
+    background-color: rgba(33, 141, 218, 0.824)
 
  }
