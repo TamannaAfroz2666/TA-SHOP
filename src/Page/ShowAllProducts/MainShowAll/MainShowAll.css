@@ -7,3 +7,18 @@
     height: 100%;
     width: 100%;
 }
+.bodyShowAll{
+    width: 96%;
+    margin: auto;
+}
+.titleContentShow{
+    width: 100%;
+}
+.titleContentShow .productsTi{
+    font-size: 45px;
+    color: rgba(26, 24, 24, 0.871);
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0 0 1rem 0;
+}
