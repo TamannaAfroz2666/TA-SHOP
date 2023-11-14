@@ -23,7 +23,7 @@ const ProductCheckList = () => {
 
                     </div>
                     <div className="balanceCheckout">
-                        <p className='balanceCheckOutTitle'>$24.00</p>
+                        <p className='balanceCheckOutTitle'>Tk 24.00</p>
                     </div>
                 </div>
                 <div className="giftCard">
@@ -35,6 +35,20 @@ const ProductCheckList = () => {
                             apply
                         </button>
 
+                    </div>
+                </div>
+                <div className="amountContainer">
+                    <div className="amountContent">
+                        <p className='subtotalCheckOut'>Subtotal</p>
+                        <h3 className='subAmCheckOut'>Tk 11,114.00</h3>
+                    </div>
+                    <div className="amountShipping">
+                        <p className='subtotalCheckOut'>Shipping</p>
+                        <h3 className='subAmCheckOut'>Enter shipping address</h3>
+                    </div>
+                    <div className="amountTotalCheck">
+                        <p className='subtotalCheckOut'>Total</p>
+                        <h3 className='subAmCheckOut'>Tk 11,114.00</h3>
                     </div>
                 </div>
             </div>

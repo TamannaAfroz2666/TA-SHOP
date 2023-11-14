@@ -98,3 +98,73 @@
     background-color: rgba(33, 141, 218, 0.824)
 
  }
+ /* amount styles  */
+ .amountContainer{
+   margin: 2rem 0 1rem 1rem;
+ }
+ .amountContent{
+    display: inline-flex;
+    gap: 20rem;
+ }
+ .amountShipping{
+    display: inline-flex;
+    gap: 15rem;
+ }
+ .amountTotalCheck{
+    display: inline-flex;
+    gap: 21rem;
+ }
+ .amountContent .subtotalCheckOut{
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111e1;
+    text-transform: capitalize;
+    padding-left: 5px;
+    letter-spacing: 1px;
+
+ } 
+ .amountContent .subAmCheckOut{
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111;
+    text-transform: capitalize;
+    padding-left: 5px;
+    letter-spacing: 1px;
+
+ } 
+ .amountShipping .subtotalCheckOut{
+    font-size: 16px;
+    font-weight: 500;
+    color: #111111e1;
+    text-transform: capitalize;
+    padding-left: 5px;
+    letter-spacing: 1px;
+
+ } 
+ .amountShipping .subAmCheckOut{
+    font-size: 14px;
+    font-weight: 500;
+    color: #111111a6;
+    text-transform: capitalize;
+    padding-left: 5px;
+    letter-spacing: 1px;
+
+ } 
+ .amountTotalCheck .subtotalCheckOut{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111;
+    text-transform: capitalize;
+    padding-left: 5px;
+    letter-spacing: 1px;
+
+ } 
+ .amountTotalCheck .subAmCheckOut{
+    font-size: 16px;
+    font-weight: 700;
+    color: #111111;
+    text-transform: capitalize;
+    padding-left: 5px;
+    letter-spacing: 1px;
+
+ } 
