@@ -7,14 +7,20 @@
 .checkout{
     height: 100%;
     width: 100%;
+    
 }
+/* .checkoutSection{
+    wid
+} */
 .checkoutHead{
     display: flex;
     justify-content: space-between;
+   
 }
+
 .checkTitleSec{
     width: 50%;
-    border: 1px solid  red;
+    /* border: 1px solid  red; */
 }
 .checkTitleSec .titleCheck{
     font-size: 25px;
@@ -299,6 +305,20 @@
 .savePayment{
     margin: 0 0 1.5rem 1rem;
    
+}
+.btnContentCheck{
+    margin: 2rem 0 1.5rem 9rem;
+    
+}
+.btnContentCheck button{
+    width: 520px;
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    color: #fff;
+    background-color: #1773b0;
 }
 
 

@@ -50,6 +50,7 @@ const CheckOut = () => {
                     </div>
                 </div>
                 <hr />
+                
                 <div className="checkOutContent">
                     <div className="infoCheckOut">
                         <div className="titleInfoSec">
@@ -203,10 +204,17 @@ const CheckOut = () => {
 
                         </div>
 
+                        <div className="btnContentCheck">
+                            <button className='checkoutBtn'>
+                                Play now
+                            </button>
+                        </div>
+
 
 
                     </div>
                     <div className="productCheckOut">
+                        
 
                     </div>
                 </div>
