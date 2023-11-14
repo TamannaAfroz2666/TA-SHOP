@@ -7,6 +7,7 @@ import { FiAlertCircle } from "react-icons/fi";
 import { TbLetterB } from "react-icons/tb";
 import { Link } from 'react-router-dom';
 import BillingAddress from './BillingAddress/BillingAddress';
+import ProductCheckList from './ProductCheckList/ProductCheckList';
 
 
 const CheckOut = () => {
@@ -214,7 +215,8 @@ const CheckOut = () => {
 
                     </div>
                     <div className="productCheckOut">
-                        
+                        <ProductCheckList></ProductCheckList>
+
 
                     </div>
                 </div>

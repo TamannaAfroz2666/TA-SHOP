@@ -330,7 +330,9 @@
 
 
 .productCheckOut{
-    position: static;
+    position: sticky;
     top: 0;
     width: 50%;
+    z-index: 999;
+   height: 100%;
 }
