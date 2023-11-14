@@ -6,6 +6,7 @@ import { RiGift2Fill } from "react-icons/ri";
 import { FiAlertCircle } from "react-icons/fi";
 import { TbLetterB } from "react-icons/tb";
 import { Link } from 'react-router-dom';
+import BillingAddress from './BillingAddress/BillingAddress';
 
 
 const CheckOut = () => {
@@ -69,6 +70,7 @@ const CheckOut = () => {
                                 <label for="input1" className='checkLabel'> Email me with news and offers</label>
                             </div>
                         </div>
+                        {/* pick AND ship  */}
                         <div className="deliveryContent">
                             <h3 className='deliveryTitle'>delivery</h3>
                             <div className="shipC">
@@ -190,6 +192,9 @@ const CheckOut = () => {
                                 </div>
 
                                 {/* billing address  */}
+                                <div className="billAdresContainer">
+                                    <BillingAddress/>
+                                </div>
                                 
 
 
