@@ -22,7 +22,27 @@
     text-align: center;
     padding: 0 0 1rem 0;
 }
+.titleContentShow .linkUl{
+    text-align: center;
+}
 .ulContent{
     display: inline-flex;
     gap: 2px;
+}
+.ulContent li{
+    list-style: none;
+}
+.ulContent a{
+    text-decoration: none;
+}
+.ulContent .LinkHome{
+    font-size: 15px;
+    font-weight: 400;
+    color: #111111d0;
+}
+.ulContent .title_p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #111111d0;
+    padding-top: 1px;
 }
