@@ -11,8 +11,7 @@ const ProductCheckList = () => {
                         <div className="imgInfoCheck">
                             <div className="imgCheck">
                             <span className='oneSort'>1</span><br />
-                                <img src={img} alt="" />
-                                
+                                <img src={img} alt="" />                              
                             </div>
                             <div className="infoCheckP">
                                 <p className='longTitleP'>Long sleeve asymmetric T-shirt</p>
