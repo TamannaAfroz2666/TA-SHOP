@@ -186,8 +186,11 @@ const CheckOut = () => {
                                 {/* checkbox  */}
                                 <div className="savePayment">
                                     <input type="checkbox" id="vehicle1" name="input1" value="Bike" />
-                                    <label for="input1" className='checkLabel'> Save this information for next time</label>
+                                    <label for="input1" className='checkLabel'> Use shipping address as billing address</label>
                                 </div>
+
+                                {/* billing address  */}
+                                
 
 
 
