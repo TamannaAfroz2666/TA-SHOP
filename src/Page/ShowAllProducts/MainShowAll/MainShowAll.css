@@ -22,3 +22,7 @@
     text-align: center;
     padding: 0 0 1rem 0;
 }
+.ulContent{
+    display: inline-flex;
+    gap: 2px;
+}
