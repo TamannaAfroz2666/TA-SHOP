@@ -14,3 +14,13 @@
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.ulCollect li{
+    list-style: none;
+}
+.ulCollect li a{
+    text-decoration: none;
+}
+.filterItems{
+    display: flex;
+    justify-content: space-between;
+}
