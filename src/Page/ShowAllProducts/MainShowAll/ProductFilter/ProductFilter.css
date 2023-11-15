@@ -50,6 +50,7 @@
     background-color: #fff;
     float: right;
     font-size: 12px;
+   
 }
 .btnHrCol{
     bottom: .5rem;
@@ -129,6 +130,8 @@
     margin-top: 2rem;
     display: flex;
     gap: .2rem;
+    
+
   }
   .priceT .priceTitleR{
     font-size: 14px;
@@ -156,6 +159,19 @@
     position: relative;
     color: #111;
 
+}
+/* color field  */
+#inStock11{
+    width: 16px;
+    height: 16px;
+    background-color: #1b53c0;
+
+}
+.bodyAc{
+    margin: 0 0 1rem 0;
+}
+.reduceSp{
+   
 }
 
 

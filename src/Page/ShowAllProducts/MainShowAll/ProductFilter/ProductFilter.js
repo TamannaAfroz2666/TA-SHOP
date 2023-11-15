@@ -9,13 +9,13 @@ const ProductFilter = () => {
     return (
         <div className='filterP'>
             <div className="productHeadFilter">
-                <Accordion defaultActiveKey={['0', '1', '2']} >
+                <Accordion defaultActiveKey={['0', '1', '2', '3', '4']} >
                     <Accordion.Item eventKey="0" >
                         <Accordion.Header  >
                             <h3 className='
                         collectTitle'>Collections</h3>
                         </Accordion.Header>
-                        <Accordion.Body >
+                        <Accordion.Body className='bodyAc'>
                             <div className="collectCon">
                                 <ul className='ulCollect'>
                                     <li>
@@ -147,7 +147,7 @@ const ProductFilter = () => {
                             <h3 className='
                         collectTitle'>price</h3>
                         </Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body className='reduceSp'>
                             <div className="collectCon">
                                 <div class="range-slider">
                                     <span class="range-selected"></span>
@@ -186,6 +186,114 @@ const ProductFilter = () => {
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
+                    <Accordion.Item eventKey="3">
+                        <Accordion.Header>
+                            <h3 className='
+                        collectTitle'>color</h3>
+                        </Accordion.Header>
+                        <Accordion.Body className='bodyAc'>
+                            <div className="collectCon">
+                                <ul className='ulCollect'>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="radio" id="inStock11" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'>Blue</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>35</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="radio" id="inStock11" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'>Black</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>1</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="radio" id="inStock11" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'>Brown</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>10</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="radio" id="inStock11" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'>Cream</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>11</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <div className="btnColl">
+                                        <button className='btnViwCol'>
+                                            View More
+                                            <hr className='btnHrCol' />
+                                        </button>
+
+                                    </div>
+                                </ul>
+                            </div>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="4">
+                        <Accordion.Header>
+                            <h3 className='
+                        collectTitle'>price</h3>
+                        </Accordion.Header>
+                        <Accordion.Body className='reduceSp'>
+                            <div className="collectCon">
+                                <div class="range-slider">
+                                    <span class="range-selected"></span>
+                                </div>
+                                <div class="range-input">
+                                    <input type="range" class="min" min="0" max="1000" value="300" step="10" />
+                                    <input type="range" class="max" min="0" max="1000" value="700" step="10" />
+                                </div>
+                                <div className="priceRang">
+                                    <div className="priceT">
+                                        <p className='priceTitleR'>Price :</p>
+                                    </div>
+                                    <div className="minP">
+                                        <div className="priceSection1">
+                                            <div className="pp1">
+                                                <p className='priceSubInfoVCart'>
+                                                     $0.00</p>
+                                                <p className='priceMinTotal1'>tk 0.00 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="iconF">
+                                    <LuMinus />
+                                    </div>
+                                    <div className="maxP">
+                                        <div className="priceSection1">
+                                            <div className="pp1">
+                                                <p className='priceSubInfoVCart'>
+                                                     $20</p>
+                                                <p className='priceMinTotal1'>tk 3,000 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </Accordion.Body>
+                    </Accordion.Item>
+
                 </Accordion>
             </div>
 
