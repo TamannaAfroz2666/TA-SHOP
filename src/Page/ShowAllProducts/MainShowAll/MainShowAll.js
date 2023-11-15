@@ -29,6 +29,12 @@ const MainShowAll = () => {
                         </ul>
                     </div>
                 </div>
+                <div className="contentsAll">
+                    
+                </div>
+
+
+
 
             </div>
 
