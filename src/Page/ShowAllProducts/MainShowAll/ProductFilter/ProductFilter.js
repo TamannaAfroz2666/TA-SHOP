@@ -2,13 +2,14 @@ import React from 'react';
 import './ProductFilter.css';
 import Accordion from 'react-bootstrap/Accordion';
 import { Link } from 'react-router-dom';
+import { LuMinus } from "react-icons/lu";
 
 
 const ProductFilter = () => {
     return (
         <div className='filterP'>
             <div className="productHeadFilter">
-                <Accordion defaultActiveKey={['0', '1']} >
+                <Accordion defaultActiveKey={['0', '1', '2']} >
                     <Accordion.Item eventKey="0" >
                         <Accordion.Header  >
                             <h3 className='
@@ -136,8 +137,52 @@ const ProductFilter = () => {
                                                 <span className='quantityTitleFl'>1</span>
                                             </div>
                                         </div>
-                                    </li>                              
+                                    </li>
                                 </ul>
+                            </div>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="2">
+                        <Accordion.Header>
+                            <h3 className='
+                        collectTitle'>price</h3>
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <div className="collectCon">
+                                <div class="range-slider">
+                                    <span class="range-selected"></span>
+                                </div>
+                                <div class="range-input">
+                                    <input type="range" class="min" min="0" max="1000" value="300" step="10" />
+                                    <input type="range" class="max" min="0" max="1000" value="700" step="10" />
+                                </div>
+                                <div className="priceRang">
+                                    <div className="priceT">
+                                        <p className='priceTitleR'>Price :</p>
+                                    </div>
+                                    <div className="minP">
+                                        <div className="priceSection1">
+                                            <div className="pp1">
+                                                <p className='priceSubInfoVCart'>
+                                                     $0.00</p>
+                                                <p className='priceMinTotal1'>tk 0.00 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="iconF">
+                                    <LuMinus />
+                                    </div>
+                                    <div className="maxP">
+                                        <div className="priceSection1">
+                                            <div className="pp1">
+                                                <p className='priceSubInfoVCart'>
+                                                     $20</p>
+                                                <p className='priceMinTotal1'>tk 3,000 </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
