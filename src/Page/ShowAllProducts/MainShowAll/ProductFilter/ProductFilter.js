@@ -97,6 +97,14 @@ const ProductFilter = () => {
                                                 </div>
                                             </Link>
                                         </li>
+                                        <div className="btnColl">
+                                        <button className='btnViwCol'>
+                                            View More
+                                            <hr className='btnHrCol'/>
+                                        </button>
+
+                                        </div>
+                                      
                                     </ul>
                                 </div>
 
