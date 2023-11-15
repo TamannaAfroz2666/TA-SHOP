@@ -3,6 +3,7 @@ import './MainShowAll.css'
 import Header from '../../../layout/Header/Header.js';
 import { Link } from 'react-router-dom';
 import { IoIosArrowForward } from "react-icons/io";
+import ProductFilter from './ProductFilter/ProductFilter.js';
 
 
 
@@ -18,10 +19,10 @@ const MainShowAll = () => {
                     <div className="linkUl">
                         <ul className='ulContent'>
                             <li>
-                                <Link to ='/' className='LinkHome'>Home</Link>
+                                <Link to='/' className='LinkHome'>Home</Link>
                             </li>
                             <li>
-                            <IoIosArrowForward />
+                                <IoIosArrowForward />
                             </li>
                             <li>
                                 <p className='title_p'>  Products</p>
@@ -30,7 +31,18 @@ const MainShowAll = () => {
                     </div>
                 </div>
                 <div className="contentsAll">
-                    
+                    <div className="contents_all">
+                        <div className="filter">
+                            <ProductFilter></ProductFilter>
+                        </div>
+                        <div className="contentImp">
+
+                        </div>
+
+                    </div>
+
+
+
                 </div>
 
 
