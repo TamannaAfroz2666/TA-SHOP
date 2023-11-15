@@ -7,6 +7,10 @@
     height: 100%;
     width: 100%;
 }
+.proSoAlHead{
+    display: flex;
+    justify-content: space-between;
+}
 /* click links start */
 .selectDrop{
     width: 200px;
@@ -33,8 +37,25 @@
 
    /* button click field  */
    .mdOutLine{
-    padding: 2px 6px;
-    border: 1px solid #11111179;
+    padding: 1px 8px .4rem 8px;
+    border: 1px solid #1111115e;
     border-radius: 50%;
     color: #535050d3;
+   }
+   .mdOutLine3{
+    padding: 1px 8px .4rem 8px;
+    /* border: 1px solid #1111115e; */
+    border-radius: 50%;
+    color: #535050d3;
+    background-color: rgba(65, 204, 226, 0.89);
+    
+   }
+   .mdOutLine:hover{
+    background-color: rgba(65, 204, 226, 0.89);
+    border: 0;
+   }
+
+   .sizeFilterSh{
+    display: flex;
+    gap: 1rem;
    }

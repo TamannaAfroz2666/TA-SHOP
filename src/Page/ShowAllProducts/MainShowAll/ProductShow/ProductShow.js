@@ -3,6 +3,8 @@ import './ProductShow.css';
 import { Link } from 'react-router-dom';
 import { FaSortAmountDownAlt } from "react-icons/fa";
 import { MdOutlineDensityMedium } from "react-icons/md";
+import { FaGripLinesVertical ,FaLinesLeaning } from "react-icons/fa6";
+
 
 
 const ProductShow = () => {
@@ -28,17 +30,17 @@ const ProductShow = () => {
                 <div className="sizeFilterSh">
                     <div className="collection-view-item">
                         <Link to='/js-loading'>
-                            <span className='mdOutLine'><MdOutlineDensityMedium /></span>
+                            <span className='mdOutLine'>||</span>
                         </Link>
                     </div>
                     <div className="collection-view-item">
                         <Link to='/js-loading'>
-                            <span className='mdOutLine'><MdOutlineDensityMedium /></span>
+                            <span className='mdOutLine3'>|||</span>
                         </Link>
                     </div>
                     <div className="collection-view-item">
                         <Link to='/js-loading'>
-                            <span className='mdOutLine'><MdOutlineDensityMedium /></span>
+                            <span className='mdOutLine'>|||| </span>
                         </Link>
                     </div>
                     <div className="collection-view-item">
