@@ -47,6 +47,9 @@
 }
 .btnColl button{
     border: 0;
+    background-color: #fff;
+    float: right;
+    font-size: 14px;
 }
 .btnHrCol{
     bottom: .5rem;
