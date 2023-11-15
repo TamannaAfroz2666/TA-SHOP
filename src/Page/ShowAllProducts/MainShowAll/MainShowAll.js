@@ -4,6 +4,7 @@ import Header from '../../../layout/Header/Header.js';
 import { Link } from 'react-router-dom';
 import { IoIosArrowForward } from "react-icons/io";
 import ProductFilter from './ProductFilter/ProductFilter.js';
+import ProductShow from './ProductShow/ProductShow.js';
 
 
 
@@ -36,6 +37,7 @@ const MainShowAll = () => {
                             <ProductFilter></ProductFilter>
                         </div>
                         <div className="contentImp">
+                            <ProductShow></ProductShow>
 
                         </div>
 
