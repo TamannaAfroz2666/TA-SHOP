@@ -7,3 +7,10 @@
     height: 100%;
     width: 100%;
 }
+.collectTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
