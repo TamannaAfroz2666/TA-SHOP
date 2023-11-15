@@ -9,7 +9,7 @@ const ProductFilter = () => {
     return (
         <div className='filterP'>
             <div className="productHeadFilter">
-                <Accordion defaultActiveKey={['0', '1', '2', '3', '4']} >
+                <Accordion defaultActiveKey={['0', '1', '2', '3', '4', '5']} >
                     <Accordion.Item eventKey="0" >
                         <Accordion.Header  >
                             <h3 className='
@@ -307,6 +307,81 @@ const ProductFilter = () => {
                                     </button>
                                 </div>
                                 
+                            </div>
+                        </Accordion.Body>
+                    </Accordion.Item>
+                    <Accordion.Item eventKey="5">
+                        <Accordion.Header>
+                            <h3 className='
+                        collectTitle'>BRAND</h3>
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            <div className="collectCon">
+                                <ul className='ulCollect'>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="checkbox" id="inStock" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'>Akatsuki Store</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>3</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="checkbox" id="inStock" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'> Akaza Store</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>2</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="checkbox" id="inStock" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'> Eva Store</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>4</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="checkbox" id="inStock" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'> Lulu Store</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>3</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="checkbox" id="inStock" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'> SE Store</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>6</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <div className="btnColl">
+                                        <button className='btnViwCol'>
+                                            View More
+                                            <hr className='btnHrCol' />
+                                        </button>
+
+                                    </div>
+
+                                </ul>
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
