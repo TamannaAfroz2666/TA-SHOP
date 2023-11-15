@@ -8,25 +8,47 @@
     width: 100%;
 }
 .sin-pro-head{
-    margin: 1rem 0 5rem 0;
+    margin: 0rem 0 5rem 0;
 }
 .sing-pro-content{
     display: flex;
     gap: 1rem;
-   
 }
 .mini-img{
    display: block;
    width: 100px;
-   height: 150px;   
-  
+   height: 140px;   
 }
 .sing-mini-imgC img{
     width: 100px;
-    height: 150px;
-    display: block;
+    height: 138px;
+    display: block; 
 }
-.sing-mini-imgC:hover img{
+.mini2Con{
+    margin-top: 1rem;
+}
+.mini3Con{
+    margin-top: 1rem;
+}
+.mini4Con{
+    margin-top: 1rem;
+}
+.mini5Con{
+    margin-top: 1rem;
+}
+.mini1Con:hover img{
+    transform: scale(0.88);
+}
+.mini2Con:hover img{
+    transform: scale(0.88);
+}
+.mini3Con:hover img{
+    transform: scale(0.88);
+}
+.mini4Con:hover img{
+    transform: scale(0.88);
+}
+.mini5Con:hover img{
     transform: scale(0.88);
 }
 .mini-img:hover{

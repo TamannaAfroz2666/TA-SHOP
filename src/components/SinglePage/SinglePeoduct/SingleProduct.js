@@ -8,11 +8,36 @@ const SingleProduct = () => {
             <div className="sin-pro-head">
                 <div className="sing-pro-content">
                     <div className="sing-mini-imgC">
-                        <div className="mini-img">
-                        <img src={img1} alt="" />
+                        <div className="mini1Con">
+                            <div className="mini-img">
+                                <img src={img1} alt="" />
+                            </div>
+                        </div>
+
+                        <div className="mini2Con">
+                            <div className="mini-img">
+                                <img src={img1} alt="" />
+                            </div>
 
                         </div>
-                       
+                        <div className="mini3Con">
+                            <div className="mini-img">
+                                <img src={img1} alt="" />
+                            </div>
+
+                        </div>
+                        <div className="mini4Con">
+                            <div className="mini-img">
+                                <img src={img1} alt="" />
+                            </div>
+
+                        </div>
+                        <div className="mini5Con">
+                            <div className="mini-img">
+                                <img src={img1} alt="" />
+                            </div>
+
+                        </div>
                     </div>
                     <div className="sing-imgCon">
 
@@ -25,7 +50,7 @@ const SingleProduct = () => {
 
 
             </div>
-            
+
         </div>
     );
 };
