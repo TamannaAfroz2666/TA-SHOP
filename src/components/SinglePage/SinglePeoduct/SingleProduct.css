@@ -58,6 +58,7 @@
 
 /* image style  */
 .sing-imgCon11{
+    width: 550px;
     position: static;
     height: 70rem;
 }
@@ -69,12 +70,19 @@
     padding: 2px 16px;
     float: right;
     margin-top: 1rem;
-    right: 4.5rem;
+    right: 1.5rem;
     position: relative;
+   
+
+}
+.spanDis{
+    transform: translate(-.1ch, -55rem);
 
 }
  #largeImg{
     width: 550px;
     height: 55rem;
     display: block;
+    /* bottom: 2.68rem; */
+    /* position: relative; */
 }

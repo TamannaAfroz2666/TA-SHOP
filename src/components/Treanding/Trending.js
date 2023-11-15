@@ -13,7 +13,6 @@ const Trending = () => {
                     <div className="abc">
                         <h1 className='trendTitle'>You are in</h1>
                     </div>
-
                     <div className="nav_link">
                         <div className="dropdown">
                             <span className="dropbtn">trending <BsArrowDown size={25} className='trendingHr' /> </span>

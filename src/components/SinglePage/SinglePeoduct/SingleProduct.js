@@ -5,6 +5,7 @@ import img2 from '../../../assets/Image/NewArrivals/bag.jpg'
 import img3 from '../../../assets/Image/NewArrivals/final.jpg'
 import img4 from '../../../assets/Image/NewArrivals/shoesss.jpg'
 import img5 from '../../../assets/Image/NewArrivals/shoesss.jpg'
+import SingleProductInfo from './SingleProductInfo/SingleProductInfo';
 
 const SingleProduct = () => {
     return (
@@ -39,12 +40,16 @@ const SingleProduct = () => {
                         </div>
                     </div>
                     <div className="sing-imgCon11">
-                        <span className='discountSinglePro'>20%</span>
+                       
+                       
                         <img src={img1} alt="" className='largeImg' id='largeImg' />
+                        <div className="spanDis">
+                        <span className='discountSinglePro'>20%</span>
 
+                        </div>
                     </div>
                     <div className="sing-pro-info">
-
+                        <SingleProductInfo></SingleProductInfo>
                     </div>
 
                 </div>
