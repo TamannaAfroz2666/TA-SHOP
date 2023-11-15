@@ -7,6 +7,7 @@ import Footer from './layout/Footer/Footer';
 import CartMain from './Page/Cart/CartMain/CartMain';
 import CheckoutMain from './Page/CheckOut/CheckOutMain/CheckoutMain';
 import MainShowAll from './Page/ShowAllProducts/MainShowAll/MainShowAll';
+import SinglePage from './Page/SinglePage/SinglePage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/cart' element={ <CartMain /> } />
         <Route path='/cartCheckOut' element={ <CheckoutMain />} />
         <Route path='/show-all-product' element={ <MainShowAll/> }/>
+        <Route path='product/single-page-product' element={ <SinglePage/> }/>
 
       </Routes>
      

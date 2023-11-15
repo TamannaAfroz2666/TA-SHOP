@@ -7,3 +7,17 @@
     height: 100%;
     width: 100%;
 }
+.linkUlSingleHeader{
+    margin-top: 4rem;
+}
+.ulContent .LinkHomeSingle{
+    font-size: 14px;
+    font-weight: 400;
+    color: #807878d0;
+}
+.ulContent .title_p2{
+    font-size: 14px;
+    font-weight: 400;
+    color: #111111f5;
+    padding-top: 1px;
+}

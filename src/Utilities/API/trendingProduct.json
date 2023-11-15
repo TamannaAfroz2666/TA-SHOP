@@ -19,7 +19,7 @@
             "default_image": "/Images/Products/11.avif",
             "p_title" : "Long sleeve dress",
             "p_price": "2,220.00",
-            "slug_field": "long-sleeve-dress",
+            "slug_field": "single-page-product",
             "dollar_convert" : 20.00,
             "stock_product" : 1
         },
