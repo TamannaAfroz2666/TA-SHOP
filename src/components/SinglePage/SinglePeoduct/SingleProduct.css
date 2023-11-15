@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+.single-product{
+    height: 100%;
+    width: 100%;
+}
+.sin-pro-head{
+    margin: 1rem 0 5rem 0;
+}
+.sing-pro-content{
+    display: flex;
+    gap: 1rem;
+   
+}
+.mini-img{
+   display: block;
+   width: 100px;
+   height: 150px;   
+  
+}
+.sing-mini-imgC img{
+    width: 100px;
+    height: 150px;
+    display: block;
+}
+.sing-mini-imgC:hover img{
+    transform: scale(0.88);
+}
+.mini-img:hover{
+    border: 1px solid rgba(0, 0, 0, 0.795);
+    display: block;
+}
