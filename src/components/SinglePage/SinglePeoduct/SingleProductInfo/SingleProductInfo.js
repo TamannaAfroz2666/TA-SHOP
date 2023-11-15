@@ -6,7 +6,6 @@ import { FaRegStarHalfStroke } from "react-icons/fa6";
 const SingleProductInfo = () => {
     return (
         <div className='singleProInfoMain'>
-            {/* <h1>hh</h1> */}
             <div className="iconsField1">
                 <div className="iconsRating">
                     <span className='hhh'><AiFillStar size={13} color='orange' /></span>
@@ -19,6 +18,7 @@ const SingleProductInfo = () => {
                     <p className='oneItem'>(2)</p>
                 </div>
             </div>
+            <h3 className='pro-info-title'>Art print T-shirt</h3>
 
 
         </div>

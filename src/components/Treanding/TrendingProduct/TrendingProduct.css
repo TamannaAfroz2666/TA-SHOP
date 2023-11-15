@@ -31,15 +31,12 @@
 .productContents {
     position: relative;
     display: block;
-
 }
 
 .image {
     width: 300px;
     height: 400px;
     display: block;
-
-
 }
 .productContents a{
     text-decoration: none;
@@ -71,7 +68,6 @@
 /* icon  */
 .iconSection {
     display: flex;
-
     justify-content: center;
     align-items: center;
     color: black;
@@ -175,8 +171,6 @@
     position: absolute;
     color: #f1f1f1;
     border: 0;
-
-
 }
 
 .selectOptionTitle:hover {
@@ -220,7 +214,6 @@
     bottom: .5rem;
     position: relative;
     color: #111;
-
 }
 
 .product_titles:hover {
@@ -239,13 +232,11 @@
     max-width: 80px;
     font-weight: 400;
     margin-left: 6rem;
-
 }
 
 .priceSection .priceTitle {
     text-align: center;
     font-size: 18px;
-    /* color: #111; */
     font-weight: 600;
     bottom: 3rem;
     position: relative;
@@ -260,9 +251,7 @@
     visibility: visible;
 }
 
-
 /* modal styling start  */
-
 
 .modalPTitle {
     width: 100%;
@@ -282,13 +271,10 @@
     text-align: center;
 }
 
-
-
 .sectionColor {
     display: flex;
     justify-content: center;
     gap: 4px;
-
 }
 
 .colorField {
@@ -298,8 +284,6 @@
     border: 0;
     bottom: 3.5rem;
     position: relative;
-
-
 }
 
 /* modal of viewQuick styled  */
@@ -358,7 +342,6 @@
   .radio-mark:after {
     content: '';
     position: absolute;
-    /* display: none; */
   }
   
   .radio input:checked ~ .radio-mark:after {
@@ -376,11 +359,7 @@
   .green {
     background-color: green;
   }
-  
-  /* .blue {
-    background-color: blue;
-  } */
-  /* Define more colors as needed */
+ 
   
  
   
