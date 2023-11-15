@@ -9,14 +9,19 @@ const ProductShow = () => {
         <div className='productShowAll'>
             <div className="proSoAlHead">
                 <div className="dropFilter">
-                <div className="dropdown">
-                            <span className="dropbtnAll">Alphabetically, Z-A <span className='faSort'><FaSortAmountDownAlt /></span> </span>
-                            <div className="dropdown-content">
-                                <Link to="/trending-sell">trending</Link>
-                                <Link to="/best-seller">best seller</Link>
-                                <Link to="/top-ranking">top ranking</Link>
-                            </div>
-                        </div>
+                    <select name="language" className='selectDrop' id="language">
+                        <option value="javascript">Best Selling</option>
+                        <option value="python">Featured</option>
+                        <option value="java" selected>Alphabetically, A-Z</option>
+                        <option value="c++">Alphabetically, Z-A</option>
+                        <option value="javascript">Price, Low-High</option>
+                        <option value="python">Price,High-Low</option>
+                        <option value="c++">Date, Old-New</option>
+                        <option value="java">Date, New-Old</option>
+                    </select>
+                    <label htmlFor="language">
+                        <span className='faSort'><FaSortAmountDownAlt /></span>
+                    </label>
 
                 </div>
                 <div className="sizeFilterSh">
