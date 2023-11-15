@@ -9,12 +9,12 @@ const ProductFilter = () => {
         <div className='filterP'>
             <div className="productHeadFilter">
                 <Accordion defaultActiveKey="0">
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header >
+                    <Accordion.Item eventKey="0" >
+                        <Accordion.Header  >
                             <h3 className='
                         collectTitle'>Collections</h3>
                         </Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body >
                             <div className="collectBodyIn">
                                 <div className="collectCon">
                                     <ul className='ulCollect'>
@@ -23,12 +23,9 @@ const ProductFilter = () => {
                                                 <div className="filterItems">
                                                     <div className="lebelFl">
                                                         <label htmlFor="name" className='proLaTitle'>All Products</label>
-
                                                     </div>
                                                     <div className="quanFL">
-
                                                         <span className='quantityTitleFl'>35</span>
-
                                                     </div>
 
                                                 </div>

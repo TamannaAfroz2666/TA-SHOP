@@ -13,6 +13,7 @@
     color: #111;
     text-transform: uppercase;
     letter-spacing: 2px;
+   
 }
 .ulCollect li{
     list-style: none;
@@ -24,3 +25,24 @@
     display: flex;
     justify-content: space-between;
 }
+.lebelFl{
+    right: 1.5rem;
+    position: relative;
+
+}
+.lebelFl .proLaTitle{
+    color: #535050;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 0 0rem .8rem 0;
+}
+.quanFL .quantityTitleFl{
+    color: #535050;
+    border: 1px solid rgb(78, 76, 76);
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+
+}
+
