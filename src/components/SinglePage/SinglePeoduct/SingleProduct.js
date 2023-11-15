@@ -1,6 +1,10 @@
 import React from 'react';
 import './SingleProduct.css';
 import img1 from '../../../assets/Image/NewArrivals/pic20.jpg'
+import img2 from '../../../assets/Image/NewArrivals/bag.jpg'
+import img3 from '../../../assets/Image/NewArrivals/final.jpg'
+import img4 from '../../../assets/Image/NewArrivals/shoesss.jpg'
+import img5 from '../../../assets/Image/NewArrivals/shoesss.jpg'
 
 const SingleProduct = () => {
     return (
@@ -8,35 +12,30 @@ const SingleProduct = () => {
             <div className="sin-pro-head">
                 <div className="sing-pro-content">
                     <div className="sing-mini-imgC">
+                        <div className="mini1Con1">
+                            <div className="mini1-con">
+                                <img src={img1} alt="" />
+                            </div>
+                        </div>
                         <div className="mini1Con">
                             <div className="mini-img">
-                                <img src={img1} alt="" />
+                                <img src={img2} alt="" />
                             </div>
                         </div>
-
-                        <div className="mini2Con">
+                        <div className="mini1Con">
                             <div className="mini-img">
-                                <img src={img1} alt="" />
+                                <img src={img3} alt="" />
                             </div>
-
                         </div>
-                        <div className="mini3Con">
+                        <div className="mini1Con">
                             <div className="mini-img">
-                                <img src={img1} alt="" />
+                                <img src={img4} alt="" />
                             </div>
-
                         </div>
-                        <div className="mini4Con">
+                        <div className="mini1Con">
                             <div className="mini-img">
-                                <img src={img1} alt="" />
+                                <img src={img5} alt="" />
                             </div>
-
-                        </div>
-                        <div className="mini5Con">
-                            <div className="mini-img">
-                                <img src={img1} alt="" />
-                            </div>
-
                         </div>
                     </div>
                     <div className="sing-imgCon">
