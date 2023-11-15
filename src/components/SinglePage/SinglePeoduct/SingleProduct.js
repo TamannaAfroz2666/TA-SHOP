@@ -39,6 +39,7 @@ const SingleProduct = () => {
                         </div>
                     </div>
                     <div className="sing-imgCon11">
+                        <span className='discountSinglePro'>20%</span>
                         <img src={img1} alt="" className='largeImg' id='largeImg' />
 
                     </div>
