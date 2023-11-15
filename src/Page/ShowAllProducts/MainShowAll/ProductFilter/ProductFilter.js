@@ -164,19 +164,19 @@ const ProductFilter = () => {
                                         <div className="priceSection1">
                                             <div className="pp1">
                                                 <p className='priceSubInfoVCart'>
-                                                     $0.00</p>
+                                                    $0.00</p>
                                                 <p className='priceMinTotal1'>tk 0.00 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="iconF">
-                                    <LuMinus />
+                                        <LuMinus />
                                     </div>
                                     <div className="maxP">
                                         <div className="priceSection1">
                                             <div className="pp1">
                                                 <p className='priceSubInfoVCart'>
-                                                     $20</p>
+                                                    $20</p>
                                                 <p className='priceMinTotal1'>tk 3,000 </p>
                                             </div>
                                         </div>
@@ -252,44 +252,61 @@ const ProductFilter = () => {
                     <Accordion.Item eventKey="4">
                         <Accordion.Header>
                             <h3 className='
-                        collectTitle'>price</h3>
+                        collectTitle'>Size</h3>
                         </Accordion.Header>
                         <Accordion.Body className='reduceSp'>
-                            <div className="collectCon">
-                                <div class="range-slider">
-                                    <span class="range-selected"></span>
+                            <div className="sizeFl">
+                                <div className="btn1Fl">
+                                    <span className='sizeQn'>3</span> <br />
+                                    <button className='btnXs'>
+                                        xs
+                                    </button>
                                 </div>
-                                <div class="range-input">
-                                    <input type="range" class="min" min="0" max="1000" value="300" step="10" />
-                                    <input type="range" class="max" min="0" max="1000" value="700" step="10" />
+                                <div className="btn1Fl">
+                                    <span className='sizeQn'>30</span> <br />
+                                    <button className='btnXs'>
+                                        s
+                                    </button>
                                 </div>
-                                <div className="priceRang">
-                                    <div className="priceT">
-                                        <p className='priceTitleR'>Price :</p>
-                                    </div>
-                                    <div className="minP">
-                                        <div className="priceSection1">
-                                            <div className="pp1">
-                                                <p className='priceSubInfoVCart'>
-                                                     $0.00</p>
-                                                <p className='priceMinTotal1'>tk 0.00 </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="iconF">
-                                    <LuMinus />
-                                    </div>
-                                    <div className="maxP">
-                                        <div className="priceSection1">
-                                            <div className="pp1">
-                                                <p className='priceSubInfoVCart'>
-                                                     $20</p>
-                                                <p className='priceMinTotal1'>tk 3,000 </p>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                <div className="btn1Fl">
+                                    <span className='sizeQn'>1</span> <br />
+                                    <button className='btnXs'>
+                                        m
+                                    </button>
                                 </div>
+                                <div className="btn1Fl">
+                                    <span className='sizeQn'>9</span> <br />
+                                    <button className='btnXs'>
+                                        l
+                                    </button>
+                                </div>
+                                <div className="btn1Fl">
+                                    <span className='sizeQn'>13</span> <br />
+                                    <button className='btnXs'>
+                                        xl
+                                    </button>
+                                </div>
+                            </div>
+                            <div className="sizeFl">
+                                <div className="btn1Fl">
+                                    <span className='sizeQn'>2</span> <br />
+                                    <button className='btnXs'>
+                                        04
+                                    </button>
+                                </div>
+                                <div className="btn1Fl">
+                                    <span className='sizeQn'>4</span> <br />
+                                    <button className='btnXs'>
+                                        06
+                                    </button>
+                                </div>
+                                <div className="btn1Fl">
+                                    <span className='sizeQn'>10</span> <br />
+                                    <button className='btnXs'>
+                                        08
+                                    </button>
+                                </div>
+                                
                             </div>
                         </Accordion.Body>
                     </Accordion.Item>
