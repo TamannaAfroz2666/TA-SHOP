@@ -18,6 +18,8 @@
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 1rem;
+    height: 100%;
+    position: static;
 }
 .mini1-con{
     display: block;
@@ -25,7 +27,7 @@
     height: 140px;
     border: 1px solid rgba(0, 0, 0, 0.795);    
  }
- .mini1-con img{
+ .mini1-con .img1-con{
      width: 80px;
      height: 130px;
      margin: auto;
@@ -39,7 +41,7 @@
     
 }
 
-.mini-img img{
+.mini-img .imgMini{
     width: 100px;
     height: 138px;
     display: block; 
@@ -51,5 +53,16 @@
 
 .mini-img:hover{
     border: 1px solid rgba(0, 0, 0, 0.795);
+    display: block;
+}
+
+/* image style  */
+.sing-imgCon11{
+    position: static;
+    height: 70rem;
+}
+ #largeImg{
+    width: 550px;
+    height: 55rem;
     display: block;
 }

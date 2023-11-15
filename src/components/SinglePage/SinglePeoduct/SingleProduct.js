@@ -14,31 +14,32 @@ const SingleProduct = () => {
                     <div className="sing-mini-imgC">
                         <div className="mini1Con1">
                             <div className="mini1-con">
-                                <img src={img1} alt="" />
+                                <img src={img1} alt="" className='img1-con' />
                             </div>
                         </div>
                         <div className="mini1Con">
                             <div className="mini-img">
-                                <img src={img2} alt="" />
+                                <img src={img2} alt="" className='imgMini' />
                             </div>
                         </div>
                         <div className="mini1Con">
                             <div className="mini-img">
-                                <img src={img3} alt="" />
+                                <img src={img3} alt="" className='imgMini' />
                             </div>
                         </div>
                         <div className="mini1Con">
                             <div className="mini-img">
-                                <img src={img4} alt="" />
+                                <img src={img4} alt="" className='imgMini' />
                             </div>
                         </div>
                         <div className="mini1Con">
                             <div className="mini-img">
-                                <img src={img5} alt="" />
+                                <img src={img5} alt="" className='imgMini'/>
                             </div>
                         </div>
                     </div>
-                    <div className="sing-imgCon">
+                    <div className="sing-imgCon11">
+                        <img src={img1} alt="" className='largeImg' id='largeImg' />
 
                     </div>
                     <div className="sing-pro-info">
