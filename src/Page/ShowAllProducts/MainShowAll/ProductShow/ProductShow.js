@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaSortAmountDownAlt } from "react-icons/fa";
 import { MdOutlineDensityMedium } from "react-icons/md";
 import { FaGripLinesVertical ,FaLinesLeaning } from "react-icons/fa6";
+import ProductPage from './ProductPage/ProductPage';
 
 
 
@@ -51,10 +52,11 @@ const ProductShow = () => {
 
 
                 </div>
-
-
-
             </div>
+            <div className="show-page-content">
+                    <ProductPage></ProductPage>
+                    
+                </div>
 
         </div>
     );

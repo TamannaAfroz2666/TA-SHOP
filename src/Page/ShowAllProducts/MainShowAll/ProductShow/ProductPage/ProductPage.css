@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-page {
+    height: 100%;
+    width: 100%;
+    /* position: absolute; */
+}
+
+.productContainer1 {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    height: 560px;
+   
+}
+
+.productBox1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.productContents {
+    position: relative;
+    display: block;
+
+}
+
+.image {
+    width: 270px;
+    height: 360px;
+    display: block;
+    border-radius: 5px;
+
+
+}
+.productContents a{
+    text-decoration: none;
+}
+
+/* overlay add  */
+.overlaySection {
+    position: relative;
+    bottom: 10.6rem;
+
+    /* background: rgba(0, 0, 0, 0.5);  */
+    color: #f1f1f1;
+    width: 300px;
+
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    /* padding: 20px; */
+    text-align: center;
+    height: 160px
+}
+
+.productContents:hover .overlaySection {
+    opacity: 1;
+}
+
+
+/* icon  */
+.iconSection {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 10px 0 20px 0;
+}
+
+.iconSection .IconOverlay {
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 100%;
+    /* bottom: 1rem;
+    position: relative; */
+}
+
+
+.IconOverlay:hover {
+    background-color: #0dcaf0;
+
+}
+
+.heart:hover .wishlist {
+    visibility: visible;
+}
+
+.arrow:hover .compare {
+    visibility: visible;
+}
+
+.eye:hover .quickView {
+    visibility: visible;
+}
+
+.wishlist {
+    padding: 2px 14px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #111;
+    visibility: hidden;
+    bottom: 9px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.compare {
+    padding: 2px 14px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #111;
+    visibility: hidden;
+    bottom: 9px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.quickView {
+    padding: 2px 14px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #111;
+    visibility: hidden;
+    bottom: 9px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.iconSection button {
+    border: 0;
+    background-color: #fff;
+    overflow: hidden;
+    border-radius: 100%;
+    /* background-color: ; */
+}
+
+
+/* icon end  */
+
+/* select option field  */
+
+.selectOption button {
+    border: 0;
+}
+
+.selectOptionTitle {
+    padding: 14px 0;
+    background-color: rgba(0, 0, 0, 0.384);
+    right: 0;
+    left: 0;
+    bottom: -17px;
+    position: absolute;
+    color: #f1f1f1;
+    border: 0;
+    font-size: 18px;
+}
+
+.sortP {
+    padding: 20px 0;
+    background-color: #111;
+    right: 0;
+    left: 0;
+    bottom: 1px;
+    position: absolute;
+    color: #f1f1f1;
+    border: 0;
+
+
+}
+
+.selectOptionTitle:hover {
+    background-color: #0dcaf0;
+}
+
+
+
+/* new stage of product info section */
+.productInfo {
+    width: 300px;
+    bottom: 9.9rem;
+    position: relative;
+
+}
+
+.iconsField {
+
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    /* padding: 0 0 .1rem 0; */
+
+}
+
+.iconsRating {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.numProduct .oneItem {
+    font-size: 12px;
+    color: #111;
+    margin-top: .23rem;
+}
+
+.nameProduct .product_titles {
+    font-size: 16px;
+    text-align: center;
+    bottom: .5rem;
+    position: relative;
+    color: #111;
+
+}
+
+.product_titles:hover {
+    color: #0dcaf0;
+}
+/* price section start */
+.priceSubInfo {
+    padding: 4px 30px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #111;
+    visibility: hidden;
+    bottom: 2rem;
+    position: relative;
+    border-radius: 5px;
+    max-width: 80px;
+    font-weight: 400;
+    margin-left: 6rem;
+
+}
+
+.priceSection .priceTitle {
+    text-align: center;
+    font-size: 18px;
+    /* color: #111; */
+    font-weight: 600;
+    bottom: 3rem;
+    position: relative;
+    color: #111;
+}
+
+.priceTitle:hover {
+    color: #0dcaf0;
+}
+
+.pp:hover .priceSubInfo {
+    visibility: visible;
+}
+
+
+/* modal styling start  */
+
+
+.modalPTitle {
+    width: 100%;
+}
+
+.modalTitle {
+    text-align: center;
+    text-transform: uppercase;
+    color: #0dcaf0d8;
+    font-family: 'Pacifico';
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.modalBody .to {
+    /* font-size: 50px; */
+    text-align: center;
+}
+
+
+
+.sectionColor {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+
+}
+
+.colorField {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    bottom: 3.5rem;
+    position: relative;
+
+
+}
+
+/* modal of viewQuick styled  */
+
+.styleBox {
+    width: 80%;
+    margin: auto;
+    height: 100%; 
+     margin: 2rem 6rem;
+    /* border: '2px solid #000';
+    color: #f1f1f1; */
+    background-color: rgba(255, 255, 255, 0.068);
+}
+
+.quickViewContent {
+    display: flex;
+}
+
+.imageView img {
+    width: 400px;
+    height: 500px;
+    margin: 2rem 8rem;
+}
+
+.modalArea1 {
+    background-color: rgba(255, 255, 255, 0.726);
+}
+
+
+/* RadioButtons.css */
+.radio {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .radio-mark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  .radio-mark:after {
+    content: '';
+    position: absolute;
+    /* display: none; */
+  }
+  
+  .radio input:checked ~ .radio-mark:after {
+    display: block;
+  }
+  
+  .radio .radio-mark:after {
+    top: 4px;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  /* .blue {
+    background-color: blue;
+  } */
+  /* Define more colors as needed */
+  
+ 
+  
+  
+  
+  
+  
+  
