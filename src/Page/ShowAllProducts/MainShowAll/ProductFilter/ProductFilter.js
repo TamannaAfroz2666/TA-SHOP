@@ -8,122 +8,137 @@ const ProductFilter = () => {
     return (
         <div className='filterP'>
             <div className="productHeadFilter">
-                <Accordion defaultActiveKey="0">
+                <Accordion defaultActiveKey={['0', '1']} >
                     <Accordion.Item eventKey="0" >
                         <Accordion.Header  >
                             <h3 className='
                         collectTitle'>Collections</h3>
                         </Accordion.Header>
                         <Accordion.Body >
-                            <div className="collectBodyIn">
-                                <div className="collectCon">
-                                    <ul className='ulCollect'>
-                                        <li>
-                                            <Link to='/show-all-product'>
-                                                <div className="filterItems">
-                                                    <div className="lebelFl">
-                                                        <label htmlFor="name" className='proLaTitle'>All Products</label>
-                                                    </div>
-                                                    <div className="quanFL">
-                                                        <span className='quantityTitleFl'>35</span>
-                                                    </div>
+                            <div className="collectCon">
+                                <ul className='ulCollect'>
+                                    <li>
+                                        <Link to='/show-all-product'>
+                                            <div className="filterItems">
+                                                <div className="lebelFl">
+                                                    <label htmlFor="name" className='proLaTitle'>All Products</label>
+                                                </div>
+                                                <div className="quanFL">
+                                                    <span className='quantityTitleFl'>35</span>
+                                                </div>
+
+                                            </div>
+                                        </Link>
+
+
+
+                                    </li>
+                                    <li>
+                                        <Link to='/show-all-knitware'>
+                                            <div className="filterItems">
+                                                <div className="lebelFl">
+                                                    <label htmlFor="name" className='proLaTitle'>
+                                                        knitware </label>
 
                                                 </div>
-                                            </Link>
+                                                <div className="quanFL">
 
-
-
-                                        </li>
-                                        <li>
-                                            <Link to='/show-all-knitware'>
-                                                <div className="filterItems">
-                                                    <div className="lebelFl">
-                                                        <label htmlFor="name" className='proLaTitle'>
-                                                            knitware </label>
-
-                                                    </div>
-                                                    <div className="quanFL">
-
-                                                        <span className='quantityTitleFl'>5</span>
-
-                                                    </div>
+                                                    <span className='quantityTitleFl'>5</span>
 
                                                 </div>
-                                            </Link>
+
+                                            </div>
+                                        </Link>
 
 
 
-                                        </li>
-                                        <li>
-                                            <Link to='/show-all-t-shirts'>
-                                                <div className="filterItems">
-                                                    <div className="lebelFl">
-                                                        <label htmlFor="name" className='proLaTitle'>T-Shirts</label>
-
-                                                    </div>
-                                                    <div className="quanFL">
-
-                                                        <span className='quantityTitleFl'>25</span>
-
-                                                    </div>
+                                    </li>
+                                    <li>
+                                        <Link to='/show-all-t-shirts'>
+                                            <div className="filterItems">
+                                                <div className="lebelFl">
+                                                    <label htmlFor="name" className='proLaTitle'>T-Shirts</label>
 
                                                 </div>
-                                            </Link>
+                                                <div className="quanFL">
 
+                                                    <span className='quantityTitleFl'>25</span>
 
-
-                                        </li>
-                                        <li>
-                                            <Link to='/show-all-sweatshirt'>
-                                                <div className="filterItems">
-                                                    <div className="lebelFl">
-                                                        <label htmlFor="name" className='proLaTitle'>Sweatshirt </label>
-                                                    </div>
-                                                    <div className="quanFL">
-                                                        <span className='quantityTitleFl'>35</span>
-                                                    </div>
                                                 </div>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link to='/show-all-women'>
-                                                <div className="filterItems">
-                                                    <div className="lebelFl">
-                                                        <label htmlFor="name" className='proLaTitle'>Women </label>
-                                                    </div>
-                                                    <div className="quanFL">
-                                                        <span className='quantityTitleFl'>35</span>
-                                                    </div>
+
+                                            </div>
+                                        </Link>
+
+
+
+                                    </li>
+                                    <li>
+                                        <Link to='/show-all-sweatshirt'>
+                                            <div className="filterItems">
+                                                <div className="lebelFl">
+                                                    <label htmlFor="name" className='proLaTitle'>Sweatshirt </label>
                                                 </div>
-                                            </Link>
-                                        </li>
-                                        <div className="btnColl">
+                                                <div className="quanFL">
+                                                    <span className='quantityTitleFl'>35</span>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to='/show-all-women'>
+                                            <div className="filterItems">
+                                                <div className="lebelFl">
+                                                    <label htmlFor="name" className='proLaTitle'>Women </label>
+                                                </div>
+                                                <div className="quanFL">
+                                                    <span className='quantityTitleFl'>35</span>
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </li>
+                                    <div className="btnColl">
                                         <button className='btnViwCol'>
                                             View More
-                                            <hr className='btnHrCol'/>
+                                            <hr className='btnHrCol' />
                                         </button>
 
-                                        </div>
-                                      
-                                    </ul>
-                                </div>
-
-
+                                    </div>
+                                </ul>
                             </div>
-
-
                         </Accordion.Body>
                     </Accordion.Item>
                     <Accordion.Item eventKey="1">
-                        <Accordion.Header>Accordion Item #2</Accordion.Header>
+                        <Accordion.Header>
+                            <h3 className='
+                        collectTitle'>AVAILABILITY</h3>
+                        </Accordion.Header>
                         <Accordion.Body>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum.
+                            <div className="collectCon">
+                                <ul className='ulCollect'>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="checkbox" id="inStock" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'>In stock</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>35</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="filterItems">
+                                            <div className="lebelFl">
+                                                <input type="checkbox" id="inStock" name="name" />
+                                                <label htmlFor="name" className='proStockTitle'> Out Of stock</label>
+                                            </div>
+                                            <div className="quanFL">
+                                                <span className='quantityTitleFl'>1</span>
+                                            </div>
+                                        </div>
+                                    </li>                              
+                                </ul>
+                            </div>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>
