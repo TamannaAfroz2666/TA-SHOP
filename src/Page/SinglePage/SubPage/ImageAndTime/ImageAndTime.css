@@ -8,13 +8,37 @@
     height: 100%;
     width: 100%;
 }
-
+.pro-hand-over{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
 .imageAndTime .car-sec {
     width: 45px;
     border-right: 1px solid rgba(23, 24, 23, 0.39);
-    height: 50px;
+    height: 55px;
+    margin-top: 1rem;
 
 }
 .car-sec .carIcon{
     color: #111111c5;
+    margin-top: .5rem;
 }
+.orderInCls{
+    font-size: 16px;
+    font-weight: 600;
+    color: #11111194;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    line-height: 26px;
+    
+
+}
+.dateDelStart{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111;
+    border-bottom: 1px solid black;
+    letter-spacing: 1px;
+}
+
