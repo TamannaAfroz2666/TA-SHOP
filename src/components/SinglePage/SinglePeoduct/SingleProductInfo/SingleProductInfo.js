@@ -112,6 +112,8 @@ const SingleProductInfo = () => {
 
                     </div>
                 </div>
+                 {/* color size field end  */}
+
                 <div className="size-wid">
                     <h4 className='title-col'>size: <span className='dynamic-col'>xs</span></h4>
                     <div className="sizeContents">
@@ -148,6 +150,18 @@ const SingleProductInfo = () => {
 
                     </div>
 
+
+                </div>
+                <div className="items-left">
+                    <h4 className='itemLftTitle'>Only <span className='itemSp'>30 item(s)</span>  left in stock</h4>
+                    <div className="parentCls">
+                        <div className="subParentCls">
+                            
+                        </div>
+
+
+
+                    </div>
 
                 </div>
 
