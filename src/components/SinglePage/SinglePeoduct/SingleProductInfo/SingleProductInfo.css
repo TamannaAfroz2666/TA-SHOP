@@ -124,8 +124,23 @@
 .iconMeas{
     padding-right: 6px;
 }
+/* color section styling start */
 .colorSize-sec{
     width: 580px;
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
+}
+.color-sec .title-col{
+    color: #111111e8;
+    font-size: 13px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.color-sec .dynamic-col{
+    font-size: 14px;
+    font-weight: 700;
 }
