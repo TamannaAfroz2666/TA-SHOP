@@ -209,6 +209,9 @@ const SingleProductInfo = () => {
 
 
                 </div>
+                <div className="buyItBtn">
+                    <button className='buyItCls'>buy it now</button>
+                </div>
 
             </div>
 
