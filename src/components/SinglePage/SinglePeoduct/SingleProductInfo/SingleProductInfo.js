@@ -112,6 +112,44 @@ const SingleProductInfo = () => {
 
                     </div>
                 </div>
+                <div className="size-wid">
+                    <h4 className='title-col'>size: <span className='dynamic-col'>xs</span></h4>
+                    <div className="sizeContents">
+                        <div className="btn-size-sec">
+                            <button className='btnXs-size'>
+                                xs
+                            </button>
+
+                        </div>
+                        <div className="btn-size-sec">
+                            <button className='btnXs-size'>
+                                s
+                            </button>
+
+                        </div>
+                        <div className="btn-size-sec">
+                            <button className='btnXs-size'>
+                                m
+                            </button>
+
+                        </div>
+                        <div className="btn-size-sec">
+                            <button className='btnXs-size'>
+                                l
+                            </button>
+
+                        </div>
+                        <div className="btn-size-sec">
+                            <button className='btnXs-size'>
+                                xl
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
 
             </div>
 
