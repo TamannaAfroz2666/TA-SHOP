@@ -78,3 +78,46 @@
     color: #0dcaf0;
     letter-spacing: 1px;
 }
+.hr-sin-pro-in{
+    width: 580px;
+}
+.stock-info{
+    display: inline-flex;
+    gap: .4rem;
+    margin-top: 1rem;
+}
+.stock-info .inStock{
+    color: green;
+    font-size: 15px;
+    bottom: .2rem;
+    position: relative;
+    font-weight: 500;
+}
+.soldPro{
+    display: inline-flex;
+    gap: .4rem;
+
+}
+.soldPro .inStock{
+    color: rgba(255, 0, 0, 0.89);
+    font-size: 15px;
+    bottom: .2rem;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.visit{
+    display: inline-flex;
+    gap: .4rem;
+    
+}
+.visit .inStock{
+    color: #111111e8;
+    font-size: 15px;
+    bottom: .2rem;
+    position: relative;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
