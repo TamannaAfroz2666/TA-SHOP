@@ -42,3 +42,23 @@
     letter-spacing: 1px;
 }
 
+/* card company style start */
+.card-company{
+    width: 96%;
+    margin-top: 1rem;
+}
+.card-company .title{
+    font-size: 13px;
+    font-weight: 700;
+    color: #363535e1;
+    text-align: center;
+    padding-top: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   
+}
+.card-company .image-card{
+    margin: 2.5rem 0 0 3.8rem;
+    /* height: 70px; */
+    align-items: center;
+}
