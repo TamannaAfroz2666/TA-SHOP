@@ -121,3 +121,11 @@
     letter-spacing: 1px;
 
 }
+.iconMeas{
+    padding-right: 6px;
+}
+.colorSize-sec{
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+}

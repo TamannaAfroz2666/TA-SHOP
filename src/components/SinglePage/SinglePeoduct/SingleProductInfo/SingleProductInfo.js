@@ -3,8 +3,9 @@ import './SingleProductInfo.css';
 import { AiFillStar } from "react-icons/ai";
 import { FaRegStarHalfStroke } from "react-icons/fa6";
 import { CiCircleCheck } from "react-icons/ci";
-import { FaFireAlt } from "react-icons/fa";
+import { IoFlameSharp } from "react-icons/io5";
 import { LuEye } from "react-icons/lu";
+import { TbRulerMeasure } from "react-icons/tb";
 
 const SingleProductInfo = () => {
     return (
@@ -41,18 +42,30 @@ const SingleProductInfo = () => {
                 </div>
                 <div className="soldInfo">
                     <div className="soldPro">
-                        <FaFireAlt color='red' size={18} />
+                        <IoFlameSharp color='red' size={18} />
                         <p className='inStock'><strong>36</strong> sold in last <strong>13</strong> hours</p>
 
                     </div>
-                    
+
 
                 </div>
                 <div className="visit">
                     <LuEye color='black' size={18} />
-                        <p className='inStock'><strong>30</strong>  people are viewing this right now</p>
+                    <p className='inStock'><strong>30</strong>  people are viewing this right now</p>
+
+                </div>
+                <div className="colorSize-sec">
+                    <div className="color-sec">
+                        <h4 className='title-col'>color: <span className='dynamic-col'>Black</span></h4>
 
                     </div>
+                    <div className="size-sec">
+                        <button>
+                        <TbRulerMeasure color='black' size={20} className='iconMeas'/>Size Guide
+                        </button>
+
+                    </div>
+                </div>
 
             </div>
 
