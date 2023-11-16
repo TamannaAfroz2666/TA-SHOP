@@ -183,6 +183,7 @@ const SingleProductInfo = () => {
 
                     </div>
                     <div className="cardBtn">
+                        <button className='add-card'>add to card</button>
 
                     </div>
                     <div className="wish-sec">
