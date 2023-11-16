@@ -29,17 +29,52 @@
 }
 /* closed icon  */
 
-.pro-info-title{
-    font-size: 30px;
-    font-weight: 500;
-    text-transform: capitalize;
-    color: #111111bb;
+/* price section styling  */
+
+.priceSubInfoVCart22 {
+    padding: 4px 26px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #111;
+    visibility: hidden;
+    bottom: 2rem;
+    position: relative;
+    border-radius: 5px;
+    max-width: 80px;
+    font-weight: 400;
+    margin-left: 0rem;
+    margin-right: 0;
+
 }
-.priceSection1 .price-sin-info{
+.priceSec-pro-info{
+    height: 50px;
+}
+.priceSec-pro-info .amount-sin-pro {
     font-size: 22px;
-    color: rgba(255, 0, 0, 0.76);
     font-weight: 600;
-    bottom: 3rem;
+    bottom: 2rem;
     position: relative;
     text-transform: capitalize;
+    color: rgba(255, 0, 0, 0.767);
+   
+}
+
+.amount-sin-pro:hover {
+    color: #0dcaf0;
+}
+
+.pp1:hover .priceSubInfoVCart22 {
+    visibility: visible;
+}
+/* end price section  */
+.byCls{
+    font-size: 16px;
+    color: #111;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 20px;
+}
+.byCls a{
+    color: #0dcaf0;
+    letter-spacing: 1px;
 }

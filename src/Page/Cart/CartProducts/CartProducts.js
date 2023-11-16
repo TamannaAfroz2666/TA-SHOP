@@ -64,6 +64,7 @@ const CartProducts = () => {
                                             <p className='priceTitleVcart'>Tk 5,000 </p>
                                         </div>
                                     </div>
+                                    {/* edit item  */}
                                     <div className="editOption">
                                         <div className="pp2">
                                             <p className='priceSubInfoVCart1'> Edit this item</p>
