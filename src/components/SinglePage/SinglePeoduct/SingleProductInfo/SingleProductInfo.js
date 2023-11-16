@@ -6,8 +6,20 @@ import { CiCircleCheck } from "react-icons/ci";
 import { IoFlameSharp } from "react-icons/io5";
 import { LuEye } from "react-icons/lu";
 import { TbRulerMeasure } from "react-icons/tb";
+import Modal from '@mui/material/Modal';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
 const SingleProductInfo = () => {
+    // viwecart edit modal 
+    const [open, setOpen] = React.useState(false);
+    const handleClose = () => setOpen(false);
+
+    //   const [selectedColor, setSelectedColor] = useState('');
+    const sizeShow = () => {
+        console.log('cart  going to modal');
+        setOpen(true)
+    }
     return (
         <div className='singleProInfoMain'>
             {/* icon section start  */}
@@ -54,15 +66,38 @@ const SingleProductInfo = () => {
                     <p className='inStock'><strong>30</strong>  people are viewing this right now</p>
 
                 </div>
+                {/* color size field start  */}
                 <div className="colorSize-sec">
                     <div className="color-sec">
                         <h4 className='title-col'>color: <span className='dynamic-col'>Black</span></h4>
 
                     </div>
                     <div className="size-sec">
-                        <button>
-                        <TbRulerMeasure color='black' size={20} className='iconMeas'/>Size Guide
+                        <button className='btnSizeInfo' onClick={sizeShow}>
+                            <TbRulerMeasure size={20} className='iconMeas' />Size Guide
+                            <hr className='btnHrProInfo' />
                         </button>
+                        <Modal
+                            className='modalArea1'
+                            open={open}
+                            onClose={handleClose}
+                            aria-labelledby="modal-modal-title"
+                            aria-describedby="modal-modal-description"
+                        >
+                            <Box className='styleBox'>
+
+                                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                    <div className="quickViewContent">
+                                        <div className="imageView">
+                                            {/* <img src={img1} alt="" /> */}
+                                            <h1>hhh</h1>
+                                        </div>
+                                        <div className="infoView">
+                                        </div>
+                                    </div>
+                                </Typography>
+                            </Box>
+                        </Modal>
 
                     </div>
                 </div>
