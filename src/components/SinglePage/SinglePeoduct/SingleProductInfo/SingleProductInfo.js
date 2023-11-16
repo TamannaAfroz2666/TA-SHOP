@@ -19,6 +19,13 @@ const SingleProductInfo = () => {
                 </div>
             </div>
             <h3 className='pro-info-title'>Art print T-shirt</h3>
+            <div className="priceSection1">
+                <div className="pp1">
+                    <p className='priceSubInfoVCart'> $ 50</p>
+                    <p className='price-sin-info'>tk 5,000 </p>
+
+                </div>
+            </div>
 
 
         </div>

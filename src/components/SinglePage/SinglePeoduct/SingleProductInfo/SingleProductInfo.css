@@ -35,3 +35,11 @@
     text-transform: capitalize;
     color: #111111bb;
 }
+.priceSection1 .price-sin-info{
+    font-size: 22px;
+    color: rgba(255, 0, 0, 0.76);
+    font-weight: 600;
+    bottom: 3rem;
+    position: relative;
+    text-transform: capitalize;
+}
