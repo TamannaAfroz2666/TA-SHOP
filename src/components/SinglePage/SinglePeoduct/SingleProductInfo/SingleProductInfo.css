@@ -223,6 +223,8 @@
 
 }
 .parentCls .subParentCls{
+
+
     background-color: red;
     position: absolute;
     top: 0;
@@ -231,4 +233,50 @@
     transition: width 2s ease;
     width: 30%;
 
+}
+
+/* .card work  */
+.cart-sec{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/* quantity add  */
+.incrDecr-pro-info {
+    display: flex;
+    gap: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.281);
+}
+
+/* decrrese  */
+.decr-sec button{
+    border: 0;
+    background-color: #fff;
+    padding: 10px 10px;
+    color: #1312129c;
+}
+.decreaseBtn:hover{
+    color: #111;
+}
+.value-pro-show{
+    padding: 10px 10px;
+    
+}
+.value-pro-show .showOne1 {
+    font-size: 18px;
+    color: #111;
+    font-weight: 700;
+   
+}
+
+.incr-sec button {
+    border: 0;
+    background-color: #11111100;
+    padding: 10px 10px;
+    color: #1312129c;
+}
+.increaseBtn:hover{
+    color: #111;
 }

@@ -142,9 +142,6 @@ const CartProducts = () => {
 
 
                         </div>
-                     
-
-
                     </div>
                     <div className="cartTitleHr1">
                         <hr className='titleHr1' />

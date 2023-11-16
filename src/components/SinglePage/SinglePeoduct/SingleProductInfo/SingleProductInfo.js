@@ -1,6 +1,6 @@
 import React from 'react';
 import './SingleProductInfo.css';
-import { AiFillStar } from "react-icons/ai";
+import { AiFillStar, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { FaRegStarHalfStroke } from "react-icons/fa6";
 import { CiCircleCheck } from "react-icons/ci";
 import { IoFlameSharp } from "react-icons/io5";
@@ -9,6 +9,7 @@ import { TbRulerMeasure } from "react-icons/tb";
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+// import { AiOutlineEdit, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 
 const SingleProductInfo = () => {
     // viwecart edit modal 
@@ -112,7 +113,7 @@ const SingleProductInfo = () => {
 
                     </div>
                 </div>
-                 {/* color size field end  */}
+                {/* color size field end  */}
 
                 <div className="size-wid">
                     <h4 className='title-col'>size: <span className='dynamic-col'>xs</span></h4>
@@ -154,15 +155,39 @@ const SingleProductInfo = () => {
                 </div>
                 <div className="items-left">
                     <h4 className='itemLftTitle'>Only <span className='itemSp'>30 item(s)</span>  left in stock</h4>
+                    {/* line design  */}
                     <div className="parentCls">
                         <div className="subParentCls">
-                            
                         </div>
-
-
-
                     </div>
 
+                </div>
+                <div className="cart-sec">
+                    <div className="inputValue">
+                        <div className="incrDecr-pro-info">
+                            <div className="decr-sec">
+                                <button className='decreaseBtn'>
+                                    <AiOutlineMinus  size={20} />
+                                </button>
+                            </div>
+                            <div className="value-pro-show">
+                                <span className='showOne1'>1</span>
+                            </div>
+                            <div className="incr-sec">
+                                <button className='increaseBtn'>
+                                    <AiOutlinePlus  size={20} />
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className="cardBtn">
+
+                    </div>
+                    <div className="wish-sec">
+
+                    </div>
                 </div>
 
             </div>
