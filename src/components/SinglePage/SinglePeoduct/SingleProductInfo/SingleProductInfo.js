@@ -27,13 +27,7 @@ const SingleProductInfo = () => {
         console.log('cart  going to modal');
         setOpen(true)
     }
-    // compare modal activity 
-    const [openCompare, setOpenCompare] = useState(false);
-    const handleCloseCompare = () => setOpenCompare(false);
-    const compareShow = () => {
-        console.log('cart  going to modal');
-        setOpenCompare(true)
-    }
+   
     return (
         <div className='singleProInfoMain'>
             {/* icon section start  */}

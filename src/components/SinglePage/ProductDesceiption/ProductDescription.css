@@ -7,7 +7,13 @@
     height: 100%;
     width: 100%;
 }
-.des-sub{
-    width: 96%;
-    margin: auto;
+
+.tab-sec{
+    margin-top: 3rem;
+}
+.gg{
+    width: 100%;
+}
+.gg .panel{
+    margin-left: 35%;
 }
