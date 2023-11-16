@@ -3,6 +3,7 @@ import './SingleProductInfo.css';
 import { AiFillStar, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { FaRegStarHalfStroke } from "react-icons/fa6";
 import { CiCircleCheck } from "react-icons/ci";
+import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { IoFlameSharp } from "react-icons/io5";
 import { LuEye } from "react-icons/lu";
 import { TbRulerMeasure } from "react-icons/tb";
@@ -184,9 +185,14 @@ const SingleProductInfo = () => {
                     </div>
                     <div className="cardBtn">
                         <button className='add-card'>add to card</button>
-
                     </div>
                     <div className="wish-sec">
+                        <div className="icon">
+                        <MdOutlineFavoriteBorder className='favIcon' size={23}/>
+
+                        </div>
+                   
+
 
                     </div>
                 </div>

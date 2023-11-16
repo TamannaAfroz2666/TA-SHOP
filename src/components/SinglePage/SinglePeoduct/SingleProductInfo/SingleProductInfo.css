@@ -288,9 +288,25 @@
     background-color: #111;
     color: #f5ecec;
     letter-spacing: 2px;
-    padding: 16px 6rem;
+    padding: 16px 7rem;
     
 }
 .add-card:hover{
     background-color: #0dcaf0;
+}
+.icon{
+    padding: 12px 14px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+}
+.icon .favIcon{
+    color: #111;
+}
+.icon:hover{
+    background-color: #0dcaf0;
+    border: 0;
+    color: #11111100;
+}
+.icon:hover .favIcon{
+    color: #fff;
+
 }
