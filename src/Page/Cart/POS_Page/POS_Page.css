@@ -110,6 +110,7 @@
     /* margin-left: 10rem; */
 
 }
+/* start term and condition  */
 .termContainer{
     display: flex;
     float: right;
@@ -137,6 +138,7 @@
 .termTitle:hover{
     color: #41cde2;
 }
+/* close term and condition  */
 .checkoutViewCart{
     margin: 4rem 0;
     margin-left: 16rem;

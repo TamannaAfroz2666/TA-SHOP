@@ -310,3 +310,34 @@
     color: #fff;
 
 }
+/* start term and condition  */
+.termContainer1{
+    margin-top: 2rem;
+    display: flex;
+    float: left;
+    gap: 5px;
+}
+.radioBtn{
+    width: 1rem;
+    height: 1rem;
+}
+.termContainer1 .radioTitle{
+    font-size: 16px;
+    color: #111111cc;
+    padding: 0 0 0 10px;
+    bottom: .1rem;
+    position: relative;
+    font-weight: 600;
+}
+.termContent .termTitle{
+    font-size: 16px;
+    color: #272626e3;
+    font-weight: 700;
+    bottom: .1rem;
+    position: relative;
+
+}
+.termTitle:hover{
+    color: #41cde2;
+}
+/* close term and condition  */

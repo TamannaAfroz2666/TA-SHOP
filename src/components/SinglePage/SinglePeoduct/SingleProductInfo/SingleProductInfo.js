@@ -10,7 +10,8 @@ import { TbRulerMeasure } from "react-icons/tb";
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-// import { AiOutlineEdit, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { Link } from 'react-router-dom';
+
 
 const SingleProductInfo = () => {
     // viwecart edit modal 
@@ -163,12 +164,13 @@ const SingleProductInfo = () => {
                     </div>
 
                 </div>
+                {/* add to card sec  */}
                 <div className="cart-sec">
                     <div className="inputValue">
                         <div className="incrDecr-pro-info">
                             <div className="decr-sec">
                                 <button className='decreaseBtn'>
-                                    <AiOutlineMinus  size={20} />
+                                    <AiOutlineMinus size={20} />
                                 </button>
                             </div>
                             <div className="value-pro-show">
@@ -176,7 +178,7 @@ const SingleProductInfo = () => {
                             </div>
                             <div className="incr-sec">
                                 <button className='increaseBtn'>
-                                    <AiOutlinePlus  size={20} />
+                                    <AiOutlinePlus size={20} />
                                 </button>
                             </div>
 
@@ -188,13 +190,24 @@ const SingleProductInfo = () => {
                     </div>
                     <div className="wish-sec">
                         <div className="icon">
-                        <MdOutlineFavoriteBorder className='favIcon' size={23}/>
-
+                            <MdOutlineFavoriteBorder className='favIcon' size={23} />
                         </div>
-                   
-
+                    </div>
+                </div>
+                {/* term & condition  */}
+                <div className="termContainer1">
+                    <div className="radioContent">
+                        <input type="radio" id="html" name="fav_language" value="HTML" className='radioBtn' />
+                        <label for="html" className='radioTitle'>I agree with the</label>
+                    </div>
+                    <div className="termContent">
+                        <Link to='/term&condition' className='termTitle'>
+                            term and conditions
+                        </Link>
 
                     </div>
+
+
                 </div>
 
             </div>
