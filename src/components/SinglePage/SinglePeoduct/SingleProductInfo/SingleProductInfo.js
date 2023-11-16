@@ -70,7 +70,18 @@ const SingleProductInfo = () => {
                 <div className="colorSize-sec">
                     <div className="color-sec">
                         <h4 className='title-col'>color: <span className='dynamic-col'>Black</span></h4>
+                        <div className="available-col">
+                            <div className="color1">
+                                <input type="color" />
+                            </div>
+                            <div className="color1">
+                                <input type="color" />
+                            </div>
+                            <div className="color1">
+                                <input type="color" />
+                            </div>
 
+                        </div>
                     </div>
                     <div className="size-sec">
                         <button className='btnSizeInfo' onClick={sizeShow}>
