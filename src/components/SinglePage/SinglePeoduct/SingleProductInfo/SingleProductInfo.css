@@ -365,7 +365,7 @@
 }
 /* basic question list start(delivery,share) */
 .basicListPro{
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
