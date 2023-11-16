@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './SingleProductInfo.css';
 import { AiFillStar, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { FaRegStarHalfStroke } from "react-icons/fa6";
 import { CiCircleCheck } from "react-icons/ci";
+import { RiArrowUpDownLine } from "react-icons/ri";
 import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { IoFlameSharp } from "react-icons/io5";
 import { LuEye } from "react-icons/lu";
@@ -15,13 +16,18 @@ import { Link } from 'react-router-dom';
 
 const SingleProductInfo = () => {
     // viwecart edit modal 
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = useState(false);
     const handleClose = () => setOpen(false);
-
-    //   const [selectedColor, setSelectedColor] = useState('');
     const sizeShow = () => {
         console.log('cart  going to modal');
         setOpen(true)
+    }
+    // compare modal activity 
+    const [openCompare, setOpenCompare] = useState(false);
+    const handleCloseCompare = () => setOpenCompare(false);
+    const compareShow = () => {
+        console.log('cart  going to modal');
+        setOpenCompare(true)
     }
     return (
         <div className='singleProInfoMain'>
@@ -211,6 +217,134 @@ const SingleProductInfo = () => {
                 </div>
                 <div className="buyItBtn">
                     <button className='buyItCls'>buy it now</button>
+                </div>
+                {/* /* basic question list start(delivery,share) */}
+                <div className="basicListPro">
+                    <div className="compare-sec">
+                        <div className="size-sec">
+                            <button className='btnSizeInfo' onClick={compareShow}>
+                                <RiArrowUpDownLine size={22} className='iconMeas' />Compare
+                                <hr className='btnHrProInfo' />
+                            </button>
+                            <Modal
+                                className='modalArea1'
+                                open={openCompare}
+                                onClose={handleCloseCompare}
+                                aria-labelledby="modal-modal-title"
+                                aria-describedby="modal-modal-description"
+                            >
+                                <Box className='styleBox'>
+
+                                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                        <div className="quickViewContent">
+                                            <div className="imageView">
+                                                {/* <img src={img1} alt="" /> */}
+                                                <h1>hhh</h1>
+                                            </div>
+                                            <div className="infoView">
+                                            </div>
+                                        </div>
+                                    </Typography>
+                                </Box>
+                            </Modal>
+
+                        </div>
+
+                    </div>
+                    <div className="ask-qu-sec">
+                        <div className="size-sec">
+                            <button className='btnSizeInfo' onClick={compareShow}>
+                                <RiArrowUpDownLine size={22} className='iconMeas' />Compare
+                                <hr className='btnHrProInfo' />
+                            </button>
+                            <Modal
+                                className='modalArea1'
+                                open={openCompare}
+                                onClose={handleCloseCompare}
+                                aria-labelledby="modal-modal-title"
+                                aria-describedby="modal-modal-description"
+                            >
+                                <Box className='styleBox'>
+
+                                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                        <div className="quickViewContent">
+                                            <div className="imageView">
+                                                {/* <img src={img1} alt="" /> */}
+                                                <h1>hhh</h1>
+                                            </div>
+                                            <div className="infoView">
+                                            </div>
+                                        </div>
+                                    </Typography>
+                                </Box>
+                            </Modal>
+
+                        </div>
+
+                    </div>
+                    <div className="delivery-sec">
+                        <div className="size-sec">
+                            <button className='btnSizeInfo' onClick={compareShow}>
+                                <RiArrowUpDownLine size={22} className='iconMeas' />Compare
+                                <hr className='btnHrProInfo' />
+                            </button>
+                            <Modal
+                                className='modalArea1'
+                                open={openCompare}
+                                onClose={handleCloseCompare}
+                                aria-labelledby="modal-modal-title"
+                                aria-describedby="modal-modal-description"
+                            >
+                                <Box className='styleBox'>
+
+                                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                        <div className="quickViewContent">
+                                            <div className="imageView">
+                                                {/* <img src={img1} alt="" /> */}
+                                                <h1>hhh</h1>
+                                            </div>
+                                            <div className="infoView">
+                                            </div>
+                                        </div>
+                                    </Typography>
+                                </Box>
+                            </Modal>
+
+                        </div>
+
+                    </div>
+                    <div className="share-sec">
+                        <div className="size-sec">
+                            <button className='btnSizeInfo' onClick={compareShow}>
+                                <RiArrowUpDownLine size={22} className='iconMeas' />Compare
+                                <hr className='btnHrProInfo' />
+                            </button>
+                            <Modal
+                                className='modalArea1'
+                                open={openCompare}
+                                onClose={handleCloseCompare}
+                                aria-labelledby="modal-modal-title"
+                                aria-describedby="modal-modal-description"
+                            >
+                                <Box className='styleBox'>
+
+                                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                        <div className="quickViewContent">
+                                            <div className="imageView">
+                                                {/* <img src={img1} alt="" /> */}
+                                                <h1>hhh</h1>
+                                            </div>
+                                            <div className="infoView">
+                                            </div>
+                                        </div>
+                                    </Typography>
+                                </Box>
+                            </Modal>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>

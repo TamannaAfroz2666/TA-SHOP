@@ -150,7 +150,7 @@
 }
 
 .size-sec button{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     text-transform: capitalize;
     border: 0;
@@ -159,7 +159,9 @@
 .btnHrProInfo{
     bottom: 1rem;
     position: relative;
-    visibility: hidden;   
+    visibility: hidden;
+    height: 2px;
+    background-color: #0dcaf0;   
 }
 .btnSizeInfo:hover{
    color: #0dcaf0;
@@ -360,4 +362,10 @@
     background-color: #0dcaf0;
     color: #fff;
     border: 0;
+}
+/* basic question list start(delivery,share) */
+.basicListPro{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
 }
