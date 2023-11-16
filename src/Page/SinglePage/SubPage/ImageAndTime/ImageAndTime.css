@@ -1,9 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.imageAndTime{
+
+.imageAndTime {
     height: 100%;
     width: 100%;
+}
+
+.imageAndTime .car-sec {
+    width: 45px;
+    border-right: 1px solid rgba(23, 24, 23, 0.39);
+    height: 50px;
+
+}
+.car-sec .carIcon{
+    color: #111111c5;
 }

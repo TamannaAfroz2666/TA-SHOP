@@ -16,6 +16,7 @@ import Compare from '../../../../Page/SinglePage/SubPage/Compare/Compare';
 import AskAQuestion from '../../../../Page/SinglePage/SubPage/AskAQuestion/AskAQuestion';
 import DeliveryReturn from '../../../../Page/SinglePage/SubPage/Delivery&Return/DeliveryReturn';
 import Share from '../../../../Page/SinglePage/SubPage/Share/Share';
+import ImageAndTime from '../../../../Page/SinglePage/SubPage/ImageAndTime/ImageAndTime';
 
 
 const SingleProductInfo = () => {
@@ -225,20 +226,23 @@ const SingleProductInfo = () => {
                 {/* /* basic question list start(delivery,share) */}
                 <div className="basicListPro">
                     <div className="compare-sec">
-                        <Compare></Compare>
+                        <Compare/>
                     </div>
                     <div className="ask-qu-sec">
-                        <AskAQuestion></AskAQuestion>
+                        <AskAQuestion/>
                     </div>
                     <div className="delivery-sec">
-                        <DeliveryReturn></DeliveryReturn>
+                        <DeliveryReturn/>
 
                     </div>
                     <div className="share-sec">
-                       <Share></Share>
+                       <Share/>
 
                     </div>
 
+                </div>
+                <div className="productSponsor">
+                    <ImageAndTime/>
                 </div>
 
             </div>
