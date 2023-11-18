@@ -24,9 +24,10 @@ const ProductDescription = () => {
                             <div className="panel">
                           
                                 <TabList onChange={handleChange} aria-label="lab API tabs example">
-                                    <Tab label="Item One" value="1" />
-                                    <Tab label="Item Two" value="2" />
-                                    <Tab label="Item Three" value="3" />
+                                    <Tab label="Description" value="1" />
+                                    <Tab label="Review" value="2" />
+                                    <Tab label="Shipping" value="3" />
+                                    <Tab label="Return" value="4" />
                                 </TabList>
                                 </div>
 
