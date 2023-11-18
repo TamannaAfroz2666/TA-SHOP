@@ -5,6 +5,7 @@ import PageHead from './PageHead/PageHead';
 import SingleProduct from '../../components/SinglePage/SinglePeoduct/SingleProduct';
 import ProductDescription from '../../components/SinglePage/ProductDesceiption/ProductDescription';
 import AdditionalProduct from '../../components/AdditionalProduct/AdditionalProduct';
+import RecentlyViewProduct from '../../components/RecentlyViewProduct/RecentlyViewProduct';
 
 const SinglePage = () => {
     return (
@@ -25,7 +26,11 @@ const SinglePage = () => {
                 {/* <div className="additionalProduct">
                     <AdditionalProduct/>
 
+
                 </div> */}
+                <div className="recentView">
+                    <RecentlyViewProduct/>
+                </div>
 
 
 
