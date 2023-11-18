@@ -45,3 +45,38 @@
     font-weight: 500;
     font-size: 14px;
 }
+/* review description part  */
+.review-des {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    border: 1px solid #131313be;
+}
+.review-des .icons{
+    margin: 2rem 2rem;
+
+}
+.icons .text-review{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: lowercase;
+   bottom: .5rem;
+   position: relative;
+}
+.icons .text-sub{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: lowercase;
+   bottom: .8rem;
+   position: relative;
+   color: #1313138a;
+}
+.reviews-link{
+    margin: 2rem ;
+}
+.reviews-link a{
+    font-size: 13px;
+    font-weight: 500;
+    color: #1313138a;
+   
+}
