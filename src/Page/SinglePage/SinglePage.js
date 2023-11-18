@@ -22,10 +22,10 @@ const SinglePage = () => {
                 <div className="productDescription">
                     <ProductDescription/>
                 </div>
-                <div className="additionalProduct">
+                {/* <div className="additionalProduct">
                     <AdditionalProduct/>
 
-                </div>
+                </div> */}
 
 
 

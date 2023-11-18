@@ -20,3 +20,17 @@
     padding: 1rem 0 2rem 0;
 
 }
+.sr-only{
+    color: red !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+#toll{
+    color: red !important;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: red !important;
+}
+.jjjj{
+    margin-left: 15rem;
+}
