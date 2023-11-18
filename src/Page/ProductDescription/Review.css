@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+.review-main{
+    height: 100%;
+    width: 100%;
+}
+.review-content{
+    margin: 2rem 3rem;
+}
+.review-content .cus-review{
+    font-size: 28px;
+    color: #131313e0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.review-content .review-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.spIcon{
+    color: rgb(241, 209, 171);
+}
+.base-on{
+    font-size: 14px;
+    padding: .2rem 1rem;
+    color: #131313be;
+}
+.btn-review button{
+    font-size: 14px;
+    color: #131313be;
+    padding: 10px 3rem;
+    border: 1px solid #111;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+.reviewBtnCls:hover{
+    background-color: rgba(8, 228, 228, 0.74);
+    border: 0;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}

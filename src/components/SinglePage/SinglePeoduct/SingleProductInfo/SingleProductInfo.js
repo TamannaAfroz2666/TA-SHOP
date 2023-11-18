@@ -3,7 +3,7 @@ import './SingleProductInfo.css';
 import { AiFillStar, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { FaRegStarHalfStroke } from "react-icons/fa6";
 import { CiCircleCheck } from "react-icons/ci";
-import { RiArrowUpDownLine } from "react-icons/ri";
+// import { RiArrowUpDownLine } from "react-icons/ri";
 import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { IoFlameSharp } from "react-icons/io5";
 import { LuEye } from "react-icons/lu";
