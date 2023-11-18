@@ -21,6 +21,9 @@ const SinglePage = () => {
                 <div className="productDescription">
                     <ProductDescription></ProductDescription>
                 </div>
+                <div className="additionalProduct">
+
+                </div>
 
 
 
