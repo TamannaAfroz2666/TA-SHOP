@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+.return-main{
+    height: 100%;
+    width: 100%;
+    margin: 2rem 3rem;
+}
+.return-main .shipping-tittle{
+    font-size: 14px;
+    font-weight: 500;
+    color: #1313138a;
+    padding: .5rem 0;
+
+}
