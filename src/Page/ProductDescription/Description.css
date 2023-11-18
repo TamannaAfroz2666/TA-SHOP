@@ -18,7 +18,7 @@
 }
 .info-img-con{
     display: flex;
-    gap: 2rem;
+    gap: 8rem;
     margin: 1rem 3rem;
 }
 .info-con{
@@ -94,4 +94,12 @@
 }
 .desCription2 img{
     margin-top: 1rem;
+}
+.img-con{
+    display: inline-flex;
+    gap: 2rem;
+}
+.img-con img{
+    width: 300px;
+    height: 300px;
 }
