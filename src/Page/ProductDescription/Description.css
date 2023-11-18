@@ -23,7 +23,7 @@
 }
 .info-con{
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
 }
 .desCription .des-ti-sort{
     font-size: 16px;

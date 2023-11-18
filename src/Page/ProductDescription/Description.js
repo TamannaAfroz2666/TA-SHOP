@@ -25,6 +25,18 @@ const Description = () => {
 
                     </div>
                     <div className="info-content">
+                        <div className="desCription">
+                            <h3 className='des-ti-sort'>Base fabric</h3>
+                            <p className='size'>100% polyester</p>
+                        </div>
+                        <div className="desCription2">
+                            <h3 className='des-ti-sort'>Lining</h3>
+                            <p className='size'>100% polyester</p>
+                        </div>
+                        <div className="desCription2">
+                            <h3 className='des-ti-sort'>Inner</h3>
+                            <p className='size'>100% polyester</p>
+                        </div>
 
                     </div>
 
