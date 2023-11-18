@@ -3,3 +3,92 @@
     padding: 0;
     box-sizing: border-box;
 }
+.description-con{
+    height: 100%;
+    width: 100%;
+}
+.des-sub-con .title-des{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: justify;
+    color: #333131a2;
+    padding: 1rem 3rem;
+    text-transform: capitalize;
+}
+.info-img-con{
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 3rem;
+}
+.info-con{
+    display: flex;
+    gap: 1rem;
+}
+.desCription .des-ti-sort{
+    font-size: 16px;
+    color: #131313ee;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.desCription .size{
+    font-size: 14px;
+    color: #333131a2;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: .5rem;
+   
+}
+.desCription .height{
+    font-size: 14px;
+    color: #333131a2;
+    font-weight: 600;
+    text-transform: capitalize;
+    bottom: .5rem;
+    position: relative;
+}
+.desCription .color{
+    font-size: 14px;
+    color: #333131a2;
+    font-weight: 600;
+    text-transform: capitalize;
+    bottom: 1rem;
+    position: relative;
+}
+
+.desCription2{
+    margin-top: 1rem;
+    /* bottom: 1rem; */
+    position: relative;
+}
+.desCription2 .des-ti-sort{
+   
+    font-size: 16px;
+    color: #131313ee;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.desCription2 .size{
+    font-size: 14px;
+    color: #333131a2;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: .5rem;
+   
+}
+.desCription2 .height{
+    font-size: 14px;
+    color: #333131a2;
+    font-weight: 600;
+    text-transform: capitalize;
+    bottom: .5rem;
+    position: relative;
+}
+.desCription2 .color{
+    font-size: 14px;
+    color: #333131a2;
+    font-weight: 600;
+    text-transform: capitalize;
+    bottom: 1rem;
+    position: relative;
+}
