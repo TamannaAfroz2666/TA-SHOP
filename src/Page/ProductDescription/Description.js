@@ -1,5 +1,10 @@
 import React from 'react';
 import './Description.css';
+import img1 from '../../assets/Image/des/Des_test3.avif';
+import img2 from '../../assets/Image/des/des1.webp';
+import img3 from '../../assets/Image/des/des2.webp';
+
+
 
 const Description = () => {
     return (
@@ -22,7 +27,10 @@ const Description = () => {
                             <p className='height'>Model height: 177 cm</p>
                             <p className='color'>Colour: Red</p>
                         </div>
-
+                        <div className="desCription2">
+                            <h6 className='des-ti-sort'>core</h6>
+                            <img src={img1} alt="" />
+                        </div>
                     </div>
                     <div className="info-content">
                         <div className="desCription">
@@ -39,9 +47,10 @@ const Description = () => {
                         </div>
 
                     </div>
-
                 </div>
                 <div className="img-con">
+                    <img src={img2} alt="" />
+                    <img src={img3} alt="" />
 
                 </div>
             </div>
