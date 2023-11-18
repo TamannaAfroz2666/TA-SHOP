@@ -7,6 +7,7 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 import Description from '../../../Page/ProductDescription/Description';
 import Review from '../../../Page/ProductDescription/Review';
+import Shipping from '../../../Page/ProductDescription/Shipping';
 
 const ProductDescription = () => {
     const [value, setValue] = React.useState('1');
@@ -41,9 +42,11 @@ const ProductDescription = () => {
                                 <Description/>
                             </TabPanel>
                             <TabPanel value="2">
-                                <Review></Review>
+                                <Review/>
                             </TabPanel>
-                            <TabPanel value="3">Item Three</TabPanel>
+                            <TabPanel value="3">
+                                <Shipping />
+                            </TabPanel>
                         </TabContext>
                     </Box>
                     <hr />
