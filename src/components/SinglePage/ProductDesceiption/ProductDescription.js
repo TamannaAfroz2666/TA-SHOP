@@ -10,7 +10,7 @@ const ProductDescription = () => {
     const [value, setValue] = React.useState('1');
 
     const handleChange = (event, newValue) => {
-      setValue(newValue);
+        setValue(newValue);
     };
     return (
         <div className='pro-des-main'>
@@ -18,30 +18,30 @@ const ProductDescription = () => {
                 <div className="tab-sec">
                     <Box sx={{ width: '100%', typography: 'body1' }}>
                         <TabContext value={value}>
-                        
+
                             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                            <div className="gg">
-                            <div className="panel">
-                          
-                                <TabList onChange={handleChange} aria-label="lab API tabs example">
-                                    <Tab label="Description" value="1" />
-                                    <Tab label="Review" value="2" />
-                                    <Tab label="Shipping" value="3" />
-                                    <Tab label="Return" value="4" />
-                                </TabList>
+                                <div className="tabHead">
+                                    <div className="panel">
+
+                                        <TabList onChange={handleChange} aria-label="lab API tabs example">
+                                            <Tab className='tabName' label="Description" value="1" />
+                                            <Tab className='tabName' label="Review" value="2" />
+                                            <Tab className='tabName' label="Shipping" value="3" />
+                                            <Tab className='tabName' label="Return" value="4" />
+                                        </TabList>
+                                    </div>
+
                                 </div>
 
-</div>
-
                             </Box>
-                           
+
                             <TabPanel value="1">Item One</TabPanel>
                             <TabPanel value="2">Item Two</TabPanel>
                             <TabPanel value="3">Item Three</TabPanel>
 
-                            
-                            
-                           
+
+
+
                         </TabContext>
                     </Box>
 

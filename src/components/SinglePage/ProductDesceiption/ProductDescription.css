@@ -11,9 +11,19 @@
 .tab-sec{
     margin-top: 3rem;
 }
-.gg{
+.tabHead{
     width: 100%;
 }
-.gg .panel{
+.tabHead .panel{
     margin-left: 35%;
+}
+.panel .tabName{
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    color: #332e2ea1;
+}
+.tabName:hover{
+    color: #111;
 }
