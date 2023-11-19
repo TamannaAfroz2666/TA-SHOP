@@ -28,7 +28,7 @@ const Header = () => {
                 <div className="headerHight">
                     <div className="containerBody">
                         <div className="headerLogo">
-                            <Link to='/home'>
+                            <Link to='/'>
                                 <p className='logoTitle'>TA</p>
                                 <span className='logoSub'>shop</span>
                             </Link>
@@ -38,7 +38,7 @@ const Header = () => {
                                 <motion.li
                                     whileHover={{ scale: 1.09 }}
                                 >
-                                    <Link
+                                    <Link to='/'
                                         className='linksTitle'>
                                         shop all
                                     </Link>

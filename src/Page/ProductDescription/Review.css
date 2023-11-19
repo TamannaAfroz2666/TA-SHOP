@@ -50,11 +50,10 @@
     display: flex;
     justify-content: space-between;
     margin: 1rem 0;
-    border: 1px solid #131313be;
+    border: 1px solid #2927272f;
 }
 .review-des .icons{
     margin: 2rem 2rem;
-
 }
 .icons .text-review{
     font-size: 18px;
@@ -78,5 +77,4 @@
     font-size: 13px;
     font-weight: 500;
     color: #1313138a;
-   
 }

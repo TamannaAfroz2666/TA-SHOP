@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Review.css';
 import { AiFillStar } from "react-icons/ai";
 import { FaRegStar } from "react-icons/fa";
@@ -7,6 +7,11 @@ import { Link } from 'react-router-dom';
 
 
 const Review = () => {
+    const [initField , setInitField] = useState(false);
+    const  reviewHandle = () =>{
+        console.log('review handle');
+        setInitField(!initField);
+    }
     return (
         <div className='review-main'>
             <div className="review-content">
@@ -33,7 +38,14 @@ const Review = () => {
                         {/* </div> */}
                     </div>
                     <div className="btn-review">
-                        <button className='reviewBtnCls'>Write a review</button>
+                        <button onClick={reviewHandle} className='reviewBtnCls'>Write a review</button>
+                        {
+                            initField &&(
+                                <div className="info-reviewField" >
+                                <h1 className="info-reviewField">hh</h1> 
+                            </div>
+                            )
+                        }
                     </div>
                 </div>
                 <div className="review-des">
@@ -61,13 +73,8 @@ const Review = () => {
                         <Link to='reviews/report-process'>
                             Report as Inappropriate</Link>
                     </div>
-
-
                 </div>
-
-
             </div>
-
         </div>
     );
 };
