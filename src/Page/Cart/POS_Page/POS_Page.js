@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './POS_Page.css';
 import { BsFillGiftFill } from "react-icons/bs";
 import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
@@ -6,6 +6,7 @@ import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
+import { Checkbox } from '@mui/material';
 
 
 const POS_Page = () => {
@@ -18,9 +19,16 @@ const POS_Page = () => {
         setOpen(true)
     }
     // checkout handle 
-    const checkOutHandle = () =>{
+    const checkOutHandle = () => {
         console.log('checkoutrt');
         window.location.assign('/cartCheckOut');
+    }
+    // working on radio box phases 
+    const [selectBox, setSlectBox] = useState(false);
+
+    const selectHandle = () => {
+        console.log('handle change');
+        setSlectBox(!selectBox);
     }
     return (
         <div className='pos_page'>
@@ -73,7 +81,7 @@ const POS_Page = () => {
                         </div>
                         <div className="instruction">
                             <label htmlFor="name" className='labelArea'>Special instructions for seller </label> <br />
-                            <textarea  className='textarea' placeholder='How can we help you'/>
+                            <textarea className='textarea' placeholder='How can we help you' />
                         </div>
                         <div className="couponPos">
                             <h3 className='couponTitle'>Coupon</h3>
@@ -88,9 +96,14 @@ const POS_Page = () => {
                         <div className="desSortPos">
                             <p className='taxesTitle'>Taxes and shipping calculated at checkout</p>
                             <p className='allDesPos'>All charges are billed in USD. While the content of your cart is currently displayed in BDT, the checkout will use USD at the most current exchange rate.</p>
+                            <div className="checkbox">
+
+                            
                             <div className="termContainer">
                                 <div className="radioContent">
-                                    <input type="radio" id="html" name="fav_language" value="HTML" className='radioBtn' />
+                                    <input type="radio" id="html" name="fav_language" value="HTML" className='radioBtn' onChange={selectHandle}
+                                        checked={selectBox}
+                                    />
                                     <label for="html" className='radioTitle'>I agree with the</label>
                                 </div>
                                 <div className="termContent">
@@ -103,13 +116,18 @@ const POS_Page = () => {
 
 
                             </div>
+                            <div className="checkoutViewCart">
+                                <button className='checkViewBtn'
+                                    disabled={!selectBox}
+                                    onClick={checkOutHandle}>
+                                    checkout
+
+                                </button>
+                            </div>
+                            </div>
+
                         </div>
-                        <div className="checkoutViewCart">
-                            <button className='checkViewBtn' onClick={checkOutHandle}>
-                                checkout
-                            
-                            </button>                                                                              
-                        </div>
+
 
                     </div>
                 </div>

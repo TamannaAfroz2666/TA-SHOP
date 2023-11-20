@@ -17,7 +17,32 @@ const CartProducts = () => {
         console.log('cart  going to modal');
         setOpen(true)
     }
+    // descrese section 
+    const [decreseInit, setDecreseInit] =useState(1)
+    // const [showValue, setShowValue] = useState();
 
+    const decreseHandle = () =>{
+        // console.log('decrese');
+        let init = 1 ;
+        if(init> decreseInit){
+            
+            console.log('emapaty');
+
+        }
+        else{
+            setDecreseInit(decreseInit - 1)
+            
+        }
+       
+       
+    }
+const increaseHandle = () =>{
+    console.log('decrease');
+    setDecreseInit(decreseInit + 1)
+    
+
+
+}
 
 
     return (
@@ -111,15 +136,21 @@ const CartProducts = () => {
                         <div className="quantityDetails">
                             <div className="increaseDecrease">
                                 <div className="decrease">
-                                    <button className='decreaseBtn'>
+                                    <button className='decreaseBtn' 
+                                    onClick={decreseHandle}
+                                    
+                                    >
                                         <AiOutlineMinus color='black' size={20} />
                                     </button>
                                 </div>
                                 <div className="valueShowCView">
-                                    <span className='showOne'>1</span>
+                                    <span className='showOne' id='showValue'>{decreseInit}</span>
                                 </div>
                                 <div className="increase">
-                                    <button className='increaseBtn'>
+                                    <button className='increaseBtn'
+                                    onClick={increaseHandle}
+                                    
+                                    >
                                         <AiOutlinePlus color='black' size={20} />
                                     </button>
                                 </div>
@@ -145,7 +176,7 @@ const CartProducts = () => {
                         </div>
                     </div>
                          {/* product show page end */}
-                    <div className="cartTitleHr1">
+                    <div className="cartTitleHr11">
                         <hr className='titleHr1' />
                     </div>
 
