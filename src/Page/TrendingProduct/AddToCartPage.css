@@ -12,6 +12,7 @@
 .cartContainer {
     width: 75%;
     margin: auto;
+    height: 100%;
 }
 
 .detailsSection {

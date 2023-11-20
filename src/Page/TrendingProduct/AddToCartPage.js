@@ -19,100 +19,206 @@ const AddToCartPage = () => {
     }
     return (
         <div className='add-to-cart-page'>
-            <div className="cartContainer">
-                <div className="product_details">
-                    <div className="detailsSection">
-                        <div className="image_sec_cart">
-                            <Link to='/product'>
-                                <img src={img1} alt="" />
-                            </Link>
-                        </div>
-                        <div className="info_sec_cart">
-                            <Link to='/product'>
-                                <p className='longTitleCart'>Long sleeve T-shirt</p>
-                            </Link>
-                            <span className='colorCart'>Color: Black | Size: XS</span>
-                            {/* price section  */}
-                            <div className="priceSectionCart">
-                                <div className="pp1">
-                                    <p className='priceSubInfoVCart'> $ 50</p>
-                                    <p className='priceCart'>Tk 5,000 </p>
+            <div className="productListCart">
+                <div className="cart-product-add">
+                    <div className="cartContainer">
+                        <div className="product_details">
+                            <div className="detailsSection">
+                                <div className="image_sec_cart">
+                                    <Link to='/product'>
+                                        <img src={img1} alt="" />
+                                    </Link>
                                 </div>
-                            </div>
-                            {/* edit item  */}
-                            <div className="editCart">
-                                <div className="pp2">
-                                    <p className='priceSubInfoVCart1'> Edit this item</p>
+                                <div className="info_sec_cart">
+                                    <Link to='/product'>
+                                        <p className='longTitleCart'>Long sleeve T-shirt</p>
+                                    </Link>
+                                    <span className='colorCart'>Color: Black | Size: XS</span>
+                                    {/* price section  */}
+                                    <div className="priceSectionCart">
+                                        <div className="pp1">
+                                            <p className='priceSubInfoVCart'> $ 50</p>
+                                            <p className='priceCart'>Tk 5,000 </p>
+                                        </div>
+                                    </div>
+                                    {/* edit item  */}
+                                    <div className="editCart">
+                                        <div className="pp2">
+                                            <p className='priceSubInfoVCart1'> Edit this item</p>
 
-                                    <button className='viewCartEdit' onClick={viewCartEdit}>
-                                        <AiOutlineEdit color='black' />
-                                    </button>
+                                            <button className='viewCartEdit' onClick={viewCartEdit}>
+                                                <AiOutlineEdit color='black' />
+                                            </button>
 
-                                </div>
+                                        </div>
 
-                                {/* modal add start */}
+                                        {/* modal add start */}
 
-                                <Modal
-                                    className='modalArea1'
-                                    open={open}
-                                    onClose={handleClose}
-                                    aria-labelledby="modal-modal-title"
-                                    aria-describedby="modal-modal-description"
-                                >
-                                    <Box className='styleBox'>
+                                        <Modal
+                                            className='modalArea1'
+                                            open={open}
+                                            onClose={handleClose}
+                                            aria-labelledby="modal-modal-title"
+                                            aria-describedby="modal-modal-description"
+                                        >
+                                            <Box className='styleBox'>
 
-                                        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                                            <div className="quickViewContent">
-                                                <div className="imageView">
-                                                    <img src={img1} alt="" />
+                                                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                                    <div className="quickViewContent">
+                                                        <div className="imageView">
+                                                            <img src={img1} alt="" />
 
-                                                </div>
-                                                <div className="infoView">
-                                                </div>
+                                                        </div>
+                                                        <div className="infoView">
+                                                        </div>
+                                                    </div>
+                                                </Typography>
+                                            </Box>
+                                        </Modal>
+
+
+
+                                    </div>
+                                    {/* product increse decrease  */}
+                                    <div className="quantityDetails11">
+                                        <div className="increaseDecreaseCart">
+                                            <div className="decrease">
+                                                <button className='decreaseBtn'>
+                                                    <AiOutlineMinus color='black' size={20} />
+                                                </button>
                                             </div>
-                                        </Typography>
-                                    </Box>
-                                </Modal>
+                                            <div className="valueShowCView">
+                                                <span className='showOne'>1</span>
+                                            </div>
+                                            <div className="increase">
+                                                <button className='increaseBtn'>
+                                                    <AiOutlinePlus color='black' size={20} />
+                                                </button>
+                                            </div>
 
-                                
+                                        </div>
+                                        <div className="removeCart">
+                                            <button className='removeBtn'>
+                                                Remove
+                                                <hr className='removeHr' />
+                                            </button>
+                                        </div>
 
-                            </div>
-                            {/* product increse decrease  */}
-                            <div className="quantityDetails11">
-                                <div className="increaseDecreaseCart">
-                                    <div className="decrease">
-                                        <button className='decreaseBtn'>
-                                            <AiOutlineMinus color='black' size={20} />
-                                        </button>
-                                    </div>
-                                    <div className="valueShowCView">
-                                        <span className='showOne'>1</span>
-                                    </div>
-                                    <div className="increase">
-                                        <button className='increaseBtn'>
-                                            <AiOutlinePlus color='black' size={20} />
-                                        </button>
                                     </div>
 
                                 </div>
-                                <div className="removeCart">
-                                    <button className='removeBtn'>
-                                        Remove
-                                        <hr className='removeHr' />
-                                    </button>
-                                </div>
-
                             </div>
-                         
+
+
                         </div>
-                    </div>
-                 
 
+
+                    </div>
+                    <hr className='hrLow' />
                 </div>
-              
-              
+                <div className="cart-product-add">
+                    <div className="cartContainer">
+                        <div className="product_details">
+                            <div className="detailsSection">
+                                <div className="image_sec_cart">
+                                    <Link to='/product'>
+                                        <img src={img1} alt="" />
+                                    </Link>
+                                </div>
+                                <div className="info_sec_cart">
+                                    <Link to='/product'>
+                                        <p className='longTitleCart'>Long sleeve T-shirt</p>
+                                    </Link>
+                                    <span className='colorCart'>Color: Black | Size: XS</span>
+                                    {/* price section  */}
+                                    <div className="priceSectionCart">
+                                        <div className="pp1">
+                                            <p className='priceSubInfoVCart'> $ 50</p>
+                                            <p className='priceCart'>Tk 5,000 </p>
+                                        </div>
+                                    </div>
+                                    {/* edit item  */}
+                                    <div className="editCart">
+                                        <div className="pp2">
+                                            <p className='priceSubInfoVCart1'> Edit this item</p>
+
+                                            <button className='viewCartEdit' onClick={viewCartEdit}>
+                                                <AiOutlineEdit color='black' />
+                                            </button>
+
+                                        </div>
+
+                                        {/* modal add start */}
+
+                                        <Modal
+                                            className='modalArea1'
+                                            open={open}
+                                            onClose={handleClose}
+                                            aria-labelledby="modal-modal-title"
+                                            aria-describedby="modal-modal-description"
+                                        >
+                                            <Box className='styleBox'>
+
+                                                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                                                    <div className="quickViewContent">
+                                                        <div className="imageView">
+                                                            <img src={img1} alt="" />
+
+                                                        </div>
+                                                        <div className="infoView">
+                                                        </div>
+                                                    </div>
+                                                </Typography>
+                                            </Box>
+                                        </Modal>
+
+
+
+                                    </div>
+                                    {/* product increse decrease  */}
+                                    <div className="quantityDetails11">
+                                        <div className="increaseDecreaseCart">
+                                            <div className="decrease">
+                                                <button className='decreaseBtn'>
+                                                    <AiOutlineMinus color='black' size={20} />
+                                                </button>
+                                            </div>
+                                            <div className="valueShowCView">
+                                                <span className='showOne'>1</span>
+                                            </div>
+                                            <div className="increase">
+                                                <button className='increaseBtn'>
+                                                    <AiOutlinePlus color='black' size={20} />
+                                                </button>
+                                            </div>
+
+                                        </div>
+                                        <div className="removeCart">
+                                            <button className='removeBtn'>
+                                                Remove
+                                                <hr className='removeHr' />
+                                            </button>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                    <hr className='hrLow' />
+                </div>
             </div>
-            <hr className='hrLow'/>
+            <div className="gift-warp">
+
+            </div>
+
+      
+
 
         </div>
     );
