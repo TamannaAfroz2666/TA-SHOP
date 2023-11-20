@@ -10,16 +10,16 @@ const AddToCard = () => {
     }
     return (
         <div className='selectOptionTitle1'>
-        <div className="number-incre">
-            <button className='minus-btn'>
-                <FiMinus className='minus-trending' />
-            </button>
-            <span className='one-trending'
-            >1</span>
-            <button className='plus-btn'>
-                <GoPlus className='minus-trending' />
-            </button>
-        </div>
+            <div className="number-incre">
+                <button className='minus-btn'>
+                    <FiMinus className='minus-trending' />
+                </button>
+                <span className='one-trending'
+                >1</span>
+                <button className='plus-btn'>
+                    <GoPlus className='minus-trending' />
+                </button>
+            </div>
             <div className="cartAdd">
                 <button
                     onClick={addToCardTreand}
@@ -31,16 +31,16 @@ const AddToCard = () => {
                 </button>
 
                 <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                <div className="offcanvas-header">
-                    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
-                    <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div className="offcanvas-body">
-                    ...
+                    <div className="offcanvas-header">
+                        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                        <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div className="offcanvas-body">
+                        ...
+                    </div>
                 </div>
             </div>
-            </div>
-    </div>
+        </div>
 
     );
 };
