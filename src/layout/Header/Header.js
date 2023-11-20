@@ -110,7 +110,9 @@ const Header = () => {
                                     <Link className='loginHeadTitle'>Log In</Link>
                                 </div>
                                 <div className="cartSubLink">
-                                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><BsBasket color='tomato' size={20} /></button>
+                                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                    <BsBasket color='tomato' size={20} />
+                                    </button>
 
                                     <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                         <div className="offcanvas-header">

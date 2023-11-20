@@ -67,6 +67,10 @@ const TrendingProduct = () => {
         
         return null; // If the product or color isn't found
       };
+    //   add to carrd area 
+    const addToCardTreand = () => {
+        console.log('card ');
+    }
 
   
     return (
@@ -134,10 +138,7 @@ const TrendingProduct = () => {
                                                     onClick={handleOpen}
                                                 >
                                                     <AiOutlineEye className='IconOverlay' size={35} />
-
-                                                </button>
-                                               
-
+                                                </button>                                            
                                                 {/* modal add start */}
 
                                                 <Modal
@@ -166,11 +167,9 @@ const TrendingProduct = () => {
                                                         </Typography>
                                                     </Box>
                                                 </Modal>
-
                                             </motion.div>
-
                                         </div>
-                                        {/* select option area  */}
+                                        {/* select option area start */}
                                         <motion.div className="selectOption"
                                             transition={{
                                                 duration: .5,
@@ -192,35 +191,18 @@ const TrendingProduct = () => {
 
                                                 </div>
                                                 <div className="cartAdd">
-                                                    <button className='card-btn-cls'>
-                                                    <IoBagHandleSharp size={18}/>
+                                                    <button 
+                                                      onClick={addToCardTreand}
+                                                    className='card-btn-cls'
+                                                    >
+                                                    <IoBagHandleSharp size={18} />
                                                        <span className='cart-icon'>add to cart</span> 
                                                     </button>
-
                                                 </div>
-                                                {/* <p className='selectOptionTitle'>
-                                                    <span><HiOutlineArrowSmRight size={20} /></span>
-                                                    Select options1
-                                                </p> */}
+                                           
                                             </div>
-
-                                            {/* <button onClick={selectHandle}>
-                                                <p className='selectOptionTitle'>
-                                                    <span><HiOutlineArrowSmRight size={20} /></span>
-                                                    Select options
-                                                </p>
-                                            </button> */}
-
-                                            {/* {showCard && (
-                                                <motion.button className='sortP'
-                                                    initial={{ opacity: 0 }}
-                                                    animate={{ opacity: 1 }}
-                                                >
-                                                    32
-                                                </motion.button>
-                                            )} */}
-
                                         </motion.div>
+                                        {/* select option area end  */}
                                     </div>
                                 </div>
                                 <div className="productInfo">
@@ -232,7 +214,6 @@ const TrendingProduct = () => {
                                             <span><AiFillStar size={15} color='orange' /></span>
                                             <span><AiFillStar size={15} color='orange' /></span>
                                             <span><AiFillStar size={15} color='orange' /></span>
-
                                         </div>
                                         <div className="numProduct">
                                             <p className='oneItem'>({product.stok_product})</p>
@@ -245,11 +226,7 @@ const TrendingProduct = () => {
                                         <div className="pp">
                                             <p className='priceSubInfo'> ${product.doller_convert}</p>
                                             <p className='priceTitle'>Tk {product.p_price}</p>
-
-
-
                                         </div>
-
                                     </div>
                                     <div className="colorSection">
                                         <div className="sectionColor">
@@ -268,35 +245,18 @@ const TrendingProduct = () => {
                                                           style={{ backgroundColor: product_color.color_code }}
                                                           className="radio-mark"
                                                         ></span>
-                                                      </label>
-                                                      
+                                                      </label>                                                
                                                     )
                                                 })
                                             }
-
-
-
-
-
-
                                         </div>
                                     </div>
-
-
-
                                 </div>
                             </div>
                         )
                     })
                 }
-
-
-
             </div>
-
-
-
-
         </div>
     );
 };

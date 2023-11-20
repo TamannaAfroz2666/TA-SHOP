@@ -151,7 +151,7 @@
 }
 /* cart increase and add to card design start  */
 .selectOptionTitle1 {
-    width: 270px;
+    width: 300px;
     bottom: 0rem !important;
     position: absolute;
     color: #f1f1f1;
@@ -191,7 +191,7 @@
     border: 0;
     background-color: #928e8e15;
     color: #eee;
-    padding: 9px 32px 9px 22px ;
+    padding: 9px 4rem 9px 22px ;
     position: relative;
 
 }
@@ -201,6 +201,9 @@
     font-weight: 600;
     text-transform: capitalize;
 
+}
+.card-btn-cls:hover{
+    background-color: #0dcaf0;
 }
 /* cart increase and add to card design end */
 .sortP {
@@ -213,9 +216,7 @@
     color: #f1f1f1;
     border: 0;
 }
-.card-btn-cls:hover{
-    background-color: #0dcaf0;
-}
+
 
 
 
