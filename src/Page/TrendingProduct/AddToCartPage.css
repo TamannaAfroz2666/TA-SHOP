@@ -43,21 +43,21 @@
     text-decoration: none;
 }
 
-.info_sec .longTitle {
-    font-size: 16px;
-    color: #111;
-    font-weight: 400;
+.info_sec .longTitleCart {
+    font-size: 14px;
+    color: rgba(32, 32, 32, 0.769);
+    font-weight: 600;
     font-family: sans-serif;
 
 }
 
-.longTitle:hover {
+.longTitleCart:hover {
     color: #0dcaf0;
 }
 
-.info_sec .sizeTitleViewCart {
-    font-size: 14px;
-    color: #111;
+.info_sec .colorCart {
+    font-size: 12px;
+    color: gray;
     font-weight: 400;
     font-family: sans-serif;
     bottom: 1rem;
@@ -74,7 +74,7 @@
     color: #fff;
     background-color: #111;
     visibility: hidden;
-    bottom: 2rem;
+    /* bottom: 10rem; */
     position: relative;
     border-radius: 5px;
     max-width: 80px;
@@ -84,8 +84,8 @@
 
 }
 
-.priceSection1 .priceTitleVcart {
-    font-size: 18px;
+.priceSectionCart .priceCart {
+    font-size: 14px;
     font-weight: 600;
     bottom: 3rem;
     position: relative;
@@ -93,7 +93,7 @@
 
 }
 
-.priceTitleVcart:hover {
+.priceCart:hover {
     color: #0dcaf0;
 }
 
@@ -103,7 +103,11 @@
 /* end price section  */
 
 /* button work  */
-.editOption button {
+.editCart{
+    bottom: 1.5rem;
+    position: relative;
+}
+.editCart button {
     background-color: #11111100;
     border: 0;
     padding: 2px 6px;
@@ -189,7 +193,12 @@
 .totalDetails{
     margin-top: 4rem;
 }
-.priceSection1 .priceTitleTotal {
+.priceSectionCart{
+    bottom: 1rem ;
+    position: relative;
+    /* margin: 0 0 2rem 0; */
+}
+.priceSectionCart .priceTitleTotal {
     font-size: 18px;
     font-weight: 600;
     bottom: 3rem;

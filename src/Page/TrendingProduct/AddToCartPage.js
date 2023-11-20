@@ -29,19 +29,19 @@ const AddToCartPage = () => {
                                 </div>
                                 <div className="info_sec">
                                     <Link to='/product'>
-                                        <p className='longTitle'>Long sleeve T-shirt</p>
+                                        <p className='longTitleCart'>Long sleeve T-shirt</p>
                                     </Link>
 
-                                    <span className='sizeTitleViewCart'>Color: Black | Size: XS</span>
+                                    <span className='colorCart'>Color: Black | Size: XS</span>
                                     {/* price section  */}
-                                    <div className="priceSection1">
+                                    <div className="priceSectionCart">
                                         <div className="pp1">
                                             <p className='priceSubInfoVCart'> $ 50</p>
-                                            <p className='priceTitleVcart'>Tk 5,000 </p>
+                                            <p className='priceCart'>Tk 5,000 </p>
                                         </div>
                                     </div>
                                     {/* edit item  */}
-                                    <div className="editOption">
+                                    <div className="editCart">
                                         <div className="pp2">
                                             <p className='priceSubInfoVCart1'> Edit this item</p>
 
