@@ -7,3 +7,195 @@
     height: 100%;
     width: 100%;
 }
+
+/* start  */
+.productsContainer {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailsSection {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.image_sec img {
+    width: 120px;
+    height: 200px;
+    padding: 0 0 1rem 0;
+}
+
+.image_sec a {
+    text-decoration: none;
+}
+
+/* product details start */
+.info_sec {
+    margin-top: 1.9rem;
+
+
+}
+
+.info_sec a {
+    text-decoration: none;
+}
+
+.info_sec .longTitle {
+    font-size: 16px;
+    color: #111;
+    font-weight: 400;
+    font-family: sans-serif;
+
+}
+
+.longTitle:hover {
+    color: #0dcaf0;
+}
+
+.info_sec .sizeTitleViewCart {
+    font-size: 14px;
+    color: #111;
+    font-weight: 400;
+    font-family: sans-serif;
+    bottom: 1rem;
+    position: relative;
+
+
+}
+
+/* price section styling  */
+
+.priceSubInfoVCart {
+    padding: 4px 26px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #111;
+    visibility: hidden;
+    bottom: 2rem;
+    position: relative;
+    border-radius: 5px;
+    max-width: 80px;
+    font-weight: 400;
+    margin-left: 0rem;
+    margin-right: 0;
+
+}
+
+.priceSection1 .priceTitleVcart {
+    font-size: 18px;
+    font-weight: 600;
+    bottom: 3rem;
+    position: relative;
+    color: #111;
+
+}
+
+.priceTitleVcart:hover {
+    color: #0dcaf0;
+}
+
+.pp1:hover .priceSubInfoVCart {
+    visibility: visible;
+}
+/* end price section  */
+
+/* button work  */
+.editOption button {
+    background-color: #11111100;
+    border: 0;
+    padding: 2px 6px;
+    bottom: 6.5rem;
+    position: relative;
+    /* color: black; */
+
+}
+
+.priceSubInfoVCart1 {
+    min-width: 100px;
+    padding: 4px 0;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #111;
+    visibility: hidden;
+    bottom: 5rem;
+    position: relative;
+    border-radius: 5px;
+    max-width: 80px;
+    font-weight: 400;
+
+
+}
+
+.pp2:hover .priceSubInfoVCart1 {
+    visibility: visible;
+}
+
+/* quantity add  */
+.quantityDetails{
+    margin-top: 4rem;
+}
+.increaseDecrease {
+    display: flex;
+    gap: 2px;
+    border: 2px solid black;
+}
+
+/* decrrese  */
+.decrease button {
+    border: 0;
+    background-color: #fff;
+    padding: 2px 4px;
+}
+
+.valueShowCView .showOne {
+    font-size: 18px;
+    color: #111;
+    padding: 0 4px;
+}
+
+.increase button {
+    border: 0;
+    background-color: #11111100;
+    padding: 2px 4px;
+}
+
+/* remove button style  */
+.removeContain button {
+    font-size: 16px;
+    font-weight: 400;
+
+    text-transform: capitalize;
+    border: 0;
+    padding: 3px 4px;
+    background-color: #11111100;
+    color: #111;
+    margin-top: .5rem;
+}
+
+.removeHr {
+    bottom: 1rem;
+    position: relative;
+    color: black;
+}
+
+.removeBtn:hover {
+    color: #0dcaf0;
+}
+/* total section  */
+.totalDetails{
+    margin-top: 4rem;
+}
+.priceSection1 .priceTitleTotal {
+    font-size: 18px;
+    font-weight: 600;
+    bottom: 3rem;
+    position: relative;
+    color: #111;
+
+}
+
+/* end section  */

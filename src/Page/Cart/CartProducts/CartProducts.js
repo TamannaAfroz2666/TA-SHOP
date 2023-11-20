@@ -43,6 +43,7 @@ const CartProducts = () => {
                     <div className="cartTitleHr1">
                         <hr className='titleHr1' />
                     </div>
+                    {/* product show page start */}
                     <div className="productsContainer">
                         <div className="product_details">
                             <div className="detailsSection">
@@ -143,6 +144,7 @@ const CartProducts = () => {
 
                         </div>
                     </div>
+                         {/* product show page end */}
                     <div className="cartTitleHr1">
                         <hr className='titleHr1' />
                     </div>

@@ -96,7 +96,7 @@
 
 }
 
-/* card product details  */
+/* card product details  start*/
 
 .productsContainer {
     width: 75%;
@@ -286,6 +286,8 @@
     color: #111;
 
 }
+
+/* end section  */
 .hrOutLine{
     width: 70%;
     margin-left: 9rem;

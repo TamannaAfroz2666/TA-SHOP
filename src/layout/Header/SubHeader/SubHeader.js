@@ -1,6 +1,7 @@
 import React from 'react';
 import './SubHeader.css';
 import { BsBasket } from "react-icons/bs";
+import AddToCartPage from '../../../Page/TrendingProduct/AddToCartPage';
 
 const SubHeader = () => {
     return (
@@ -20,6 +21,9 @@ const SubHeader = () => {
                     <div className="body-cart">
                         <p className='spend-cart'>Spend <span className='spend-middle'>Tk 3,317.00 </span>more and get <span className='spend-middle'>free shipping!</span></p>
                         <hr className='lineHr2' />
+                        <div className="product-list-cart">
+                            <AddToCartPage></AddToCartPage>
+                        </div>
 
                     </div>
 
