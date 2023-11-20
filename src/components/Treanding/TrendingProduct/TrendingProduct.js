@@ -185,7 +185,7 @@ const TrendingProduct = () => {
                                                     </button>
                                                     <span>1</span>
                                                     <button className='plus-btn'>
-                                                    <GoPlus />
+                                                    <GoPlus className='minus-trending'/>
                                                     </button>
 
 

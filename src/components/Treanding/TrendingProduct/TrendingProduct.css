@@ -151,7 +151,7 @@
 }
 
 .selectOptionTitle1 {
-    width: 300px;
+    width: 280px;
     padding: 10px 0;
     /* background-color: rgba(0, 0, 0, 0.384); */
     /* right: 0; */
@@ -188,10 +188,10 @@
     height: 20px;
     background-color: #eee;
     border-radius: 50%;
-    color: #111111c5;
-    
+    color: #111111c5;  
     
 }
+
 
 .sortP {
     padding: 20px 0;
