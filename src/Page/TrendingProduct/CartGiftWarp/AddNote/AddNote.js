@@ -11,7 +11,7 @@ const AddNote = () => {
     return (
         <div className='addGiftHead'>
             <button onClick={handleNote}>
-                <span className='giftIconTitle'><GrNote size={18}  className='giftIcon'/> </span>
+                <span className='giftIconTitle'><PiNotePencilThin size={18}  className='giftIcon'/> </span>
                 <p className='add-gift-title'>Add note</p>
             </button>
             
