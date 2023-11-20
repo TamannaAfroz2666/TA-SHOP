@@ -13,3 +13,19 @@
 #btnClose{
     font-size: 12px;
 }
+.body-cart{
+    /* margin-top: 2rem; */
+}
+.body-cart .spend-cart{
+    font-size: 16px;
+    font-weight: 500;
+    color: gray;
+}
+.spend-cart .spend-middle{
+    color: #111;
+
+}
+.body-cart .lineHr2{
+    height: 4px;
+    background-color: rgb(250, 40, 2);
+}
