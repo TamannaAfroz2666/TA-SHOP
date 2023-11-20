@@ -2,7 +2,7 @@ import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import { AiOutlineSearch } from "react-icons/ai";
-import { BsBasket } from "react-icons/bs";
+// import { BsBasket } from "react-icons/bs";
 import 'bootstrap/dist/css/bootstrap.css';
 // Put any other imports below so that CSS from your
 // components takes precedence over default styles.
