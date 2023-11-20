@@ -149,38 +149,34 @@
 .selectOption button {
     border: 0;
 }
-
+/* cart increase and add to card design start  */
 .selectOptionTitle1 {
-    width: 280px;
-    padding: 10px 0;
-    /* background-color: rgba(0, 0, 0, 0.384); */
-    /* right: 0; */
-    /* left: 0; */
+    width: 270px;
     bottom: 0rem !important;
     position: absolute;
     color: #f1f1f1;
     border: 0;
-    /* font-size: 18px; */
-}
-.selectOptionTitle1:hover {
+    display: flex;
+    gap: 1rem;
     background-color: rgba(128, 128, 128, 0.938);
 }
+
  .number-incre{
-    /* width: 100px; */
     display: inline-flex;
     gap: 10px;
-    /* border-right: 2px solid red; */
-    right: 5rem;
+    margin-left: 1rem;
     position: relative;
-    /* background-color: #1111112d; */
-  
-
+     padding: 5px 0;  
 }
 
 .number-incre button{
     border: 0;
     background-color: #eeeeee0a;
     color: #eee;
+}
+.one-trending{
+    font-size: 18px;
+    padding-top: .5rem;
 }
 
 .minus-trending:hover{
@@ -191,8 +187,22 @@
     color: #111111c5;  
     
 }
+.cartAdd button{
+    border: 0;
+    background-color: #928e8e15;
+    color: #eee;
+    padding: 9px 32px 9px 22px ;
+    position: relative;
 
+}
+.cartAdd .cart-icon{
+    padding: .1rem 0 0 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
 
+}
+/* cart increase and add to card design end */
 .sortP {
     padding: 20px 0;
     background-color: #111;
@@ -202,6 +212,9 @@
     position: absolute;
     color: #f1f1f1;
     border: 0;
+}
+.card-btn-cls:hover{
+    background-color: #0dcaf0;
 }
 
 
