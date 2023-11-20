@@ -6,6 +6,7 @@ import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
+import CartGiftWarp from './CartGiftWarp/CartGiftWarp';
 
 const AddToCartPage = () => {
     // viwecart edit modal 
@@ -214,7 +215,7 @@ const AddToCartPage = () => {
                 </div>
             </div>
             <div className="gift-warp">
-
+                <CartGiftWarp />
             </div>
 
       

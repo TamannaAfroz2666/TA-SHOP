@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.addGiftHead{
+    height: 100%;
+    width: 100%;
+}
+.addGiftHead .giftIconTitle{
+    padding: 10px;
+    background-color: rgba(212, 208, 208, 0.993);
+    border-radius: 50%;
+    border: 0;
+
+}
+.giftIcon{
+    margin: 0 0 .5rem 0;
+    color: tomato;
+}
+.addGiftHead .add-gift-title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #111111e1;
+    padding: .2rem;
+}
