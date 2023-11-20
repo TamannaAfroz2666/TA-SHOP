@@ -3,7 +3,9 @@ import './Header.css';
 import { Link } from 'react-router-dom';
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsBasket } from "react-icons/bs";
-
+import 'bootstrap/dist/css/bootstrap.css';
+// Put any other imports below so that CSS from your
+// components takes precedence over default styles.
 // import Box from '@mui/material/Box';
 // import Drawer from '@mui/material/Drawer';
 // import Button from '@mui/material/Button';
@@ -108,9 +110,18 @@ const Header = () => {
                                     <Link className='loginHeadTitle'>Log In</Link>
                                 </div>
                                 <div className="cartSubLink">
-                                    <Link>
-                                        <BsBasket color='tomato' size={20} />
-                                    </Link>
+                                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><BsBasket color='tomato' size={20} /></button>
+
+                                    <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                        <div className="offcanvas-header">
+                                            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                                            <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                        </div>
+                                        <div className="offcanvas-body">
+                                            ...
+                                        </div>
+                                    </div>
+                                    
 
                                 </div>
 
