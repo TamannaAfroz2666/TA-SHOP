@@ -22,16 +22,15 @@ const AddToCartPage = () => {
                <div className="productsContainer">
                         <div className="product_details">
                             <div className="detailsSection">
-                                <div className="image_sec">
+                                <div className="image_sec_cart">
                                     <Link to='/product'>
                                         <img src={img1} alt="" />
                                     </Link>
                                 </div>
-                                <div className="info_sec">
+                                <div className="info_sec_cart">
                                     <Link to='/product'>
                                         <p className='longTitleCart'>Long sleeve T-shirt</p>
                                     </Link>
-
                                     <span className='colorCart'>Color: Black | Size: XS</span>
                                     {/* price section  */}
                                     <div className="priceSectionCart">
@@ -76,9 +75,6 @@ const AddToCartPage = () => {
                                         </Modal>
 
                                     </div>
-
-
-
                                 </div>
                             </div>
 
