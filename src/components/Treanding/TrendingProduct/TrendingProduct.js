@@ -10,6 +10,8 @@ import data from '../../../Utilities/API/trendingProduct.json';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
+import { FiMinus } from "react-icons/fi";
+import { GoPlus } from "react-icons/go";
 
 
 
@@ -176,22 +178,43 @@ const TrendingProduct = () => {
                                             layout
                                             onClick={() => setShowCard(!showCard)}
                                         >
+                                             <div className='selectOptionTitle1'>
+                                                <div className="number-incre">
+                                                    <button className='minus-btn'>
+                                                    <FiMinus className='minus-trending'/>
+                                                    </button>
+                                                    <span>1</span>
+                                                    <button className='plus-btn'>
+                                                    <GoPlus />
+                                                    </button>
 
-                                            <button onClick={selectHandle}>
+
+
+                                                </div>
+                                                <div className="cartAdd">
+
+                                                </div>
+                                                {/* <p className='selectOptionTitle'>
+                                                    <span><HiOutlineArrowSmRight size={20} /></span>
+                                                    Select options1
+                                                </p> */}
+                                            </div>
+
+                                            {/* <button onClick={selectHandle}>
                                                 <p className='selectOptionTitle'>
                                                     <span><HiOutlineArrowSmRight size={20} /></span>
                                                     Select options
                                                 </p>
-                                            </button>
+                                            </button> */}
 
-                                            {showCard && (
+                                            {/* {showCard && (
                                                 <motion.button className='sortP'
                                                     initial={{ opacity: 0 }}
                                                     animate={{ opacity: 1 }}
                                                 >
                                                     32
                                                 </motion.button>
-                                            )}
+                                            )} */}
 
                                         </motion.div>
                                     </div>

@@ -150,16 +150,47 @@
     border: 0;
 }
 
-.selectOptionTitle {
-    padding: 14px 0;
-    background-color: rgba(0, 0, 0, 0.384);
-    right: 0;
-    left: 0;
-    bottom: -17px;
+.selectOptionTitle1 {
+    width: 300px;
+    padding: 10px 0;
+    /* background-color: rgba(0, 0, 0, 0.384); */
+    /* right: 0; */
+    /* left: 0; */
+    bottom: 0rem !important;
     position: absolute;
     color: #f1f1f1;
     border: 0;
-    font-size: 18px;
+    /* font-size: 18px; */
+}
+.selectOptionTitle1:hover {
+    background-color: rgba(128, 128, 128, 0.938);
+}
+ .number-incre{
+    /* width: 100px; */
+    display: inline-flex;
+    gap: 10px;
+    /* border-right: 2px solid red; */
+    right: 5rem;
+    position: relative;
+    /* background-color: #1111112d; */
+  
+
+}
+
+.number-incre button{
+    border: 0;
+    background-color: #eeeeee0a;
+    color: #eee;
+}
+
+.minus-trending:hover{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #111111c5;
+    
+    
 }
 
 .sortP {
@@ -173,9 +204,7 @@
     border: 0;
 }
 
-.selectOptionTitle:hover {
-    background-color: #0dcaf0;
-}
+
 
 
 
