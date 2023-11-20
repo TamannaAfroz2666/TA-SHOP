@@ -24,3 +24,6 @@
     color: #111111e1;
     padding: .2rem;
 }
+.giftIconTitle:hover{
+    background-color: rgb(6, 240, 162);
+}

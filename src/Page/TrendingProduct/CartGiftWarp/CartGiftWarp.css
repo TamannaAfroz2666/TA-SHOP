@@ -8,6 +8,7 @@
     width: 100%;
 }
 .card-gifts-content{
+    margin-top: 2rem;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }

@@ -8,7 +8,7 @@ const AddGift = () => {
     }
     return (
         <div className='addGiftHead'>
-            <button onClick={handleGift}>
+            <button onClick={handleGift} className='btnGiftWarp'>
                 <span className='giftIconTitle'><FaGift size={18}  className='giftIcon'/> </span>
                 <p className='add-gift-title'>Add gift wrap</p>
             </button>
