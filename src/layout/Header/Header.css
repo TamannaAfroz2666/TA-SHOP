@@ -121,3 +121,8 @@
 .subLinksTitle:hover{
     color: tomato;
 }
+.cartSubLink button{
+    border: 0;
+    background-color: #ffffff10;
+
+}
