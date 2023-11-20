@@ -13,6 +13,7 @@ import Modal from '@mui/material/Modal';
 import { FiMinus } from "react-icons/fi";
 import { GoPlus } from "react-icons/go";
 import { IoBagHandleSharp } from "react-icons/io5";
+import AddToCard from './AddToCard/AddToCard';
 
 
 
@@ -50,29 +51,27 @@ const TrendingProduct = () => {
     const findProductById = (productId) => {
 
         return productsInfo.find(product => product.id === productId);
-      };
+    };
 
-      const findProductByIdAndColor = (productId, colorCode) => {
+    const findProductByIdAndColor = (productId, colorCode) => {
         const product = findProductById(productId);
         console.log('product is ', product);
         if (product) {
-          const foundColor = product.color.find(color => color.color_code === colorCode);
-          console.log('find color', foundColor);
-          if (foundColor) {
-            let imageId ='product_id_'+productId;
-            document.getElementById(imageId).src=foundColor.image;
-            return { product, foundColor };
-          }
+            const foundColor = product.color.find(color => color.color_code === colorCode);
+            console.log('find color', foundColor);
+            if (foundColor) {
+                let imageId = 'product_id_' + productId;
+                document.getElementById(imageId).src = foundColor.image;
+                return { product, foundColor };
+            }
         }
-        
-        return null; // If the product or color isn't found
-      };
-    //   add to carrd area 
-    const addToCardTreand = () => {
-        console.log('card ');
-    }
 
-  
+        return null; // If the product or color isn't found
+    };
+    //   add to carrd area 
+
+
+
     return (
         <div className='trendingProduct'>
             <div className="productBox">
@@ -83,7 +82,7 @@ const TrendingProduct = () => {
                                 <div className="productContents">
                                     <a href={"/product/" + product.slug_field}>
                                         <img src={product.default_image} alt="" className='image' id={`product_id_${product.id
-                                    }`} />
+                                            }`} />
                                     </a>
                                     {/* over lay area  */}
                                     <div className="overlaySection">
@@ -138,7 +137,7 @@ const TrendingProduct = () => {
                                                     onClick={handleOpen}
                                                 >
                                                     <AiOutlineEye className='IconOverlay' size={35} />
-                                                </button>                                            
+                                                </button>
                                                 {/* modal add start */}
 
                                                 <Modal
@@ -177,29 +176,9 @@ const TrendingProduct = () => {
                                             }}
                                             layout
                                             onClick={() => setShowCard(!showCard)}
-                                        >
-                                             <div className='selectOptionTitle1'>
-                                                <div className="number-incre">
-                                                    <button className='minus-btn'>
-                                                    <FiMinus className='minus-trending'/>
-                                                    </button>
-                                                    <span className='one-trending'
-                                                    >1</span>
-                                                    <button className='plus-btn'>
-                                                    <GoPlus className='minus-trending'/>
-                                                    </button>
-
-                                                </div>
-                                                <div className="cartAdd">
-                                                    <button 
-                                                      onClick={addToCardTreand}
-                                                    className='card-btn-cls'
-                                                    >
-                                                    <IoBagHandleSharp size={18} />
-                                                       <span className='cart-icon'>add to cart</span> 
-                                                    </button>
-                                                </div>
-                                           
+                                        >{/* select option area start  */}
+                                            <div className="vhSelect">
+                                                <AddToCard></AddToCard>
                                             </div>
                                         </motion.div>
                                         {/* select option area end  */}
@@ -208,7 +187,6 @@ const TrendingProduct = () => {
                                 <div className="productInfo">
                                     <div className="iconsField">
                                         <div className="iconsRating">
-
                                             <span className='hhh'><AiFillStar size={15} color='orange' /></span>
                                             <span><AiFillStar size={15} color='orange' /></span>
                                             <span><AiFillStar size={15} color='orange' /></span>
@@ -233,19 +211,19 @@ const TrendingProduct = () => {
                                             {
                                                 product.color.map((product_color) => {
                                                     return (
-                                                    
+
                                                         <label className="colorField">
-                                                        <input
-                                                          type="radio"
-                                                          name="color"
-                                                          value={product_color.color_code}
-                                                          onChange={() => findProductByIdAndColor(product.id, product_color.color_code)}
-                                                        />
-                                                        <span
-                                                          style={{ backgroundColor: product_color.color_code }}
-                                                          className="radio-mark"
-                                                        ></span>
-                                                      </label>                                                
+                                                            <input
+                                                                type="radio"
+                                                                name="color"
+                                                                value={product_color.color_code}
+                                                                onChange={() => findProductByIdAndColor(product.id, product_color.color_code)}
+                                                            />
+                                                            <span
+                                                                style={{ backgroundColor: product_color.color_code }}
+                                                                className="radio-mark"
+                                                            ></span>
+                                                        </label>
                                                     )
                                                 })
                                             }

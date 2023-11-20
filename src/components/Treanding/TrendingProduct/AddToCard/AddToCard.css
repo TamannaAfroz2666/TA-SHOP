@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .card-container{} */
+/* cart increase and add to card design start  */
+.selectOptionTitle1 {
+    width: 300px;
+    bottom: 0rem !important;
+    position: absolute;
+    color: #f1f1f1;
+    border: 0;
+    display: flex;
+    gap: 1rem;
+    background-color: rgba(128, 128, 128, 0.938);
+}
+
+ .number-incre{
+    display: inline-flex;
+    gap: 10px;
+    margin-left: 1rem;
+    position: relative;
+     padding: 5px 0;  
+}
+
+.number-incre button{
+    border: 0;
+    background-color: #eeeeee0a;
+    color: #eee;
+}
+.one-trending{
+    font-size: 18px;
+    padding-top: .5rem;
+}
+
+.minus-trending:hover{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    color: #111111c5;  
+    
+}
+.cartAdd button{
+    border: 0;
+    background-color: #928e8e15;
+    color: #eee;
+    padding: 9px 4rem 9px 22px ;
+    position: relative;
+
+}
+.cartAdd .cart-icon{
+    padding: .1rem 0 0 8px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+.card-btn-cls:hover{
+    background-color: #0dcaf0;
+}
+/* cart increase and add to card design end */
