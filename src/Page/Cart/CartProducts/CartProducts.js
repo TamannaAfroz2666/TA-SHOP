@@ -18,30 +18,28 @@ const CartProducts = () => {
         setOpen(true)
     }
     // descrese section 
-    const [decreseInit, setDecreseInit] =useState(1)
-    // const [showValue, setShowValue] = useState();
+    const [decreseInit, setDecreseInit] =useState(1);
+    const [amount, setAmount] = useState(50);
+    let amountCost = decreseInit * amount;
+    console.log('amount ', amountCost);
 
     const decreseHandle = () =>{
-        // console.log('decrese');
         let init = 1 ;
         if(init> decreseInit){
-            
             console.log('emapaty');
 
         }
         else{
             setDecreseInit(decreseInit - 1)
-            
+             
         }
        
        
     }
 const increaseHandle = () =>{
     console.log('decrease');
-    setDecreseInit(decreseInit + 1)
-    
-
-
+    setDecreseInit(decreseInit + 1);
+  
 }
 
 
@@ -87,7 +85,7 @@ const increaseHandle = () =>{
                                     <div className="priceSection1">
                                         <div className="pp1">
                                             <p className='priceSubInfoVCart'> $ 50</p>
-                                            <p className='priceTitleVcart'>Tk 5,000 </p>
+                                            <p className='priceTitleVcart' id='amountId'>Tk {amount} </p>
                                         </div>
                                     </div>
                                     {/* edit item  */}
@@ -168,7 +166,7 @@ const increaseHandle = () =>{
                             <div className="priceSection1">
                                 <div className="pp1">
                                     <p className='priceSubInfoVCart'> $ 50</p>
-                                    <p className='priceTitleTotal'>Tk 5,000 </p>
+                                    <p className='priceTitleTotal'>Tk {amountCost} </p>
                                 </div>
                             </div>
 
