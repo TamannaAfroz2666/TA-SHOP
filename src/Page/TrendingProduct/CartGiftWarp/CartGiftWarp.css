@@ -6,6 +6,14 @@
 .CartGiftWarp{
     height: 100%;
     width: 100%;
+    
+}
+.cartGiftAll{
+    height: 400px;
+    position: sticky;
+    bottom: 0;
+
+
 }
 .card-gifts-content{
     margin-top: 2rem;

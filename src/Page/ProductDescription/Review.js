@@ -7,8 +7,8 @@ import { Link } from 'react-router-dom';
 
 
 const Review = () => {
-    const [initField , setInitField] = useState(false);
-    const  reviewHandle = () =>{
+    const [initField, setInitField] = useState(false);
+    const reviewHandle = () => {
         console.log('review handle');
         setInitField(!initField);
     }
@@ -39,15 +39,21 @@ const Review = () => {
                     </div>
                     <div className="btn-review">
                         <button onClick={reviewHandle} className='reviewBtnCls'>Write a review</button>
-                        {
-                            initField &&(
-                                <div className="info-reviewField" >
-                                <h1 className="info-reviewField">hh</h1> 
-                            </div>
-                            )
-                        }
+
                     </div>
                 </div>
+                {/* review section start */}
+                {
+                    initField && (
+                        <div className="info-reviewField" >
+                            <h1 className="info-reviewField">Write a review</h1>
+                            <div className="input-review">
+                                
+                            </div>
+                        </div>
+                    )
+                }
+                {/* review section end */}
                 <div className="review-des">
                     <div className="icons">
                         {/* icon section start  */}

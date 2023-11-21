@@ -78,3 +78,14 @@
     font-weight: 500;
     color: #1313138a;
 }
+
+/* review page  */
+.info-reviewField{
+    margin-top: 1rem;
+}
+.info-reviewField .info-reviewField {
+    font-size: 22px;
+    font-weight: 500;
+    color: #1f1d1d;
+    text-align: left;
+}
