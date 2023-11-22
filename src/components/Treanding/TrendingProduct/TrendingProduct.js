@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './TrendingProduct.css';
 import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
 import { AiOutlineHeart, AiOutlineEye, AiFillStar } from "react-icons/ai";
@@ -37,6 +37,7 @@ const TrendingProduct = () => {
     const selectHandle = () => {
         console.log('event call');
     }
+
 
     // Quickview area 
 
@@ -178,7 +179,13 @@ const TrendingProduct = () => {
                                             onClick={() => setShowCard(!showCard)}
                                         >{/* select option area start  */}
                                             <div className="vhSelect">
-                                                <AddToCard></AddToCard>
+                                                <AddToCard
+                                                products_data={product}
+                                                 product_id={product.id}
+                                                 product_name={product.p_title}
+                                                 product_slug={product.slug_field}
+                                                 product_p_price={product.p_price}
+                                                 ></AddToCard>
                                             </div>
                                         </motion.div>
                                         {/* select option area end  */}

@@ -1,13 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './AddToCard.css';
 import { FiMinus } from "react-icons/fi";
 import { GoPlus } from "react-icons/go";
 import { IoBagHandleSharp } from "react-icons/io5";
+// import result from '../../../../Utilities/API/trendingProduct.json';
 
-const AddToCard = () => {
-    const addToCardTreand = () => {
-        console.log('card ');
+const AddToCard = (props) => {
+    console.log("props = ", props);
+    // const [dataInit, setDataInit] = useState (result);
+    // console.log('dataInit', dataInit);
+    const [localId, setLocalId] = useState([]);
+
+
+    const addToCardTreand = (productInformation) => {
+        console.log('productInformation = ', productInformation);
+        let idGet = productInformation.product_id;
+        console.log('card id = ', idGet);
+        setLocalId(idGet);
     }
+
+    useEffect(() => {
+        console.log('product id is', localId);
+    }, [localId]); // This useEffect will run after each render when localId changes
+
+
     return (
         <div className='selectOptionTitle1'>
             <div className="number-incre">
@@ -21,14 +37,18 @@ const AddToCard = () => {
                 </button>
             </div>
             <div className="cartAdd">
-                <button
-                    onClick={addToCardTreand}
+                <button onClick={() => addToCardTreand(props)} className='card-btn-cls' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <IoBagHandleSharp size={18} />
+                    <span className='cart-icon'>add to cart</span>
+                </button>
+                {/* <button
+                    onClick={addToCardTreand(props)}
                     className='card-btn-cls'
                     type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
                 >
                     <IoBagHandleSharp size={18} />
                     <span className='cart-icon'>add to cart</span>
-                </button>
+                </button> */}
 
                 {/* <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                     <div className="offcanvas-header">
