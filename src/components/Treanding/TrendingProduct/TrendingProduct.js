@@ -157,13 +157,8 @@ const TrendingProduct = () => {
 
                                                                 </div>
                                                                 <div className="infoView">
-
-
                                                                 </div>
-
                                                             </div>
-
-
                                                         </Typography>
                                                     </Box>
                                                 </Modal>
