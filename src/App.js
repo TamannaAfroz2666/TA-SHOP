@@ -10,6 +10,7 @@ import MainShowAll from './Page/ShowAllProducts/MainShowAll/MainShowAll';
 import SinglePage from './Page/SinglePage/SinglePage';
 // import WishListHeader from './Page/WishListHeader/WishListHeader';
 import WishListMain from './Page/WishListHeader/WishListMain/WishListMain';
+import HelpMain from './Page/Help/HelpMain/HelpMain';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
         <Route path='/show-all-product' element={ <MainShowAll/> }/>
         <Route path='product/single-page-product' element={ <SinglePage/> }/>
         <Route path='pages/wishlist' element ={<WishListMain/>}/>
+        <Route path='help' element ={<HelpMain/>}/>
+
 
       </Routes>
      

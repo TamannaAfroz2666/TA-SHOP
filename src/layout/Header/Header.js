@@ -105,7 +105,7 @@ const Header = () => {
                                 <motion.li
                                     whileHover={{ scale: 1.09 }}
                                 >
-                                    <Link className='subLinksTitle'>help</Link>
+                                    <Link className='subLinksTitle' to='help'>help</Link>
                                 </motion.li>
                             </ul>
                             <div className="subSubLinks">
