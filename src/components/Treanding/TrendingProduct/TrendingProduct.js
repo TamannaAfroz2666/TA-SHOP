@@ -99,6 +99,7 @@ const TrendingProduct = () => {
                                                 <AiOutlineHeart className='IconOverlay' color='black' size={35} />
 
                                             </motion.div>
+                                            {/* compare  */}
                                             <motion.div
                                                 whileHover={{
                                                     scale: 1.2,
@@ -111,22 +112,10 @@ const TrendingProduct = () => {
                                                     <HiArrowsUpDown className='IconOverlay' size={35} />
 
                                                 </button>
-                                                {/* modal add  */}
-                                                {/* <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
-                                                    <Modal.Header className='modalHeader' closeButton  >
-                                                        <Modal.Title className='modalPTitle'>
-                                                            <h1 className='modalTitle' >ta shop</h1>
-                                                        </Modal.Title>
-                                                    </Modal.Header>
-                                                    <Modal.Body  >
-                                                        <div className="modalBody">
-                                                            <h1 className='to'> Modal body content</h1>
-                                                        </div>
-
-                                                    </Modal.Body>
-                                                </Modal> */}
+                                               
 
                                             </motion.div>
+                                            {/* quick view  */}
                                             <motion.div
                                                 whileHover={{
                                                     scale: 1.2,
@@ -134,15 +123,10 @@ const TrendingProduct = () => {
                                                 }}
                                                 className="eye">
                                                 <p className='quickView'>quickView</p>
-
-                                                {/* <button className='btnCover'
-                                                    onClick={handleOpen}
-                                                >
-                                                    <AiOutlineEye className='IconOverlay' size={35} />
-                                                </button> */}
-                                                {/* modal add start */}
-
-                                               <QuickView></QuickView>
+                                                <QuickView 
+                                                ProductsData={product}
+                                            
+                                                />
                                             </motion.div>
                                         </div>
                                         {/* select option area start */}
@@ -156,12 +140,12 @@ const TrendingProduct = () => {
                                         >{/* select option area start  */}
                                             <div className="vhSelect">
                                                 <AddToCard
-                                                products_data={product}
-                                                 product_id={product.id}
-                                                 product_name={product.p_title}
-                                                 product_slug={product.slug_field}
-                                                 product_p_price={product.p_price}
-                                                 ></AddToCard>
+                                                    products_data={product}
+                                                    product_id={product.id}
+                                                    product_name={product.p_title}
+                                                    product_slug={product.slug_field}
+                                                    product_p_price={product.p_price}
+                                                ></AddToCard>
                                             </div>
                                         </motion.div>
                                         {/* select option area end  */}
@@ -194,7 +178,6 @@ const TrendingProduct = () => {
                                             {
                                                 product.color.map((product_color) => {
                                                     return (
-
                                                         <label className="colorField">
                                                             <input
                                                                 type="radio"

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './QuickView.css';
-// import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
 import img1 from '../../../../../assets/Image/NewArrivals/pic20.jpg'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -8,9 +7,18 @@ import Modal from '@mui/material/Modal';
 import { AiOutlineEye, AiFillStar, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { CiCircleCheck } from "react-icons/ci";
 
-const QuickView = () => {
+const QuickView = (props) => {
+    console.log('props', props);
+    const [title, setTitle] = useState({});
     const [open, setOpen] = useState(false);
-    const handleOpen = () => setOpen(true);
+    const handleOpen = () =>{
+        setOpen(true);
+        console.log('quick view');
+        const getTitle = props.ProductsData.p_title;
+        setTitle(getTitle);
+        console.log('title is', getTitle);
+
+    } 
     const handleClose = () => setOpen(false);
     return (
         <div className='quickViewMain'>
@@ -30,7 +38,7 @@ const QuickView = () => {
                     <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                         <div className="quickViewContent1">
                             <div className="imageView1">
-                                <img src={img1} alt="" />
+                                <img src={props.ProductsData.default_image} alt="" />
                             </div>
                             <div className="infoView">
                                 <div className="star-container">
@@ -47,12 +55,12 @@ const QuickView = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <h3 className='title-quick11'>Long sleeve asymmetric T-shirt</h3>
+                                <h3 className='title-quick11'>{props.ProductsData.p_title}</h3>
                                 <span className='se-store'>By <a href="/ac-store">SE Store</a></span>
                                 <div className="amount-con">
                                     <div className="pp">
-                                        <p className='QuickSubPri'> $50</p>
-                                        <p className='priceQuick'>Tk 1550</p>
+                                        <p className='QuickSubPri'> ${props.ProductsData.doller_convert}</p>
+                                        <p className='priceQuick'>Tk{props.ProductsData.p_price}</p>
                                     </div>
                                 </div>
                                 <hr className='quickHr' />
@@ -154,7 +162,6 @@ const QuickView = () => {
                     </Typography>
                 </Box>
             </Modal>
-
         </div>
     );
 };
