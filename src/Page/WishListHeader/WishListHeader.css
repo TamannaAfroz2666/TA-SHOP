@@ -21,3 +21,29 @@
     color: #242323;
 
 }
+.ul-ws{
+    margin: 0 2.5rem 0 0 ;
+}
+.ul-ws .wishlist-ul{
+    display: flex;
+    gap: .2rem;
+    justify-content: center;
+   
+}
+.wishlist-ul .ws-li{
+    font-size: 14px;
+    font-weight: 500;
+    color: #a19f9f;
+    text-decoration: none;
+}
+.wishlist-ul .greater-ws{
+    color: #a19f9f;
+}
+.wishlist-ul .wl{
+    font-size: 14px;
+    font-weight: 500;
+    color: #1d1c1c;
+    text-decoration: none;
+    padding-top: .2rem;
+
+}
