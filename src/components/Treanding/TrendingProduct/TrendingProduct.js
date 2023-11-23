@@ -14,6 +14,7 @@ import { FiMinus } from "react-icons/fi";
 import { GoPlus } from "react-icons/go";
 import { IoBagHandleSharp } from "react-icons/io5";
 import AddToCard from './AddToCard/AddToCard';
+import QuickView from './ModalCompare/QuickView/QuickView';
 
 
 
@@ -134,34 +135,14 @@ const TrendingProduct = () => {
                                                 className="eye">
                                                 <p className='quickView'>quickView</p>
 
-                                                <button className='btnCover'
+                                                {/* <button className='btnCover'
                                                     onClick={handleOpen}
                                                 >
                                                     <AiOutlineEye className='IconOverlay' size={35} />
-                                                </button>
+                                                </button> */}
                                                 {/* modal add start */}
 
-                                                <Modal
-                                                    className='modalArea1'
-                                                    open={open}
-                                                    onClose={handleClose}
-                                                    aria-labelledby="modal-modal-title"
-                                                    aria-describedby="modal-modal-description"
-                                                >
-                                                    <Box className='styleBox'>
-
-                                                        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                                                            <div className="quickViewContent">
-                                                                <div className="imageView">
-                                                                    <img src={img1} alt="" />
-
-                                                                </div>
-                                                                <div className="infoView">
-                                                                </div>
-                                                            </div>
-                                                        </Typography>
-                                                    </Box>
-                                                </Modal>
+                                               <QuickView></QuickView>
                                             </motion.div>
                                         </div>
                                         {/* select option area start */}
