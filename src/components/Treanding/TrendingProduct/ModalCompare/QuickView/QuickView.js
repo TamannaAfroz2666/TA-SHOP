@@ -46,6 +46,17 @@ const QuickView = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <h3 className='title-quick11'>Long sleeve asymmetric T-shirt</h3>
+                                <span className='se-store'>By <a href="/ac-store">SE Store</a></span>
+                                <div className="amount-con">
+                                    <div className="pp">
+                                        <p className='QuickSubPri'> $50</p>
+                                        <p className='priceQuick'>Tk 1550</p>
+                                    </div>
+                                </div>
+
+
+
                             </div>
                         </div>
                     </Typography>
