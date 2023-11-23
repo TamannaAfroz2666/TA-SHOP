@@ -179,7 +179,7 @@ const QuickView = (props) => {
 
                                     </div>
                                     <div className="cardBtnQuick">
-                                        <button className='add-card'>add to card</button>
+                                        <button className='add-card'className='card-btn-cls' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">add to card</button>
                                     </div>
 
                                 </div>
