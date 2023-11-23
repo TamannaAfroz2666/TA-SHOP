@@ -5,7 +5,8 @@ import img1 from '../../../../../assets/Image/NewArrivals/pic20.jpg'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import { AiOutlineEye, AiFillStar } from "react-icons/ai";
+import { AiOutlineEye, AiFillStar,AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { CiCircleCheck } from "react-icons/ci";
 
 const QuickView = () => {
     const [open, setOpen] = useState(false);
@@ -54,9 +55,9 @@ const QuickView = () => {
                                         <p className='priceQuick'>Tk 1550</p>
                                     </div>
                                 </div>
-                                <hr className='quickHr'/>
+                                <hr className='quickHr' />
                                 <p className='des-cls'>Curabitur egestas malesuada volutpat. Nunc vel vestibulum odio, ac pellentesque lacus. Pellentesque dapibus nunc nec est imperdiet, a malesuada sem rutrum</p>
-
+                                {/* color section  */}
                                 <div className="colorSize-sec">
                                     <div className="color-sec">
                                         <h4 className='title-col'>color: <span className='dynamic-col'>Black</span></h4>
@@ -75,6 +76,76 @@ const QuickView = () => {
                                     </div>
 
                                 </div>
+                                {/* size section  */}
+                                <div className="size-wid">
+                                    <h4 className='title-col'>size: <span className='dynamic-col'>xs</span></h4>
+                                    <div className="sizeContents">
+                                        <div className="btn-size-sec">
+                                            <button className='btnXs-size'>
+                                                xs
+                                            </button>
+
+                                        </div>
+                                        <div className="btn-size-sec">
+                                            <button className='btnXs-size'>
+                                                s
+                                            </button>
+
+                                        </div>
+                                        <div className="btn-size-sec">
+                                            <button className='btnXs-size'>
+                                                m
+                                            </button>
+
+                                        </div>
+                                        <div className="btn-size-sec">
+                                            <button className='btnXs-size'>
+                                                l
+                                            </button>
+
+                                        </div>
+                                        <div className="btn-size-sec">
+                                            <button className='btnXs-size'>
+                                                xl
+                                            </button>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                {/* in stock  */}
+                                <div className="stock-info">
+                                    <CiCircleCheck color='green' size={16} />
+                                    <p className='inStock'>In stock</p>
+                                </div>
+                                {/* add to card section  */}
+                                <div className="cart-sec">
+                    <div className="inputValue">
+                        <div className="incrDecr-pro-info">
+                            <div className="decr-sec">
+                                <button className='decreaseBtn'>
+                                    <AiOutlineMinus size={20} />
+                                </button>
+                            </div>
+                            <div className="value-pro-show">
+                                <span className='showOne1'>1</span>
+                            </div>
+                            <div className="incr-sec">
+                                <button className='increaseBtn'>
+                                    <AiOutlinePlus size={20} />
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div className="cardBtn">
+                        <button className='add-card'>add to card</button>
+                    </div>
+                    
+                </div>
 
 
 
