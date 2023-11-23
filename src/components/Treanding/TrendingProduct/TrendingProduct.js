@@ -119,13 +119,11 @@ const TrendingProduct = () => {
                                             <motion.div
                                                 whileHover={{
                                                     scale: 1.2,
-
                                                 }}
                                                 className="eye">
                                                 <p className='quickView'>quickView</p>
                                                 <QuickView 
                                                 ProductsData={product}
-                                            
                                                 />
                                             </motion.div>
                                         </div>

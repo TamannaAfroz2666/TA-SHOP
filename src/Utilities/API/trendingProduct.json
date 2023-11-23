@@ -50,16 +50,16 @@
             "id": 3,
             "color": [
                 {
-                    "color_code": "#000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00", 
+                    "image": "/Images/Products/3.avif"
                 },
                 {
-                    "color_code": "red", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF", 
+                    "image": "/Images/Products/2.avif"
                 },
                 {
-                    "color_code": "blue", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF", 
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "default_image": "/Images/Products/3.avif",
@@ -72,16 +72,16 @@
         {
             "color": [
                 {
-                    "color_code": "000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00", 
+                    "image": "/Images/Products/3.avif"
                 },
                 {
-                    "color_code": "fff", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF", 
+                    "image": "/Images/Products/2.avif"
                 },
                 {
-                    "color_code": "111", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF", 
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "id": 4,
@@ -96,16 +96,16 @@
             "id": 5,
             "color": [
                 {
-                    "color_code": "000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00", 
+                    "image": "/Images/Products/3.avif"
                 },
                 {
-                    "color_code": "fff", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF", 
+                    "image": "/Images/Products/2.avif"
                 },
                 {
-                    "color_code": "111", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF", 
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "default_image": "/Images/Products/5.avif",
@@ -119,16 +119,16 @@
             "id": 6,
             "color": [
                 {
-                    "color_code": "000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00", 
+                    "image": "/Images/Products/3.avif"
                 },
                 {
-                    "color_code": "fff", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF", 
+                    "image": "/Images/Products/2.avif"
                 },
                 {
-                    "color_code": "111", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF", 
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "default_image": "/Images/Products/6.avif",
@@ -142,16 +142,16 @@
             "id": 7,
             "color": [
                 {
-                    "color_code": "000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00", 
+                    "image": "/Images/Products/3.avif"
                 },
                 {
-                    "color_code": "fff", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF", 
+                    "image": "/Images/Products/2.avif"
                 },
                 {
-                    "color_code": "111", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF", 
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "default_image": "/Images/Products/7.avif",
@@ -165,16 +165,16 @@
             "id": 8,
             "color": [
                 {
-                    "color_code": "000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00", 
+                    "image": "/Images/Products/3.avif"
                 },
                 {
-                    "color_code": "fff", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF", 
+                    "image": "/Images/Products/2.avif"
                 },
                 {
-                    "color_code": "111", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF", 
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "default_image": "/Images/Products/8.avif",
@@ -188,16 +188,16 @@
             "id": 9,
             "color": [
                 {
-                    "color_code": "000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00", 
+                    "image": "/Images/Products/3.avif"
                 },
                 {
-                    "color_code": "fff", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF", 
+                    "image": "/Images/Products/2.avif"
                 },
                 {
-                    "color_code": "111", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF", 
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "default_image": "/Images/Products/9.avif",
@@ -211,16 +211,16 @@
             "id": 10,
             "color": [
                 {
-                    "color_code": "000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00", 
+                    "image": "/Images/Products/3.avif"
                 },
                 {
-                    "color_code": "fff", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF", 
+                    "image": "/Images/Products/2.avif"
                 },
                 {
-                    "color_code": "111", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF", 
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "default_image": "/Images/Products/10.avif",
@@ -234,16 +234,16 @@
             "id": 11,
             "color": [
                 {
-                    "color_code": "000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00", 
+                    "image": "/Images/Products/3.avif"
                 },
                 {
-                    "color_code": "fff", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF", 
+                    "image": "/Images/Products/2.avif"
                 },
                 {
-                    "color_code": "111", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF", 
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "default_image": "/Images/Products/11.avif",
@@ -257,16 +257,16 @@
             "id": 12,
             "color": [
                 {
-                    "color_code": "000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00", 
+                    "image": "/Images/Products/3.avif"
                 },
                 {
-                    "color_code": "fff", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF", 
+                    "image": "/Images/Products/2.avif"
                 },
                 {
-                    "color_code": "111", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF", 
+                    "image": "/Images/Products/4.avif"
                 }
             ],
             "default_image": "/Images/Products/12.avif",

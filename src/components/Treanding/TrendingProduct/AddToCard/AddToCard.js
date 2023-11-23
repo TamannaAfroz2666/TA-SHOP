@@ -21,16 +21,33 @@ const AddToCard = (props) => {
         console.log('product id is', localId);
     }, [localId]); // This useEffect will run after each render when localId changes
 
+// value increse decrese 
+const [count, setCount] = useState(1);
+const lowValue = () => {
+    const staticValue = 1;
+    try{
+        if(count> staticValue){
+            setCount(count -1);
+        }
+    }
+    catch (err){
+        console.error ('something wrong')
+        console.error(err)
+    }
 
+}
+const highValue = () => {
+    setCount (count + 1);
+}
     return (
         <div className='selectOptionTitle1'>
             <div className="number-incre">
-                <button className='minus-btn'>
+                <button className='minus-btn' onClick={lowValue}>
                     <FiMinus className='minus-trending' />
                 </button>
                 <span className='one-trending'
-                >1</span>
-                <button className='plus-btn'>
+                >{count}</span>
+                <button className='plus-btn' onClick={highValue}>
                     <GoPlus className='minus-trending' />
                 </button>
             </div>
