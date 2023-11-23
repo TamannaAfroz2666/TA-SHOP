@@ -111,6 +111,7 @@ const Header = () => {
                             <div className="subSubLinks">
                                 <div className="logSub">
                                     <Link className='loginHeadTitle' to='pages/wishlist'>
+                                        <span className='init'>0</span>
                                         <FaRegHeart  size={20} className='headWishIcon' />
                                     </Link>
                                 </div>
