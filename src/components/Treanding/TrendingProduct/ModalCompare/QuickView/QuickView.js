@@ -6,20 +6,44 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { AiOutlineEye, AiFillStar, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { CiCircleCheck } from "react-icons/ci";
+import { error } from 'jquery';
 
 const QuickView = (props) => {
-    console.log('props', props);
+    // console.log('props', props);
     const [title, setTitle] = useState({});
+    // modal object 
     const [open, setOpen] = useState(false);
-    const handleOpen = () =>{
+    const handleClose = () => setOpen(false);
+    const handleOpen = () => {
         setOpen(true);
         console.log('quick view');
         const getTitle = props.ProductsData.p_title;
         setTitle(getTitle);
         console.log('title is', getTitle);
 
-    } 
-    const handleClose = () => setOpen(false);
+    }
+    //    value update on increse decrease phase 
+    const [count, setCount] = useState(1);
+
+    const decreaseHandle = () => {
+        // console.log('decrese');
+        const initValue = 1;
+        try{
+            if(count>initValue){
+                setCount(count - 1)
+            }
+            
+        }
+    catch(error){
+        console.error('something bad happened');
+        console.error(error)
+    }
+       
+    }
+    const increaseHandle = () => {
+        // console.log('increscrese');
+        setCount(count + 1)
+    }
     return (
         <div className='quickViewMain'>
             <button className='btnCover'
@@ -51,7 +75,7 @@ const QuickView = (props) => {
                                             <span><AiFillStar size={15} color='orange' /></span>
                                         </div>
                                         <div className="numProduct">
-                                            <p className='oneItem'>(1)</p>
+                                            <p className='oneItem'>({props.ProductsData.stock_product})</p>
                                         </div>
                                     </div>
                                 </div>
@@ -133,15 +157,20 @@ const QuickView = (props) => {
                                     <div className="inputValue">
                                         <div className="incrDecr-pro-info">
                                             <div className="decr-sec">
-                                                <button className='decreaseBtn'>
+                                                <button className='decreaseBtn'
+                                                    onClick={decreaseHandle}
+
+                                                >
                                                     <AiOutlineMinus size={20} />
                                                 </button>
                                             </div>
                                             <div className="value-pro-show">
-                                                <span className='showOne1'>1</span>
+                                                <span className='showOne1'
+                                                    id='showId'
+                                                >{count}</span>
                                             </div>
                                             <div className="incr-sec">
-                                                <button className='increaseBtn'>
+                                                <button className='increaseBtn' onClick={increaseHandle}>
                                                     <AiOutlinePlus size={20} />
                                                 </button>
                                             </div>
