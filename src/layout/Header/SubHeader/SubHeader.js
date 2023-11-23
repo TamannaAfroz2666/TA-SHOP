@@ -7,7 +7,7 @@ const SubHeader = () => {
     return (
         <div>
             <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                <BsBasket color='tomato' size={20} />
+                <BsBasket  size={20} className='cartIconsub' />
             </button>
 
             <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">

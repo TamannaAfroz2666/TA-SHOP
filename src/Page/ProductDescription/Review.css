@@ -89,3 +89,13 @@
     color: #1f1d1d;
     text-align: left;
 }
+.part-in .name-re-la{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #4b4a4a;
+    padding: 1rem 0 1rem 0;
+}
+.part-in .name-review{
+    
+}

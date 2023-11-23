@@ -48,7 +48,11 @@ const Review = () => {
                         <div className="info-reviewField" >
                             <h1 className="info-reviewField">Write a review</h1>
                             <div className="input-review">
-                                
+                                <div className="part-in">
+                                    <label htmlFor="name" className='name-re-la'>Name</label> <br />
+                                    <input type="text" placeholder='Enter your name' className='name-review' />
+                                </div>
+
                             </div>
                         </div>
                     )

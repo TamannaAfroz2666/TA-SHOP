@@ -14,6 +14,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { motion } from 'framer-motion';
 // import Sub from './sub/sub';
 import SubHeader from './SubHeader/SubHeader';
+import { FaRegHeart } from "react-icons/fa";
 
 const Header = () => {
 
@@ -109,7 +110,9 @@ const Header = () => {
                             </ul>
                             <div className="subSubLinks">
                                 <div className="logSub">
-                                    <Link className='loginHeadTitle'>Log In</Link>
+                                    <Link className='loginHeadTitle' to='pages/wishlist'>
+                                        <FaRegHeart  size={20} className='headWishIcon' />
+                                    </Link>
                                 </div>
                                 <div className="cartSubLink">
                                     <SubHeader />
@@ -118,7 +121,7 @@ const Header = () => {
                         </div>
 
                     </div>
-                
+
                 </div>
 
             </div>

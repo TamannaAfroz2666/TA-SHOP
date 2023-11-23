@@ -108,7 +108,7 @@
 }
 .subSubLinks{
     display: inline-flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 .logSub .loginHeadTitle{
     font-size: 11.8px;
@@ -124,5 +124,9 @@
 .cartSubLink button{
     border: 0;
     background-color: #ffffff10;
+
+}
+.headWishIcon:hover{
+    color: tomato;
 
 }

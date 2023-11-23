@@ -29,3 +29,9 @@
     height: 4px;
     background-color: rgb(250, 40, 2);
 }
+.cartIconsub{
+    margin-right: 0rem;
+}
+.cartIconsub:hover{
+    color: tomato;
+}
