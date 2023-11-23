@@ -6,16 +6,14 @@ import { IoBagHandleSharp } from "react-icons/io5";
 // import result from '../../../../Utilities/API/trendingProduct.json';
 
 const AddToCard = (props) => {
-    console.log("props = ", props);
-    // const [dataInit, setDataInit] = useState (result);
-    // console.log('dataInit', dataInit);
+    // console.log("props = ", props);
     const [localId, setLocalId] = useState([]);
 
 
     const addToCardTreand = (productInformation) => {
-        console.log('productInformation = ', productInformation);
+        // console.log('productInformation = ', productInformation);
         let idGet = productInformation.product_id;
-        console.log('card id = ', idGet);
+        // console.log('card id = ', idGet);
         setLocalId(idGet);
     }
 
