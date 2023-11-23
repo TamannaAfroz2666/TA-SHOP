@@ -5,7 +5,8 @@ const WishListHeader = () => {
     return (
         <div className='wishListHeader'>
             <div className="subContentWi">
-                
+                <h1 className='title'>Wishlist</h1>
+
             </div>
             
         </div>

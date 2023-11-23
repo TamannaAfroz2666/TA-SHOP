@@ -8,6 +8,8 @@ import CartMain from './Page/Cart/CartMain/CartMain';
 import CheckoutMain from './Page/CheckOut/CheckOutMain/CheckoutMain';
 import MainShowAll from './Page/ShowAllProducts/MainShowAll/MainShowAll';
 import SinglePage from './Page/SinglePage/SinglePage';
+// import WishListHeader from './Page/WishListHeader/WishListHeader';
+import WishListMain from './Page/WishListHeader/WishListMain/WishListMain';
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path='/cartCheckOut' element={ <CheckoutMain />} />
         <Route path='/show-all-product' element={ <MainShowAll/> }/>
         <Route path='product/single-page-product' element={ <SinglePage/> }/>
+        <Route path='pages/wishlist' element ={<WishListMain/>}/>
 
       </Routes>
      

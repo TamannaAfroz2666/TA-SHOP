@@ -11,3 +11,13 @@
     width: 96%;
     margin: auto;
 }
+.subContentWi .title{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 4rem 0 1rem 0;
+    letter-spacing: 1px;
+    color: #242323;
+
+}
