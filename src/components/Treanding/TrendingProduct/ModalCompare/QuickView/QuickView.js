@@ -54,6 +54,27 @@ const QuickView = () => {
                                         <p className='priceQuick'>Tk 1550</p>
                                     </div>
                                 </div>
+                                <hr className='quickHr'/>
+                                <p className='des-cls'>Curabitur egestas malesuada volutpat. Nunc vel vestibulum odio, ac pellentesque lacus. Pellentesque dapibus nunc nec est imperdiet, a malesuada sem rutrum</p>
+
+                                <div className="colorSize-sec">
+                                    <div className="color-sec">
+                                        <h4 className='title-col'>color: <span className='dynamic-col'>Black</span></h4>
+                                        <div className="available-col">
+                                            <div className="color1">
+                                                <input type="color" />
+                                            </div>
+                                            <div className="color1">
+                                                <input type="color" />
+                                            </div>
+                                            <div className="color1">
+                                                <input type="color" />
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
 
 
 
