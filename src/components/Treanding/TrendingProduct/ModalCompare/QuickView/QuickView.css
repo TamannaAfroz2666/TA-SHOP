@@ -3,9 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+.modalArea111{
+    margin: 0 0 1rem 0;
+    height: 620px;
+}
 .quickViewMain{
     height: 100%;
     width: 100%;
+    
 }
 /* modal of viewQuick styled  */
 
@@ -25,9 +30,14 @@
     height: 500px;
     margin: 2rem 2rem 0 4rem;
 }
+.modalArea1{
+    margin: 2rem 0;
+}
 
 .infoView{
     margin-top: 2rem;
+    /* padding: 2rem 0; */
+
     /* background-color: rgba(255, 255, 255, 0.993); */
 }
 
@@ -123,3 +133,82 @@
     padding: .5rem 2rem 0 0;
 
 }
+
+/* .card work  */
+.cart-sec22{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    /* margin: 2rem 0; */
+    /* padding: 1rem 0; */
+}
+
+/* quantity add  */
+.incrDecr-pro-info {
+    display: flex;
+    gap: 1rem;
+    border: 2px solid rgba(0, 0, 0, 0.281);
+    /* margin: 1rem 0; */
+}
+
+/* decrrese  */
+.decr-sec button{
+    border: 0;
+    background-color: #fff;
+    padding: 10px 10px;
+    color: #1312129c;
+}
+.decreaseBtn:hover{
+    color: #111;
+}
+.value-pro-show{
+    padding: 10px 10px;
+    
+}
+.value-pro-show .showOne1 {
+    font-size: 18px;
+    color: #111;
+    font-weight: 700;
+   
+}
+
+.incr-sec button {
+    border: 0;
+    background-color: #11111100;
+    padding: 10px 10px;
+    color: #1312129c;
+}
+.increaseBtn:hover{
+    color: #111;
+}
+.cardBtnQuick button{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    background-color: #111;
+    color: #f5ecec;
+    letter-spacing: 2px;
+    padding: 16px 2rem;
+    
+}
+.add-card:hover{
+    background-color: #0dcaf0;
+}
+.icon{
+    padding: 12px 14px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+}
+.icon .favIcon{
+    color: #111;
+}
+.icon:hover{
+    background-color: #0dcaf0;
+    border: 0;
+    color: #11111100;
+}
+.icon:hover .favIcon{
+    color: #fff;
+
+}
+/* card work done  */

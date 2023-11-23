@@ -5,7 +5,7 @@ import img1 from '../../../../../assets/Image/NewArrivals/pic20.jpg'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import { AiOutlineEye, AiFillStar,AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { AiOutlineEye, AiFillStar, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import { CiCircleCheck } from "react-icons/ci";
 
 const QuickView = () => {
@@ -20,7 +20,7 @@ const QuickView = () => {
                 <AiOutlineEye className='IconOverlay' size={35} />
             </button>
             <Modal
-                className='modalArea1'
+                className='modalArea111'
                 open={open}
                 onClose={handleClose}
                 aria-labelledby="modal-modal-title"
@@ -121,31 +121,31 @@ const QuickView = () => {
                                     <p className='inStock'>In stock</p>
                                 </div>
                                 {/* add to card section  */}
-                                <div className="cart-sec">
-                    <div className="inputValue">
-                        <div className="incrDecr-pro-info">
-                            <div className="decr-sec">
-                                <button className='decreaseBtn'>
-                                    <AiOutlineMinus size={20} />
-                                </button>
-                            </div>
-                            <div className="value-pro-show">
-                                <span className='showOne1'>1</span>
-                            </div>
-                            <div className="incr-sec">
-                                <button className='increaseBtn'>
-                                    <AiOutlinePlus size={20} />
-                                </button>
-                            </div>
+                                <div className="cart-sec22">
+                                    <div className="inputValue">
+                                        <div className="incrDecr-pro-info">
+                                            <div className="decr-sec">
+                                                <button className='decreaseBtn'>
+                                                    <AiOutlineMinus size={20} />
+                                                </button>
+                                            </div>
+                                            <div className="value-pro-show">
+                                                <span className='showOne1'>1</span>
+                                            </div>
+                                            <div className="incr-sec">
+                                                <button className='increaseBtn'>
+                                                    <AiOutlinePlus size={20} />
+                                                </button>
+                                            </div>
 
-                        </div>
+                                        </div>
 
-                    </div>
-                    <div className="cardBtn">
-                        <button className='add-card'>add to card</button>
-                    </div>
-                    
-                </div>
+                                    </div>
+                                    <div className="cardBtnQuick">
+                                        <button className='add-card'>add to card</button>
+                                    </div>
+
+                                </div>
 
 
 
