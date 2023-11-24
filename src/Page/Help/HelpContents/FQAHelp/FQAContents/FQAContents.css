@@ -7,12 +7,9 @@
     height: 100%;
     width: 100%;
 }
-.acc-con{
-    padding: 1rem 3rem;
-    /* width: 500px; */
-    /* height: 50px; */
 
-}
-.acc-con ::content{
-    font-size: 30px;
+.fquContent{
+    width: 60%;
+    margin: auto;
+
 }
