@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.SingUpContent{
+    height: 100%;
+    width: 100%;
+}
+.info-sec-singUp{
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+
+}
+.names-section{
+    display: flex;
+    gap: 3rem;
+}
