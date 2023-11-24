@@ -8,6 +8,58 @@
     width: 100%;
 }
 .helpContents .contents{
+    margin-top: 2rem;
     display: flex;
     gap: 1rem;
+    justify-content: center;
+}
+.contents .acc-pri {
+    width: 300px;
+    /* border: 1px solid rgba(128, 128, 128, 0.26); */
+    padding: 20px;
+    background-color: #ffffffaf;
+    margin: 1rem 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 2px;
+}
+.acc-pri .acc-privacy {
+    width: 100%;
+
+}
+.acc-privacy .main-fa{
+    border: 1px solid #c19a83;
+    padding: 3px 6px;
+    border-radius: 50%;
+    margin-left: 45%;
+   
+}
+.main-fa .fa-title{
+    bottom: .2rem;
+    position: relative;
+    color: #c19a83;
+}
+.acc-privacy .acc-title{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 20px 0 0px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.acc-privacy .acc-des{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0 0px 0;
+    text-align: justify;
+    color: #7c7a7a;
+    line-height: 25px;
+}
+.acc-privacy .link-acc{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0 0px 4rem;
+    text-align: center;
+    color: #c19a83;
+    text-transform: uppercase;
+    text-decoration: none;
 }
