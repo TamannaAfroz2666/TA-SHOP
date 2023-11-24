@@ -47,13 +47,13 @@
     color: #111;
     letter-spacing: 2px;
 }
-.headerLogo .logoSub{
+.headerLogo .logoSub22{
     font-size: 16px;
     font-weight: 700;
     color: #111111a1;
     text-transform: uppercase;
     letter-spacing: 1px;
-    bottom: 1.5rem;
+    bottom: 2rem;
     position: relative;
     
 }

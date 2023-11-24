@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className="footerContents">
                         <div className="shopContent">
                             <p className='footerName'>TA</p>
-                            <p className='footerSort'>shop</p>
+                            <p className='footerSort22'>shop</p>
                         </div>
                         <div className="links_contentFooter">
                             <h3 className='footerLinkTitle'>links</h3>

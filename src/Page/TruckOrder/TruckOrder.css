@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,4 +14,38 @@
     text-transform: capitalize;
     padding: 3rem 0 2rem 3rem;
 
+}
+.login-truck-sec{
+    width: 500px;
+    margin: auto;
+    border: 1px solid gray;
+}
+.login-truck-sec .log-truckTitle{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #111;
+    text-align: center;
+    padding: 3rem 0 2rem 0rem;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+}
+.content-truck-inputs{
+    margin: 1rem 3.5rem;
+
+}
+.content-truck-inputs .userName-truck{
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.253);
+    background-color: rgba(240, 248, 255, 0.438);
+    padding: 2px 5px;
+    font-size: 16px;
+    font-weight: 500;
+
+    
+}
+.userName-truck:focus{
+  
+    outline: none;
 }

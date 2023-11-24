@@ -35,7 +35,7 @@ const Header = () => {
                         <div className="headerLogo">
                             <Link to='/'>
                                 <p className='logoTitle'>TA</p>
-                                <span className='logoSub'>shop</span>
+                                <span className='logoSub22'>shop</span>
                             </Link>
                         </div>
                         <div className="navLinks111">

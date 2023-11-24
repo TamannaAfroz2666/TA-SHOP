@@ -9,6 +9,14 @@ const TruckOrder = () => {
                 <Header />
             </div>
             <h1 className='truckOrderTitle'>order</h1>
+            <div className="login-truck-sec">
+                <h1 className='log-truckTitle'>login</h1>
+                <div className="content-truck-inputs">
+                    <input type="text" placeholder='UserName' className='userName-truck'  />
+                </div>
+
+
+            </div>
             
         </div>
     );
