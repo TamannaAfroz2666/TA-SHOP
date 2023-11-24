@@ -13,11 +13,11 @@
 .info-sec-singUp {
     width: 70%;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 .info-sec-singUp .nameTitleSing{
-    padding: 1rem 3rem 0 3rem;
+    padding: .5rem 3rem 5px 3rem;
     font-size: 16px;
     font-weight: 700;
     color: #424141e3;
@@ -31,7 +31,7 @@
 .names-section {
     display: flex;
     gap: 3rem;
-    margin: .2rem 3rem 1rem 3rem;
+    margin: 0rem 3rem 1rem 3rem;
 }
 
 .firstNameCon .nameClsSing {
@@ -42,7 +42,7 @@
     color: #111111f3;
     font-weight: 500;
     border: 1px solid rgba(128, 128, 128, 0.329);
-    background-color: rgba(234, 236, 236, 0.692);
+    background-color: rgb(250, 248, 248);
 }
 
 .nameClsSing:focus {
@@ -55,4 +55,73 @@
     font-weight: 700;
     color: #424141e3;
     text-transform: capitalize;
+}
+/* email field  */
+.info-sec-singUp .emailTitleSing{
+    padding: .5rem 3rem 5px 3rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: #424141e3;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab';
+}
+.emailTitleSing .starIc{
+    color: rgba(255, 0, 0, 0.63);
+}
+.email-secSing{
+    margin: 0 0 1.5rem 3rem;
+}
+.email-secSing .EmailClsSing {
+    width: 850px;
+    height: 50px;
+    font-size: 16px;
+    padding: 2px;
+    color: #111111f3;
+    font-weight: 500;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    background-color: rgb(250, 248, 248);
+  
+}
+
+.EmailClsSing:focus {
+    outline: 0;
+    border: 0;
+}
+
+/* message area  */
+.message-secSing{
+    margin: 0 0 2rem 3rem;
+}
+
+.message-secSing .textareaClsSing {
+    width: 850px;
+    height: 120px;
+    font-size: 16px;
+    padding: 2px;
+    color: #111111f3;
+    font-weight: 500;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    background-color: rgb(250, 248, 248);
+}
+
+.textareaClsSing:focus {
+    outline: 0;
+    border: 0;
+}
+/* button area  */
+.btn-singUp-sec{
+    margin: 0 0 6rem 3rem;
+}
+.btn-singUp-sec button{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #111;
+    padding: 14px 20px;
+    border: 0;
+    font-family: inherit;
+}
+.send-btn:hover{
+    background-color: #c19a83;
 }
