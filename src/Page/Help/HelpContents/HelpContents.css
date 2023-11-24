@@ -25,6 +25,7 @@
 }
 .acc-pri:hover{
     transform: scale(1.03);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .contents .support-sp {
     width: 320px;
@@ -37,6 +38,7 @@
 }
 .support-sp:hover{
     transform: scale(1.03);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .contents .seller-stand {
@@ -46,9 +48,12 @@
     margin: 1rem 0 3rem 0;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-radius: 5px;
+    transition: all .9s ease;
 }
-.seller-stand :hover{
+.seller-stand:hover{
     transform: scale(1.03);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
 }
 
  .acc-privacy {
@@ -83,13 +88,15 @@
     color: #7c7a7a;
     line-height: 25px;
 }
-.acc-privacy .link-acc{
-    font-size: 16px;
-    font-weight: 500;
-    padding: 20px 0 0rem 4rem;
+.link-acc{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0px 0 0rem 4rem;
     text-align: center;
     color: #c19a83;
     text-transform: uppercase;
     text-decoration: none;
-   
+}
+.link-acc:hover{
+    color: #0a0a0a;
 }
