@@ -12,6 +12,8 @@ import SinglePage from './Page/SinglePage/SinglePage';
 import WishListMain from './Page/WishListHeader/WishListMain/WishListMain';
 import HelpMain from './Page/Help/HelpMain/HelpMain';
 import TruckOrder from './Page/TruckOrder/TruckOrder';
+// import Contact from './Page/Contact/Contact';
+import ContactMain from './Page/Contact/ContactMain/ContactMain';
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         <Route path='pages/wishlist' element ={<WishListMain/>}/>
         <Route path='help' element ={<HelpMain/>}/>
         <Route path='my-account/orders' element ={ <TruckOrder/>}/>
+        <Route path='contact' element={<ContactMain/>}/>
 
 
       </Routes>
