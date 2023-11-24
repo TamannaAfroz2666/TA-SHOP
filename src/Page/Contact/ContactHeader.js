@@ -1,13 +1,13 @@
 import React from 'react';
-import './Contact.css';
+import './ContactHeader.css'
 
 
-const Contact = () => {
+const ContactHeader = () => {
     return (
         <div className='contact-container'>
             <div className='helpHeader'>
-                <h5 className='supportCls'>24/7 Support</h5>
-                <h1 className='title'>Ready to help</h1>
+                <h5 className='supportCls'>Don't be a stranger</h5>
+                <h1 className='title'>Contact Us</h1>
                 <div className="hr-sec">
                     <hr className='hrHelp' />
                 </div>
@@ -17,4 +17,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default ContactHeader;
