@@ -7,18 +7,21 @@
 .truckOrder{
     height: 100%;
     width: 100%;
+    padding: 0 0 7rem 0;
 }
 .truckOrder .truckOrderTitle{
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 28px;
+    font-weight: 500;
     text-transform: capitalize;
     padding: 3rem 0 2rem 3rem;
+    font-family: 'Roboto Slab', serif;
 
 }
 .login-truck-sec{
     width: 500px;
     margin: auto;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.404);
+    padding: 0 0 2rem 0;
 }
 .login-truck-sec .log-truckTitle{
     font-size: 45px;
@@ -48,4 +51,66 @@
 .userName-truck:focus{
   
     outline: none;
+}
+.content-truck-inputs .userPass-truck{
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.253);
+    background-color: rgba(240, 248, 255, 0.438);
+    padding: 2px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2rem;
+
+    
+}
+.userPass-truck:focus{
+    outline: none;
+}
+/* checkbox start  */
+.check-con-truck{
+    margin-top: 2rem;
+}
+#checkBox-truck{
+    width: 18px;
+    height: 18px;
+}
+.check-con-truck .remember-title{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+    color: #111111af;
+    bottom: .3rem;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+}
+.truck-logBt{
+    margin-top: 2rem;
+}
+.truck-logBt button{
+    width: 400px;
+    font-size: 16px;
+    padding: 15px 0;
+    color: #ffffffc9;
+    background-color: #111;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab';
+    border: 0;
+    margin: 0 0 2rem 0;
+    
+}
+.btn-truckCls:hover{
+    background-color: #d6946e;
+    color: #111;
+}
+.lost-pass-truck .link-truck{
+    font-size: 16px;
+    color: #d6946e;
+    font-family: 'Roboto Slab';
+    margin: 0 0 3rem 30%;
+}
+.link-truck:hover{
+    color: #111;
+    font-weight: 600;
 }
