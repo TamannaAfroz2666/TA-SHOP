@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.helpBgImg {
+    height: 100%;
+    width: 100%;
+}
+
+.helpBgSub {
+    background-image: linear-gradient(to bottom right, rgba(228, 226, 226, 0.219), rgba(228, 228, 205, 0.178)), url('../../../../assets/Image/Card/Help/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: static;
+}
+
+.hrBg {
+    width: 100%;
+    margin-left: 47%;
+    padding-top: 18rem;
+}
+
+.hrBg .hrBgTi {
+    width: 60px;
+    height: 1px;
+    background-color: black;
+}
+.needHelp{
+    font-size: 45px;
+    font-weight: 700;
+    color: #111;
+    letter-spacing: 1px;
+    padding: 2px 0;
+    text-align: center;
+}
+.btnHelp{
+    width: 100%;
+    margin-left: 45%;
+}
+.btnHelp button{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 16px 14px;
+    border: 0;
+    background-color: #d6946eb7;
+
+}
+.helpBtn-con:hover{
+    color: #111;
+    background-color: #fff;
+    font-weight: 600;
+}
