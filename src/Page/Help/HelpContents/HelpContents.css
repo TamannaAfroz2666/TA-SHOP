@@ -8,7 +8,7 @@
     width: 100%;
 }
 .helpContents .contents{
-    padding: 2rem 0 5rem 0;
+    padding: 2rem 0 0rem 0;
     display: flex;
     gap: 2rem;
     justify-content: center;

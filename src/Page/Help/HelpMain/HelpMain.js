@@ -3,6 +3,7 @@ import './HelpMain.css';
 import Header from '../../../layout/Header/Header';
 import HelpHeader from '../HelpHeader';
 import HelpContents from '../HelpContents/HelpContents';
+import FQAHelp from '../HelpContents/FQAHelp/FQAHelp';
 
 const HelpMain = () => {
     return (
@@ -15,6 +16,9 @@ const HelpMain = () => {
             </div>
             <div className="content-helps">
                 <HelpContents />
+            </div>
+            <div className="content-helps">
+               <FQAHelp />
             </div>
             
         </div>
