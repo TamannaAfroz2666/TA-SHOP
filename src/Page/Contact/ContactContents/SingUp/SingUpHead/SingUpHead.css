@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fqaHelp .title-get{
+    font-size: 40px;
+    color: #111;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 0rem 0 0rem 0;
+    font-family: 'Roboto Slab';
+   
+ 
+}
+.hr-sec{
+    width: 100%;
+    padding: 0 0 1rem 0;
+}
+.hr-sec .hrContact{
+    width: 50px;
+    margin-left: 48%;
+    height: 2px;
+    background-color: rgb(13, 14, 14);   
+}
