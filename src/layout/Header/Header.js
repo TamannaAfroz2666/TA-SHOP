@@ -100,7 +100,7 @@ const Header = () => {
                                 <motion.li
                                     whileHover={{ scale: 1.09 }}
                                 >
-                                    <Link className='subLinksTitle'>track order</Link>
+                                    <Link className='subLinksTitle' to='my-account/orders' >track order</Link>
                                 </motion.li>
                                 <motion.li
                                     whileHover={{ scale: 1.09 }}

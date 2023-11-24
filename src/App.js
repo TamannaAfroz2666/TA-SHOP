@@ -11,6 +11,7 @@ import SinglePage from './Page/SinglePage/SinglePage';
 // import WishListHeader from './Page/WishListHeader/WishListHeader';
 import WishListMain from './Page/WishListHeader/WishListMain/WishListMain';
 import HelpMain from './Page/Help/HelpMain/HelpMain';
+import TruckOrder from './Page/TruckOrder/TruckOrder';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='product/single-page-product' element={ <SinglePage/> }/>
         <Route path='pages/wishlist' element ={<WishListMain/>}/>
         <Route path='help' element ={<HelpMain/>}/>
+        <Route path='my-account/orders' element ={ <TruckOrder/>}/>
 
 
       </Routes>
