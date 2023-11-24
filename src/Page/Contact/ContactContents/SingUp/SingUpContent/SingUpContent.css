@@ -1,19 +1,58 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.SingUpContent{
+
+.SingUpContent {
     height: 100%;
     width: 100%;
 }
-.info-sec-singUp{
+
+.info-sec-singUp {
     width: 70%;
     margin: auto;
     border: 1px solid red;
 
 }
-.names-section{
+.info-sec-singUp .nameTitleSing{
+    padding: 1rem 3rem 0 3rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: #424141e3;
+    text-transform: capitalize;
+    font-family: 'Roboto Slab';
+}
+.nameTitleSing .starIc{
+    color: rgba(255, 0, 0, 0.63);
+}
+
+.names-section {
     display: flex;
     gap: 3rem;
+    margin: .2rem 3rem 1rem 3rem;
+}
+
+.firstNameCon .nameClsSing {
+    width: 400px;
+    height: 50px;
+    font-size: 16px;
+    padding: 2px;
+    color: #111111f3;
+    font-weight: 500;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    background-color: rgba(234, 236, 236, 0.692);
+}
+
+.nameClsSing:focus {
+    outline: 0;
+    border: 0;
+}
+
+.firstNameCon .firstNameLabel {
+    font-size: 14px;
+    font-weight: 700;
+    color: #424141e3;
+    text-transform: capitalize;
 }
