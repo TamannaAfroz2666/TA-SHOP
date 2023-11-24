@@ -18,6 +18,8 @@
    letter-spacing: 2px;
    padding: 5rem 0 0rem 0;
    font-style: italic;
+   top: 1rem;
+   position: relative;
 }
 .fqaHelp .title{
     font-size: 55px;
@@ -28,6 +30,7 @@
     letter-spacing: 2px;
     padding: 0rem 0 0rem 0;
     font-family: 'Roboto Slab';
+   
  
 }
 .hr-sec{
