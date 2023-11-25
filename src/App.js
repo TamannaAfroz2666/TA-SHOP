@@ -34,7 +34,8 @@ function App() {
         <Route path='contact' element={<ContactMain/>}/>
         <Route path='story' element = {<AboutUs/>}/>
         <Route path='product-category/decor' element ={<DecorPage />}/>
-        <Route path='single-category-product' element = {<SinglePageCategory/>} />
+        <Route path='single-category/single-category-product'
+         element = {<SinglePageCategory/>} />
       </Routes>
      
       {/* <Main></Main> */}
