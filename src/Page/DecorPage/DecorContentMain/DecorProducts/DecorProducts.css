@@ -16,7 +16,7 @@
     width: 450px;
     margin-left: 1rem;
     background-color: rgba(167, 155, 155, 0.116);
-    height: 500px;
+    height: 600px;
 }
 .productDecor-sec .saleViewSec{
     display: flex;
@@ -62,12 +62,35 @@
 }
 .viewEyeSecDe{
     visibility: hidden;
+    transition: all .6s ease-in-out;
 }
 .productDecor-sec:hover .viewEyeSecDe{
     visibility: visible;
+    transform: scale(1.11);
 }
 /* image section  */
-.productDecor-sec img{
+.imgDecor-sec{
+    width: 400px;
+    height: 300px;
+}
+.imgDecor-sec img{
     margin: 0rem 4rem 2rem 4rem;
     
+}
+.infoDecorPro{
+    width: 100%;
+
+}
+.infoDecorPro .decorProTitle{
+    font-size: 25px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+.priceProDecor{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111ad;
+    margin: 0rem 0 0 35%;
 }

@@ -23,25 +23,35 @@ const DecorProducts = () => {
                             <Tooltip title=
                                 {<span className='tooltipTitleDecor'>Select options</span>} placement="left" arrow
                             >
-                                <Link> <Button > <span className='linkViewBtn'><CiShoppingBasket className='iconDeIc'  size={25} color='black' /> </span>
+                                <Link> <Button > <span className='linkViewBtn'><CiShoppingBasket className='iconDeIc' size={25} color='black' /> </span>
                                 </Button> </Link>
                             </Tooltip>
                             <div className="eyeContact">
-                            <Tooltip title=
-                                {<span className='tooltipTitleDecor'>Quick view</span>} placement="left" arrow
-                            >
-                                <Link> <Button > <span className='linkViewBtn'><FaEye className='iconDeEye'  size={20} color='black' /> </span>
-                                </Button> </Link>
-                            </Tooltip>
+                                <Tooltip title=
+                                    {<span className='tooltipTitleDecor'>Quick view</span>} placement="left" arrow
+                                >
+                                    <Link> <Button > <span className='linkViewBtn'><FaEye className='iconDeEye' size={20} color='black' /> </span>
+                                    </Button> </Link>
+                                </Tooltip>
 
                             </div>
-                            
+
 
                         </div>
+                    </div>
+                    <div className="imgDecor-sec">
+                        <img src={img1} alt="" />
+                    </div>
+                    <div className="infoDecorPro">
+                        <Link to='product-name'>
+                            <h1 className='decorProTitle'>Product Name 1</h1>
+                        </Link>
+                        <span className='priceProDecor'> Tk 4000 -5000</span>
 
                     </div>
-                    <img src={img1} alt="" />
-                    
+
+
+
                 </div>
 
             </div>
