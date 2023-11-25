@@ -20,7 +20,7 @@
     width: 80%;
     margin: auto;
     display: flex;
-    gap: 3rem;
+    gap: 7rem;
 }
 .teamTitle{
     margin-top: 8rem;
@@ -44,4 +44,32 @@
     bottom: 1.4rem;
     position: relative;
   
+}
+/* description  */
+.teamDes{
+    margin-top: 8rem;
+    width: 520px;
+}
+.teamDes .title{
+    font-size: 20px;
+    color: #111111da;
+    font-weight: 700;
+    font-family: 'Roboto Slab';
+}
+.teamDes .des-story1{
+    font-size: 15px;
+    color: #11111183;
+    font-weight: 600;
+    font-family: 'Roboto Slab';
+    line-height: 25px;
+    text-align: justify;
+}
+.teamDes .des-story2{
+    font-size: 15px;
+    color: #11111183;
+    font-weight: 600;
+    font-family: 'Roboto Slab';
+    line-height: 25px;
+    text-align: justify;
+    padding: 0 0 8rem 0;
 }
