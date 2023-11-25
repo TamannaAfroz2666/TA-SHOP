@@ -12,7 +12,27 @@
     gap: 2rem;
     margin: 1rem 0 4rem 1rem;
 }
-.cateProContents .imageCateSection img{
+.saleSearchSec{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    top: 5rem;
+    position: relative;
+   
+}
+ .saleCategorySec button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px;
+    background-color: #fff;
+    color: #33313198;
+    border-radius: 47%;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-transform: capitalize;
+    
+}
+.imageCateSection .imgCateSec img{
     width: 600px;
     height: 600px;
 }
