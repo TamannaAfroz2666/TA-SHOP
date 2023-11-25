@@ -1,4 +1,5 @@
 import React from 'react';
+import './StoryHeader.css';
 
 const StoryHeader = () => {
     return (

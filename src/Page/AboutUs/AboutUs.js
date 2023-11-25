@@ -2,6 +2,7 @@ import React from 'react';
 import './AboutUs.css';
 import Header from '../../layout/Header/Header'
 import StoryHeader from './StoryHeader/StoryHeader';
+import StoryContent from './StoryHeader/StoryContent/StoryContent';
 
 const AboutUs = () => {
     return (
@@ -11,6 +12,9 @@ const AboutUs = () => {
             </div>
             <div className="sub-about-header">
                 <StoryHeader/>
+            </div>
+            <div className="content-about">
+                <StoryContent/>
               
             </div>
             
