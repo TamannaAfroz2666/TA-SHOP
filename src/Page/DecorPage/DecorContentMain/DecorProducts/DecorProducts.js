@@ -4,6 +4,7 @@ import img1 from '../../../../assets/Image/category/office.jpg'
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import { CiShoppingBasket } from "react-icons/ci";
+import { FaEye } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 
@@ -25,11 +26,22 @@ const DecorProducts = () => {
                                 <Link> <Button > <span className='linkViewBtn'><CiShoppingBasket className='iconDeIc'  size={25} color='black' /> </span>
                                 </Button> </Link>
                             </Tooltip>
+                            <div className="eyeContact">
+                            <Tooltip title=
+                                {<span className='tooltipTitleDecor'>Quick view</span>} placement="left" arrow
+                            >
+                                <Link> <Button > <span className='linkViewBtn'><FaEye className='iconDeEye'  size={20} color='black' /> </span>
+                                </Button> </Link>
+                            </Tooltip>
+
+                            </div>
+                            
 
                         </div>
 
                     </div>
                     <img src={img1} alt="" />
+                    
                 </div>
 
             </div>

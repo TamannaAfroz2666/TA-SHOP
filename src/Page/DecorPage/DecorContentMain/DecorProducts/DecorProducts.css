@@ -35,9 +35,7 @@
     text-transform: capitalize;
     
 }
-.productDecor-sec img{
-    margin: 2rem 4rem;
-}
+
 .tooltipTitleDecor{
     font-size: 12px ;
     font-weight: 500;
@@ -55,4 +53,21 @@
 }
 .iconDeIc{
     margin-top: .2rem;
+}
+.eyeContact{
+    margin-top: 10px;
+}
+.iconDeEye{
+    margin-top: .4rem;
+}
+.viewEyeSecDe{
+    visibility: hidden;
+}
+.productDecor-sec:hover .viewEyeSecDe{
+    visibility: visible;
+}
+/* image section  */
+.productDecor-sec img{
+    margin: 0rem 4rem 2rem 4rem;
+    
 }
