@@ -19,7 +19,7 @@ import QuickView from './ModalCompare/QuickView/QuickView';
 
 
 const TrendingProduct = () => {
-    const [productsInfo, setProductsInfo] = useState(data.product);
+   
 
     console.log('data is', productsInfo);
     const [showCard, setShowCard] = useState(false);
@@ -49,6 +49,8 @@ const TrendingProduct = () => {
     const [selectedColor, setSelectedColor] = useState('');
 
     // color work 
+
+    const [productsInfo, setProductsInfo] = useState(data.product);
     const findProductById = (productId) => {
         return productsInfo.find(product => product.id === productId);
     };
