@@ -8,7 +8,8 @@
 .selectOptionTitle1 {
     width: 300px;
     bottom: 0rem !important;
-    position: absolute;
+    position: relative;
+    margin-top: 2.1rem;
     color: #f1f1f1;
     border: 0;
     display: flex;
@@ -42,15 +43,15 @@
     color: #111111c5;  
     
 }
-.cartAdd button{
+.cartAddTreand button{
     border: 0;
     background-color: #928e8e15;
     color: #eee;
-    padding: 9px 4rem 9px 22px ;
+    padding: 9px 4.44rem 9px 22px ;
     position: relative;
 
 }
-.cartAdd .cart-icon{
+.cartAddTreand .cart-icon{
     padding: .1rem 0 0 8px;
     font-size: 16px;
     font-weight: 600;

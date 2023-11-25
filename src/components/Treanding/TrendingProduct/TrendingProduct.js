@@ -149,8 +149,8 @@ const TrendingProduct = () => {
                                         {/* select option area end  */}
                                     </div>
                                 </div>
-                                <div className="productInfo">
-                                    <div className="iconsField">
+                                <div className="productInfoTrend">
+                                    <div className="iconsFieldTr">
                                         <div className="iconsRating">
                                             <span className='hhh'><AiFillStar size={15} color='orange' /></span>
                                             <span><AiFillStar size={15} color='orange' /></span>
@@ -163,7 +163,7 @@ const TrendingProduct = () => {
                                         </div>
                                     </div>
                                     <div className="nameProduct">
-                                        <h3 className='product_titles'>{product.p_title}</h3>
+                                        <h3 className='product_titlesTr'>{product.p_title}</h3>
                                     </div>
                                     <div className="priceSection">
                                         <div className="pp">

@@ -13,9 +13,9 @@ const Trending = () => {
                     <div className="abc">
                         <h1 className='trendTitle'>You are in</h1>
                     </div>
-                    <div className="nav_link">
+                    <div className="nav_link23">
                         <div className="dropdown">
-                            <span className="dropbtn">trending <BsArrowDown size={25} className='trendingHr' /> </span>
+                            <span className="dropbtn23">trending <BsArrowDown size={25} className='trendingHr' /> </span>
                             <div className="dropdown-content">
                                 <Link to="/trending-sell">trending</Link>
                                 <Link to="/best-seller">best seller</Link>

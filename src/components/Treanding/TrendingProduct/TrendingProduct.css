@@ -45,7 +45,7 @@
 /* overlay add  */
 .overlaySection {
     position: relative;
-    bottom: 10.6rem;
+    /* bottom: 10.6rem; */
 
     /* background: rgba(0, 0, 0, 0.5);  */
     color: #f1f1f1;
@@ -158,18 +158,20 @@
 
 
 /* new stage of product info section */
-.productInfo {
+.productInfoTrend {
     width: 300px;
-    bottom: 9.9rem;
+    bottom: 11rem;
     position: relative;
+    display: block;
 
 }
 /* icon section  */
-.iconsField {
+.iconsFieldTr {
 
     display: flex;
     justify-content: center;
     gap: 6px;
+    /* margin: 0 0 1rem 0; */
     /* padding: 0 0 .1rem 0; */
 
 }
@@ -186,15 +188,16 @@
     margin-top: .23rem;
 }
 /* closed icon  */
-.nameProduct .product_titles {
+.nameProduct .product_titlesTr {
     font-size: 16px;
     text-align: center;
-    bottom: .5rem;
+    /* bottom: .5rem; */
     position: relative;
     color: #111;
+    padding: 6px 0;
 }
 
-.product_titles:hover {
+.product_titlesTr:hover {
     color: #0dcaf0;
 }
 /* price section start */
@@ -211,7 +214,9 @@
     font-weight: 400;
     margin-left: 6rem;
 }
-
+.priceSection{
+    margin: 6px 0 15px 0;
+}
 .priceSection .priceTitle {
     text-align: center;
     font-size: 18px;

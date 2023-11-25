@@ -51,7 +51,7 @@ const highValue = () => {
                     <GoPlus className='minus-trending' />
                 </button>
             </div>
-            <div className="cartAdd">
+            <div className="cartAddTreand">
                 <button onClick={() => addToCardTreand(props)} className='card-btn-cls' type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                 <IoBagHandleSharp size={18} />
                     <span className='cart-icon'>add to cart</span>
