@@ -1,6 +1,7 @@
 import React from 'react';
 import './FounderInfo.css'
 import FounderTitle from './FounderTitle/FounderTitle';
+import img1 from '../../../../../assets/Image/Card/Help/founder.jpg'
 
 const FounderInfo = () => {
     return (
@@ -29,7 +30,7 @@ const FounderInfo = () => {
 
                     </div>
                     <div className="imgSection">
-
+                        <img src={img1} alt="" />
                     </div>
 
 
