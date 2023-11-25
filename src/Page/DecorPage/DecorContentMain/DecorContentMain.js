@@ -1,6 +1,7 @@
 import React from 'react';
 import './DecorContentMain.css'
 import { IoChevronDown } from "react-icons/io5";
+import DecorProducts from './DecorProducts/DecorProducts';
 
 const DecorContentMain = () => {
     return (
@@ -20,15 +21,15 @@ const DecorContentMain = () => {
                             <option value="python" className='optionDecorSorting'>Sort by price: high-low</option>
                         </select>
                         <label htmlFor="language">
-                        <span className='faSortDecor'><IoChevronDown /></span>
-                    </label>
+                            <span className='faSortDecor'><IoChevronDown /></span>
+                        </label>
 
                     </div>
 
                 </div>
             </div>
             <div className="decor-products-sec">
-
+                <DecorProducts />
             </div>
 
         </div>

@@ -7,3 +7,52 @@
     height: 100%;
     width: 100%;
 }
+.decorProContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 0 4rem 0;
+}
+.productDecor-sec{
+    width: 450px;
+    margin-left: 1rem;
+    background-color: rgba(167, 155, 155, 0.116);
+    height: 500px;
+}
+.productDecor-sec .saleViewSec{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+}
+.saleViewSec .saleDecorSec button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px;
+    background-color: #fff;
+    color: #33313198;
+    border-radius: 47%;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-transform: capitalize;
+    
+}
+.productDecor-sec img{
+    margin: 2rem 4rem;
+}
+.tooltipTitleDecor{
+    font-size: 12px ;
+    font-weight: 500;
+    color: #fffffffb;
+    padding: 2px;
+
+}
+.linkViewBtn{
+    width: 40px;
+    height: 30px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-transform: capitalize;
+    border-radius: 50%;
+}
+.iconDeIc{
+    margin-top: .2rem;
+}
