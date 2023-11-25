@@ -38,21 +38,10 @@ const MainShowAll = () => {
                         </div>
                         <div className="contentImp">
                             <ProductShow></ProductShow>
-
                         </div>
-
                     </div>
-
-
-
                 </div>
-
-
-
-
             </div>
-
-
         </div>
     );
 };

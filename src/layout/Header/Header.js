@@ -51,7 +51,7 @@ const Header = () => {
                                 <motion.li
                                     whileHover={{ scale: 1.09 }}
                                 >
-                                    <Link className='linksTitle'>Decor</Link>
+                                    <Link className='linksTitle' to='product-category/decor'>Decor</Link>
                                 </motion.li>
                                 <motion.li
                                     whileHover={{ scale: 1.09 }}

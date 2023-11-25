@@ -15,6 +15,8 @@ import TruckOrder from './Page/TruckOrder/TruckOrder';
 // import Contact from './Page/Contact/Contact';
 import ContactMain from './Page/Contact/ContactMain/ContactMain';
 import AboutUs from './Page/AboutUs/AboutUs';
+import DecorPage from './Page/DecorPage/DecorPage';
+
 
 function App() {
   return (
@@ -30,8 +32,7 @@ function App() {
         <Route path='my-account/orders' element ={ <TruckOrder/>}/>
         <Route path='contact' element={<ContactMain/>}/>
         <Route path='story' element = {<AboutUs/>}/>
-
-
+        <Route path='product-category/decor' element ={<DecorPage />}/>
       </Routes>
      
       {/* <Main></Main> */}
