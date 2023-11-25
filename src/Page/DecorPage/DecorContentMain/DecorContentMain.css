@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.DecorContentMain{
+    height: 100%;
+    width: 100%;
+}
+.decorSorting-sec{
+    margin: 4rem 0 0 2rem;
+    display: flex;
+}
+.decorSorting-sec .show-sec .showingAll{
+    font-size: 18px;
+    font-weight: 600;
+    color: #4d4a4ad2;
+    letter-spacing: 1px;
+}
