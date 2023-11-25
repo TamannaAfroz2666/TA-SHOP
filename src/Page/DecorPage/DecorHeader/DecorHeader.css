@@ -1,9 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.decorHeader{
+
+.decorSubHeader22{
     height: 100%;
     width: 100%;
+}
+/* link sub start */
+.linkDecorHeader{
+    margin: 3rem 0 0rem  0;
+    top: 1rem;
+    position: relative;
+}
+.ulContentHeader{
+    display: inline-flex;
+    gap: 2px;
+}
+.ulContentHeader li{
+    list-style: none;
+}
+.ulContentHeader a{
+    text-decoration: none;
+}
+.ulContentHeader .LinkHomeHeader{
+    font-size: 15px;
+    font-weight: 600;
+    color: #4b4a4ad0;
+}
+.ulContentHeader .decorHdIC{
+    color: #4b4a4ad0;
+
+
+}
+.ulContentHeader .title_pHeader{
+    font-size: 15px;
+    font-weight: 600;
+    color: #4b4a4ad0;
+    padding-top: 0px;
+}
+/* link sub end */
+.decorSubHeader22 .decor-page-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #4d4a4a;
+    text-transform: capitalize;
+    padding: 0 0 0 2rem;
+    font-family: 'Roboto Slab';
+    margin: 0 0 3rem 0 !important;
 }

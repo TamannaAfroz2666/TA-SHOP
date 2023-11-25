@@ -5,9 +5,9 @@ import DecorHeader from './DecorHeader/DecorHeader';
 
 const DecorPage = () => {
     return (
-        <div className='DecorPage'>
+        <div className='DecorPageSection'>
             <Header></Header>
-            <div className="subHeaderDecor">
+            <div className="subHeaderDecorSec">
                 <DecorHeader></DecorHeader>
             </div>
             

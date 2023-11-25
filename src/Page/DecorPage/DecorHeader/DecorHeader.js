@@ -5,21 +5,22 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const DecorHeader = () => {
     return (
-        <div className='decorHeader'>
-             <div className="linkUl">
-                        <ul className='ulContent'>
-                            <li>
-                                <Link to='/' className='LinkHome'>Home</Link>
-                            </li>
-                            <li>
-                                <IoIosArrowForward />
-                            </li>
-                            <li>
-                                <p className='title_p'>  Products</p>
-                            </li>
-                        </ul>
-                    </div>
-            
+        <div className='decorSubHeader22'>
+            <div className="linkDecorHeader">
+                <ul className='ulContentHeader'>
+                    <li>
+                        <Link to='/' className='LinkHomeHeader'>Home</Link>
+                    </li>
+                    <li>
+                        <IoIosArrowForward className='decorHdIC' />
+                    </li>
+                    <li>
+                        <p className='title_pHeader'>  Products</p>
+                    </li>
+                </ul>
+            </div>
+            <h1 className='decor-page-title'>Decor</h1>
+
         </div>
     );
 };
