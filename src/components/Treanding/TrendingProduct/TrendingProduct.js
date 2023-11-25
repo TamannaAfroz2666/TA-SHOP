@@ -21,7 +21,7 @@ import QuickView from './ModalCompare/QuickView/QuickView';
 const TrendingProduct = () => {
    
 
-    console.log('data is', productsInfo);
+    // console.log('data is', productsInfo);
     const [showCard, setShowCard] = useState(false);
 
 

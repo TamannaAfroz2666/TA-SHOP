@@ -16,6 +16,7 @@ import TruckOrder from './Page/TruckOrder/TruckOrder';
 import ContactMain from './Page/Contact/ContactMain/ContactMain';
 import AboutUs from './Page/AboutUs/AboutUs';
 import DecorPage from './Page/DecorPage/DecorPage';
+import SinglePageCategory from './Page/SinglePageCategory/SinglePageCategory';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path='contact' element={<ContactMain/>}/>
         <Route path='story' element = {<AboutUs/>}/>
         <Route path='product-category/decor' element ={<DecorPage />}/>
+        <Route path='single-category-product' element = {<SinglePageCategory/>} />
       </Routes>
      
       {/* <Main></Main> */}
