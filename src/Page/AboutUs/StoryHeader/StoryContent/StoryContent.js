@@ -22,7 +22,6 @@ const StoryContent = () => {
 
                 </div>
             </div>
-            
         </div>
     );
 };

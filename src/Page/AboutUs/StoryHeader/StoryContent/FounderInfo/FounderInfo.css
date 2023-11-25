@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.founderInfo{
+    height: 100%;
+    width: 100%;
+}
+.info-bg{
+    background-image: linear-gradient(to bottom right, rgba(71, 69, 69, 0.151), rgba(54, 54, 52, 0.062)), url('../../../../../assets/Image/Card/Help/bg-2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* hr style  */
+.hrBg {
+    width: 100%;
+    margin-left: 47%;
+    padding-top: 18rem;
+}
+
+.hrBg .hrBgTi1 {
+    width: 60px;
+    height: 1px;
+    background-color: #f70404;
+}
+.needHelpFounder{
+    width: 40%;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 2px 0;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    line-height: 60px;
+}
