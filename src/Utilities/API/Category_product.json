@@ -1,0 +1,193 @@
+{
+    "category_products":[
+        {
+            "id": 11,
+            "color":[
+                {
+                    "color_code":"#00FF00",
+                    "image": "/Images/Category/office.jpg"
+                },
+                {
+                    "color_code":"#0000FF",
+                    "image": "/Images/Category/livingRoom.jpg"
+                },
+                {
+                    "color_code":"#00FFFF",
+                    "image": "/Images/Category/decore.jpg"
+                }
+            ],
+            "default_image":"/Images/Category/office.jpg",
+            "product_title": "Product number 1",
+            "product_price": 5000,
+            "slug_link": "single-category-product"
+        },
+        {
+            "id": 12,
+            "color":[
+                {
+                    "color_code":"#00FF00",
+                    "image": "/Images/Category/decore.jpg"
+                },
+                {
+                    "color_code":"#0000FF",
+                    "image": "/Images/Category/livingRoom.jpg"
+                },
+                {
+                    "color_code":"#00FFFF",
+                    "image": "/Images/Category/decore.jpg"
+                }
+            ],
+            "default_image":"/Images/Category/decore.jpg",
+            "product_title": "Product number 1",
+            "product_price": 5000,
+            "slug_link": "single-category-product"
+        },
+        {
+            "id": 13,
+            "color":[
+                {
+                    "color_code":"#00FF00",
+                    "image": "/Images/Category/office.jpg"
+                },
+                {
+                    "color_code":"#0000FF",
+                    "image": "/Images/Category/livingRoom.jpg"
+                },
+                {
+                    "color_code":"#00FFFF",
+                    "image": "/Images/Category/decore.jpg"
+                }
+            ],
+            "default_image":"/Images/Category/office.jpg",
+            "product_title": "Product number 1",
+            "product_price": 5000,
+            "slug_link": "single-category-product"
+        },
+        {
+            "id": 14,
+            "color":[
+                {
+                    "color_code":"#00FF00",
+                    "image": "/Images/Category/office.jpg"
+                },
+                {
+                    "color_code":"#0000FF",
+                    "image": "/Images/Category/livingRoom.jpg"
+                },
+                {
+                    "color_code":"#00FFFF",
+                    "image": "/Images/Category/decore.jpg"
+                }
+            ],
+            "default_image":"/Images/Category/decore.jpg",
+            "product_title": "Product number 1",
+            "product_price": 5000,
+            "slug_link": "single-category-product"
+        },
+        {
+            "id": 15,
+            "color":[
+                {
+                    "color_code":"#00FF00",
+                    "image": "/Images/Category/office.jpg"
+                },
+                {
+                    "color_code":"#0000FF",
+                    "image": "/Images/Category/livingRoom.jpg"
+                },
+                {
+                    "color_code":"#00FFFF",
+                    "image": "/Images/Category/decore.jpg"
+                }
+            ],
+            "default_image":"/Images/Category/livingRoom.jpg",
+            "product_title": "Product number 1",
+            "product_price": 5000,
+            "slug_link": "single-category-product"
+        },
+        {
+            "id": 16,
+            "color":[
+                {
+                    "color_code":"#00FF00",
+                    "image": "/Images/Category/office.jpg"
+                },
+                {
+                    "color_code":"#0000FF",
+                    "image": "/Images/Category/livingRoom.jpg"
+                },
+                {
+                    "color_code":"#00FFFF",
+                    "image": "/Images/Category/decore.jpg"
+                }
+            ],
+            "default_image":"/Images/Category/office.jpg",
+            "product_title": "Product number 1",
+            "product_price": 5000,
+            "slug_link": "single-category-product"
+        },
+        {
+            "id": 17,
+            "color":[
+                {
+                    "color_code":"#00FF00",
+                    "image": "/Images/Category/livingRoom.jpg"
+                },
+                {
+                    "color_code":"#0000FF",
+                    "image": "/Images/Category/livingRoom.jpg"
+                },
+                {
+                    "color_code":"#00FFFF",
+                    "image": "/Images/Category/decore.jpg"
+                }
+            ],
+            "default_image":"/Images/Category/decore.jpg",
+            "product_title": "Product number 1",
+            "product_price": 5000,
+            "slug_link": "single-category-product"
+        },
+        {
+            "id": 18,
+            "color":[
+                {
+                    "color_code":"#00FF00",
+                    "image": "/Images/Category/office.jpg"
+                },
+                {
+                    "color_code":"#0000FF",
+                    "image": "/Images/Category/livingRoom.jpg"
+                },
+                {
+                    "color_code":"#00FFFF",
+                    "image": "/Images/Category/decore.jpg"
+                }
+            ],
+            "default_image":"/Images/Category/livingRoom.jpg",
+            "product_title": "Product number 1",
+            "product_price": 5000,
+            "slug_link": "single-category-product"
+        },
+        {
+            "id": 19,
+            "color":[
+                {
+                    "color_code":"#00FF00",
+                    "image": "/Images/Category/office.jpg"
+                },
+                {
+                    "color_code":"#0000FF",
+                    "image": "/Images/Category/livingRoom.jpg"
+                },
+                {
+                    "color_code":"#00FFFF",
+                    "image": "/Images/Category/decore.jpg"
+                }
+            ],
+            "default_image":"/Images/Category/decore.jpg",
+            "product_title": "Product number 1",
+            "product_price": 5000,
+            "slug_link": "single-category-product"
+        }
+    ]
+}
