@@ -27,6 +27,9 @@ const DecorContentMain = () => {
 
                 </div>
             </div>
+            <div className="decor-products-sec">
+
+            </div>
 
         </div>
     );
