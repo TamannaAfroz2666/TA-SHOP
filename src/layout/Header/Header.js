@@ -90,7 +90,7 @@ const Header = () => {
                                 <motion.li
                                     whileHover={{ scale: 1.09 }}
                                 >
-                                    <Link className='subLinksTitle'>Story</Link>
+                                    <Link className='subLinksTitle' to='story'>Story</Link>
                                 </motion.li>
                                 <motion.li
                                     whileHover={{ scale: 1.09 }}
