@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import './TrendingProduct.css';
-import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
-import { AiOutlineHeart, AiOutlineEye, AiFillStar } from "react-icons/ai";
+// import img1 from '../../../assets/Image/NewArrivals/pic20.jpg';
+import { AiOutlineHeart,  AiFillStar } from "react-icons/ai";
 import { HiArrowsUpDown } from "react-icons/hi2";
-import { HiOutlineArrowSmRight } from "react-icons/hi";
+// import { HiOutlineArrowSmRight } from "react-icons/hi";
 import { motion, spring } from 'framer-motion';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import data from '../../../Utilities/API/trendingProduct.json';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Modal from '@mui/material/Modal';
-import { FiMinus } from "react-icons/fi";
-import { GoPlus } from "react-icons/go";
-import { IoBagHandleSharp } from "react-icons/io5";
+// import Box from '@mui/material/Box';
+// import Typography from '@mui/material/Typography';
+// import Modal from '@mui/material/Modal';
+// import { FiMinus } from "react-icons/fi";
+// import { GoPlus } from "react-icons/go";
+// import { IoBagHandleSharp } from "react-icons/io5";
 import AddToCard from './AddToCard/AddToCard';
 import QuickView from './ModalCompare/QuickView/QuickView';
 
@@ -49,9 +49,7 @@ const TrendingProduct = () => {
     const [selectedColor, setSelectedColor] = useState('');
 
     // color work 
-
     const findProductById = (productId) => {
-
         return productsInfo.find(product => product.id === productId);
     };
 

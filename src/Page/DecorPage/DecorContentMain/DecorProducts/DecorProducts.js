@@ -48,13 +48,13 @@ const DecorProducts = () => {
                                 </div>
                             </div>
                             <div className="imgDecor-sec">
-                                <img src={img1} alt="" />
+                                <img src={product.default_image} alt="" />
                             </div>
                             <div className="infoDecorPro">
                                 <Link to='product-name'>
                                     <h1 className='decorProTitle'>{product.product_title}</h1>
                                 </Link>
-                                <span className='priceProDecor'> Tk 4000 -5000</span>
+                                <span className='priceProDecor'> Tk {product.product_price}</span>
         
                             </div>
         

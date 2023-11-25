@@ -18,7 +18,7 @@
             ],
             "default_image":"/Images/Category/office.jpg",
             "product_title": "Product number 1",
-            "product_price": 5000,
+            "product_price": 10000,
             "slug_link": "single-category-product"
         },
         {
@@ -39,7 +39,7 @@
             ],
             "default_image":"/Images/Category/decore.jpg",
             "product_title": "Product number 10",
-            "product_price": 5000,
+            "product_price": 2200,
             "slug_link": "single-category-product"
         },
         {
@@ -60,7 +60,7 @@
             ],
             "default_image":"/Images/Category/office.jpg",
             "product_title": "Product number 11",
-            "product_price": 5000,
+            "product_price": 8000,
             "slug_link": "single-category-product"
         },
         {
@@ -81,7 +81,7 @@
             ],
             "default_image":"/Images/Category/decore.jpg",
             "product_title": "Product number 12",
-            "product_price": 5000,
+            "product_price": 4000,
             "slug_link": "single-category-product"
         },
         {
@@ -102,7 +102,7 @@
             ],
             "default_image":"/Images/Category/livingRoom.jpg",
             "product_title": "Product number 13",
-            "product_price": 5000,
+            "product_price": 1000,
             "slug_link": "single-category-product"
         },
         {
@@ -123,7 +123,7 @@
             ],
             "default_image":"/Images/Category/office.jpg",
             "product_title": "Product number 14",
-            "product_price": 5000,
+            "product_price": 3000,
             "slug_link": "single-category-product"
         },
         {
@@ -144,7 +144,7 @@
             ],
             "default_image":"/Images/Category/decore.jpg",
             "product_title": "Product number 15",
-            "product_price": 5000,
+            "product_price": 6000,
             "slug_link": "single-category-product"
         },
         {
@@ -165,7 +165,7 @@
             ],
             "default_image":"/Images/Category/livingRoom.jpg",
             "product_title": "Product number 16",
-            "product_price": 5000,
+            "product_price": 9000,
             "slug_link": "single-category-product"
         },
         {
@@ -186,7 +186,7 @@
             ],
             "default_image":"/Images/Category/decore.jpg",
             "product_title": "Product number 17",
-            "product_price": 5000,
+            "product_price": 2000,
             "slug_link": "single-category-product"
         }
     ]
