@@ -10,6 +10,7 @@
 .decorProContainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
     margin: 0 0 4rem 0;
 }
 .productDecor-sec{

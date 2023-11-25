@@ -12,52 +12,61 @@ import result from '../../../../Utilities/API/Category_product.json'
 
 
 const DecorProducts = () => {
-    const [shows, setShowsProduct] = useState(result);
+    const [shows, setShowsProduct] = useState(result.category_products);
 
     return (
         <div className='DecorProducts'>
             <div className="decorProContainer">
-                using map
+                {/* using map */}
+                {
+                    shows.map((product) =>{
+                        return(
 
-                <div className="productDecor-sec">
-                    <div className="saleViewSec">
-                        <div className="saleDecorSec">
-                            <button className='saleBtnDe' >sale!</button>
-                        </div>
-                        <div className="viewEyeSecDe">
-                            <Tooltip title=
-                                {<span className='tooltipTitleDecor'>Select options</span>} placement="left" arrow
-                            >
-                                <Link> <Button > <span className='linkViewBtn'><CiShoppingBasket className='iconDeIc' size={25} color='black' /> </span>
-                                </Button> </Link>
-                            </Tooltip>
-                            <div className="eyeContact">
-                                <Tooltip title=
-                                    {<span className='tooltipTitleDecor'>Quick view</span>} placement="left" arrow
-                                >
-                                    <Link> <Button > <span className='linkViewBtn'><FaEye className='iconDeEye' size={20} color='black' /> </span>
-                                    </Button> </Link>
-                                </Tooltip>
-
+                            <div className="productDecor-sec">
+                            <div className="saleViewSec">
+                                <div className="saleDecorSec">
+                                    <button className='saleBtnDe' >sale!</button>
+                                </div>
+                                <div className="viewEyeSecDe">
+                                    <Tooltip title=
+                                        {<span className='tooltipTitleDecor'>Select options</span>} placement="left" arrow
+                                    >
+                                        <Link> <Button > <span className='linkViewBtn'><CiShoppingBasket className='iconDeIc' size={25} color='black' /> </span>
+                                        </Button> </Link>
+                                    </Tooltip>
+                                    <div className="eyeContact">
+                                        <Tooltip title=
+                                            {<span className='tooltipTitleDecor'>Quick view</span>} placement="left" arrow
+                                        >
+                                            <Link> <Button > <span className='linkViewBtn'><FaEye className='iconDeEye' size={20} color='black' /> </span>
+                                            </Button> </Link>
+                                        </Tooltip>
+        
+                                    </div>
+        
+        
+                                </div>
                             </div>
-
-
+                            <div className="imgDecor-sec">
+                                <img src={img1} alt="" />
+                            </div>
+                            <div className="infoDecorPro">
+                                <Link to='product-name'>
+                                    <h1 className='decorProTitle'>{product.product_title}</h1>
+                                </Link>
+                                <span className='priceProDecor'> Tk 4000 -5000</span>
+        
+                            </div>
+        
+        
+        
                         </div>
-                    </div>
-                    <div className="imgDecor-sec">
-                        <img src={img1} alt="" />
-                    </div>
-                    <div className="infoDecorPro">
-                        <Link to='product-name'>
-                            <h1 className='decorProTitle'>Product Name 1</h1>
-                        </Link>
-                        <span className='priceProDecor'> Tk 4000 -5000</span>
 
-                    </div>
+                        )
+                    })
+                }
 
-
-
-                </div>
+              
 
             </div>
 
