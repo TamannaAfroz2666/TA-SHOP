@@ -19,6 +19,7 @@ const FounderInfo = () => {
                 </div>
                 <div className="founderSection">
                     <div className="infoSection">
+                        <div className="aboutss">
                         <h3 className='aboutFounder'>About the founder</h3>
                         <div className="hrFounder">
                             <hr className='hrFounderTi'/>
@@ -27,6 +28,9 @@ const FounderInfo = () => {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quaerat, itaque soluta officiis nostrum voluptates cupiditate pariatur! Sit similique, quam veritatis amet totam ullam porro quaerat voluptatum, ducimus quisquam itaque.
                         </p>
                         <p className='founderDes'>Nam rutrum mattis velit eget volutpat. Fusce egestas mi urna, id pulvinar ipsum dictum eget.</p>
+
+                        </div>
+                       
 
                     </div>
                     <div className="imgSection">

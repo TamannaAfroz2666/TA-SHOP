@@ -43,15 +43,24 @@
 .founderSection{
     margin-top: 4rem;
     display: flex;
-    gap: 3rem;
+    justify-content: space-between;
+   
 
 }
+.infoSection{
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.205);
+   
+    
+}
+
 .infoSection .aboutFounder{
     font-size: 24px;
     font-weight: 700;
     color: #111;
     padding: 2px 10px;
     font-family: 'Roboto Slab';
+    margin-top: 80%;
 }
 .hrFounder .hrFounderTi{
     width: 60px;
@@ -67,4 +76,14 @@
     line-height: 25px;
     text-align: justify;
     padding-left: 10px;
+}
+.imgSection{
+    padding:  0 0 7rem 0;
+    background-color: rgba(128, 128, 128, 0.205);
+}
+.imgSection img{
+    margin: 0 15px 0 0 ;
+    width: 700px;
+    height: 120vh;
+   
 }
