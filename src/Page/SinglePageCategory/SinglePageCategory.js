@@ -2,6 +2,7 @@ import React from 'react';
 import './SinglePageCategory.css';
 import Header from '../../layout/Header/Header'
 import CategoryProductInfo from './CategoryProductInfo/CategoryProductInfo';
+import CategoryDescription from './CategoryDescription/CategoryDescription';
 
 const SinglePageCategory = () => {
     return (
@@ -10,6 +11,13 @@ const SinglePageCategory = () => {
             <div className="categoryInfoContents">
                 <CategoryProductInfo />
             </div>
+            <div className="categoryDescriptionSection">
+                <CategoryDescription/>
+            </div>
+
+
+
+            
 
           
             
