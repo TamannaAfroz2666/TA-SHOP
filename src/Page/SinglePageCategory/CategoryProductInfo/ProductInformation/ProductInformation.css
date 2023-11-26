@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cabin&family=Catamaran:wght@200;300&family=Dancing+Script:wght@700&family=Inter&family=Nosifer&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&family=Roboto&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&family=Roboto+Slab&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,15 +11,28 @@
 .product_header{
     margin-top: 3rem;
 }
-.pro-head-ul{
+.pro-head-ul22{
     display: flex;
     gap: 1px;
 }
-.pro-head-ul .pro-head-link{
+.pro-head-ul22 .pro-head-link{
     font-size: 16px;
     font-weight: 600;
     color: rgba(82, 80, 80, 0.856);
     letter-spacing: 1px;
-    
 
 }
+/* sub link  start*/
+.product_header .product-list{
+    margin-left: 2rem;
+}
+ .product-list .pro-list-link{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(82, 80, 80, 0.856);
+    padding: 0 2px;
+    font-family: 'Roboto Slab';
+    letter-spacing: 1px;
+    text-transform: capitalize; 
+}
+/* sub link  end*/
