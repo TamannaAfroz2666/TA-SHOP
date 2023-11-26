@@ -1,5 +1,6 @@
 import React from 'react';
 import './CategoryDescription.css';
+import img1 from '../../../assets/Image/category/img11.webp'
 
 const CategoryDescription = () => {
     return (
@@ -17,14 +18,18 @@ const CategoryDescription = () => {
                 <div className="infoBasic">
                     <h1 className='subTitleCategory'>A few words about the product</h1>
                     <hr className='titleSecHr' />
+                    <div className="featuresCategory">
+                        <h1>features</h1>
+                    </div>
 
                 </div>
                 <div className="infoBasic2">
                     <h3 className='basicTitle'>Aenean pretium, sem vitae gravida tincidunt, justo diam tempus mauris.</h3>
                     <p className='basicTitle2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum erat leo, id pulvinar lorem maximus sit amet. Quisque mauris sem, sagittis sed blandit eu, varius a tortor. Quisque aliquam ligula sed quam pulvinar, vitae ullamcorper metus imperdiet.</p>
+                    <div className="categoryDesImg">
+                        <img src={img1} alt="" />
+                    </div>
                 </div>
-
-
             </div>
 
 
