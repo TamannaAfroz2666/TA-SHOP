@@ -3,6 +3,7 @@ import './ProductInformation.css'
 import { Link } from 'react-router-dom';
 import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import img1 from '../../../../assets/Image/Card/visaCard.webp';
 
 
 const ProductInformation = () => {
@@ -41,7 +42,6 @@ const ProductInformation = () => {
                     <p className='pro-des-cate'>Donec faucibus gravida vulputate. Sed quis porttitor libero. Aenean posuere imperdiet elit, in aliquet lorem vulputate sed. Integer et lacinia tellus.</p>
 
                     {/* color section  */}
-
                     <hr />
                     <div className="btnAddSection">
                         <div className="increaseDeSection">
@@ -74,6 +74,24 @@ const ProductInformation = () => {
                         </div>
                     </div>
                     <hr />
+                    <div className="sku-section">
+                        <p className='sku-cate'>
+                            <strong className='sku-cate-title'>SKU: N/A</strong>
+                            Categories:
+                            <span className='sku-link-span'>
+                                <Link to='product-category/bedroom' className='sku-link'>Bedroom,</Link>
+                                <Link to='product-category/decor' className='sku-link'>Decor,</Link>
+                                <Link to='product-category/office' className='sku-link'>office</Link>
+                            </span>
+                        </p>
+                    </div>
+                    <div className="card-company-cate">
+                        <h5 className='title'>GUARANTEE SAFE CHECKOUT</h5>
+                        <div className="image-card-cate">
+                            <img src={img1} alt="" />
+                        </div>
+                    </div>
+
 
                 </div>
 
