@@ -158,10 +158,6 @@
 }
 
 /* card company style start */
-.card-company{
-    /* width: 96%;
-    margin-top: 1rem; */
-}
 .card-company-cate .title{
     font-size: 13px;
     font-weight: 700;
@@ -178,4 +174,25 @@
 .image-card-cate img{
     width: 300px;
     margin: auto;
+}
+/* extra shoppin section title start  */
+.extraInfoSec{
+    margin-top: 2rem;
+}
+.extraInfoSec .free-shipping-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #363535e1;
+    padding: 0 0 10px 0;
+}
+.extraInfoSec .shopping-info{
+    font-size: 16px;
+    font-weight: 700;
+    color: #757272e1;
+    padding: 4px 0  4px 4px;
+
+}
+.check-cate-shipping{
+    color: #757272e1;
+
 }

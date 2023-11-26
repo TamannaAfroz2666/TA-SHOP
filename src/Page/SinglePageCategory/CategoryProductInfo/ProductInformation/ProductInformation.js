@@ -1,9 +1,10 @@
 import React from 'react';
 import './ProductInformation.css'
 import { Link } from 'react-router-dom';
-import { MdOutlineFavoriteBorder } from "react-icons/md";
+// import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
 import img1 from '../../../../assets/Image/Card/visaCard.webp';
+import { IoMdCheckmarkCircle } from "react-icons/io";
 
 
 const ProductInformation = () => {
@@ -85,11 +86,21 @@ const ProductInformation = () => {
                             </span>
                         </p>
                     </div>
+                    {/* bank card image set  section  */}
                     <div className="card-company-cate">
                         <h5 className='title'>GUARANTEE SAFE CHECKOUT</h5>
                         <div className="image-card-cate">
                             <img src={img1} alt="" />
                         </div>
+                    </div>
+                    <div className="extraInfoSec">
+                        <ul>
+                            <li className='free-shipping-title'>  Free shipping on orders over $50!</li>
+                            <li> <IoMdCheckmarkCircle size={16} className='check-cate-shipping'/><span className='shopping-info'>No-Risk Money Back Guarantee!</span> </li>
+                            <li> <IoMdCheckmarkCircle size={16} className='check-cate-shipping'/><span className='shopping-info'>No Hassle Refunds</span></li>
+                            <li> <IoMdCheckmarkCircle size={16} className='check-cate-shipping'/><span className='shopping-info'>Secure Payments</span></li>
+                        </ul>
+
                     </div>
 
 
