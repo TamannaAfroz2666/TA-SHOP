@@ -12,7 +12,9 @@
     gap: 2rem;
     margin: 1rem 0 4rem 1rem;
 }
+/* icon field start  */
 .saleSearchSec{
+    width: 550px;
     display: flex;
     justify-content: space-between;
     margin: 0 2rem;
@@ -32,7 +34,40 @@
     text-transform: capitalize;
     
 }
+.imageCateSection{
+    background-color: #f5f0f00c;
+}
 .imageCateSection .imgCateSec img{
     width: 600px;
     height: 600px;
+}
+/* icon field end  */
+/* two image design start  */
+.colorImgSection{
+    margin: 3rem 0;
+    display: flex;
+    gap: 2rem;
+
+}
+
+
+.imageOneSec .upDownArrow{
+    width: 300px;
+    position: absolute;
+    left: 15%;
+    visibility: hidden;
+  
+}
+.imageOneSec:hover .upDownArrow{
+    visibility: visible;
+}
+
+.imageOneSec img{
+    width: 280px;
+    height: 350px;
+}
+.imageTwo img{
+    width: 280px;
+    height: 350px;
+
 }
