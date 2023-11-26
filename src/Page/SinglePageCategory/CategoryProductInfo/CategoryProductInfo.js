@@ -10,53 +10,66 @@ import { Link } from 'react-router-dom';
 
 const CategoryProductInfo = () => {
     return (
-        <div className='CategoryProductInfo'>
-            <div className="cateProContents">
-                <div className="imageCateSection">
-                    <div className="saleSearchSec">
-                        <div className="saleCategorySec">
-                            <button className='saleBtnDe' >sale!</button>
-                        </div>
-                        <div className="eyeContact1">
-                            <Button > <span className='linkViewBtn'><IoSearchSharp className='iconDeEye' size={20} color='black' /> </span>
-                            </Button>
-
-
-                        </div>
-                    </div>
-                    <div className="imgCateSec">
-                        <img src={im1} alt="" />
-                    </div>
-                    <div className="colorImgSection">
-                        <Link to="product/upload/01">
-                        <div className="imageOneSec">
-                            <div className="upDownArrow">
-                                <Button > <span className='linkViewBtn'><FaArrowsUpDown className='iconDeEye' size={20} color='gray' /> </span>
+        <>
+            <div className='CategoryProductInfo'>
+                <div className="cateProContents">
+                    <div className="imageCateSection">
+                        <div className="saleSearchSec">
+                            <div className="saleCategorySec">
+                                <button className='saleBtnDe' >sale!</button>
+                            </div>
+                            <div className="eyeContact1">
+                                <Button > <span className='linkViewBtn'><IoSearchSharp className='iconDeEye' size={20} color='black' /> </span>
                                 </Button>
-                            </div>
-                            <div className="img11">
-                                <img src={im2} alt="" />
+
+
                             </div>
                         </div>
-                        </Link>
-                        <div className="imageTwo">
-                            <img src={im2} alt="" />
+                        <div className="imgCateSec">
+                            <img src={im1} alt="" />
+                        </div>
+                        <div className="colorImgSection">
+                            <div className="link33">
+                                <Link to="product/upload/01">
+                                    <div className="imageOneSec">
+                                        <div className="upDownArrow">
+                                            <Button > <span className='linkViewBtn'><FaArrowsUpDown className='iconDeEye' size={20} color='gray' /> </span>
+                                            </Button>
+                                        </div>
+                                        <div className="img11">
+                                            <img src={im2} alt="" />
+                                        </div>
+                                    </div>
+                                </Link>
+                            </div>
+
+                            <div className="imageTwo">
+                                <div className="upDownArrowTwo">
+                                    <Button > <span className='linkViewBtn'><FaArrowsUpDown className='iconDeEye' size={20} color='gray' /> </span>
+                                    </Button>
+                                </div>
+                                <div className="img11">
+                                    <img src={im2} alt="" />
+                                </div>
+
+
+                            </div>
+
 
                         </div>
 
 
                     </div>
+                    <div className="infoCateSection">
 
-
-                </div>
-                <div className="infoCateSection">
+                    </div>
 
                 </div>
 
             </div>
 
+        </>
 
-        </div>
     );
 };
 

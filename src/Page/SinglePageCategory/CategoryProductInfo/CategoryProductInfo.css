@@ -44,17 +44,23 @@
 /* icon field end  */
 /* two image design start  */
 .colorImgSection{
-    margin: 3rem 0;
+    /* margin: 3rem 0; */
     display: flex;
     gap: 2rem;
 
 }
 
 
+
+.imageOneSec img{
+    width: 280px;
+    height: 350px;
+}
 .imageOneSec .upDownArrow{
     width: 300px;
-    position: absolute;
-    left: 15%;
+    position: relative;
+    left: 70%;
+    top: 4rem;
     visibility: hidden;
   
 }
@@ -62,12 +68,21 @@
     visibility: visible;
 }
 
-.imageOneSec img{
-    width: 280px;
-    height: 350px;
+/* image 2 */
+.imageTwo .upDownArrowTwo{
+    width: 300px;
+    position: relative;
+    left: 70%;
+    top: 4rem;
+    visibility: hidden;
+  
 }
+.imageTwo:hover .upDownArrowTwo{
+    visibility: visible;
+}
+
 .imageTwo img{
     width: 280px;
     height: 350px;
-
 }
+/* image 2 end*/
