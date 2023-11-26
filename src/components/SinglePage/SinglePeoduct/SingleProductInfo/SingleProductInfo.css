@@ -237,7 +237,7 @@
 
 }
 
-/* .card work  */
+/* btn work start  */
 .cart-sec{
     width: 100%;
     display: flex;
@@ -296,6 +296,8 @@
 .add-card:hover{
     background-color: #0dcaf0;
 }
+
+
 .icon{
     padding: 12px 14px;
     border: 1px solid rgba(0, 0, 0, 0.281);
