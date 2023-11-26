@@ -7,8 +7,3 @@
     height: 100%;
     width: 100%;
 }
-.cateProContents{
-    display: flex;
-    gap: 2rem;
-    margin: 1rem 0 4rem 1rem;
-}

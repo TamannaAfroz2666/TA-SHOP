@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.CategoryProductImage{
+    height: 100%;
+    width: 100%;
+}
+/* icon field start  */
+.saleSearchSec{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    top: 5rem;
+    position: relative;
+   
+}
+ .saleCategorySec button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px;
+    background-color: #fff;
+    color: #33313198;
+    border-radius: 47%;
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-transform: capitalize;
+    
+}
+.imageCateSection{
+    background-color: #f5f0f00c;
+}
+.imageCateSection .imgCateSec img{
+    width: 600px;
+    height: 600px;
+}
+/* icon field end  */
+/* two image design start  */
+.colorImgSection{
+    /* margin: 3rem 0; */
+    display: flex;
+    gap: 2rem;
+
+}
+.imageOneSec img{
+    width: 280px;
+    height: 350px;
+}
+.imageOneSec .upDownArrow{
+    width: 300px;
+    position: relative;
+    left: 70%;
+    top: 4rem;
+    visibility: hidden;
+  
+}
+.imageOneSec:hover .upDownArrow{
+    visibility: visible;
+}
+
+/* image 2 */
+.imageTwo .upDownArrowTwo{
+    width: 300px;
+    position: relative;
+    left: 70%;
+    top: 4rem;
+    visibility: hidden;
+  
+}
+.imageTwo:hover .upDownArrowTwo{
+    visibility: visible;
+}
+
+.imageTwo img{
+    width: 280px;
+    height: 350px;
+}
+/* image 2 end*/
