@@ -29,7 +29,17 @@ const ProductInformation = () => {
                     <Link to='product-category/decor' className='pro-list-link'>Decor,</Link>
                     <Link to='product-category/office' className='pro-list-link'>office</Link>
                 </div>
-                
+                <div className="product-title">
+                    <h1 className='title'>Product Name 10</h1>
+                    <p className='price'>
+                        <strong className='dollarName'>$85.00 – $99.00</strong>
+                        & Free Shipping
+                    </p>
+                    <p className='pro-des-cate'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum erat leo, id pulvinar lorem maximus sit amet. Quisque mauris sem, sagittis sed blandit eu, varius a tortor. Quisque aliquam ligula sed quam pulvinar, vitae ullamcorper metus imperdiet. Vivamus id justo dui.</p>
+                    <p className='pro-des-cate'>Donec faucibus gravida vulputate. Sed quis porttitor libero. Aenean posuere imperdiet elit, in aliquet lorem vulputate sed. Integer et lacinia tellus.</p>
+
+                </div>
+
             </div>
         </div>
     );
