@@ -3,7 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-.CategoryProductInfo{
+.ProductInformation{
     height: 100%;
     width: 100%;
+}
+.product_header{
+    margin-top: 3rem;
+}
+.pro-head-ul{
+    display: flex;
+    gap: 1px;
+}
+.pro-head-ul .pro-head-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(82, 80, 80, 0.856);
+    letter-spacing: 1px;
+    
+
 }

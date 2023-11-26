@@ -8,6 +8,7 @@ import im2 from '../../../assets/Image/category/product-09-c.jpg'
 import { FaArrowsUpDown } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import CategoryProductImage from './CategoryProductImage/CategoryProductImage';
+import ProductInformation from './ProductInformation/ProductInformation';
 
 const CategoryProductInfo = () => {
     return (
@@ -19,6 +20,7 @@ const CategoryProductInfo = () => {
                     </div>
                    
                     <div className="infoCateSection">
+                        <ProductInformation/>
 
                     </div>
 
