@@ -1,6 +1,7 @@
 import React from 'react';
 import './CategoryDescription.css';
-import img1 from '../../../assets/Image/category/img11.webp'
+import img1 from '../../../assets/Image/category/img11.webp';
+import { FaCheck } from "react-icons/fa";
 
 const CategoryDescription = () => {
     return (
@@ -19,7 +20,16 @@ const CategoryDescription = () => {
                     <h1 className='subTitleCategory'>A few words about the product</h1>
                     <hr className='titleSecHr' />
                     <div className="featuresCategory">
-                        <h1>features</h1>
+                        <h1 className='title'>features</h1>
+                        <p className='featuresDesCategory'>Ut at ante diam. Vestibulum tincidunt lacus quis odio iaculis, nec iaculis ipsum hendrerit. Curabitur nec fringilla sem. Nullam at diam et ligula tincidunt luctus. Ut fringilla vitae orci eget suscipit. Etiam ultricies justo ac feugiat dignissim. Suspendisse in ultrices massa.</p>
+                        <div className="ulFeatures">
+                            <ul>
+                                <li className='listsFeaCate'><FaCheck /> <span className='listSubSpan'>Etiam eu tortor tempor, malesuada</span></li>
+                                <li className='listsFeaCate'> <FaCheck /><span className='listSubSpan'>
+                                    Nunc vitae erat sit amet neque varius consequat</span></li>
+                                <li className='listsFeaCate'><FaCheck /> <span className='listSubSpan'>Lorem ipsum dolor sit amet</span></li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>

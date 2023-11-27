@@ -101,3 +101,39 @@
     left: 2rem ;
     position: relative;
 }
+.featuresCategory .title {
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    color: #111;
+    font-weight: 600;
+    padding: 3rem 0 1rem 0;
+    text-transform: capitalize;
+    text-align: center;
+}
+.featuresCategory .featuresDesCategory {
+    width: 600px;
+    font-size: 15px;
+    font-family: 'Roboto Slab';
+    color: #3a3939;
+    font-weight: 500;
+    padding: 0rem 3rem;
+    text-transform: capitalize;
+    text-align: justify;
+    line-height: 26px;
+}
+/* link ul  */
+
+.ulFeatures .listsFeaCate{
+    font-size: 16px;
+    font-weight: 500;
+    color: #c19a83;
+    padding: 0 0 10px 0;
+    font-family: 'Roboto Slab';
+    padding-left: 10px;
+}
+.listSubSpan{
+    padding-left: 5px;
+}
+.listsFeaCate:hover{
+    color: #111;
+}
