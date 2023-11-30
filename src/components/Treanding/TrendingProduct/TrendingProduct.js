@@ -15,6 +15,7 @@ import data from '../../../Utilities/API/trendingProduct.json';
 // import { IoBagHandleSharp } from "react-icons/io5";
 import AddToCard from './AddToCard/AddToCard';
 import QuickView from './ModalCompare/QuickView/QuickView';
+import WishList from './WishList/WishList';
 
 
 
@@ -117,16 +118,15 @@ const TrendingProduct = () => {
                                     {/* over lay area  */}
                                     <div className="overlaySection">
                                         <div className="iconSection">
+                                        {/* WishList */}
                                             <motion.div
                                                 whileHover={{
                                                     scale: 1.2,
                                                 }}
                                                 className="heart"
                                             >
-                                                <p className='wishlist'>wishlist</p>
-                                                <AiOutlineHeart 
-                                                onClick={() => ProductAddWishList(product)}
-                                                className='IconOverlay' color='black' size={35} />
+                                
+                                                <WishList ProductsData ={product} />
 
                                             </motion.div>
                                             {/* compare  */}
