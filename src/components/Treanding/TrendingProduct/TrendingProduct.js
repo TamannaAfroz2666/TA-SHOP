@@ -72,37 +72,7 @@ const TrendingProduct = () => {
         return null; // If the product or color isn't found
     };
     //   add to carrd area 
- 
-    // wishlist 1,2,3 
-    // 3
-    var wishlist = JSON.parse(localStorage.getItem('wishlistData') || '[]');
-    function isItemInWishlist(item) {
-        
-        // for (var i=0; i<wishlist.length; i++){
-        //     console.log("id = ", wishlist[i].id)
-        //     if (item.id === wishlist[i].id){
-        //         return true
-        //         //return wishlist
-        //     }
-        //     else{
-        //         return false
-        //         //return 
-        //     }
-        // }
-        return wishlist.find(wishlistItem => wishlistItem.id === item.id);
-    }
-      
-    function ProductAddWishList(itemData) {
-        
-        var isDuplicate = isItemInWishlist(itemData)
-        console.log("isDuplicate = ", isDuplicate)
-        if (!isDuplicate) {
-          wishlist.push(itemData);
-          localStorage.setItem('wishlistData', JSON.stringify(wishlist));
-        } else {
-            alert('Item with the same ID already exists in the wishlist.')
-        }
-    }
+
     return (
         <div className='trendingProduct'>
             <div className="productBox">
