@@ -43,10 +43,11 @@
 }
 
 .info_sec_cart .longTitleCart {
-    font-size: 14px;
+    font-size: 15px;
     color: rgba(32, 32, 32, 0.769);
     font-weight: 600;
     font-family: sans-serif;
+    
 
 }
 
@@ -55,12 +56,12 @@
 }
 
 .info_sec_cart .colorCart {
-    font-size: 12px;
+    font-size: 13px;
     color: gray;
     font-weight: 400;
     font-family: sans-serif;
-    bottom: 1rem;
-    position: relative;
+    /* position: relative; */
+   margin-top: 1rem;
 
 
 }
@@ -86,9 +87,10 @@
 .priceSectionCart .priceCart {
     font-size: 14px;
     font-weight: 600;
-    bottom: 3rem;
+    bottom: 2rem;
     position: relative;
     color: #111;
+    margin: 0 0 2rem 0;
 
 }
 
@@ -110,7 +112,7 @@
     background-color: #11111100;
     border: 0;
     padding: 2px 6px;
-    bottom: 6.5rem;
+    bottom: 6rem;
     position: relative;
     /* color: black; */
 
@@ -124,7 +126,7 @@
     color: #fff;
     background-color: #111;
     visibility: hidden;
-    bottom: 5rem;
+    bottom: 2rem;
     position: relative;
     border-radius: 5px;
     max-width: 80px;

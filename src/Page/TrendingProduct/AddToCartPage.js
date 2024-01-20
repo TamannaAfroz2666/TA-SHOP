@@ -48,7 +48,7 @@ const AddToCartPage = () => {
                                             <p className='priceSubInfoVCart1'> Edit this item</p>
 
                                             <button className='viewCartEdit' onClick={viewCartEdit}>
-                                                <AiOutlineEdit color='black' />
+                                                <AiOutlineEdit color='black' size={20}/>
                                             </button>
 
                                         </div>
@@ -100,7 +100,7 @@ const AddToCartPage = () => {
                                         </div>
                                         <div className="removeCart">
                                             <button className='removeBtn'>
-                                                Remove1
+                                                Remove
                                                 <hr className='removeHr' />
                                             </button>
                                         </div>
@@ -112,8 +112,6 @@ const AddToCartPage = () => {
 
 
                         </div>
-
-
                     </div>
                     <hr className='hrLow' />
                 </div>
@@ -144,7 +142,7 @@ const AddToCartPage = () => {
                                             <p className='priceSubInfoVCart1'> Edit this item</p>
 
                                             <button className='viewCartEdit' onClick={viewCartEdit}>
-                                                <AiOutlineEdit color='black' />
+                                                <AiOutlineEdit color='black' size={20} />
                                             </button>
 
                                         </div>
