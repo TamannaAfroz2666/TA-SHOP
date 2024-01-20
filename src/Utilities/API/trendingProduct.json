@@ -4,277 +4,277 @@
             "id": 1,
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/11.avif",
-            "p_title" : "Long sleeve dress",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Long sleeve dress",
             "p_price": "2,220.00",
             "slug_field": "single-page-product",
-            "dollar_convert" : 20.00,
-            "stock_product" : 1
+            "dollar_convert": 20.00,
+            "stock_product": 1
         },
         {
             "id": 2,
             "color": [
                 {
-                    "color_code": "#000", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#fff", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#111", 
-                    "image": "/Images/Products/11.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/2.avif",
-            "p_title" : "Long sleeve asymmetric ",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Long sleeve asymmetric ",
             "slug_field": "long-sleeve-asymmetric",
             "p_price": "2,820.00",
-            "doller_convert" : 30.00,
-            "stok_product" : 0
+            "doller_convert": 30.00,
+            "stok_product": 0
         },
         {
             "id": 3,
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/3.avif",
-            "p_title" : "Drop-shoulder ",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Drop-shoulder ",
             "slug_field": "drop-shoulder",
             "p_price": "2,459.00",
-            "doller_convert" : 20.00,
-            "stok_product" : 2
+            "doller_convert": 20.00,
+            "stok_product": 2
         },
         {
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
+            "default_image": "/Images/Category/office.jpg",
             "id": 4,
-            "default_image": "/Images/Products/4.avif",
-            "p_title" : "Textured ",
+            "p_title": "Textured ",
             "slug_field": "textured",
             "p_price": "2,220.00",
-            "doller_convert" : 21.00,
-            "stok_product" : 4
+            "doller_convert": 21.00,
+            "stok_product": 4
         },
         {
             "id": 5,
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/5.avif",
-            "p_title" : "Short fit ",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Short fit ",
             "slug_field": "short-fit",
             "p_price": "2,520.00",
-            "doller_convert" : 21.00,
-            "stok_product" : 1
+            "doller_convert": 21.00,
+            "stok_product": 1
         },
         {
             "id": 6,
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/6.avif",
-            "p_title" : "Embroidered ",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Embroidered ",
             "slug_field": "embroidered",
             "p_price": "8,220.00",
-            "doller_convert" : 50.00,
-            "stok_product" : 7
+            "doller_convert": 50.00,
+            "stok_product": 7
         },
         {
             "id": 7,
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/7.avif",
-            "p_title" : "Oversized printed ",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Oversized printed ",
             "slug_field": "oversized-printed",
             "p_price": "4,220.00",
-            "doller_convert" : 40.00,
-            "stok_product" : 9
+            "doller_convert": 40.00,
+            "stok_product": 9
         },
         {
             "id": 8,
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/8.avif",
-            "p_title" : "Oversized Long",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Oversized Long",
             "slug_field": "oversized-long",
             "p_price": "3,220.00",
-            "doller_convert" : 30.00,
-            "stok_product" : 4
+            "doller_convert": 30.00,
+            "stok_product": 4
         },
         {
             "id": 9,
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/9.avif",
-            "p_title" : "Long sleeve floral ",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Long sleeve floral ",
             "slug_field": "long-sleeve-floral",
             "p_price": "1,220.00",
-            "doller_convert" : 12.00,
-            "stok_product" : 5
+            "doller_convert": 12.00,
+            "stok_product": 5
         },
         {
             "id": 10,
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/10.avif",
-            "p_title" : "Oversized sweat",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Oversized sweat",
             "slug_field": "oversized-sweatHand",
             "p_price": "2,020.00",
-            "doller_convert" : 20.00,
-            "stok_product" : 1
+            "doller_convert": 20.00,
+            "stok_product": 1
         },
         {
             "id": 11,
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/11.avif",
-            "p_title" : "Short fit ",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Short fit ",
             "slug_field": "short-fitLabel",
             "p_price": "2,220.00",
-            "doller_convert" : 22.00,
-            "stok_product" : 2
+            "doller_convert": 22.00,
+            "stok_product": 2
         },
         {
             "id": 12,
             "color": [
                 {
-                    "color_code": "#00FF00", 
-                    "image": "/Images/Products/3.avif"
+                    "color_code": "#00FF00",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#0000FF", 
-                    "image": "/Images/Products/2.avif"
+                    "color_code": "#0000FF",
+                    "image": "/Images/Category/office.jpg"
                 },
                 {
-                    "color_code": "#00FFFF", 
-                    "image": "/Images/Products/4.avif"
+                    "color_code": "#00FFFF",
+                    "image": "/Images/Category/office.jpg"
                 }
             ],
-            "default_image": "/Images/Products/12.avif",
-            "p_title" : "Long sleeve ",
+            "default_image": "/Images/Category/office.jpg",
+            "p_title": "Long sleeve ",
             "slug_field": "long-sleeveFloral",
             "p_price": "2,120.00",
-            "doller_convert" : 21.00,
-            "stok_product" : 4
+            "doller_convert": 21.00,
+            "stok_product": 4
         }
     ]
 }

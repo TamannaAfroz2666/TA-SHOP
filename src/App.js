@@ -17,13 +17,25 @@ import ContactMain from './Page/Contact/ContactMain/ContactMain';
 import AboutUs from './Page/AboutUs/AboutUs';
 import DecorPage from './Page/DecorPage/DecorPage';
 import SinglePageCategory from './Page/SinglePageCategory/SinglePageCategory';
-
+import React, { useState, useEffect } from 'react';
 
 function App() {
+  const [wishlist, setWishlist] = useState([]);
+
+  useEffect(() => {
+    // Load wishlist data from local storage or API
+    const savedWishlist = JSON.parse(localStorage.getItem('wishlistData') || '[]');
+    setWishlist(savedWishlist);
+  }, []);
+
+  const updateWishlist = (updatedWishlist) => {
+    setWishlist(updatedWishlist);
+    localStorage.setItem('wishlistData', JSON.stringify(updatedWishlist));
+  };
   return (
     <div className='app'>
       <Routes>
-        <Route path='/' element={ <Main /> }/>
+        <Route path='/' element={ <Main  wishlistLength={wishlist.length} /> }/>
         <Route path='/cart' element={ <CartMain /> } />
         <Route path='/cartCheckOut' element={ <CheckoutMain />} />
         <Route path='/show-all-product' element={ <MainShowAll/> }/>

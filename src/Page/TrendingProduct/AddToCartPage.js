@@ -100,7 +100,7 @@ const AddToCartPage = () => {
                                         </div>
                                         <div className="removeCart">
                                             <button className='removeBtn'>
-                                                Remove
+                                                Remove1
                                                 <hr className='removeHr' />
                                             </button>
                                         </div>

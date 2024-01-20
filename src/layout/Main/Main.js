@@ -1,4 +1,4 @@
-import React from 'react';
+
 import './Main.css'
 import Header from '../Header/Header';
 import BackgroundImage from '../../components/BackgroundImage/BackgroundImage';
@@ -8,11 +8,13 @@ import ProductCategory from '../../components/ProductCategory/ProductCategory';
 import ClientSay from '../../components/ClientSay/ClientSay';
 import SpringCollection from '../../components/SpringCollection/SpringCollection';
 import ChooseUs from '../../components/ChooseUs/ChooseUs';
+import React, { useState, useEffect } from 'react';
 
-const Main = () => {
+const Main = ({wishlistLength}) => {
+
     return (
         <div className='main'>
-            <Header></Header>
+            <Header wishlistLength={wishlistLength}></Header>
             <BackgroundImage></BackgroundImage>
             <NewArrivals></NewArrivals>
             <Trending></Trending>

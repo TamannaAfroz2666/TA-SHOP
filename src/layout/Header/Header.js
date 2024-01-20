@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import { AiOutlineSearch } from "react-icons/ai";
@@ -16,7 +16,13 @@ import { motion } from 'framer-motion';
 import SubHeader from './SubHeader/SubHeader';
 import { FaRegHeart } from "react-icons/fa";
 
-const Header = () => {
+const Header = ({ wishlistLength }) => {
+    // console.log('count value', props.ProductAddWishList);
+    // const [WishlistCount, setWishlistCount] = useState('')
+    var getWishListValue = JSON.parse(localStorage.getItem('wishlistData'))
+    getWishListValue = getWishListValue?.length || 0;
+    console.log('getWishListValue = ', getWishListValue);
+    // setWishlistCount(getValue);
 
     const searchBtn = () => {
         console.log('hello');
@@ -111,8 +117,8 @@ const Header = () => {
                             <div className="subSubLinks">
                                 <div className="logSub">
                                     <Link className='loginHeadTitle' to='pages/wishlist'>
-                                        <span className='init'>0</span>
-                                        <FaRegHeart  size={20} className='headWishIcon' />
+                                        <span className='init'>{wishlistLength}</span>
+                                        <FaRegHeart size={20} className='headWishIcon' />
                                     </Link>
                                 </div>
                                 <div className="cartSubLink">
