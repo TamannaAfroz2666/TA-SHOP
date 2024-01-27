@@ -35,3 +35,7 @@
 .cartIconsub:hover{
     color: tomato;
 }
+.priceSubInfoVCart1{
+    bottom: 2rem;
+    position: relative;
+}

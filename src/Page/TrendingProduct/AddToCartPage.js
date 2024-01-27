@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './AddToCartPage.css';
 import img1 from '../../assets/Image/NewArrivals/pic20.jpg'
 import { AiOutlineEdit, AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
@@ -8,7 +8,10 @@ import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
 import CartGiftWarp from './CartGiftWarp/CartGiftWarp';
 
-const AddToCartPage = () => {
+const AddToCartPage = (products_data) => {
+
+    const [localData, setLocalData] = useState (products_data)
+    console.log('local data is', localData);
     // viwecart edit modal 
     const [open, setOpen] = React.useState(false);
     const handleClose = () => setOpen(false);
