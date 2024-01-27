@@ -107,7 +107,7 @@ function SubHeader({ products_data, quantity, product_section }) {
             setTotalQuantity(totalQuantityData);
 
             // calculate and update price total 
-            const totalSubPrice = calculateSubTotalPrice ();
+            const totalSubPrice = calculateSubTotalPrice();
             setTotalPriceData(totalSubPrice);
             // Update the Total Quantity displayed in the HTML
             document.getElementById("Total_Quantity").innerHTML = totalQuantityData;
@@ -324,7 +324,13 @@ function SubHeader({ products_data, quantity, product_section }) {
                         </div>
                         <div className="gift-warp">
                             <CartGiftWarp />
+
+                       
                         </div>
+                        <div className="cart-subTotal">
+                                <h3 className='subTotal'>Subtotal:</h3>
+                                <h3 className='amount'>Tk 7,741.00</h3>
+                            </div>
 
 
 

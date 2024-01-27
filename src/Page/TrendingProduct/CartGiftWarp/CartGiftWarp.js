@@ -29,10 +29,10 @@ const CartGiftWarp = () => {
 
                 </div>
                 <hr />
-                <div className="cart-subTotal">
+                {/* <div className="cart-subTotal">
                     <h3 className='subTotal'>Subtotal:</h3>
                     <h3 className='amount'>Tk 7,741.00</h3>
-                </div>
+                </div> */}
             </div>
 
 
