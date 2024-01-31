@@ -109,6 +109,7 @@ function SubHeader({ products_data, quantity, product_section }) {
             // calculate and update price total 
             const totalSubPrice = calculateSubTotalPrice();
             setTotalPriceData(totalSubPrice);
+            document.getElementById('total_sub_price').innerHTML = totalSubPrice;
             // Update the Total Quantity displayed in the HTML
             document.getElementById("Total_Quantity").innerHTML = totalQuantityData;
 
@@ -137,6 +138,12 @@ function SubHeader({ products_data, quantity, product_section }) {
 
             const totalQuantityData = calculateTotalQuantity();
             setTotalQuantity(totalQuantityData);
+
+             // calculate and update price total 
+             const totalSubPrice = calculateSubTotalPrice();
+             setTotalPriceData(totalSubPrice);
+             document.getElementById('total_sub_price').innerHTML = totalSubPrice;
+
             // Update the Total Quantity displayed in the HTML
             document.getElementById("Total_Quantity").innerHTML = totalQuantityData;
         }
@@ -161,6 +168,10 @@ function SubHeader({ products_data, quantity, product_section }) {
         });
         setCartData(updatedCart)
         localStorage.setItem('cart', JSON.stringify(updatedCart));
+         // calculate and update price total 
+         const totalSubPrice = calculateSubTotalPrice();
+         setTotalPriceData(totalSubPrice);
+         document.getElementById('total_sub_price').innerHTML = totalSubPrice;
 
         const totalQuantityData = calculateTotalQuantity();
         setTotalQuantity(totalQuantityData);
@@ -195,6 +206,11 @@ function SubHeader({ products_data, quantity, product_section }) {
         const totalQuantityData = calculateTotalQuantity();
         setTotalQuantity(totalQuantityData);
         document.getElementById("Total_Quantity").innerHTML = totalQuantityData;
+
+         // calculate and update price total 
+         const totalSubPrice = calculateSubTotalPrice();
+         setTotalPriceData(totalSubPrice);
+         document.getElementById('total_sub_price').innerHTML = totalSubPrice;
     }
 
 
@@ -329,7 +345,7 @@ function SubHeader({ products_data, quantity, product_section }) {
                             <h3 className='subTotal1'>Subtotal:</h3>
                             </div>
                            <div className="subtItleCon">
-                           <h3 className='amount1'>Tk 7,741.00</h3>
+                           <h3 className='amount1'>Tk <span id='total_sub_price'>{totalPrice}</span> </h3>
 
                            </div>
                             
