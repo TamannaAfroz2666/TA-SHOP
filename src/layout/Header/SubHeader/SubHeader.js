@@ -65,7 +65,7 @@ function SubHeader({ products_data, quantity, product_section }) {
         localStorage.setItem('cart', JSON.stringify(updatedCart));
     };
 
-
+    // duplicate value find 
     function isItemInCartlist(item) {
         var cartData = JSON.parse(localStorage.getItem('cart') || '[]');
         const DataFound = cartData.find(cartDataItem => cartDataItem.id === item.id);
@@ -268,7 +268,6 @@ function SubHeader({ products_data, quantity, product_section }) {
                                                                     aria-describedby="modal-modal-description"
                                                                 >
                                                                     <Box className='styleBox'>
-
                                                                         <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                                                                             <div className="quickViewContent">
                                                                                 <div className="imageView">
@@ -324,17 +323,17 @@ function SubHeader({ products_data, quantity, product_section }) {
                         </div>
                         <div className="gift-warp">
                             <CartGiftWarp />
-
-                       
                         </div>
-                        <div className="cart-subTotal">
-                                <h3 className='subTotal'>Subtotal:</h3>
-                                <h3 className='amount'>Tk 7,741.00</h3>
+                        <div className="cart-subTotal1">
+                            <div className="subTitleCon">
+                            <h3 className='subTotal1'>Subtotal:</h3>
                             </div>
+                           <div className="subtItleCon">
+                           <h3 className='amount1'>Tk 7,741.00</h3>
 
-
-
-
+                           </div>
+                            
+                        </div>
                     </div>
                 </Offcanvas.Body>
             </Offcanvas>

@@ -39,3 +39,20 @@
     bottom: 2rem;
     position: relative;
 }
+.cart-subTotal1{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.subTitleCon .subTotal1{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.subtItleCon .amount1{
+    font-size: 16px;
+    font-weight: 600;
+    
+
+}
